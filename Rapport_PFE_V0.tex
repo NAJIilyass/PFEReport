@@ -1,0 +1,401 @@
+%%%%%%% INPT-Rabat  %%%%%%%%%%%%%%%%
+%%%%%%% Ilyass NAJI  %%%%%%%%%%%%
+
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage{titlesec}
+
+
+\usepackage[english]{babel}
+\usepackage{indentfirst}
+\usepackage{arabtex}
+\usepackage{utf8}
+\setcode{utf8}
+\usepackage[utf8x]{inputenc}
+\usepackage{natbib} %bibliography
+
+\usepackage{longtable}
+\usepackage{nomencl}
+\usepackage{makecell}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{acronym}
+%pour gérer les positionnement d'images
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{multirow}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+
+\usepackage[hyphens]{url}
+\usepackage{hyperref} 
+\usepackage{amsfonts}
+\usepackage{minitoc}
+\usepackage{titlesec}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+
+
+\setlength{\parindent}{20pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+\newcommand{\hsp}{\hspace{20pt}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setcounter{secnumdepth}{4} % This ensures subsubsections are numbered.
+\setcounter{tocdepth}{2} % Include subsubsections in numbering, but not in TOC.
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+% Add the caption package and customize captions
+\usepackage{caption}
+\captionsetup[figure]{
+  labelformat=simple,
+  labelsep=period,
+  textformat=simple
+}
+\renewcommand{\figurename}{Figure}
+\newcommand{\mynewline}{\\ \indent}
+
+%pour la mise en page des tableaux
+\usepackage{array}
+\usepackage{tabularx}
+%pour utiliser \floatbarrier
+%\usepackage{placeins}
+%\usepackage{floatrow}
+%espacement entre les lignes
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{enumerate}
+%modifier la mise en page de l'abstract
+\usepackage{abstract}
+%police et mise en page (marges) du document
+\usepackage[T1]{fontenc}
+\usepackage[bottom]{footmisc}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+%Pour les galerie d'images
+%\usepackage{subfigure}
+%\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{fancybox}
+\usepackage{romannum}
+\usepackage{eso-pic,graphicx}
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+\usepackage{tocloft}
+\usepackage[page,toc,titletoc,title]{appendix}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+\usepackage{xcolor}
+\definecolor{shadecolor}{RGB}{150,150,150}
+\newcommand{\mybox}[1]{\par\noindent\colorbox{shadecolor}
+{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}}
+
+ %%%%********************************************************************
+\usepackage{xcolor}
+\definecolor{quotemark}{gray}{0.7}
+\makeatletter
+\def\fquote{%
+    \@ifnextchar[{\fquote@i}{\fquote@i[]}%]
+           }%
+\def\fquote@i[#1]{%
+    \def\tempa{#1}%
+    \@ifnextchar[{\fquote@ii}{\fquote@ii[]}%]
+                 }%
+\def\fquote@ii[#1]{%
+    \def\tempb{#1}%
+    \@ifnextchar[{\fquote@iii}{\fquote@iii[]}%]
+                      }%
+\def\fquote@iii[#1]{%
+    \def\tempc{#1}%
+    \vspace{1em}%
+    \noindent%
+    \begin{list}{}{%
+         \setlength{\leftmargin}{0.1\textwidth}%
+         \setlength{\rightmargin}{0.1\textwidth}%
+                  }%
+         \item[]%
+         \begin{picture}(0,0)%
+         \put(-15,-5){\makebox(0,0){\scalebox{3}{\textcolor{quotemark}{``}}}}%
+         \end{picture}%
+         \begingroup\itshape}%
+ %%%%********************************************************************
+ \def\endfquote{%
+ \endgroup\par%
+ \makebox[0pt][l]{%
+ \hspace{0.8\textwidth}%
+ \begin{picture}(0,0)(0,0)%
+ \put(15,15){\makebox(0,0){%
+ \scalebox{3}{\color{quotemark}''}}}%
+ \end{picture}}%
+ \ifx\tempa\empty%
+ \else%
+    \ifx\tempc\empty%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb}%
+   \else%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb},\ \tempc%
+   \fi\fi\par%
+   \vspace{0.5em}%
+ \end{list}%
+ }%
+ \makeatother
+ %%%%********************************************************************
+
+\renewcommand\headrulewidth{1pt}
+
+\addto\captionsfrench{%
+  \renewcommand\appendixname{Annexe}
+  \renewcommand\appendixpagename{Annexes}
+  \renewcommand{\appendixtocname}{Annexes}
+}
+\newcommand{\TODO}[1]{\textcolor{red}{[TODO:#1]}}
+\newcommand\textk[1]{\textcolor{red}{#1}}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+    
+
+\newcommand{\mychapter}[2]{
+    
+    \chapter*{#2}
+    \addcontentsline{toc}{chapter}{#2}
+}
+
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} 
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} 
+\renewcommand{\bibname}{References}
+
+
+
+%-------------les entetes-----------
+\fancyhead[L]{}%{\textsc{Rapport PFA}}   % Entete haut-G
+\fancyhead[R]{INPT - Rabat} % Entete haut-D
+\renewcommand\footrulewidth{1pt}
+\fancyfoot[L]{Ilyass NAJI}   % Entete haut-G
+\fancyfoot[R]{INPT - Rabat}    % Entete haut-G
+%-----------------------
+%------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=darkgray,
+    pdfauthor={IlyassNAJI},  
+    pdftitle={NAJI_Ilyass_PFA_Report},  %PDF title
+    pdfpagemode=FullScreen,
+    }
+
+\begin{document}
+
+%%%  Page de garde du rapport %%%%
+
+\input{page-de-garde}
+
+%%% Add a blank page before "Bismilah" %%%
+\newpage
+\thispagestyle{empty}
+\mbox{}
+
+\newpage
+\pagestyle{empty}
+\input{bismilah}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{\begin{center}
+    \textit{ Acknowledgements}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\input{Acknowledgements}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{\begin{center}
+    \textit{Abstract}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{Abstract}
+\input{Abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Résumé
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{\begin{center}
+    \textit{Résumé}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{French Abstract}
+\input{Resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Arabic Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter*{\begin{center}
+    \RL{ملخص}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{Arabic Abstract}
+\input{Resumee}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% list of Acronyms
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nopagebreak[4]
+\chapter*{\begin{center}
+    \textit{Abbreviations}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{Abbreviations}
+\input{Abbreviations}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty}
+
+\newpage
+\tableofcontents
+\addcontentsline{toc}{chapter}{List of Contents}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% List of Figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty}
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{fancy}
+\pagenumbering{arabic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%   Introduction générale  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{\begin{center}
+    \textit{General Introduction}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{General Introduction}
+\input{Indroduction}
+\markboth{Introduction générale}{Introduction générale}
+\label{chap:introduction}
+%\minitoc
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%   Chapitre 1          %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{General Context of the Project}
+\input{Chapter1}
+\minitoc
+\label{Chpt:1}
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%   Chapitre 2          %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Technical Foundations and Project Essentials}
+\input{Chapter2}
+\minitoc
+\label{Chpt:2}
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%   Chapitre 3          %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Internship Tasks and Testing Procedures}
+\input{Chapter3}
+\minitoc
+\label{Chpt:3}
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%   Chapitre 4          %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Tests Realization and Results}
+\input{Chapter4}
+\minitoc
+\label{Chpt:4}
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%   Conclusion générale %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{\begin{center}
+    \textit{General Conclusion \& Perspectives}
+  \end{center}}
+
+\addcontentsline{toc}{chapter}{General Conclusion}
+\input{Conclusion}
+
+\label{sec:conclusion}
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%  Bibliographie 	%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{unsrt}
+\bibliography{Bibliography.bib}
+% \addcontentsline{toc}{chapter}{Bibliography}
+
+
+\end{document}

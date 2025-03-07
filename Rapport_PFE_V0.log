@@ -1,0 +1,3891 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2025.1.26)  7 MAR 2025 10:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/najiilyass/Downloads/PFAReport-master/PFAReport/Rapport_PFE_V0.tex
+(/Users/najiilyass/Downloads/PFAReport-master/PFAReport/Rapport_PFE_V0.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen141
+\ttl@minus=\dimen142
+\ttl@toksa=\toks17
+\titlewidth=\dimen143
+\titlewidthlast=\dimen144
+\titlewidthfirst=\dimen145
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count197
+\U@D=\dimen146
+\l@unhyphenated=\language89
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count198
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 108.
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/arabtex.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/aconfig.sty
+LaTeX2e detected 
+BABEL detected
+\a@moduledate=\count199
+\a@maindate=\count266
+)
+Package: arabtex 2003/08/22  3.11 ArabTeX main module
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/arabaux.sty
+Package: arabaux 2003/05/21  3.11 auxiliary macros for ArabTeX
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/acmd.sty
+Package: acmd 2003/08/20  3.11 Arabic command processing 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/afonts.sty
+Package: afonts 1995/11/16  3.04 define Naskh font 
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/afonts2.sty
+Package: afonts2 1998/10/19  3.10 define Naskh fonts for LaTeX2e
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/ascan.sty
+Package: ascan 2003/08/22  3.11 standard ZDMG input encoding 
+ (ArabTeX) scanner for code `arabtex' installed. (ArabTeX) input encoding set to ArabTeX standard conventions.) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/aparse.sty
+Package: aparse 2003/05/26  3.11 get syllables 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/awrite.sty
+Package: awrite 2003/06/05  3.11 build output word 
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/xarbsymb.sty
+Package: xarbsymb 1998/07/15  3.07 symbolic output encoding 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/arabskel.sty
+Package: arabskel 2000/06/04  3.10 character skeleton definitions 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/xarbskel.sty
+Package: xarbskel 1999/07/17  3.09 character skeleton definitions 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/aboxes.sty
+Package: aboxes 2003/05/28  3.11 build output boxes
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/arabtoks.sty
+Package: arabtoks 1999/07/17  3.09 ArabTeX CS token definitions 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/arabchrs.sty
+Package: arabchrs 1998/07/11  3.07 letter token definitions 
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/aligs.sty
+Package: aligs 2003/05/26  3.11 compute ligatures
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/aoutput.sty
+Package: aoutput 2000/06/04  3.10 build output lines
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/abidir.sty
+Package: abidir 2003/08/22  3.11 bidirectional linebreaking
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/atrans.sty
+Package: atrans 2003/06/14  3.11 generate the transliteration 
+ (ArabTeX) ZDMG transliteration.) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/alatex.sty
+Package: alatex 2003/05/04  3.11 ArabTeX extensions for LaTeX 
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/afoot.sty
+Package: afoot 2003/05/12  3.11 ArabTeX footnotes
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/abjad.sty
+Package: abjad 2003/04/26  3.11 abjad numerals 
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/apatch.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/alists.sty
+Package: alists 2003/04/26  3.11 inverted list macros
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/asect.sty
+Package: asect 2003/04/26  3.11 section macros for Arabic
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/atabg.sty
+Package: atabg 1997/01/21  3.05 LaTeX tabbing macros for Arabic
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006)
+Package: apatch 2006/07/02  3.11s last minute patches 
+)
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... ) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/utf8.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/utfcode.sty
+Package: utfcode 2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+\u@lb=\count296
+\u@lq=\count297
+)
+Package: utf8 2000/06/13  3.10 UTF-8 input encoding 
+ (ArabTeX) scanner for code UTF-8 installed.) (ArabTeX) input encoding set to UTF-8 conventions (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks38
+\inpenc@posthook=\toks39
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2023/11/09 UCS: Input encoding UTF-8
+
+
+Package ucs Info: utf8x disabled, assuming standard utf8 processing
+(ucs)             load ucs package to force utf8x processing.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2022/06/07 v1.3c UTF-8 support
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01C4 (decimal 452)
+   defining Unicode char U+01C5 (decimal 453)
+   defining Unicode char U+01C6 (decimal 454)
+   defining Unicode char U+01C7 (decimal 455)
+   defining Unicode char U+01C8 (decimal 456)
+   defining Unicode char U+01C9 (decimal 457)
+   defining Unicode char U+01CA (decimal 458)
+   defining Unicode char U+01CB (decimal 459)
+   defining Unicode char U+01CC (decimal 460)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+02DB (decimal 731)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+1E0D (decimal 7693)
+   defining Unicode char U+1E1E (decimal 7710)
+   defining Unicode char U+1E1F (decimal 7711)
+   defining Unicode char U+1E25 (decimal 7717)
+   defining Unicode char U+1E30 (decimal 7728)
+   defining Unicode char U+1E31 (decimal 7729)
+   defining Unicode char U+1E37 (decimal 7735)
+   defining Unicode char U+1E8E (decimal 7822)
+   defining Unicode char U+1E8F (decimal 7823)
+   defining Unicode char U+1E43 (decimal 7747)
+   defining Unicode char U+1E45 (decimal 7749)
+   defining Unicode char U+1E47 (decimal 7751)
+   defining Unicode char U+1E5B (decimal 7771)
+   defining Unicode char U+1E63 (decimal 7779)
+   defining Unicode char U+1E6D (decimal 7789)
+   defining Unicode char U+1E90 (decimal 7824)
+   defining Unicode char U+1E91 (decimal 7825)
+   defining Unicode char U+1E9E (decimal 7838)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
+))) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count298
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count299
+\LTcapwidth=\dimen169
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@gbox=\box71
+\LT@cols=\count300
+\LT@rows=\count301
+\c@LT@tables=\count302
+\c@LT@chunks=\count303
+\LT@p@ftn=\toks40
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count304
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)
+\scr@dte@tocline@numberwidth=\skip60
+\scr@dte@tocline@numbox=\box72
+)
+Package tocbasic Info: setting babel extension for `nlo' on input line 187.
+Package tocbasic Info: setting babel extension for `nls' on input line 188.
+\nomlabelwidth=\dimen170
+\nom@tempdim=\dimen171
+\nomitemsep=\skip61
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box73
+\extrarowheight=\dimen173
+\NC@list=\toks43
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box74
+)
+\rotheadsize=\dimen174
+\c@nlinenum=\count305
+\TeXr@lab=\toks44
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip64
+
+For additional information on amsmath, use the `?' option.
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks45
+\ex@=\dimen175
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen176
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count306
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count307
+\leftroot@=\count308
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count309
+\DOTSCASE@=\count310
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box75
+\strutbox@=\box76
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen177
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count311
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count312
+\dotsspace@=\muskip16
+\c@parentequation=\count313
+\dspbrk@lvl=\count314
+\tag@help=\toks46
+\row@=\count315
+\column@=\count316
+\maxfields@=\count317
+\andhelp@=\toks47
+\eqnshift@=\dimen178
+\alignsep@=\dimen179
+\tagshift@=\dimen180
+\tagwidth@=\dimen181
+\totwidth@=\dimen182
+\lineht@=\dimen183
+\@envbody=\toks48
+\multlinegap=\skip65
+\multlinetaggap=\skip66
+\mathdisplay@stack=\toks49
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks50
+\labelindent=\skip67
+\enit@outerparindent=\dimen184
+\enit@toks=\toks51
+\enit@inbox=\box77
+\enit@count@id=\count318
+\enitdp@description=\count319
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks52
+\verbatim@line=\toks53
+\verbatim@in@stream=\read3
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/xstring.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count320
+\xs_countb=\count321
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks54
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count322
+\float@exts=\toks55
+\float@box=\box78
+\@float@everytoks=\toks56
+\@floatcapt=\box79
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count323
+\l__siunitx_number_exponent_fixed_int=\count324
+\l__siunitx_number_min_decimal_int=\count325
+\l__siunitx_number_min_integer_int=\count326
+\l__siunitx_number_round_precision_int=\count327
+\l__siunitx_number_lower_threshold_int=\count328
+\l__siunitx_number_upper_threshold_int=\count329
+\l__siunitx_number_group_first_int=\count330
+\l__siunitx_number_group_size_int=\count331
+\l__siunitx_number_group_minimum_int=\count332
+\l__siunitx_angle_tmp_dim=\dimen185
+\l__siunitx_angle_marker_box=\box80
+\l__siunitx_angle_unit_box=\box81
+\l__siunitx_compound_count_int=\count333
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count334
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box82
+\l__siunitx_table_tmp_dim=\dimen186
+\l__siunitx_table_column_width_dim=\dimen187
+\l__siunitx_table_integer_box=\box83
+\l__siunitx_table_decimal_box=\box84
+\l__siunitx_table_uncert_box=\box85
+\l__siunitx_table_before_box=\box86
+\l__siunitx_table_after_box=\box87
+\l__siunitx_table_before_dim=\dimen188
+\l__siunitx_table_carry_dim=\dimen189
+\l__siunitx_unit_tmp_int=\count335
+\l__siunitx_unit_position_int=\count336
+\l__siunitx_unit_total_int=\count337
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip68
+\multirow@cntb=\count338
+\multirow@dima=\skip69
+\bigstrutjot=\dimen190
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks57
+\thm@bodyfont=\toks58
+\thm@headfont=\toks59
+\thm@notefont=\toks60
+\thm@headpunct=\toks61
+\thm@preskip=\skip70
+\thm@postskip=\skip71
+\thm@headsep=\skip72
+\dth@everypar=\toks62
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen191
+\Gin@req@width=\dimen192
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks63
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box88
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks64
+\pgfkeys@temptoks=\toks65
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks66
+))
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
+\w@pgf@writea=\write5
+\r@pgf@reada=\read4
+\c@pgf@counta=\count339
+\c@pgf@countb=\count340
+\c@pgf@countc=\count341
+\c@pgf@countd=\count342
+\t@pgf@toka=\toks67
+\t@pgf@tokb=\toks68
+\t@pgf@tokc=\toks69
+\pgf@sys@id@count=\count343
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count344
+\pgfsyssoftpath@bigbuffer@items=\count345
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count346
+\pgfmath@box=\box89
+\pgfmath@toks=\toks70
+\pgfmath@stack@operand=\toks71
+\pgfmath@stack@operation=\toks72
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count347
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box90
+\pgf@hbox=\box91
+\pgf@layerbox@main=\box92
+\pgf@picture@serial@count=\count348
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen280
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen284
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count349
+\pgf@shadingcount=\count350
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box93
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box94
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks73
+\pgffor@toks=\toks74
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count351
+\pgfplotmarksize=\dimen290
+)
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
+\tikz@figbox=\box95
+\tikz@figbox@bg=\box96
+\tikz@tempbox=\box97
+\tikz@tempbox@bg=\box98
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
+)
+\tikz@expandcount=\count359
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count360
+\calc@Bcount=\count361
+\calc@Adimen=\dimen299
+\calc@Bdimen=\dimen300
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count362
+\calc@Cskip=\skip75
+)
+\c@@todonotes@numberoftodonotes=\count363
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count364
+)
+\@linkdim=\dimen301
+\Hy@linkcounter=\count365
+\Hy@pagecounter=\count366
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count367
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count368
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen302
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count369
+\Field@Width=\dimen303
+\Fld@charsize=\dimen304
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count370
+\c@Item=\count371
+\c@Hfootnote=\count372
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count373
+\c@bookmark@seq@number=\count374
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip76
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write6
+\mtcindent=\skip77
+\mtcskipamount=\skip78
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks75
+\mtc@strutbox=\box99
+\mtc@hstrutbox=\box100
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout6 = `Rapport_PFE_V0.mtc0'.
+
+\openout6 = `Rapport_PFE_V0.mtc'.
+
+ (./Rapport_PFE_V0.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout6 = `Rapport_PFE_V0.mtc'.
+
+\openout6 = `Rapport_PFE_V0.mtc0'.
+
+\c@mtc=\count375
+\c@minitocdepth=\count376
+\c@ptc=\count377
+\c@parttocdepth=\count378
+\ptcindent=\skip79
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count379
+\lst@gtempboxa=\box101
+\lst@token=\toks76
+\lst@length=\count380
+\lst@currlwidth=\dimen305
+\lst@column=\count381
+\lst@pos=\count382
+\lst@lostspace=\dimen306
+\lst@width=\dimen307
+\lst@newlines=\count383
+\lst@lineno=\count384
+\lst@maxwidth=\dimen308
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count385
+\lst@skipnumbers=\count386
+\lst@framebox=\box102
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen309
+\captionmargin=\dimen310
+\caption@leftmargin=\dimen311
+\caption@rightmargin=\dimen312
+\caption@width=\dimen313
+\caption@indent=\dimen314
+\caption@parindent=\dimen315
+\caption@hangindent=\dimen316
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count387
+\c@continuedfloat=\count388
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen317
+\TX@old@table=\dimen318
+\TX@old@col=\dimen319
+\TX@target=\dimen320
+\TX@delta=\dimen321
+\TX@cols=\count389
+\TX@ftn=\toks77
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks78
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip80
+\absleftindent=\skip81
+\absrightindent=\skip82
+\absparindent=\skip83
+\absparsep=\skip84
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks79
+\footnotemargin=\dimen322
+\@outputbox@depth=\dimen323
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count390
+\Gm@cntv=\count391
+\c@Gm@tempcnt=\count392
+\Gm@bindingoffset=\dimen324
+\Gm@wd@mp=\dimen325
+\Gm@odd@mp=\dimen326
+\Gm@even@mp=\dimen327
+\Gm@layoutwidth=\dimen328
+\Gm@layoutheight=\dimen329
+\Gm@layouthoffset=\dimen330
+\Gm@layoutvoffset=\dimen331
+\Gm@dimlist=\toks80
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count393
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count394
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip85
+\f@nch@O@elh=\skip86
+\f@nch@O@erh=\skip87
+\f@nch@O@olh=\skip88
+\f@nch@O@orh=\skip89
+\f@nch@O@elf=\skip90
+\f@nch@O@erf=\skip91
+\f@nch@O@olf=\skip92
+\f@nch@O@orf=\skip93
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box103
+\shadowsize=\dimen332
+\@Sbox=\box104
+\do@VerbBox=\toks81
+\the@fancyput=\toks82
+\this@fancyput=\toks83
+\EndVerbatimTokens=\toks84
+\Verbatim@Outfile=\write7
+\Verbatim@Infile=\read5
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/romannum/romannum.sty
+Package: romannum 2009/09/03 v1.0b roman numerals
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty
+Package: stdclsdv 2009/09/04 v1.1a Sectional divisions
+)) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen333
+\ESO@tempdimb=\dimen334
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip94
+\cftbeforetoctitleskip=\skip95
+\cftaftertoctitleskip=\skip96
+\cftbeforepartskip=\skip97
+\cftpartnumwidth=\skip98
+\cftpartindent=\skip99
+\cftbeforechapskip=\skip100
+\cftchapindent=\skip101
+\cftchapnumwidth=\skip102
+\cftbeforesecskip=\skip103
+\cftsecindent=\skip104
+\cftsecnumwidth=\skip105
+\cftbeforesubsecskip=\skip106
+\cftsubsecindent=\skip107
+\cftsubsecnumwidth=\skip108
+\cftbeforesubsubsecskip=\skip109
+\cftsubsubsecindent=\skip110
+\cftsubsubsecnumwidth=\skip111
+\cftbeforeparaskip=\skip112
+\cftparaindent=\skip113
+\cftparanumwidth=\skip114
+\cftbeforesubparaskip=\skip115
+\cftsubparaindent=\skip116
+\cftsubparanumwidth=\skip117
+\cftbeforeloftitleskip=\skip118
+\cftafterloftitleskip=\skip119
+\cftbeforefigskip=\skip120
+\cftfigindent=\skip121
+\cftfignumwidth=\skip122
+\c@lofdepth=\count395
+\c@lotdepth=\count396
+\cftbeforelottitleskip=\skip123
+\cftafterlottitleskip=\skip124
+\cftbeforetabskip=\skip125
+\cfttabindent=\skip126
+\cfttabnumwidth=\skip127
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count397
+\c@@ppsavesec=\count398
+\c@@ppsaveapp=\count399
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen335
+\lightrulewidth=\dimen336
+\cmidrulewidth=\dimen337
+\belowrulesep=\dimen338
+\belowbottomsep=\dimen339
+\aboverulesep=\dimen340
+\abovetopsep=\dimen341
+\cmidrulesep=\dimen342
+\cmidrulekern=\dimen343
+\defaultaddspace=\dimen344
+\@cmidla=\count400
+\@cmidlb=\count401
+\@aboverulesep=\dimen345
+\@belowrulesep=\dimen346
+\@thisruleclass=\count402
+\@lastruleclass=\count403
+\@thisrulewidth=\dimen347
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 222.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count404
+\l__pdf_internal_box=\box105
+) (./Rapport_PFE_V0.aux
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:reboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:reboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:reboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:areboot' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig:casa' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
+\openout1 = `Rapport_PFE_V0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 224.
+LaTeX Font Info:    ... okay on input line 224.
+Package tocbasic Info: usage of `tocbibind' detected on input line 224.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 224.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count405
+\scratchdimen=\dimen348
+\scratchbox=\box106
+\nofMPsegments=\count406
+\nofMParguments=\count407
+\everyMPshowfont=\toks85
+\MPscratchCnt=\count408
+\MPscratchDim=\dimen349
+\MPnumerator=\count409
+\makeMPintoPDFobject=\count410
+\everyMPtoPDFconversion=\toks86
+) (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 224.
+
+Package hyperref Info: Link coloring ON on input line 224.
+(./Rapport_PFE_V0.out) (./Rapport_PFE_V0.out)
+\@outlinefile=\write8
+\openout8 = `Rapport_PFE_V0.out'.
+
+\c@minilofdepth=\count411
+\c@minilotdepth=\count412
+\c@partlofdepth=\count413
+\c@partlotdepth=\count414
+\c@sectlofdepth=\count415
+\c@sectlotdepth=\count416
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+Package minitoc(hints) Info: I0046
+(minitoc(hints))             --- The tocbibind package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+Package minitoc(hints) Info: I0047
+(minitoc(hints))             --- The tocloft package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+\c@lstlisting=\count417
+Package tocbasic Info: setting babel extension for `lol' on input line 224.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/apatch.sty
+\a@lines=\count418
+\a@Lwidth=\dimen350
+\a@displaywidth=\dimen351
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching) (./page-de-garde.tex
+<Images/Logo_inpt.png, id=287, 1203.49625pt x 592.2125pt>
+File: Images/Logo_inpt.png Graphic file (type png)
+<use Images/Logo_inpt.png>
+Package pdftex.def Info: Images/Logo_inpt.png  used on input line 6.
+(pdftex.def)             Requested size: 120.35667pt x 59.22472pt.
+<Images/logo_oracle.png, id=289, 281.05pt x 138.5175pt>
+File: Images/logo_oracle.png Graphic file (type png)
+<use Images/logo_oracle.png>
+Package pdftex.def Info: Images/logo_oracle.png  used on input line 8.
+(pdftex.def)             Requested size: 126.47131pt x 62.33229pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Images/inpt_fig.jpg, id=290, 475.02469pt x 184.43906pt>
+File: Images/inpt_fig.jpg Graphic file (type jpg)
+<use Images/inpt_fig.jpg>
+Package pdftex.def Info: Images/inpt_fig.jpg  used on input line 51.
+(pdftex.def)             Requested size: 380.02025pt x 147.55144pt.
+ [1
+
+{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Images/Logo_inpt.png> <./Images/logo_oracle.png> <./Images/inpt_fig.jpg>])
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.235 \newpage
+               [1] (./bismilah.tex
+<Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png, id=307, 838.13126pt x 293.095pt>
+File: Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png Graphic file (type png)
+<use Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png>
+Package pdftex.def Info: Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png  used on input line 5.
+(pdftex.def)             Requested size: 483.69687pt x 169.14548pt.
+) [2 <./Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png>] (./Acknowledgements.tex) [3
+
+] (./Abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 13--259
+
+ []
+
+[4
+
+] (./Resume.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 12--270
+
+ []
+
+[5
+
+]
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 277.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/Uxnsh.fd
+File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
+)
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 35.82726pt on input line 277.
+ (./Resumee.tex
+LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
+(Font)              scaled to size 17.28003pt on input line 5.
+LaTeX Font Info:    Font shape `U/xnsh/bx/n' will be
+(Font)              scaled to size 17.28003pt on input line 17.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 20--281
+
+ []
+
+[6
+
+] (./Abbreviations.tex) [7
+
+] (./Rapport_PFE_V0.toc [8])
+\tf@toc=\write9
+\openout9 = `Rapport_PFE_V0.toc'.
+
+ [9] (./Rapport_PFE_V0.lof [10] [11])
+\tf@lof=\write10
+\openout10 = `Rapport_PFE_V0.lof'.
+
+ [12] (./Indroduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [1
+
+
+{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Chapter 1.
+(./Chapter1.tex [2
+
+]
+<Images/oracle_corp_logo.jpg, id=646, 180.675pt x 60.225pt>
+File: Images/oracle_corp_logo.jpg Graphic file (type jpg)
+<use Images/oracle_corp_logo.jpg>
+Package pdftex.def Info: Images/oracle_corp_logo.jpg  used on input line 23.
+(pdftex.def)             Requested size: 241.84843pt x 80.61652pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 24.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3 <./Images/oracle_corp_logo.jpg>]
+<Images/oracle_labs_logo.jpg, id=657, 401.5pt x 401.5pt>
+File: Images/oracle_labs_logo.jpg Graphic file (type jpg)
+<use Images/oracle_labs_logo.jpg>
+Package pdftex.def Info: Images/oracle_labs_logo.jpg  used on input line 45.
+(pdftex.def)             Requested size: 145.11053pt x 145.11577pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 46.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4 <./Images/oracle_labs_logo.jpg>]
+<Images/nearshore oracle.png, id=666, 413.545pt x 223.83624pt>
+File: Images/nearshore oracle.png Graphic file (type png)
+<use Images/nearshore oracle.png>
+Package pdftex.def Info: Images/nearshore oracle.png  used on input line 59.
+(pdftex.def)             Requested size: 483.69687pt x 261.81221pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 60.
+See the caption package documentation for explanation.
+
+<Images/MADC Major milestones.png, id=667, 766.865pt x 419.5675pt>
+File: Images/MADC Major milestones.png Graphic file (type png)
+<use Images/MADC Major milestones.png>
+Package pdftex.def Info: Images/MADC Major milestones.png  used on input line 68.
+(pdftex.def)             Requested size: 483.69687pt x 264.64262pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 69.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./Images/nearshore oracle.png>]
+<Images/Executive Leadership Board.png, id=674, 983.675pt x 551.05875pt>
+File: Images/Executive Leadership Board.png Graphic file (type png)
+<use Images/Executive Leadership Board.png>
+Package pdftex.def Info: Images/Executive Leadership Board.png  used on input line 84.
+(pdftex.def)             Requested size: 483.69687pt x 270.9713pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 85.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./Images/MADC Major milestones.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./Images/Executive Leadership Board.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+<Images/tools.png, id=696, 2489.3pt x 413.545pt>
+File: Images/tools.png Graphic file (type png)
+<use Images/tools.png>
+Package pdftex.def Info: Images/tools.png  used on input line 159.
+(pdftex.def)             Requested size: 483.69687pt x 80.35382pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 160.
+See the caption package documentation for explanation.
+
+<Images/confluence_logo.png, id=700, 225.84375pt x 216.81pt>
+File: Images/confluence_logo.png Graphic file (type png)
+<use Images/confluence_logo.png>
+Package pdftex.def Info: Images/confluence_logo.png  used on input line 171.
+(pdftex.def)             Requested size: 96.73788pt x 92.86919pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 172.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10 <./Images/tools.png> <./Images/confluence_logo.png>]
+<Images/Gantt Diagram.png, id=715, 1372.37718pt x 351.56343pt>
+File: Images/Gantt Diagram.png Graphic file (type png)
+<use Images/Gantt Diagram.png>
+Package pdftex.def Info: Images/Gantt Diagram.png  used on input line 205.
+(pdftex.def)             Requested size: 483.69687pt x 123.90735pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 206.
+See the caption package documentation for explanation.
+
+)
+Package minitoc Info: I0006
+(minitoc)             Rapport_PFE_V0.mtc1 is empty on input line 345.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./Images/Gantt Diagram.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+Chapter 2.
+(./Chapter2.tex [13
+
+
+]
+<Images/VirtualizationSchema.png, id=732, 1112.155pt x 627.34375pt>
+File: Images/VirtualizationSchema.png Graphic file (type png)
+<use Images/VirtualizationSchema.png>
+Package pdftex.def Info: Images/VirtualizationSchema.png  used on input line 17.
+(pdftex.def)             Requested size: 483.69687pt x 272.84445pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 18.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./Images/VirtualizationSchema.png>]
+<Images/Oracle Linux.png, id=743, 501.875pt x 592.2125pt>
+File: Images/Oracle Linux.png Graphic file (type png)
+<use Images/Oracle Linux.png>
+Package pdftex.def Info: Images/Oracle Linux.png  used on input line 46.
+(pdftex.def)             Requested size: 145.11053pt x 171.23119pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 47.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./Images/Oracle Linux.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+<Images/Libvirt Overview.png, id=771, 1169.36874pt x 734.745pt>
+File: Images/Libvirt Overview.png Graphic file (type png)
+<use Images/Libvirt Overview.png>
+Package pdftex.def Info: Images/Libvirt Overview.png  used on input line 125.
+(pdftex.def)             Requested size: 483.69687pt x 303.91568pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 126.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./Images/Libvirt Overview.png>])
+Package minitoc Info: I0006
+(minitoc)             Rapport_PFE_V0.mtc2 is empty on input line 355.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+Chapter 3.
+(./Chapter3.tex [21
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 39.
+ (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+<Images/kernel-rpm.png, id=789, 1035.87pt x 404.51125pt>
+File: Images/kernel-rpm.png Graphic file (type png)
+<use Images/kernel-rpm.png>
+Package pdftex.def Info: Images/kernel-rpm.png  used on input line 43.
+(pdftex.def)             Requested size: 483.69687pt x 188.88583pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 44.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+<Images/Kernel-Installation.png, id=797, 1517.67pt x 744.28062pt>
+File: Images/Kernel-Installation.png Graphic file (type png)
+<use Images/Kernel-Installation.png>
+Package pdftex.def Info: Images/Kernel-Installation.png  used on input line 52.
+(pdftex.def)             Requested size: 483.69687pt x 237.20934pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 53.
+See the caption package documentation for explanation.
+
+<Images/Kernel-Version.png, id=798, 1504.62125pt x 71.26625pt>
+File: Images/Kernel-Version.png Graphic file (type png)
+<use Images/Kernel-Version.png>
+Package pdftex.def Info: Images/Kernel-Version.png  used on input line 61.
+(pdftex.def)             Requested size: 483.69687pt x 22.91005pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 62.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./Images/kernel-rpm.png> <./Images/Kernel-Installation.png> <./Images/Kernel-Version.png>]
+<Images/QEMU-Installation.png, id=806, 1517.67pt x 572.1375pt>
+File: Images/QEMU-Installation.png Graphic file (type png)
+<use Images/QEMU-Installation.png>
+Package pdftex.def Info: Images/QEMU-Installation.png  used on input line 75.
+(pdftex.def)             Requested size: 483.69687pt x 182.34567pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 76.
+See the caption package documentation for explanation.
+
+<Images/Libvirt-Installation.png, id=807, 1517.67pt x 576.65437pt>
+File: Images/Libvirt-Installation.png Graphic file (type png)
+<use Images/Libvirt-Installation.png>
+Package pdftex.def Info: Images/Libvirt-Installation.png  used on input line 84.
+(pdftex.def)             Requested size: 483.69687pt x 183.78525pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 85.
+See the caption package documentation for explanation.
+
+<Images/QEMU & Libvirt Version.png, id=808, 1191.45125pt x 719.68875pt>
+File: Images/QEMU & Libvirt Version.png Graphic file (type png)
+<use Images/QEMU & Libvirt Version.png>
+Package pdftex.def Info: Images/QEMU & Libvirt Version.png  used on input line 93.
+(pdftex.def)             Requested size: 483.69687pt x 292.17517pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 94.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./Images/QEMU-Installation.png> <./Images/Libvirt-Installation.png>]
+<Images/AAVMF Incomplete Files.png, id=816, 918.43124pt x 155.07938pt>
+File: Images/AAVMF Incomplete Files.png Graphic file (type png)
+<use Images/AAVMF Incomplete Files.png>
+Package pdftex.def Info: Images/AAVMF Incomplete Files.png  used on input line 108.
+(pdftex.def)             Requested size: 483.69687pt x 81.67343pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 109.
+See the caption package documentation for explanation.
+
+<Images/Edk2 Yum Repository.png, id=817, 643.40375pt x 153.57375pt>
+File: Images/Edk2 Yum Repository.png Graphic file (type png)
+<use Images/Edk2 Yum Repository.png>
+Package pdftex.def Info: Images/Edk2 Yum Repository.png  used on input line 117.
+(pdftex.def)             Requested size: 483.69687pt x 115.45653pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 118.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./Images/QEMU & Libvirt Version.png> <./Images/AAVMF Incomplete Files.png>]
+<Images/EDK2 Installation.png, id=824, 1516.66624pt x 352.31625pt>
+File: Images/EDK2 Installation.png Graphic file (type png)
+<use Images/EDK2 Installation.png>
+Package pdftex.def Info: Images/EDK2 Installation.png  used on input line 126.
+(pdftex.def)             Requested size: 483.69687pt x 112.35643pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 127.
+See the caption package documentation for explanation.
+
+<Images/AAVMF Files.png, id=825, 1215.54124pt x 365.86688pt>
+File: Images/AAVMF Files.png Graphic file (type png)
+<use Images/AAVMF Files.png>
+Package pdftex.def Info: Images/AAVMF Files.png  used on input line 135.
+(pdftex.def)             Requested size: 483.69687pt x 145.58492pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 136.
+See the caption package documentation for explanation.
+
+<Images/Disk Image Creation QEMU.png, id=826, 1369.115pt x 66.2475pt>
+File: Images/Disk Image Creation QEMU.png Graphic file (type png)
+<use Images/Disk Image Creation QEMU.png>
+Package pdftex.def Info: Images/Disk Image Creation QEMU.png  used on input line 151.
+(pdftex.def)             Requested size: 483.69687pt x 23.4043pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 152.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26 <./Images/Edk2 Yum Repository.png> <./Images/EDK2 Installation.png> <./Images/AAVMF Files.png>]
+<Images/Starting Libvirtd.png, id=834, 1373.13pt x 481.8pt>
+File: Images/Starting Libvirtd.png Graphic file (type png)
+<use Images/Starting Libvirtd.png>
+Package pdftex.def Info: Images/Starting Libvirtd.png  used on input line 162.
+(pdftex.def)             Requested size: 483.69687pt x 169.71321pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 163.
+See the caption package documentation for explanation.
+
+<Images/Storage pool creation.png, id=835, 932.48375pt x 144.54pt>
+File: Images/Storage pool creation.png Graphic file (type png)
+<use Images/Storage pool creation.png>
+Package pdftex.def Info: Images/Storage pool creation.png  used on input line 171.
+(pdftex.def)             Requested size: 483.69687pt x 74.97595pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 172.
+See the caption package documentation for explanation.
+
+<Images/Disk Image Creation Libvirt.png, id=836, 878.28125pt x 73.77562pt>
+File: Images/Disk Image Creation Libvirt.png Graphic file (type png)
+<use Images/Disk Image Creation Libvirt.png>
+Package pdftex.def Info: Images/Disk Image Creation Libvirt.png  used on input line 180.
+(pdftex.def)             Requested size: 483.69687pt x 40.63187pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 181.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./Images/Disk Image Creation QEMU.png> <./Images/Starting Libvirtd.png> <./Images/Storage pool creation.png> <./Images/Disk Image Creation Libvirt.png>]
+<Images/VM Creation with QEMU.png, id=845, 1041.8925pt x 770.88pt>
+File: Images/VM Creation with QEMU.png Graphic file (type png)
+<use Images/VM Creation with QEMU.png>
+Package pdftex.def Info: Images/VM Creation with QEMU.png  used on input line 194.
+(pdftex.def)             Requested size: 483.69687pt x 357.87914pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 195.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./Images/VM Creation with QEMU.png>]
+Overfull \hbox (1.06918pt too wide) in paragraph at lines 208--209
+[]\T1/cmr/bx/n/12 -drive file=/usr/share/AAVMF/AAVMF_CODE.pure-efi.fd,if=pflash,format 
+ []
+
+<Images/VM Cration Using Libvirt.png, id=851, 1507.6325pt x 409.53pt>
+File: Images/VM Cration Using Libvirt.png Graphic file (type png)
+<use Images/VM Cration Using Libvirt.png>
+Package pdftex.def Info: Images/VM Cration Using Libvirt.png  used on input line 231.
+(pdftex.def)             Requested size: 483.69687pt x 131.38971pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 232.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./Images/VM Cration Using Libvirt.png>]
+<Images/VNC Client.png, id=863, 1532.72626pt x 840.13875pt>
+File: Images/VNC Client.png Graphic file (type png)
+<use Images/VNC Client.png>
+Package pdftex.def Info: Images/VNC Client.png  used on input line 271.
+(pdftex.def)             Requested size: 483.69687pt x 265.11943pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 272.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31 <./Images/VNC Client.png>]
+<Images/QEMU Monitor.png, id=870, 637.38126pt x 152.57pt>
+File: Images/QEMU Monitor.png Graphic file (type png)
+<use Images/QEMU Monitor.png>
+Package pdftex.def Info: Images/QEMU Monitor.png  used on input line 292.
+(pdftex.def)             Requested size: 483.69687pt x 115.78212pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 293.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32 <./Images/QEMU Monitor.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33])
+Package minitoc Info: I0006
+(minitoc)             Rapport_PFE_V0.mtc3 is empty on input line 365.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+Chapter 4.
+(./Chapter4.tex [35
+
+
+]
+<Images/Hostnamectl Command on the Host.png, id=888, 714.67pt x 251.94125pt>
+File: Images/Hostnamectl Command on the Host.png Graphic file (type png)
+<use Images/Hostnamectl Command on the Host.png>
+Package pdftex.def Info: Images/Hostnamectl Command on the Host.png  used on input line 17.
+(pdftex.def)             Requested size: 483.69687pt x 170.51816pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 18.
+See the caption package documentation for explanation.
+
+<Images/QEMU Version_ 7.2.0-14 oci.png, id=889, 1377.145pt x 281.55188pt>
+File: Images/QEMU Version_ 7.2.0-14 oci.png Graphic file (type png)
+<use Images/QEMU Version_ 7.2.0-14 oci.png>
+Package pdftex.def Info: Images/QEMU Version_ 7.2.0-14 oci.png  used on input line 26.
+(pdftex.def)             Requested size: 483.69687pt x 98.88832pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 27.
+See the caption package documentation for explanation.
+
+<Images/OVMF Folder.png, id=890, 1485.55pt x 840.13875pt>
+File: Images/OVMF Folder.png Graphic file (type png)
+<use Images/OVMF Folder.png>
+Package pdftex.def Info: Images/OVMF Folder.png  used on input line 35.
+(pdftex.def)             Requested size: 483.69687pt x 273.54181pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 36.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./Images/Hostnamectl Command on the Host.png> <./Images/QEMU Version_ 7.2.0-14 oci.png>]
+<Images/edk2 Version.png, id=899, 1259.70625pt x 104.89188pt>
+File: Images/edk2 Version.png Graphic file (type png)
+<use Images/edk2 Version.png>
+Package pdftex.def Info: Images/edk2 Version.png  used on input line 42.
+(pdftex.def)             Requested size: 483.69687pt x 40.27545pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 43.
+See the caption package documentation for explanation.
+
+<Images/Storage on the Host.png, id=900, 847.165pt x 305.14pt>
+File: Images/Storage on the Host.png Graphic file (type png)
+<use Images/Storage on the Host.png>
+Package pdftex.def Info: Images/Storage on the Host.png  used on input line 51.
+(pdftex.def)             Requested size: 483.69687pt x 174.22026pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 52.
+See the caption package documentation for explanation.
+
+<Images/Memory on the Host.png, id=901, 849.1725pt x 204.765pt>
+File: Images/Memory on the Host.png Graphic file (type png)
+<use Images/Memory on the Host.png>
+Package pdftex.def Info: Images/Memory on the Host.png  used on input line 58.
+(pdftex.def)             Requested size: 483.69687pt x 116.63602pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 59.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[37 <./Images/OVMF Folder.png> <./Images/edk2 Version.png> <./Images/Storage on the Host.png>]
+<Images/Launching the Guest.png, id=909, 1244.65pt x 898.35625pt>
+File: Images/Launching the Guest.png Graphic file (type png)
+<use Images/Launching the Guest.png>
+Package pdftex.def Info: Images/Launching the Guest.png  used on input line 69.
+(pdftex.def)             Requested size: 483.69687pt x 349.12383pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 70.
+See the caption package documentation for explanation.
+
+<Images/Hostnamectl Command on the Guest.png, id=910, 671.50874pt x 298.11375pt>
+File: Images/Hostnamectl Command on the Guest.png Graphic file (type png)
+<use Images/Hostnamectl Command on the Guest.png>
+Package pdftex.def Info: Images/Hostnamectl Command on the Guest.png  used on input line 78.
+(pdftex.def)             Requested size: 483.69687pt x 214.73726pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 79.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38 <./Images/Memory on the Host.png> <./Images/Launching the Guest.png>]
+<Images/Uname -r Command on the Guest.png, id=917, 616.3025pt x 47.17625pt>
+File: Images/Uname -r Command on the Guest.png Graphic file (type png)
+<use Images/Uname -r Command on the Guest.png>
+Package pdftex.def Info: Images/Uname -r Command on the Guest.png  used on input line 85.
+(pdftex.def)             Requested size: 483.69687pt x 37.02621pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 86.
+See the caption package documentation for explanation.
+
+<Images/Rebooting the Guest.png, id=918, 623.32875pt x 96.36pt>
+File: Images/Rebooting the Guest.png Graphic file (type png)
+<use Images/Rebooting the Guest.png>
+Package pdftex.def Info: Images/Rebooting the Guest.png  used on input line 105.
+(pdftex.def)             Requested size: 454.32217pt x 70.23486pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 106.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39 <./Images/Hostnamectl Command on the Guest.png> <./Images/Uname -r Command on the Guest.png>]
+<Images/After Rebooting on the Guest.png, id=927, 690.58pt x 125.46875pt>
+File: Images/After Rebooting on the Guest.png Graphic file (type png)
+<use Images/After Rebooting on the Guest.png>
+Package pdftex.def Info: Images/After Rebooting on the Guest.png  used on input line 112.
+(pdftex.def)             Requested size: 454.32217pt x 82.54541pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 113.
+See the caption package documentation for explanation.
+
+<Images/Ping Localhost When Stop.png, id=928, 759.83875pt x 233.87375pt>
+File: Images/Ping Localhost When Stop.png Graphic file (type png)
+<use Images/Ping Localhost When Stop.png>
+Package pdftex.def Info: Images/Ping Localhost When Stop.png  used on input line 120.
+(pdftex.def)             Requested size: 454.32217pt x 139.83998pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 121.
+See the caption package documentation for explanation.
+
+<Images/Stop-Cont Commands.png, id=929, 655.44875pt x 121.45375pt>
+File: Images/Stop-Cont Commands.png Graphic file (type png)
+<use Images/Stop-Cont Commands.png>
+Package pdftex.def Info: Images/Stop-Cont Commands.png  used on input line 125.
+(pdftex.def)             Requested size: 454.32217pt x 84.18492pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 126.
+See the caption package documentation for explanation.
+
+<Images/Ping Localhost After Cont.png, id=930, 765.86125pt x 408.02437pt>
+File: Images/Ping Localhost After Cont.png Graphic file (type png)
+<use Images/Ping Localhost After Cont.png>
+Package pdftex.def Info: Images/Ping Localhost After Cont.png  used on input line 130.
+(pdftex.def)             Requested size: 454.32217pt x 242.04596pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 131.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40 <./Images/Rebooting the Guest.png> <./Images/After Rebooting on the Guest.png> <./Images/Ping Localhost When Stop.png> <./Images/Stop-Cont Commands.png>]
+<Images/Systemctl Suspend on the Guest.png, id=939, 940.51375pt x 191.71625pt>
+File: Images/Systemctl Suspend on the Guest.png Graphic file (type png)
+<use Images/Systemctl Suspend on the Guest.png>
+Package pdftex.def Info: Images/Systemctl Suspend on the Guest.png  used on input line 139.
+(pdftex.def)             Requested size: 454.32217pt x 92.61073pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 140.
+See the caption package documentation for explanation.
+
+<Images/System_Wakeup.png, id=940, 449.68pt x 74.2775pt>
+File: Images/System_Wakeup.png Graphic file (type png)
+<use Images/System_Wakeup.png>
+Package pdftex.def Info: Images/System_Wakeup.png  used on input line 144.
+(pdftex.def)             Requested size: 454.32217pt x 75.048pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 145.
+See the caption package documentation for explanation.
+
+<Images/Wakeup Guest after Suspending.png, id=941, 847.165pt x 910.40125pt>
+File: Images/Wakeup Guest after Suspending.png Graphic file (type png)
+<use Images/Wakeup Guest after Suspending.png>
+Package pdftex.def Info: Images/Wakeup Guest after Suspending.png  used on input line 149.
+(pdftex.def)             Requested size: 454.32217pt x 488.23369pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 150.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41 <./Images/Ping Localhost After Cont.png> <./Images/Systemctl Suspend on the Guest.png> <./Images/System_Wakeup.png>]
+<Images/System-powerdown.png, id=949, 413.545pt x 77.28876pt>
+File: Images/System-powerdown.png Graphic file (type png)
+<use Images/System-powerdown.png>
+Package pdftex.def Info: Images/System-powerdown.png  used on input line 160.
+(pdftex.def)             Requested size: 454.32217pt x 84.91174pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 161.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[42 <./Images/Wakeup Guest after Suspending.png>]
+<Images/Output of shutdowing guest.png, id=956, 1515.6625pt x 861.2175pt>
+File: Images/Output of shutdowing guest.png Graphic file (type png)
+<use Images/Output of shutdowing guest.png>
+Package pdftex.def Info: Images/Output of shutdowing guest.png  used on input line 165.
+(pdftex.def)             Requested size: 454.32217pt x 258.14384pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 166.
+See the caption package documentation for explanation.
+
+<Images/Result of ip a.png, id=957, 1148.29pt x 230.8625pt>
+File: Images/Result of ip a.png Graphic file (type png)
+<use Images/Result of ip a.png>
+Package pdftex.def Info: Images/Result of ip a.png  used on input line 179.
+(pdftex.def)             Requested size: 483.69687pt x 97.24692pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 180.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[43 <./Images/System-powerdown.png> <./Images/Output of shutdowing guest.png> <./Images/Result of ip a.png>]
+<Images/24 VNIC Hotplug Script.png, id=966, 850.17625pt x 91.34125pt>
+File: Images/24 VNIC Hotplug Script.png Graphic file (type png)
+<use Images/24 VNIC Hotplug Script.png>
+Package pdftex.def Info: Images/24 VNIC Hotplug Script.png  used on input line 188.
+(pdftex.def)             Requested size: 483.69687pt x 51.96748pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 189.
+See the caption package documentation for explanation.
+
+<Images/VNIC result ip a (1).png, id=967, 1067.99pt x 455.7025pt>
+File: Images/VNIC result ip a (1).png Graphic file (type png)
+<use Images/VNIC result ip a (1).png>
+Package pdftex.def Info: Images/VNIC result ip a (1).png  used on input line 201.
+(pdftex.def)             Requested size: 483.69687pt x 206.39233pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 202.
+See the caption package documentation for explanation.
+
+<Images/24 VNIC Unplug Script.png, id=968, 1013.7875pt x 63.23625pt>
+File: Images/24 VNIC Unplug Script.png Graphic file (type png)
+<use Images/24 VNIC Unplug Script.png>
+Package pdftex.def Info: Images/24 VNIC Unplug Script.png  used on input line 212.
+(pdftex.def)             Requested size: 483.69687pt x 30.17067pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 213.
+See the caption package documentation for explanation.
+
+File: Images/Result of ip a.png Graphic file (type png)
+<use Images/Result of ip a.png>
+Package pdftex.def Info: Images/Result of ip a.png  used on input line 218.
+(pdftex.def)             Requested size: 483.69687pt x 97.24692pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 219.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[44 <./Images/24 VNIC Hotplug Script.png> <./Images/VNIC result ip a (1).png> <./Images/24 VNIC Unplug Script.png>]
+<Images/LSPCI Grep ETh.png, id=976, 943.525pt x 494.84875pt>
+File: Images/LSPCI Grep ETh.png Graphic file (type png)
+<use Images/LSPCI Grep ETh.png>
+Package pdftex.def Info: Images/LSPCI Grep ETh.png  used on input line 230.
+(pdftex.def)             Requested size: 483.69687pt x 253.68336pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 231.
+See the caption package documentation for explanation.
+
+<Images/24 VFIO VNIC Hotplug Script.png, id=977, 917.4275pt x 431.6125pt>
+File: Images/24 VFIO VNIC Hotplug Script.png Graphic file (type png)
+<use Images/24 VFIO VNIC Hotplug Script.png>
+Package pdftex.def Info: Images/24 VFIO VNIC Hotplug Script.png  used on input line 239.
+(pdftex.def)             Requested size: 483.69687pt x 227.56148pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 240.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[45 <./Images/LSPCI Grep ETh.png>]
+<Images/ip a before hotplug vfio.png, id=984, 1051.93pt x 213.79875pt>
+File: Images/ip a before hotplug vfio.png Graphic file (type png)
+<use Images/ip a before hotplug vfio.png>
+Package pdftex.def Info: Images/ip a before hotplug vfio.png  used on input line 248.
+(pdftex.def)             Requested size: 483.69687pt x 98.30946pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 249.
+See the caption package documentation for explanation.
+
+<Images/ip a after vfio.png, id=985, 1058.95625pt x 551.05875pt>
+File: Images/ip a after vfio.png Graphic file (type png)
+<use Images/ip a after vfio.png>
+Package pdftex.def Info: Images/ip a after vfio.png  used on input line 255.
+(pdftex.def)             Requested size: 483.69687pt x 251.70749pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 256.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[46 <./Images/24 VFIO VNIC Hotplug Script.png> <./Images/ip a before hotplug vfio.png> <./Images/ip a after vfio.png>]
+<Images/24 VFIO VNIC Unplug Script.png, id=993, 820.06375pt x 73.27374pt>
+File: Images/24 VFIO VNIC Unplug Script.png Graphic file (type png)
+<use Images/24 VFIO VNIC Unplug Script.png>
+Package pdftex.def Info: Images/24 VFIO VNIC Unplug Script.png  used on input line 266.
+(pdftex.def)             Requested size: 483.69687pt x 43.21994pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 267.
+See the caption package documentation for explanation.
+
+<Images/ip a after VFIO Unplug.png, id=994, 1066.98625pt x 216.81pt>
+File: Images/ip a after VFIO Unplug.png Graphic file (type png)
+<use Images/ip a after VFIO Unplug.png>
+Package pdftex.def Info: Images/ip a after VFIO Unplug.png  used on input line 275.
+(pdftex.def)             Requested size: 483.69687pt x 98.28479pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 276.
+See the caption package documentation for explanation.
+
+<Images/Creating 3 vDisks.png, id=995, 1466.47874pt x 123.46124pt>
+File: Images/Creating 3 vDisks.png Graphic file (type png)
+<use Images/Creating 3 vDisks.png>
+Package pdftex.def Info: Images/Creating 3 vDisks.png  used on input line 287.
+(pdftex.def)             Requested size: 483.69687pt x 40.7216pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 288.
+See the caption package documentation for explanation.
+
+<Images/3 vDisk Hotplug.png, id=996, 841.1425pt x 354.32375pt>
+File: Images/3 vDisk Hotplug.png Graphic file (type png)
+<use Images/3 vDisk Hotplug.png>
+Package pdftex.def Info: Images/3 vDisk Hotplug.png  used on input line 298.
+(pdftex.def)             Requested size: 483.69687pt x 203.7562pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 299.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47 <./Images/24 VFIO VNIC Unplug Script.png> <./Images/ip a after VFIO Unplug.png> <./Images/Creating 3 vDisks.png>]
+<Images/lsblk before hotplug.png, id=1005, 562.1pt x 190.7125pt>
+File: Images/lsblk before hotplug.png Graphic file (type png)
+<use Images/lsblk before hotplug.png>
+Package pdftex.def Info: Images/lsblk before hotplug.png  used on input line 307.
+(pdftex.def)             Requested size: 483.69687pt x 164.11139pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 308.
+See the caption package documentation for explanation.
+
+<Images/lsblk after hotplug.png, id=1006, 564.1075pt x 261.97874pt>
+File: Images/lsblk after hotplug.png Graphic file (type png)
+<use Images/lsblk after hotplug.png>
+Package pdftex.def Info: Images/lsblk after hotplug.png  used on input line 316.
+(pdftex.def)             Requested size: 483.69687pt x 224.63774pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 317.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[48 <./Images/3 vDisk Hotplug.png> <./Images/lsblk before hotplug.png>]
+<Images/Launch Kdump.png, id=1014, 585.18625pt x 74.2775pt>
+File: Images/Launch Kdump.png Graphic file (type png)
+<use Images/Launch Kdump.png>
+Package pdftex.def Info: Images/Launch Kdump.png  used on input line 334.
+(pdftex.def)             Requested size: 483.69687pt x 61.39755pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 335.
+See the caption package documentation for explanation.
+
+<Images/Crash Folder.png, id=1015, 709.65125pt x 64.24pt>
+File: Images/Crash Folder.png Graphic file (type png)
+<use Images/Crash Folder.png>
+Package pdftex.def Info: Images/Crash Folder.png  used on input line 341.
+(pdftex.def)             Requested size: 483.69687pt x 43.78651pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 342.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49 <./Images/lsblk after hotplug.png> <./Images/Launch Kdump.png> <./Images/Crash Folder.png>]
+<Images/Memory Hotplug.png, id=1024, 576.1525pt x 88.33pt>
+File: Images/Memory Hotplug.png Graphic file (type png)
+<use Images/Memory Hotplug.png>
+Package pdftex.def Info: Images/Memory Hotplug.png  used on input line 355.
+(pdftex.def)             Requested size: 483.69687pt x 74.15894pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 356.
+See the caption package documentation for explanation.
+
+<Images/lsmem after unplug.png, id=1025, 746.79pt x 193.72375pt>
+File: Images/lsmem after unplug.png Graphic file (type png)
+<use Images/lsmem after unplug.png>
+Package pdftex.def Info: Images/lsmem after unplug.png  used on input line 364.
+(pdftex.def)             Requested size: 483.69687pt x 125.47554pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 365.
+See the caption package documentation for explanation.
+
+<Images/lsmem after hotplug.png, id=1026, 703.62875pt x 190.7125pt>
+File: Images/lsmem after hotplug.png Graphic file (type png)
+<use Images/lsmem after hotplug.png>
+Package pdftex.def Info: Images/lsmem after hotplug.png  used on input line 373.
+(pdftex.def)             Requested size: 483.69687pt x 131.09996pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 374.
+See the caption package documentation for explanation.
+
+<Images/Memory Unplug.png, id=1027, 450.68375pt x 117.43875pt>
+File: Images/Memory Unplug.png Graphic file (type png)
+<use Images/Memory Unplug.png>
+Package pdftex.def Info: Images/Memory Unplug.png  used on input line 384.
+(pdftex.def)             Requested size: 483.69687pt x 126.04706pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 385.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50 <./Images/Memory Hotplug.png> <./Images/lsmem after unplug.png> <./Images/lsmem after hotplug.png>]
+File: Images/lsmem after unplug.png Graphic file (type png)
+<use Images/lsmem after unplug.png>
+Package pdftex.def Info: Images/lsmem after unplug.png  used on input line 393.
+(pdftex.def)             Requested size: 483.69687pt x 125.47554pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 394.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51 <./Images/Memory Unplug.png>]
+<Images/Host System Configuration Verification.png, id=1042, 1133.23375pt x 529.98pt>
+File: Images/Host System Configuration Verification.png Graphic file (type png)
+<use Images/Host System Configuration Verification.png>
+Package pdftex.def Info: Images/Host System Configuration Verification.png  used on input line 428.
+(pdftex.def)             Requested size: 483.69687pt x 226.21297pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 429.
+See the caption package documentation for explanation.
+
+<Images/Launching Guest 2.png, id=1043, 1137.24875pt x 812.53563pt>
+File: Images/Launching Guest 2.png Graphic file (type png)
+<use Images/Launching Guest 2.png>
+Package pdftex.def Info: Images/Launching Guest 2.png  used on input line 437.
+(pdftex.def)             Requested size: 483.69687pt x 345.58963pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 438.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[52 <./Images/Host System Configuration Verification.png>]
+File: Images/Rebooting the Guest.png Graphic file (type png)
+<use Images/Rebooting the Guest.png>
+Package pdftex.def Info: Images/Rebooting the Guest.png  used on input line 455.
+(pdftex.def)             Requested size: 454.32217pt x 70.23486pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 456.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[53 <./Images/Launching Guest 2.png>]
+<Images/Stop-Cont 2.png, id=1055, 566.115pt x 164.615pt>
+File: Images/Stop-Cont 2.png Graphic file (type png)
+<use Images/Stop-Cont 2.png>
+Package pdftex.def Info: Images/Stop-Cont 2.png  used on input line 463.
+(pdftex.def)             Requested size: 454.32217pt x 132.11165pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 464.
+See the caption package documentation for explanation.
+
+<Images/Suspend Guest 2.png, id=1056, 359.3425pt x 94.3525pt>
+File: Images/Suspend Guest 2.png Graphic file (type png)
+<use Images/Suspend Guest 2.png>
+Package pdftex.def Info: Images/Suspend Guest 2.png  used on input line 470.
+(pdftex.def)             Requested size: 454.32217pt x 119.30083pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 471.
+See the caption package documentation for explanation.
+
+File: Images/System-powerdown.png Graphic file (type png)
+<use Images/System-powerdown.png>
+Package pdftex.def Info: Images/System-powerdown.png  used on input line 477.
+(pdftex.def)             Requested size: 454.32217pt x 84.91174pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 478.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[54 <./Images/Stop-Cont 2.png> <./Images/Suspend Guest 2.png>]
+<Images/ip a after VNIC Hotplug 2.png, id=1065, 1110.1475pt x 429.10312pt>
+File: Images/ip a after VNIC Hotplug 2.png Graphic file (type png)
+<use Images/ip a after VNIC Hotplug 2.png>
+Package pdftex.def Info: Images/ip a after VNIC Hotplug 2.png  used on input line 496.
+(pdftex.def)             Requested size: 483.69687pt x 186.95953pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 497.
+See the caption package documentation for explanation.
+
+File: Images/ip a after VNIC Hotplug 2.png Graphic file (type png)
+<use Images/ip a after VNIC Hotplug 2.png>
+Package pdftex.def Info: Images/ip a after VNIC Hotplug 2.png  used on input line 510.
+(pdftex.def)             Requested size: 483.69687pt x 186.95953pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 511.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[55 <./Images/ip a after VNIC Hotplug 2.png>]
+<Images/lsblk after hotplug and after ungplug.png, id=1073, 582.175pt x 414.54875pt>
+File: Images/lsblk after hotplug and after ungplug.png Graphic file (type png)
+<use Images/lsblk after hotplug and after ungplug.png>
+Package pdftex.def Info: Images/lsblk after hotplug and after ungplug.png  used on input line 523.
+(pdftex.def)             Requested size: 483.69687pt x 344.4296pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 524.
+See the caption package documentation for explanation.
+
+<Images/Kdump Test 2.png, id=1074, 484.81125pt x 84.315pt>
+File: Images/Kdump Test 2.png Graphic file (type png)
+<use Images/Kdump Test 2.png>
+Package pdftex.def Info: Images/Kdump Test 2.png  used on input line 534.
+(pdftex.def)             Requested size: 483.69687pt x 84.12564pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 535.
+See the caption package documentation for explanation.
+
+<Images/Log Folder Founded.png, id=1075, 712.6625pt x 97.36375pt>
+File: Images/Log Folder Founded.png Graphic file (type png)
+<use Images/Log Folder Founded.png>
+Package pdftex.def Info: Images/Log Folder Founded.png  used on input line 541.
+(pdftex.def)             Requested size: 483.69687pt x 66.08167pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 542.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[56 <./Images/lsblk after hotplug and after ungplug.png> <./Images/Kdump Test 2.png> <./Images/Log Folder Founded.png>]
+<Images/Hotplug cpu.png, id=1085, 919.435pt x 167.62625pt>
+File: Images/Hotplug cpu.png Graphic file (type png)
+<use Images/Hotplug cpu.png>
+Package pdftex.def Info: Images/Hotplug cpu.png  used on input line 556.
+(pdftex.def)             Requested size: 483.69687pt x 88.18669pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 557.
+See the caption package documentation for explanation.
+
+<Images/lscpu before hotplug.png, id=1086, 855.195pt x 246.9225pt>
+File: Images/lscpu before hotplug.png Graphic file (type png)
+<use Images/lscpu before hotplug.png>
+Package pdftex.def Info: Images/lscpu before hotplug.png  used on input line 565.
+(pdftex.def)             Requested size: 483.69687pt x 139.6584pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 566.
+See the caption package documentation for explanation.
+
+<Images/lscpu after hotplug.png, id=1087, 726.715pt x 247.92625pt>
+File: Images/lscpu after hotplug.png Graphic file (type png)
+<use Images/lscpu after hotplug.png>
+Package pdftex.def Info: Images/lscpu after hotplug.png  used on input line 572.
+(pdftex.def)             Requested size: 483.69687pt x 165.0202pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 573.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[57 <./Images/Hotplug cpu.png> <./Images/lscpu before hotplug.png> <./Images/lscpu after hotplug.png>]
+Overfull \hbox (0.58316pt too wide) in paragraph at lines 595--595
+|[]\T1/cmr/bx/n/17.28 Test on OL8 Host with and ARM CPU, Lib-virt, QEMU
+ []
+
+<Images/Host System Config 3.png, id=1096, 949.5475pt x 890.32625pt>
+File: Images/Host System Config 3.png Graphic file (type png)
+<use Images/Host System Config 3.png>
+Package pdftex.def Info: Images/Host System Config 3.png  used on input line 606.
+(pdftex.def)             Requested size: 483.69687pt x 453.53056pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 607.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[58]
+<Images/Launching Guest 3.png, id=1102, 1517.67pt x 425.59pt>
+File: Images/Launching Guest 3.png Graphic file (type png)
+<use Images/Launching Guest 3.png>
+Package pdftex.def Info: Images/Launching Guest 3.png  used on input line 615.
+(pdftex.def)             Requested size: 483.69687pt x 135.63959pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 616.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[59 <./Images/Host System Config 3.png> <./Images/Launching Guest 3.png>]
+<Images/Start using libvirt.png, id=1109, 670.505pt x 197.73875pt>
+File: Images/Start using libvirt.png Graphic file (type png)
+<use Images/Start using libvirt.png>
+Package pdftex.def Info: Images/Start using libvirt.png  used on input line 632.
+(pdftex.def)             Requested size: 454.32217pt x 133.98384pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 633.
+See the caption package documentation for explanation.
+
+<Images/Reboot using libvirt.png, id=1110, 617.30624pt x 196.735pt>
+File: Images/Reboot using libvirt.png Graphic file (type png)
+<use Images/Reboot using libvirt.png>
+Package pdftex.def Info: Images/Reboot using libvirt.png  used on input line 639.
+(pdftex.def)             Requested size: 454.32217pt x 144.79509pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 640.
+See the caption package documentation for explanation.
+
+<Images/Suspend using libvirt.png, id=1111, 695.59875pt x 195.73125pt>
+File: Images/Suspend using libvirt.png Graphic file (type png)
+<use Images/Suspend using libvirt.png>
+Package pdftex.def Info: Images/Suspend using libvirt.png  used on input line 646.
+(pdftex.def)             Requested size: 454.32217pt x 127.83904pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 647.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[60 <./Images/Start using libvirt.png> <./Images/Reboot using libvirt.png> <./Images/Suspend using libvirt.png>]
+<Images/Resume using libvirt.png, id=1121, 759.83875pt x 199.74625pt>
+File: Images/Resume using libvirt.png Graphic file (type png)
+<use Images/Resume using libvirt.png>
+Package pdftex.def Info: Images/Resume using libvirt.png  used on input line 653.
+(pdftex.def)             Requested size: 454.32217pt x 119.43416pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 654.
+See the caption package documentation for explanation.
+
+<Images/Reset Using libvirt.png, id=1122, 675.52374pt x 210.7875pt>
+File: Images/Reset Using libvirt.png Graphic file (type png)
+<use Images/Reset Using libvirt.png>
+Package pdftex.def Info: Images/Reset Using libvirt.png  used on input line 660.
+(pdftex.def)             Requested size: 454.32217pt x 141.76724pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 661.
+See the caption package documentation for explanation.
+
+<Images/Shutdown using Libvirt.png, id=1123, 591.20876pt x 120.45pt>
+File: Images/Shutdown using Libvirt.png Graphic file (type png)
+<use Images/Shutdown using Libvirt.png>
+Package pdftex.def Info: Images/Shutdown using Libvirt.png  used on input line 667.
+(pdftex.def)             Requested size: 454.32217pt x 92.56297pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 668.
+See the caption package documentation for explanation.
+
+<Images/Script hotplug VNIC Libvirt.png, id=1124, 1266.7325pt x 148.555pt>
+File: Images/Script hotplug VNIC Libvirt.png Graphic file (type png)
+<use Images/Script hotplug VNIC Libvirt.png>
+Package pdftex.def Info: Images/Script hotplug VNIC Libvirt.png  used on input line 682.
+(pdftex.def)             Requested size: 483.69687pt x 56.72348pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 683.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[61 <./Images/Resume using libvirt.png> <./Images/Reset Using libvirt.png> <./Images/Shutdown using Libvirt.png> <./Images/Script hotplug VNIC Libvirt.png>]
+<Images/ip a after hotplug VNIC Libvirt.png, id=1134, 1135.24126pt x 628.84938pt>
+File: Images/ip a after hotplug VNIC Libvirt.png Graphic file (type png)
+<use Images/ip a after hotplug VNIC Libvirt.png>
+Package pdftex.def Info: Images/ip a after hotplug VNIC Libvirt.png  used on input line 691.
+(pdftex.def)             Requested size: 483.69687pt x 267.93393pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 692.
+See the caption package documentation for explanation.
+
+<Images/Populate VFIO libvirt.png, id=1135, 1060.96375pt x 486.81876pt>
+File: Images/Populate VFIO libvirt.png Graphic file (type png)
+<use Images/Populate VFIO libvirt.png>
+Package pdftex.def Info: Images/Populate VFIO libvirt.png  used on input line 705.
+(pdftex.def)             Requested size: 483.69687pt x 221.94115pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 706.
+See the caption package documentation for explanation.
+
+<Images/VFIO VNIC Hotplug Libvirt.png, id=1136, 847.165pt x 455.7025pt>
+File: Images/VFIO VNIC Hotplug Libvirt.png Graphic file (type png)
+<use Images/VFIO VNIC Hotplug Libvirt.png>
+Package pdftex.def Info: Images/VFIO VNIC Hotplug Libvirt.png  used on input line 712.
+(pdftex.def)             Requested size: 483.69687pt x 260.18422pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 713.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[62 <./Images/ip a after hotplug VNIC Libvirt.png> <./Images/Populate VFIO libvirt.png>]
+<Images/ip a after hotplug vfio libvirt.png, id=1144, 1091.07625pt x 609.27625pt>
+File: Images/ip a after hotplug vfio libvirt.png Graphic file (type png)
+<use Images/ip a after hotplug vfio libvirt.png>
+Package pdftex.def Info: Images/ip a after hotplug vfio libvirt.png  used on input line 719.
+(pdftex.def)             Requested size: 483.69687pt x 270.09978pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 720.
+See the caption package documentation for explanation.
+
+File: Images/lsblk after hotplug and after ungplug.png Graphic file (type png)
+<use Images/lsblk after hotplug and after ungplug.png>
+Package pdftex.def Info: Images/lsblk after hotplug and after ungplug.png  used on input line 733.
+(pdftex.def)             Requested size: 483.69687pt x 344.4296pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 734.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[63 <./Images/VFIO VNIC Hotplug Libvirt.png> <./Images/ip a after hotplug vfio libvirt.png>]
+<Images/kdump test 3.png, id=1152, 546.04pt x 66.2475pt>
+File: Images/kdump test 3.png Graphic file (type png)
+<use Images/kdump test 3.png>
+Package pdftex.def Info: Images/kdump test 3.png  used on input line 745.
+(pdftex.def)             Requested size: 483.69687pt x 58.68411pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 746.
+See the caption package documentation for explanation.
+
+<Images/Kdumpt Result folder.png, id=1153, 711.65875pt x 107.40125pt>
+File: Images/Kdumpt Result folder.png Graphic file (type png)
+<use Images/Kdumpt Result folder.png>
+Package pdftex.def Info: Images/Kdumpt Result folder.png  used on input line 752.
+(pdftex.def)             Requested size: 483.69687pt x 72.99745pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 753.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[64 <./Images/kdump test 3.png> <./Images/Kdumpt Result folder.png>]
+<Images/Large VM Test 500G.png, id=1161, 646.415pt x 189.70876pt>
+File: Images/Large VM Test 500G.png Graphic file (type png)
+<use Images/Large VM Test 500G.png>
+Package pdftex.def Info: Images/Large VM Test 500G.png  used on input line 766.
+(pdftex.def)             Requested size: 483.69687pt x 141.9541pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 767.
+See the caption package documentation for explanation.
+
+<Images/Large VM Test 1T.png, id=1162, 662.475pt x 186.6975pt>
+File: Images/Large VM Test 1T.png Graphic file (type png)
+<use Images/Large VM Test 1T.png>
+Package pdftex.def Info: Images/Large VM Test 1T.png  used on input line 773.
+(pdftex.def)             Requested size: 483.69687pt x 136.31367pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 774.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[65 <./Images/Large VM Test 500G.png> <./Images/Large VM Test 1T.png>])
+Package minitoc Info: I0006
+(minitoc)             Rapport_PFE_V0.mtc4 is empty on input line 375.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[66] (./Conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [67
+
+
+] (./Rapport_PFE_V0.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]\T1/cmr/m/n/12 General schema of vir-tu-al-iza-tion.  [][]$\T1/cmtt/m/n/12 https : / / documentation . suse . com / smart /
+ []
+
+)
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the Rapport_PFE_V0.maf file.
+\openout6 = `Rapport_PFE_V0.maf'.
+
+
+
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
+
+
+Package minitoc(hints) Warning: W0088
+(minitoc(hints))                The romannum package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the Rapport_PFE_V0.log file.
+
+[68
+
+
+] (./Rapport_PFE_V0.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+ *File List*
+  report.cls    2023/05/17 v1.4n Standard LaTeX document class
+  size12.clo    2023/05/17 v1.4n Standard LaTeX file (size option)
+titlesec.sty    2023/10/27 v2.16 Sectioning titles
+   babel.sty    2024/02/07 v24.2 The Babel package
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+babel-english.tex
+indentfirst.sty    2023/07/02 v1.03 Indent first paragraph (DPC)
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+    utf8.sty    2000/06/13  3.10 UTF-8 input encoding 
+ utfcode.sty    2002/03/07  3.10a Arabic+Hebrew segment of UTF-8
+inputenc.sty    2021/02/14 v1.3d Input encoding file
+   utf8x.def    2023/11/09 UCS: Input encoding UTF-8
+    utf8.def    2022/06/07 v1.3c UTF-8 support
+  omsenc.dfu    2022/06/07 v1.3c UTF-8 support
+  ot1enc.dfu    2022/06/07 v1.3c UTF-8 support
+   t1enc.dfu    2022/06/07 v1.3c UTF-8 support
+  ts1enc.dfu    2022/06/07 v1.3c UTF-8 support
+  natbib.sty    2010/09/13 8.31b (PWD, AO)
+longtable.sty    2023-11-01 v4.19 Multi-page Table package (DPC)
+ nomencl.sty    2021/11/10 v5.6 Nomenclature package
+ xkeyval.sty    2022/06/16 v2.9 package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+  ifthen.sty    2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+tocbasic.sty    2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+ scrbase.sty    2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+scrlfile.sty    2023/07/07 v3.41 KOMA-Script package (file load hooks)
+scrlfile-hook.sty    2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ scrlogo.sty    2023/07/07 v3.41 KOMA-Script package (logo)
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+   array.sty    2023/10/16 v2.5g Tabular extension package (FMi)
+ amsmath.sty    2023/05/13 v2.17o AMS math features
+ amstext.sty    2021/08/26 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2022/04/08 v2.04 operator names
+enumitem.sty    2019/06/20 v3.9 Customized lists
+verbatim.sty    2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+ acronym.sty    2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+  suffix.sty    2006/07/15 1.5a Variant command support
+ xstring.sty    2023/08/22 v1.86 String manipulations (CT)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+ siunitx.sty    2024-02-15 v3.3.12 A comprehensive (SI) units package
+translations.sty    2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+etoolbox.sty    2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+   iftex.sty    2022/02/03 v1.0f TeX engine tests
+ ltxcmds.sty    2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+multirow.sty    2021/03/15 v2.8 Span multiple rows of a table
+  amsthm.sty    2020/05/29 v2.20.6
+graphicx.sty    2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2021/08/11 v1.11 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2022/09/22 v1.2b Graphics/color driver for pdftex
+todonotes.sty    2024/01/05
+  xcolor.sty    2023/11/15 v3.01 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+mathcolor.ltx
+    tikz.sty    2023-01-15 v3.1.10 (3.1.10)
+     pgf.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgfrcs.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfrcs.code.tex
+ pgfcore.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgfsys.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfsys.code.tex
+pgfsyssoftpath.code.tex    2023-01-15 v3.1.10 (3.1.10)
+pgfsysprotocol.code.tex    2023-01-15 v3.1.10 (3.1.10)
+pgfcore.code.tex
+pgfcomp-version-0-65.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfcomp-version-1-18.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgffor.sty    2023-01-15 v3.1.10 (3.1.10)
+ pgfkeys.sty    
+pgfkeys.code.tex
+ pgfmath.sty    
+pgfmath.code.tex
+pgffor.code.tex
+tikz.code.tex
+    calc.sty    2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+hyperref.sty    2024-01-20 v7.01h Hypertext links for LaTeX
+kvsetkeys.sty    2022-10-05 v1.19 Key value parser (HO)
+kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
+pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+ auxhook.sty    2019-12-17 v1.6 Hooks for auxiliary files (HO)
+ nameref.sty    2023-11-26 v2.56 Cross-referencing by name of section
+refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
+gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
+kvoptions.sty    2022-06-15 v3.15 Key value format for package options (HO)
+  pd1enc.def    2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+ intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
+   puenc.def    2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
+bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
+atbegshi-ltx.sty    2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+ hpdftex.def    2024-01-20 v7.01h Hyperref driver for pdfTeX
+atveryend-ltx.sty    2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+rerunfilecheck.sty    2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+ minitoc.sty    2018/07/12 v62 Package minitoc
+ mtcmess.sty    2006/03/14
+Rapport_PFE_V0.mtc0
+ english.mld    2006/01/13
+ english.mld    2006/01/13
+listings.sty    2024/02/21 1.10 (Carsten Heinz)
+lstpatch.sty    2024/02/21 1.10 (Carsten Heinz)
+ lstmisc.sty    2024/02/21 1.10 (Carsten Heinz)
+listings.cfg    2024/02/21 1.10 listings configuration
+ caption.sty    2023/08/05 v3.6o Customizing captions (AR)
+caption3.sty    2023/07/31 v2.4d caption3 kernel (AR)
+ltcaption.sty    2021/01/08 v1.4c longtable captions (AR)
+tabularx.sty    2023/07/08 v2.11c `tabularx' package (DPC)
+setspace.sty    2022/12/04 v6.7b set line spacing
+enumerate.sty    2023/07/04 v3.00 enumerate extensions (DPC)
+abstract.sty    2009/06/08 v1.2a configurable abstracts
+ fontenc.sty    2021/04/29 v2.0v Standard LaTeX package
+footmisc.sty    2023/07/05 v6.0f a miscellany of footnote facilities
+geometry.sty    2020/01/02 v5.9 Page Geometry
+  ifvtex.sty    2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+subcaption.sty    2023/07/28 v1.6b Sub-captions (AR)
+fancyhdr.sty    2022/11/09 v4.1 Extensive control of page headers and footers
+fancybox.sty    2010/05/15 1.4
+romannum.sty    2009/09/03 v1.0b roman numerals
+stdclsdv.sty    2009/09/04 v1.1a Sectional divisions
+ eso-pic.sty    2023/05/03 v3.0c eso-pic (RN)
+tocbibind.sty    2010/10/13 v1.5k extra ToC listings
+ tocloft.sty    2017/08/31 v2.3i parameterised ToC, etc., typesetting
+appendix.sty    2020/02/08 v1.2c extra appendix facilities
+booktabs.sty    2020/01/12 v1.61803398 Publication quality tables
+l3backend-pdftex.def    2024-02-20 L3 backend support: PDF output (pdfTeX)
+translations-basic-dictionary-english.trsl    (english translation file `translations-basic-dictionary')
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Rapport_PFE_V0.out
+Rapport_PFE_V0.out
+  apatch.sty    2006/07/02  3.11s last minute patches 
+page-de-garde.tex
+Images/Logo_inpt.png
+Images/logo_oracle.png
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+Images/inpt_fig.jpg
+bismilah.tex
+Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png
+Acknowledgements.tex
+Abstract.tex
+  Resume.tex
+   Uxnsh.fd
+ Resumee.tex
+Abbreviations.tex
+Indroduction.tex
+Chapter1.tex
+Images/oracle_corp_logo.jpg
+Images/oracle_labs_logo.jpg
+Images/nearshore oracle.png
+Images/MADC Major milestones.png
+Images/Executive Leadership Board.png
+Images/tools.png
+Images/confluence_logo.png
+Images/Gantt Diagram.png
+Chapter2.tex
+Images/VirtualizationSchema.png
+Images/Oracle Linux.png
+Images/Libvirt Overview.png
+Chapter3.tex
+  t1cmtt.fd    2023/04/13 v2.5m Standard LaTeX font definitions
+Images/kernel-rpm.png
+Images/Kernel-Installation.png
+Images/Kernel-Version.png
+Images/QEMU-Installation.png
+Images/Libvirt-Installation.png
+Images/QEMU & Libvirt Version.png
+Images/AAVMF Incomplete Files.png
+Images/Edk2 Yum Repository.png
+Images/EDK2 Installation.png
+Images/AAVMF Files.png
+Images/Disk Image Creation QEMU.png
+Images/Starting Libvirtd.png
+Images/Storage pool creation.png
+Images/Disk Image Creation Libvirt.png
+Images/VM Creation with QEMU.png
+Images/VM Cration Using Libvirt.png
+Images/VNC Client.png
+Images/QEMU Monitor.png
+Chapter4.tex
+Images/Hostnamectl Command on the Host.png
+Images/QEMU Version_ 7.2.0-14 oci.png
+Images/OVMF Folder.png
+Images/edk2 Version.png
+Images/Storage on the Host.png
+Images/Memory on the Host.png
+Images/Launching the Guest.png
+Images/Hostnamectl Command on the Guest.png
+Images/Uname -r Command on the Guest.png
+Images/Rebooting the Guest.png
+Images/After Rebooting on the Guest.png
+Images/Ping Localhost When Stop.png
+Images/Stop-Cont Commands.png
+Images/Ping Localhost After Cont.png
+Images/Systemctl Suspend on the Guest.png
+Images/System_Wakeup.png
+Images/Wakeup Guest after Suspending.png
+Images/System-powerdown.png
+Images/Output of shutdowing guest.png
+Images/Result of ip a.png
+Images/24 VNIC Hotplug Script.png
+Images/VNIC result ip a (1).png
+Images/24 VNIC Unplug Script.png
+Images/Result of ip a.png
+Images/LSPCI Grep ETh.png
+Images/24 VFIO VNIC Hotplug Script.png
+Images/ip a before hotplug vfio.png
+Images/ip a after vfio.png
+Images/24 VFIO VNIC Unplug Script.png
+Images/ip a after VFIO Unplug.png
+Images/Creating 3 vDisks.png
+Images/3 vDisk Hotplug.png
+Images/lsblk before hotplug.png
+Images/lsblk after hotplug.png
+Images/Launch Kdump.png
+Images/Crash Folder.png
+Images/Memory Hotplug.png
+Images/lsmem after unplug.png
+Images/lsmem after hotplug.png
+Images/Memory Unplug.png
+Images/lsmem after unplug.png
+Images/Host System Configuration Verification.png
+Images/Launching Guest 2.png
+Images/Rebooting the Guest.png
+Images/Stop-Cont 2.png
+Images/Suspend Guest 2.png
+Images/System-powerdown.png
+Images/ip a after VNIC Hotplug 2.png
+Images/ip a after VNIC Hotplug 2.png
+Images/lsblk after hotplug and after ungplug.png
+Images/Kdump Test 2.png
+Images/Log Folder Founded.png
+Images/Hotplug cpu.png
+Images/lscpu before hotplug.png
+Images/lscpu after hotplug.png
+Images/Host System Config 3.png
+Images/Launching Guest 3.png
+Images/Start using libvirt.png
+Images/Reboot using libvirt.png
+Images/Suspend using libvirt.png
+Images/Resume using libvirt.png
+Images/Reset Using libvirt.png
+Images/Shutdown using Libvirt.png
+Images/Script hotplug VNIC Libvirt.png
+Images/ip a after hotplug VNIC Libvirt.png
+Images/Populate VFIO libvirt.png
+Images/VFIO VNIC Hotplug Libvirt.png
+Images/ip a after hotplug vfio libvirt.png
+Images/lsblk after hotplug and after ungplug.png
+Images/kdump test 3.png
+Images/Kdumpt Result folder.png
+Images/Large VM Test 500G.png
+Images/Large VM Test 1T.png
+Conclusion.tex
+Rapport_PFE_V0.bbl
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Rapport_PFE_V0.out' has not changed.
+(rerunfilecheck)             Checksum: 549E050638E30AA1A693A0423CDD72AA;12524.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 224 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 39110 strings out of 474116
+ 764531 string characters out of 5732613
+ 1968187 words of memory out of 5000000
+ 60455 multiletter control sequences out of 15000+600000
+ 578247 words of font info for 86 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 110i,12n,117p,999b,4524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbi2488.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14bf.pfb>
+Output written on Rapport_PFE_V0.pdf (81 pages, 20502614 bytes).
+PDF statistics:
+ 1337 PDF objects out of 1440 (max. 8388607)
+ 1013 compressed objects within 11 object streams
+ 304 named destinations out of 1000 (max. 500000)
+ 1073 words of extra memory for PDF output out of 10000 (max. 10000000)
+
