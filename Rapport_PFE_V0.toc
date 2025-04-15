@@ -1,0 +1,113 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.1}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.2}%
+\contentsline {chapter}{French Abstract}{v}{chapter*.3}%
+\contentsline {chapter}{Arabic Abstract}{vi}{chapter*.4}%
+\contentsline {chapter}{Abbreviations}{vii}{chapter*.5}%
+\contentsline {chapter}{List of Contents}{ix}{table.0.1}%
+\contentsline {chapter}{List of Figures}{xii}{table.0.1}%
+\contentsline {chapter}{General Introduction}{1}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}General Context of the Project}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Host Organization}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Presentation}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Boston Consulting Group (BCG)}{3}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}History}{3}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Business area of activity}{3}{subsubsection.1.1.2.2}%
+\contentsline {subsection}{\numberline {1.1.3}BCG X}{4}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Presentation}{4}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}Business area of activity}{4}{subsubsection.1.1.3.2}%
+\contentsline {subsection}{\numberline {1.1.4}Organizational Structure}{5}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Organizational Culture}{5}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Project Framework}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Agentic AI in Legal Operations}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Digital Contract Management}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Need for Intelligent Legal Workflow Systems}{7}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Problematic}{7}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Objectives}{7}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Project Management}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Progress Monitoring}{8}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Collaboration Tools}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Internship Planning}{9}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Onboarding Phase}{9}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Project Phase}{10}{subsubsection.1.3.3.2}%
+\contentsline {section}{\numberline {1.4}Conclusion}{10}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Technical Foundations and Project Essentials}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Technical Background}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Virtualization}{12}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Mechanisms of Virtualization}{12}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Advantages of Virtualization in Cloud Infrastructure}{12}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Virtualization Modes}{13}{subsubsection.2.1.1.3}%
+\contentsline {subsection}{\numberline {2.1.2}Oracle Linux}{13}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Compatibility with Red Hat Enterprise Linux (RHEL)}{14}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Virtualization Support}{14}{subsubsection.2.1.2.2}%
+\contentsline {subsection}{\numberline {2.1.3}Unbreakable Enterprise Kernel (UEK)}{14}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Capabilities and Features}{15}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Key Versions: UEK7U2 and UEK6U3}{15}{subsubsection.2.1.3.2}%
+\contentsline {subsection}{\numberline {2.1.4}QEMU}{16}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Modes of Operation and Integration}{16}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Capabilities and Features}{16}{subsubsection.2.1.4.2}%
+\contentsline {subsection}{\numberline {2.1.5}Libvirt}{17}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Libvirt Architecture}{17}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Benefits of Using Libvirt}{18}{subsubsection.2.1.5.2}%
+\contentsline {section}{\numberline {2.2}Project Requirements}{18}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Conclusion}{18}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Internship Tasks and Testing Procedures}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analyzing Ticket Information}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}QEMU Tests}{20}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Libvirt Tests}{20}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Environment Setup}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Creation of the Instance}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Kernel Setup on Host}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Installation of QEMU and Libvirt}{21}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}OVMF/AAVMF}{23}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}ISO Installation and Image Creation}{24}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Creating the VM Using QEMU}{26}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Creating the VM Using Libvirt}{27}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Interaction with the VM}{28}{subsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.8.1}Using VNC}{28}{subsubsection.3.2.8.1}%
+\contentsline {subsubsection}{\numberline {3.2.8.2}Using QEMU Monitor}{29}{subsubsection.3.2.8.2}%
+\contentsline {section}{\numberline {3.3}Testing Procedures}{30}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Life Cycle Testing}{30}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}VNIC Hotplug/Unplug}{30}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}VFIO-VNIC Hotplug/Unplug}{31}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}VDisk Hotplug/Unplug}{31}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Memory Hotplug/Unplug}{31}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}VCPU Hotplug/Unplug}{32}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Kdump Check}{32}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Big VM 500G-1T Boot Test}{32}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}Conclusion}{32}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Tests Realization and Results}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Test on OL8 Host with an Intel CPU, QEMU and latest kernel version UEK7U2}{34}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Host System Configuration}{34}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Guest Virtual Machine Deployment}{36}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Test Execution and Performance Evaluation}{37}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Lifecycle Test}{37}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Some VNIC Hotplug/Unplug}{41}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Some VFIO-VNIC Hotplug/Unplug}{43}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}VDisks Hotplug/Unplug}{45}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}Kdump Check}{47}{subsubsection.4.1.3.5}%
+\contentsline {subsubsection}{\numberline {4.1.3.6}Memory Hotplug/Unplug}{48}{subsubsection.4.1.3.6}%
+\contentsline {subsubsection}{\numberline {4.1.3.7}Overview of Testing Outcomes}{49}{subsubsection.4.1.3.7}%
+\contentsline {section}{\numberline {4.2}Test on OL8 Host with an AMD CPU, QEMU and latest kernel version UEK6U3}{50}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Host System and Guest VM Configuration}{50}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Test Execution and Performance Evaluation}{51}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Lifecycle Test}{51}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Some VNIC Hotplug/Unplug}{52}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}Some VFIO-VNIC Hotplug/Unplug}{53}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}VDisks Hotplug/Unplug}{54}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}Kdump Check}{54}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}VCPUs Hotplug/Unplug}{55}{subsubsection.4.2.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.2.7}Overview of Testing Outcomes}{56}{subsubsection.4.2.2.7}%
+\contentsline {section}{\numberline {4.3}Test on OL8 Host with and ARM CPU, Libvirt, QEMU and Latest kernel version UEK7U2}{56}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Host System and Guest VM Configuration}{56}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Test Execution and Performance Evaluation}{58}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Lifecycle Test}{58}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Some VNIC Hotplug/Unplug}{59}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Some VFIO-VNIC Hotplug/Unplug}{60}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}VDisks Hotplug/Unplug}{61}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}Kdump Check}{62}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}Big VM 500G-1T Boot Test}{63}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}Overview of Testing Outcomes}{63}{subsubsection.4.3.2.7}%
+\contentsline {section}{\numberline {4.4}Conclusion}{64}{section.4.4}%
+\contentsline {chapter}{General Conclusion}{65}{chapter*.7}%
+\contentsline {chapter}{Bibliography}{66}{chapter*.8}%
