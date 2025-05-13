@@ -8,32 +8,4 @@ The history of oracle corporation.
 Executive leadership board.
 \newblock \url{https://theorg.com/org/bcg-x}.
 
-\bibitem{Outlook}
-Outlook logo.
-\newblock \url{https://www.atlassian.com/software/confluence}.
-
-\bibitem{slack}
-Slack logo.
-\newblock \url{https://slack.com/blog/news/say-hello-new-logo}.
-
-\bibitem{zoom}
-Zoom logo.
-\newblock \url{https://www.atlassian.com/software/confluence}.
-
-\bibitem{Confluence}
-Confluence logo.
-\newblock \url{https://www.atlassian.com/software/confluence}.
-
-\bibitem{Source}
-General schema of virtualization.
-\newblock \url{https://documentation.suse.com/smart/virtualization-cloud/pdf/virtualization_en.pdf}.
-
-\bibitem{OL-logo}
-Oracle linux logo.
-\newblock \url{https://images.app.goo.gl/5op3952h6PbJbnvV8}.
-
-\bibitem{Libvirt}
-Libvirt overview.
-\newblock \url{https://documentation.suse.com/smart/virtualization-cloud/html/manage-vm-on-commandline/}.
-
 \end{thebibliography}

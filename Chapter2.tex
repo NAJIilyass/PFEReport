@@ -1,158 +1,624 @@
-This chapter will provide a comprehensive overview of the technical foundations essential to the project. It begins with an in-depth exploration of virtualization and Oracle Linux, detailing its core characteristics and key features. Following this, the chapter delves into the Unbreakable Enterprise Kernel (UEK) and its significance. The discussion then extends to the roles and functionalities of QEMU and Libvirt tools. The chapter concludes by outlining the project requirements, specifying the necessary features and criteria to achieve the project’s objectives.
+This chapter focuses on the detailed analysis and technical specifications of the intelligent contract management solution developed during my internship. It begins with a comparative benchmarking of existing solutions, providing justification for our technology selection. Subsequently, it delves into the technical background, describing the key technologies used including Large Language Models (LLM), Agentic AI, LangChain, LangGraph, and others. Finally, the chapter specifies the project requirements, identifying functional and non-functional expectations that shaped the solution's development.
 
 \newpage
-\fancyhead[R]{\textsc{Chapter 2 - Technical Foundations and Project Essentials}}
+\fancyhead[R]{\textsc{Chapter 2 - Analysis and Specifications}}
 \hypertarget{secondchapter}{}
+\section{Comparative Analysis}
+
+This section benchmarks existing contract management and legal automation platforms to highlight their features, strengths, and limitations, providing the rationale for developing our specialized Agentic AI solution.
+
+%% Benchmarking Existing Solutions
+\subsection{Benchmarking Existing Solutions}
+To evaluate the landscape of intelligent contract management platforms, we analyzed three prominent solutions: PandaDoc, Harvey AI, and DocDraft. Each offers unique features catering to different aspects of contract management and legal automation.
+
+% PandaDoc
+\subsubsection{PandaDoc}
+PandaDoc is a comprehensive document automation platform designed to streamline the creation, approval, and management of digital documents, including contracts, proposals, and quotes.\mynewline
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/PandaDoc_logo.png}
+    \captionof{figure}{PandaDoc Logo} \cite{pandadoc}
+    \label{fig:pandadoc}
+\end{center}
+
+Here are the key features of PandaDoc:
+\begin{itemize}
+    \item \textbf{Dynamic Contract Templates}: Create and manage reusable templates to ensure consistency and efficiency in document creation.
+    \item \textbf{Integrated eSignatures}: Facilitate secure and legally binding electronic signatures within documents. 
+    \item \textbf{CRM Integrations}: Seamlessly integrate with platforms like Salesforce and HubSpot to synchronize data and streamline workflows. 
+    \item \textbf{Contract Repository}: Centralized storage for contracts, enabling easy access, tracking, and management. 
+    \item \textbf{Workflow Automation}: Automate approval processes and notifications to reduce manual intervention and accelerate deal closures. 
+\end{itemize}
+
+% Harvey AI
+\subsubsection{Harvey AI}
+Harvey AI is a generative AI platform designed for legal professionals, enabling advanced legal research, document drafting, and compliance analysis with the support of large language models.\mynewline
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/harveyai_logo.png}
+    \captionof{figure}{Harvey AI Logo} \cite{harveyai}
+    \label{fig:harveyai}
+\end{center}
+
+Here are the key features of Harvey AI:
+\begin{itemize}
+    \item \textbf{AI-Powered Legal Research}: Provides fast, accurate legal research across jurisdictions with references and citations.
+    \item \textbf{Document Drafting Automation}: Automates the generation and review of legal documents, reducing time and manual effort.
+    \item \textbf{Predictive Analytics}: Leverages historical legal data to forecast case outcomes and support strategic decisions.
+    \item \textbf{Secure Document Management}: Ensures safe handling and storage of sensitive legal documents.
+    \item \textbf{Customizable AI Models}: Allows tailoring of legal AI agents to specific practice areas, workflows, or jurisdictions.
+\end{itemize}
+
+% DocDraftyes
+\subsubsection{DocDraft}
+DocDraft is an AI-powered contract drafting solution focused on automating the generation, review, and management of legal documents for legal teams and firms.\mynewline
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/docdraft_logo.png}
+    \captionof{figure}{DocDraft Logo} \cite{docdraft}
+    \label{fig:docdraft}
+\end{center}
+
+Here are the key features of DocDraft:
+\begin{itemize}
+    \item \textbf{Automated Document Drafting}: Quickly generates contracts and legal documents using intelligent pre-built logic.
+    \item \textbf{Clause Library}: Offers a rich repository of standard and customizable clauses for efficient contract assembly.
+    \item \textbf{Compliance Checks}: Reviews documents to ensure alignment with relevant laws and regulations.
+    \item \textbf{Collaboration Tools}: Enables multiple stakeholders to co-author and comment on documents in real-time.
+    \item \textbf{Attorney Matching Service}: Connects users to legal experts for document review and legal consultation.
+\end{itemize}
+
+% Comparative Analysis
+\subsubsection{Comparative Analysis}
+The following table summarizes the key features of the three platforms:
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Feature} & \textbf{PandaDoc} & \textbf{Harvey AI} & \textbf{DocDraft} \\
+        \hline
+        Document Automation & Yes & Yes & Yes \\
+        eSignature Integration & Yes & No & No \\
+        Legal Research Capabilities & No & Yes & No \\
+        Predictive Analytics & No & Yes & No \\
+        Compliance Checks & Limited & Advanced & Advanced \\
+        CRM Integration & Yes & No & No \\
+        Collaboration Tools & Yes & Limited & Yes \\
+        Customizable AI Models & No & Yes & No \\
+        Clause Library & Limited & No & Yes \\
+        Attorney Consultation & No & No & Yes \\
+        \hline
+    \end{tabular}
+    \caption{Comparison of Contract Management and Legal AI Platforms}
+    \label{tab:comparison}
+\end{table}
+
+% Why We Chose to Build a New Solution
+\subsection{Why We Chose to Build a New Solution}
+The comparative study clearly revealed that existing contract management platforms were not sufficient to meet our needs. Most tools offer limited automation capabilities and lack the flexibility required for complex legal workflows. Additionally, their inability to support deep integration with enterprise systems, limited orchestration features, and lack of control over agent behavior made them unsuitable for large-scale deployment.\mynewline
+
+To overcome these limitations, we chose to develop a custom solution based on agentic AI. This approach allows us to build a modular, scalable system capable of automating contract drafting, compliance checks, and collaboration, all within a secure and integrated enterprise environment. The goal was not only to improve current processes, but also to lay a solid foundation for future legal automation use cases.\mynewline
+
+A clear comparison between traditional (imperative) and agentic (declarative) approaches is illustrated in Figure~\ref{fig:agentic-table}, highlighting the benefits that guided our architectural direction.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/imperative_declarative_approach.png}
+    \captionof{figure}{Imperative vs. Agentic Approach Comparison} \cite{agenticTable}
+    \label{fig:agentic-table}
+\end{center}
+
+
+% Technical Background
 \section{Technical Background}
+This section provides an overview of key technologies enabling the platform's intelligent functionalities.
 
-%% Virtualization
-\subsection{Virtualization}
-Virtualization serves as a cornerstone technology in modern IT infrastructure, enabling a single physical machine, or VM Host Server, to run multiple operating systems simultaneously as virtual machines (VM Guests). This approach abstracts the underlying hardware resources, creating isolated environments where each operating system can function independently, as though it were on dedicated hardware.
+% Large Language Models (LLMs)
+\subsection{Large Language Models (LLMs)}
 
-%% Mechanisms of Virtualization
-\subsubsection[Mechanisms of Virtualization]{Mechanisms of Virtualization}
-The critical enabler of virtualization is the hypervisor, a software layer that directly interfaces with the hardware of the VM Host Server. The hypervisor manages the allocation of resources such as CPU, memory, and storage, distributing them among the various VM Guests. By presenting each guest with a virtualized hardware interface, the hypervisor ensures that multiple operating systems can coexist without interference. There are two primary types of hypervisors utilized in enterprise environments: Type 1 (bare-metal hypervisors) and Type 2 (hosted hypervisors).
+\subsubsection{Introduction}
+Language serves as the cornerstone of human interaction, significantly impacting how humans interface with machines. The evolution of Natural Language Processing (NLP), from early statistical approaches to sophisticated neural architectures, has culminated in the advent of Large Language Models (LLMs). These advancements have been driven by the introduction of transformer-based architectures, substantial improvements in computational resources, and vast amounts of training data. The resulting models exhibit near-human performance in numerous linguistic tasks such as translation, summarization, and conversational dialogues.
+
 \begin{center}
     \centering
-    \includegraphics[width=1\textwidth]{Images/VirtualizationSchema.png}
-    \captionof{figure}{General Schema of Virtualization} \cite{Source}
-    \label{fig:source}
+    \includegraphics[width=0.9\textwidth]{Images/evolution chronologic LLM.png}
+    \captionof{figure}{Chronological Evolution of Large Language Models (LLMs)} \cite{llmEvolution}
+    \label{fig:llmEvolution}
 \end{center}
 
-%% Advantages of Virtualization in Cloud Infrastructure
-\subsubsection[Advantages of Virtualization in Cloud Infrastructure]{Advantages of Virtualization in Cloud Infrastructure}
-In the context of Oracle Cloud Infrastructure (OCI), virtualization provides several strategic advantages:\mynewline
+\subsubsection{Capabilities and Emergent Properties}
+Large Language Models have significantly evolved, exhibiting capabilities such as reasoning, decision-making, and in-context learning, often emerging spontaneously at scale rather than through explicit programming or training. These emergent properties enable LLMs to effectively generalize across diverse tasks without extensive task-specific data, highlighting their robust adaptability. Techniques such as fine-tuning and prompt engineering further enhance model alignment, ensuring outputs align closely with user intents and expectations.\mynewline
+
+LLMs’ adaptability and versatility have found applications in various sectors including healthcare, finance, legal operations, and customer service, underscoring their transformative potential across industries.
+
+\subsubsection{Challenges and Limitations}
+Despite these advancements, LLM deployment is constrained by several critical limitations. Key challenges include:
+
 \begin{itemize}
-    \item \textbf{Cost Optimization:} Virtualization reduces the need for additional hardware by allowing multiple operating systems to run on a single physical server, leading to significant savings in hardware, power, and cooling costs;
-    \item \textbf{Enhanced Resource Utilization:} By maximizing the use of available resources, virtualization helps ensure that CPU, memory, and storage are used efficiently, reducing waste and improving overall system performance;
-    \item \textbf{Operational Flexibility:} Virtualization facilitates rapid provisioning and deployment of virtual machines, enabling IT teams to quickly respond to changing business needs. Features such as live migration and snapshots further enhance the flexibility and resilience of virtualized environments;
-    \item \textbf{Disaster Recovery and Business Continuity:} Virtualization supports advanced disaster recovery strategies by enabling features like VM snapshots, live migration, and automated failover, which are critical for maintaining business continuity in the event of hardware failures or other disruptions.
+    \item \textbf{Computational Cost and Efficiency}: The resource-intensive nature of LLM training and inference demands considerable computational power, resulting in high operational costs.
+    \item \textbf{Input Size Constraints}: Current LLM architectures typically handle context windows of up to 128k tokens, limiting their ability to directly process large-scale data sources comprising millions of tokens.
+    \item \textbf{Inference Speed and Latency}: Longer inputs proportionally increase inference time and computational demands, challenging real-time or large-scale applications.
+    \item \textbf{Ethical and Bias Considerations}: Models may inadvertently propagate biases present in training data or generate misleading and potentially harmful outputs, necessitating robust ethical oversight.
 \end{itemize}
 
-%% Virtualization Modes
-\subsubsection[Virtualization Modes]{Virtualization Modes}
-\begin{itemize}
-    \item \textbf{Full Virtualization:} This mode emulates complete hardware, allowing unmodified operating systems to run in a virtualized environment. It is particularly useful when running legacy applications that require full emulation of underlying hardware;
-    \item \textbf{Paravirtualization:} In this mode, the guest operating system is modified to interact directly with the hypervisor, leading to improved performance. Paravirtualization is advantageous in scenarios where high efficiency and performance are required;
-    \item \textbf{Hardware-Assisted Virtualization (HVM):} This mode leverages hardware features such as Intel VT-x and AMD-V to enhance virtualization performance. HVM combines the compatibility of full virtualization with the efficiency of paravirtualization, making it ideal for high-performance computing environments.
-\end{itemize}
+Figures~\ref{fig:llmSpeedComparison}, \ref{fig:llmPriceComparison}, and \ref{fig:llmIntelligenceComparison} summarize comparative metrics across popular LLMs, highlighting trade-offs in performance, cost, and processing speed.
 
-
-%% Oracle Linux
-\subsection{Oracle Linux}
-Oracle Linux, often abbreviated as OL (previously known as Oracle Enterprise Linux or OEL), is a robust and versatile Linux distribution developed and freely distributed by Oracle Corporation. Since its initial release in 2006, Oracle Linux has been partially licensed under the GNU General Public License (GPL), making it an open-source platform. It is built using the source code from Red Hat Enterprise Linux (RHEL), with Oracle replacing Red Hat's branding with its own. This distribution plays a significant role in Oracle's ecosystem, serving as the foundation for Oracle Cloud Infrastructure (OCI) and Oracle Engineered Systems, including Oracle Exadata.
 \begin{center}
     \centering
-    \includegraphics[width=0.3\textwidth]{Images/Oracle Linux.png}
-    \captionof{figure}{ Oracle Linux Logo} \cite{OL-logo}
-    \label{fig:walt}
+    \includegraphics[width=0.85\textwidth]{Images/inteligence_LLM_comparison.png}
+    \captionof{figure}{Comparative Intelligence Index of LLMs} \cite{llmIntelligenceComparison}
+    \label{fig:llmIntelligenceComparison}
 \end{center}
 
-%% Compatibility with Red Hat Enterprise Linux (RHEL)
-\subsubsection[Compatibility with Red Hat Enterprise Linux (RHEL)]{Compatibility with Red Hat Enterprise Linux (RHEL)}
-Oracle Linux is designed to maintain binary compatibility with RHEL, ensuring that applications developed for RHEL can run seamlessly on Oracle Linux without modification. Oracle offers two kernel options within Oracle Linux:
-\begin{itemize}
-    \item \textbf{Red Hat Compatible Kernel (RHCK):} This kernel is identical to the one provided by RHEL, offering users a stable and reliable environment that is fully compatible with the RHEL ecosystem;
-    \item \textbf{Unbreakable Enterprise Kernel (UEK):} UEK is Oracle's optimized Linux kernel, tailored for high-performance environments. It enhances areas like OLTP, InfiniBand, and SSD access, and supports advanced features such as RDS, asynchronous I/O, and Btrfs. Since this kernel is used in our project, we will provide further details in the next sections.
-\end{itemize}
-
-Oracle’s commitment to maintaining compatibility with RHEL allows enterprises to leverage the stability of RHEL while benefiting from Oracle’s additional enhancements, particularly when using Oracle's hardware and cloud solutions.
-
-%% Virtualization Support
-\subsubsection[Virtualization Support]{Virtualization Support}
-Oracle Linux is fully equipped to support modern virtualization needs, offering the KVM hypervisor as part of its distribution. Additionally, it includes an oVirt-based management tool, which provides a robust interface for managing virtualized environments. Oracle Linux also supports other popular virtualization platforms, such as VMware and Oracle VM, which is based on the Xen hypervisor.
-
-
-%% UEK
-\subsection{Unbreakable Enterprise Kernel (UEK)}
-The Unbreakable Enterprise Kernel (UEK) is a high-performance Linux kernel developed by Oracle, tailored specifically for enterprise-level workloads and Oracle environments. Designed to prioritize stability and efficiency, UEK closely follows the mainline Linux kernel while integrating Oracle’s enhancements. It is extensively tested and is the recommended kernel for Oracle’s Engineered Systems, Oracle Cloud Infrastructure, and other large-scale enterprise deployments.
-
-%% Capabilities and Features
-\subsubsection[Capabilities and Features]{Capabilities and Features}
-UEK offers a range of advanced capabilities, making it particularly suitable for demanding enterprise applications.  It incorporates a multitude of advanced features, such as:
-\begin{itemize}
-    \item \textbf{Performance:} Engineered for Oracle workloads, UEK enhances the performance of databases and applications through optimized task scheduling, low-latency networking, and advanced memory management techniques;
-    \item \textbf{Security:} It strengthens system protection with the latest security features and patches, including support for Security-Enhanced Linux (SELinux), control groups (cgroups), and other security-enhancing mechanisms;
-    \item \textbf{Virtualization:} UEK supports modern virtualization technologies like KVM and Xen, offering paravirtualized drivers, optimized memory management, and advanced network and storage virtualization to maximize virtualization infrastructure efficiency;
-    \item \textbf{Hardware Support:} Tailored for Oracle hardware, UEK includes support for cutting-edge technologies such as Intel Xeon Scalable processors and NVMe SSDs, as well as advanced features like NUMA and CPU hot-plugging to optimize hardware resource utilization;
-    \item \textbf{Open Source:} As an open-source kernel, UEK is fully compatible with the Linux kernel and can be used across other Linux distributions, promoting transparency and flexibility in its deployment.
-\end{itemize}
-
-%% Key Versions: UEK7U2 and UEK6U3
-\subsubsection[Key Versions: UEK7U2 and UEK6U3]{Key Versions: UEK7U2 and UEK6U3}
-Oracle's Unbreakable Enterprise Kernel continues to evolve with each release, bringing new features and optimizations. Two significant updates are used in this project : UEK7U2 and UEK6U3, each offering unique enhancements:
-\begin{itemize}
-    \item \textbf{UEK7U2:} The second update of UEK7 introduces further improvements in performance and security, specifically designed for Oracle's cloud and on-premises environments. This update enhances support for the latest hardware, including next-generation processors and storage technologies. UEK7U2 also introduces refined scheduling algorithms and networking optimizations, making it an ideal choice for workloads that demand low latency and high throughput;
-    \item \textbf{UEK6U3:} Update 3 in the UEK6 series builds on previous stability and performance enhancements. It focuses on extended hardware compatibility, especially for older Oracle systems, and includes critical security patches. This update is optimized for environments where reliability and backward compatibility are crucial, ensuring legacy applications run smoothly without sacrificing performance.
-\end{itemize}
-
-These updates underline Oracle's commitment to providing a flexible and high-performing kernel tailored to the evolving needs of enterprise environments.
-
-%% QEMU
-\subsection{QEMU}
-QEMU (Quick Emulator) is an open-source machine emulator and virtualizer that provides a comprehensive platform for hardware virtualization. As a crucial component in many virtualization environments, QEMU facilitates the creation and management of virtual machines by emulating hardware components and providing a range of virtual hardware devices.
-
-%% Modes of Operation and Integration
-\subsubsection[Modes of Operation and Integration]{Modes of Operation and Integration}
-QEMU can operate in two primary modes: full system emulation and user-mode emulation. In full system emulation mode, QEMU emulates an entire computer system, including CPU, memory, and peripheral devices, allowing users to run an entire operating system as if it were on physical hardware. In user-mode emulation, QEMU enables running applications compiled for different processor architectures on a host system, effectively providing cross-platform compatibility.\mynewline
-
-QEMU integrates seamlessly with various hypervisors and virtualization management tools, such as KVM (Kernel-based Virtual Machine) and Libvirt. When used in conjunction with KVM, QEMU leverages hardware acceleration features to enhance performance, delivering near-native execution speeds for virtualized environments.
-
-
-%% Capabilities and Features
-\subsubsection[Capabilities and Features]{Capabilities and Features}
-QEMU provides a diverse array of features that contribute to its versatility and effectiveness in virtualization:
-\begin{itemize}
-\item \textbf{Hardware Emulation:} Supports a wide range of hardware devices and peripherals, including CPUs, memory, storage controllers, and network interfaces, allowing users to create virtual machines with diverse configurations;
-\item \textbf{Virtualization Acceleration:} When paired with KVM, QEMU utilizes hardware acceleration technologies like Intel VT-x and AMD-V to enhance the performance of virtual machines, providing near-native execution speeds;
-\item \textbf{Live Migration:} Facilitates the movement of running virtual machines between physical hosts with minimal downtime, supporting continuous availability and load balancing;
-\item \textbf{Snapshot and Checkpoints:} Enables the creation of snapshots and checkpoints of virtual machines, allowing users to save and restore the state of a VM at any point in time, which is valuable for testing and disaster recovery;
-\item \textbf{Cross-Platform Compatibility:} Offers support for multiple processor architectures and operating systems, making it a flexible tool for diverse virtualization scenarios;
-\item \textbf{Customizable Devices:} Provides the ability to define and configure various virtual devices, including graphics cards, network adapters, and storage controllers, to tailor virtual machines to specific needs.
-\end{itemize}
-
-%% Libvirt
-\subsection{Libvirt}
-
-Libvirt is a comprehensive suite of software that provides a unified API (Application Programming Interface) for managing a variety of virtualization solutions, including KVM, QEMU, Xen, Virtuozzo, VMware ESX, and others. This suite comprises an API library, the system service libvirtd, and a command-line utility known as virsh. The modular design of libvirt facilitates extending its functionality, making it a versatile tool for managing virtual environments.
-
-%% Libvirt Architecture
-\subsubsection[Libvirt Architecture]{Libvirt Architecture}
-The libvirtd service operates on the virtual machine (VM) host, handling interactions between the host's configuration and the virtual environments it supports. Client libraries and utilities connect to libvirtd to gather configuration data and resource information for the host servers. Each virtual machine's configuration is managed through XML files, which can be manipulated using various methods.
-Libvirt supports both command-line and graphical user interface (GUI) tools for managing virtual machines. For command-line management, virsh provides a robust tool for configuring and controlling VMs, while virt-manager offers a graphical interface for those who prefer visual management. Additionally, other utilities like virt-install, virt-clone, and virt-image assist in creating, cloning, and managing virtual machines and their disks.
 \begin{center}
     \centering
-    \includegraphics[width=1\textwidth]{Images/Libvirt Overview.png}
-    \captionof{figure}{Libvirt Overview} \cite{Libvirt}
-    \label{fig:libvirt}
+    \includegraphics[width=0.85\textwidth]{Images/price_LLM_comparison.png}
+    \captionof{figure}{Cost Comparison per Million Tokens} \cite{llmPriceComparison}
+    \label{fig:llmPriceComparison}
 \end{center}
-\noindent
-\mynewline
 
-%% Benefits of Using Libvirt
-\subsubsection[Benefits of Using Libvirt]{Benefits of Using Libvirt}
-Libvirt provides several advantages that enhance the management and operation of virtual environments:
+\begin{center}
+    \centering
+    \includegraphics[width=0.85\textwidth]{Images/speed_LLM_comparison.png}
+    \captionof{figure}{Inference Speed Comparison of Various LLMs} \cite{llmSpeedComparison}
+    \label{fig:llmSpeedComparison}
+\end{center}
+
+\subsubsection{Future Directions}
+Addressing these constraints has become an active area of research. Innovations in model compression techniques, such as pruning, quantization, and distillation, aim to enhance efficiency and accessibility of LLMs. Moreover, emerging architectures and retrieval-augmented generation methods offer promising approaches for handling extensive datasets and large input contexts effectively.
+
+Future advancements are expected to mitigate current limitations, further unlocking the full potential of Large Language Models across diverse, complex applications.
+
+% Agentic AI
+\subsection{Agentic AI}
+
+\subsubsection{Introduction}
+Agentic AI represents a significant evolution in artificial intelligence, transitioning from reactive systems to proactive, autonomous entities capable of setting goals, making decisions, and adapting to dynamic environments. Unlike traditional AI agents that operate within predefined parameters, Agentic AI systems exhibit autonomy, learning, and adaptability, enabling them to handle complex, multi-step tasks with minimal human intervention.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/agentic_ai_architecture.png}
+    \captionof{figure}{Agentic AI System Architecture} \cite{agenticAIArchitecture}
+    \label{fig:agentic_ai_architecture}
+\end{center}
+
+\subsubsection{Core Characteristics}
+Agentic AI systems are distinguished by several key features:
+
 \begin{itemize}
-    \item \textbf{Basic Monitoring:} Allows for monitoring of both host systems and virtual machines, providing essential insights into their status and performance;
-    \item \textbf{Automation and Scripting:} Facilitates automation of complex virtualization tasks and workflows through scripting, streamlining management processes;
-    \item \textbf{Remote Management:} Enables remote management of virtualization hosts over secure protocols such as SSH, which is crucial for managing resources on remote servers;
-    \item \textbf{Headless Server Management:} Offers management capabilities for headless servers that lack a graphical interface, using command-line tools as the primary method of control;
-    \item \textbf{Custom Reporting:} Supports scripting and commands for generating custom reports, providing flexibility in monitoring and documentation;
-    \item \textbf{Multi-Hypervisor Support:} Provides a unified tool for managing multiple hypervisors, ensuring compatibility and efficiency across different virtualization technologies.
+    \item \textbf{Autonomy}: They operate independently, making decisions without continuous human oversight.
+    \item \textbf{Goal-Oriented Behavior}: These systems can set, pursue, and adjust goals based on environmental feedback.
+    \item \textbf{Adaptability}: Agentic AI learns from experiences, refining its strategies to improve performance over time.
+    \item \textbf{Complex Decision-Making}: They evaluate multiple options and potential outcomes to make informed decisions.
+    \item \textbf{Collaboration}: Agentic AI can coordinate with other agents or systems to achieve shared objectives.
 \end{itemize}
 
-By integrating libvirt into virtualization strategies, organizations can achieve greater control, efficiency, and flexibility in managing their virtual environments.
-
-%% Project Requirement
-\section{Project Requirements}
-Defining the project requirements is crucial to outline the expected outcomes and objectives clearly. The following are the main requirements to be addressed:
+\subsubsection{Agentic AI vs. Generative AI}
+While both Agentic AI and Generative AI leverage advanced machine learning techniques, their functionalities differ significantly:
 
 \begin{itemize}
-    \item \textbf{Validation of Functionality:} Ensure proper operation of QEMU and Libvirt across various Oracle Linux versions, including components like UEK, Libiscsi, and OVMF;
-    \item \textbf{Regression Testing:} Detect and address any regressions or issues introduced by new software updates;
-    \item \textbf{Compatibility Testing:} Verify interoperability of different QEMU and Libvirt versions with diverse host and guest OS configurations;
-    \item \textbf{Performance Assessment:} Monitor and document the performance of virtualization modules to ensure they meet established standards;
-    \item \textbf{Documentation:} Provide comprehensive reports on the testing procedures, results, and any issues encountered or resolved.
+    \item \textbf{Generative AI}: Focuses on creating content (text, images, etc.) based on input data, operating primarily in a reactive manner.
+    \item \textbf{Agentic AI}: Emphasizes autonomous decision-making and goal pursuit, enabling proactive interactions with the environment.
 \end{itemize}
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/agentic_vs_generative_ai.png}
+    \captionof{figure}{Comparison Between Agentic AI and Generative AI} \cite{agenticAIvsGenerativeAI}
+    \label{fig:agentic_vs_generative_ai}
+\end{center}
+
+\subsubsection{Multi-Agent Systems}
+Agentic AI often operates within multi-agent systems, where multiple autonomous agents collaborate to solve complex problems. These systems benefit from:
+
+\begin{itemize}
+    \item \textbf{Specialization}: Agents can focus on specific tasks, enhancing efficiency.
+    \item \textbf{Scalability}: Systems can be expanded by adding more agents to handle increased complexity.
+    \item \textbf{Robustness}: Collaboration among agents can compensate for individual agent failures or limitations.
+\end{itemize}
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/multi_agent_system.png}
+    \captionof{figure}{Multi-Agent System Collaboration} \cite{multiAgentSystem}
+    \label{fig:multi_agent_system}
+\end{center}
+
+\subsubsection{Applications of Agentic AI}
+Agentic AI has diverse applications across various industries:
+
+\begin{itemize}
+    \item \textbf{Healthcare}: Assisting in diagnostics, treatment planning, and patient monitoring.
+    \item \textbf{Finance}: Managing portfolios, detecting fraud, and optimizing trading strategies.
+    \item \textbf{Manufacturing}: Overseeing production lines, predicting maintenance needs, and ensuring quality control.
+    \item \textbf{Transportation}: Enabling autonomous vehicles to navigate and make real-time decisions.
+    \item \textbf{Customer Service}: Providing personalized support through adaptive virtual assistants.
+\end{itemize}
+
+\subsubsection{Challenges and Future Directions}
+Despite its potential, Agentic AI faces several challenges:
+
+\begin{itemize}
+    \item \textbf{Ethical Considerations}: Ensuring decisions align with human values and societal norms.
+    \item \textbf{Transparency}: Making decision-making processes understandable to users.
+    \item \textbf{Security}: Protecting systems from malicious manipulation or unintended behaviors.
+    \item \textbf{Integration}: Seamlessly incorporating Agentic AI into existing infrastructures.
+\end{itemize}
+
+Ongoing research aims to address these challenges, focusing on developing frameworks for ethical AI, enhancing interpretability, and establishing standards for safe deployment.
+
+% Modular Component Platform (MCP)
+\subsection{Model Context Protocol (MCP)}
+
+% Introduction
+\subsubsection{Introduction}
+The Model Context Protocol (MCP) is an open standard developed by Anthropic in late 2024 to address the growing complexity of integrating large language models (LLMs) with diverse external tools, systems, and data sources. MCP provides a standardized interface that enables AI applications to interact seamlessly with various resources, facilitating context exchange and enhancing the capabilities of AI assistants.
+
+\begin{center}
+    \includegraphics[width=0.9\textwidth]{Images/before_and_after_mcp.png}
+    \captionof{figure}{Before and After Model Context Protocol (MCP)} \cite{mcpBeforeAfter}
+    \label{fig:mcp_before_after}
+\end{center}
+
+% Architecture
+\subsubsection{Architecture}
+MCP follows a client-host-server architecture, where:
+
+\begin{itemize}
+    \item \textbf{Hosts} are LLM applications (e.g., Claude Desktop, IDEs) that initiate connections.
+    \item \textbf{Clients} maintain 1:1 connections with servers within the host application.
+    \item \textbf{Servers} provide context, tools, and prompts to clients.
+\end{itemize}
+
+This architecture allows for modular integration, enabling AI systems to access and utilize external resources efficiently.
+
+\begin{center}
+    \includegraphics[width=0.9\textwidth]{Images/mcp_architecture_diagram.png}
+    \captionof{figure}{Model Context Protocol Architecture} \cite{mcpArchitecture}
+    \label{fig:mcp_architecture}
+\end{center}
+
+% Core Components
+\subsubsection{Core Components}
+MCP servers can expose three main types of capabilities:
+
+\begin{itemize}
+    \item \textbf{Resources}: File-like data that can be read by clients (e.g., API responses, file contents).
+    \item \textbf{Tools}: Functions that can be called by the LLM with user approval.
+    \item \textbf{Prompts}: Pre-written templates that assist users in accomplishing specific tasks.
+\end{itemize}
+
+These components enable AI assistants to perform complex tasks by leveraging external data and functionalities.
+
+% Advantages
+\subsubsection{Advantages}
+MCP offers several benefits:
+
+\begin{itemize}
+    \item \textbf{Standardization}: Provides a universal method for connecting AI assistants to external data sources and systems.
+    \item \textbf{Scalability}: Simplifies integration across different AI systems and data, reducing the need for custom connectors.
+    \item \textbf{Security}: Facilitates secure interactions between AI applications and local or remote resources.
+\end{itemize}
+
+By adopting MCP, developers can enhance the interoperability and efficiency of AI applications.
+
+% Applications
+\subsubsection{Applications}
+MCP has been applied across various domains:
+
+\begin{itemize}
+    \item \textbf{Software Development}: IDEs like Zed and platforms like Replit use MCP to provide coding assistants with real-time code context.
+    \item \textbf{Enterprise Assistants}: Companies utilize MCP to allow internal assistants to retrieve information from proprietary documents and systems.
+    \item \textbf{Natural Language Data Access}: Applications leverage MCP to connect models with databases, enabling plain-language queries.
+\end{itemize}
+
+These applications demonstrate MCP’s versatility in enhancing AI capabilities across different sectors.
+
+% Conclusion
+\subsubsection{Conclusion}
+The Model Context Protocol represents a significant advancement in AI integration, offering a standardized approach to connect LLMs with external tools and data sources. By facilitating seamless interactions and context exchange, MCP empowers AI applications to perform more complex and context-aware tasks, paving the way for more intelligent and versatile AI systems.
+
+% LangChain and LangGraph
+\subsection{LangChain and LangGraph}
+
+\subsubsection{Overview}
+LangChain and LangGraph are complementary frameworks designed to facilitate the development of applications powered by Large Language Models (LLMs). While LangChain provides a modular approach to constructing sequential workflows, LangGraph introduces a graph-based paradigm, enabling the creation of complex, dynamic, and stateful AI systems.
+
+\subsubsection{LangChain: Modular Workflow Construction}
+LangChain is an open-source framework that simplifies the integration of LLMs into applications by allowing developers to build chains—sequences of calls to LLMs and other utilities. Its modular design supports the composition of various components such as prompt templates, memory modules, and tool integrations. This structure is particularly effective for tasks that follow a linear progression, such as document summarization, question answering, and conversational agents.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/Langchain Architecture.png}
+    \captionof{figure}{LangChain Architecture} \cite{langchainArchitecture}
+    \label{fig:langchain_architecture}
+\end{center}
+
+Key features of LangChain include:
+\begin{itemize}
+    \item \textbf{Prompt Templates}: Facilitate the creation of dynamic prompts for LLMs.
+    \item \textbf{Chains}: Enable the linking of multiple components to form a cohesive workflow.
+    \item \textbf{Agents}: Allow for decision-making capabilities by selecting appropriate actions based on user input.
+    \item \textbf{Memory}: Maintain context across interactions to support stateful conversations.
+\end{itemize}
+
+\subsubsection{LangGraph: Graph-Based Workflow Orchestration}
+Building upon the foundations of LangChain, LangGraph introduces a graph-based approach to workflow orchestration, allowing for the modeling of complex, non-linear, and cyclical processes. In LangGraph, workflows are represented as directed graphs comprising nodes (representing operations or agents) and edges (defining the flow between nodes). This structure is particularly advantageous for applications requiring iterative processing, conditional branching, and multi-agent coordination.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/langgraph_mutil_agent.png}
+    \captionof{figure}{LangGraph: Multi-Agent Workflows} \cite{langgraphMultiAgent}
+    \label{fig:langgraph_multi_agent}
+\end{center}
+
+Notable capabilities of LangGraph include:
+\begin{itemize}
+    \item \textbf{Cyclic Workflows}: Support for loops and iterative processes within workflows.
+    \item \textbf{Conditional Routing}: Dynamic decision-making to determine the next node based on runtime conditions.
+    \item \textbf{State Management}: Persistent tracking of the system’s state throughout the workflow execution.
+    \item \textbf{Multi-Agent Collaboration}: Facilitation of interactions between multiple agents, each with specialized roles.
+\end{itemize}
+
+\subsubsection{Comparative Analysis}
+While both LangChain and LangGraph are designed to streamline the development of LLM-powered applications, they cater to different complexity levels and use cases. LangChain’s linear and modular approach is well-suited for straightforward tasks with a clear sequence of operations. In contrast, LangGraph’s graph-based architecture excels in scenarios requiring complex control flows, such as applications with iterative loops, conditional logic, or collaborative agent interactions.
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|X|}
+        \hline
+        \textbf{Feature} & \textbf{LangChain} & \textbf{LangGraph} \\
+        \hline
+        Workflow Structure & Sequential chains & Dynamic graphs \\
+        Complexity Handling & Simple/moderate workflows & Moderate/complex workflows \\
+        Iterative Processing & Limited & Fully supported (loops) \\
+        Conditional Logic & Basic conditions & Advanced conditions \\
+        Multi-Agent Coordination & Basic support & Robust collaboration \\
+        State Management & Basic retention & Advanced tracking \\
+        Use Case Suitability & Straightforward tasks & Complex adaptive tasks \\
+        Flexibility & Rigid structure & Highly flexible \\
+        Debugging and Monitoring & Good support & Enhanced visibility \\
+        Real-time Decision Making & Limited & Extensive support \\
+        Ideal Applications & Simple Q\&A, summarization & Complex multi-agent apps \\
+        \hline
+    \end{tabularx}
+    \caption{Comparison of LangChain and LangGraph}
+    \label{tab:langchain_langgraph_comparison}
+\end{table}
+
+\subsubsection{Conclusion}
+LangChain and LangGraph offer robust frameworks for developing applications that leverage the capabilities of LLMs. The choice between them hinges on the complexity and requirements of the intended application. For linear and relatively simple workflows, LangChain provides an efficient and straightforward solution. Conversely, for applications necessitating complex control flows, iterative processing, and multi-agent coordination, LangGraph presents a more suitable architecture.
+
+% Langfuse and Observability
+\subsection{Langfuse and Observability}
+
+% Overview
+\subsubsection{Overview}
+Langfuse is an open-source observability platform designed specifically for applications powered by Large Language Models (LLMs). It provides developers with tools to trace, debug, and analyze the behavior of LLM applications, ensuring better performance and reliability.
+
+\begin{center}
+    \centering
+    \includegraphics[width=1\textwidth]{Images/Langfuse Overview.png}
+    \captionof{figure}{Langfuse Dashboard} \cite{langfuseDashboard}
+    \label{fig:langfuseDashboard}
+\end{center}
+
+% Key Features
+\subsubsection{Key Features}
+\begin{itemize}
+    \item \textbf{Comprehensive Tracing}: Langfuse captures detailed traces of LLM operations, including prompts, responses, and intermediate steps, allowing developers to understand the flow of data and identify issues effectively.
+    \item \textbf{Session Management}: It groups related interactions into sessions, providing a holistic view of multi-turn conversations or complex workflows.
+    \item \textbf{Analytics Dashboard}: Langfuse offers dashboards that display metrics such as latency, token usage, and cost, enabling teams to monitor and optimize application performance.
+    \item \textbf{Prompt Management}: The platform includes tools for managing and versioning prompts, facilitating experimentation and iterative development.
+    \item \textbf{Integration Support}: Langfuse integrates seamlessly with popular frameworks like LangChain, LlamaIndex, and OpenAI SDKs, as well as supports OpenTelemetry for broader observability needs.
+\end{itemize}
+
+% Deployment Options
+\subsubsection{Deployment Options}
+Langfuse can be deployed in various environments:
+
+\begin{itemize}
+    \item \textbf{Cloud Hosting}: Utilize Langfuse’s managed cloud service for quick setup and scalability.
+    \item \textbf{Self-Hosting}: Deploy Langfuse on-premises or in private clouds using Docker, providing full control over data and configurations.
+\end{itemize}
+
+% Use Cases
+\subsubsection{Use Cases}
+\begin{itemize}
+    \item \textbf{Debugging Complex Workflows}: By tracing each step of LLM operations, developers can pinpoint and resolve issues in complex applications.
+    \item \textbf{Performance Monitoring}: Track metrics to identify bottlenecks and optimize resource usage.
+    \item \textbf{Quality Assurance}: Analyze user interactions and feedback to improve response quality and user satisfaction.
+    \item \textbf{Compliance and Auditing}: Maintain detailed logs for auditing purposes, ensuring compliance with regulatory standards.
+\end{itemize}
+
+% Conclusion
+\subsubsection{Conclusion}
+Incorporating Langfuse into the development lifecycle of LLM applications enhances transparency, reliability, and efficiency, making it an invaluable tool for teams aiming to build robust AI solutions.
+
+% Tiptap for Rich Text Editing
+\subsection{Tiptap for Rich Text Editing}
+
+% Overview
+\subsubsection{Overview}
+Tiptap is a headless, open-source rich text editor framework built on ProseMirror, designed for developers seeking full control over their content editing interfaces. Its modular architecture and extensive extension ecosystem make it a powerful tool for building customized, collaborative, and AI-enhanced editing experiences.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Tiptap editor.jpg}
+    \captionof{figure}{Tiptap Editor} \cite{tiptap}
+    \label{fig:tiptap}
+\end{center}
+
+% Architecture and Core Concepts
+\subsubsection{Architecture and Core Concepts}
+Tiptap is a headless, framework-agnostic rich text editor built on top of ProseMirror, designed to provide developers with full control over the editor’s functionality and appearance. Its architecture is modular and extensible, allowing for the creation of customized editing experiences.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Tiptap Architecture.png}
+    \captionof{figure}{Tiptap Architecture} \cite{tiptapArchitecture}
+    \label{fig:tiptapArchitecture}
+\end{center}
+
+Key Architectural Components:
+\begin{itemize}
+    \item \textbf{Schema}: Defines the structure of the document, specifying the allowed nodes (e.g., paragraphs, headings) and marks (e.g., bold, italic). This strict schema ensures content consistency and predictability.
+    \item \textbf{State}: Represents the current content and selection within the editor. It is immutable and updated through transactions, enabling features like undo/redo and collaborative editing.
+    \item \textbf{Transaction}: Encapsulates changes to the state, such as text insertions or formatting. Transactions ensure that state changes are predictable and manageable.
+    \item \textbf{Extensions}: Modular units that add functionality to the editor, such as new nodes, marks, commands, or plugins. Tiptap provides a rich set of core and community extensions, and developers can create custom ones as needed.
+    \item \textbf{Commands}: Functions that perform actions within the editor, often used to manipulate the document or respond to user input. Commands can be chained for complex operations.
+\end{itemize}
+
+% Key Features
+\subsubsection{Key Features}
+\begin{itemize}
+    \item \textbf{Extension-Based Modularity}: Tiptap offers over 100 extensions, including both open-source and Pro options, allowing developers to tailor the editor’s functionality to specific needs.
+    \item \textbf{Real-Time Collaboration}: Through integrations like Hocuspocus and CRDTs, Tiptap supports collaborative editing with features like live cursors and offline synchronization.
+    \item \textbf{AI Integration}: The Content AI extension enables in-editor AI capabilities such as text suggestions, translations, and content generation, enhancing the writing experience.
+    \item \textbf{Framework Agnostic}: Tiptap’s design allows it to be integrated into various JavaScript frameworks, providing flexibility in application development.
+\end{itemize}
+
+% Use Cases
+\subsubsection{Use Cases}
+Tiptap is suitable for a wide range of applications, including:
+\begin{itemize}
+    \item Building Notion-like editors with custom blocks and interactions.
+    \item Developing collaborative document editing platforms.
+    \item Creating AI-assisted writing tools with real-time suggestions.
+    \item Implementing rich text editors in CMS platforms. 
+\end{itemize}    
+
+% Conclusion
+\subsubsection{Conclusion}
+Tiptap stands out as a versatile and developer-friendly rich text editor framework. Its combination of headless architecture, modular extensions, and support for real-time collaboration and AI integration makes it a compelling choice for modern web applications requiring customized content editing solutions.
+
+% Project Requirements
+\section{Specification of Requirements}
+Given the agile nature of the project, the actors as well as functional and non-functional requirements are subject to evolve. The elements below reflect the current state of the project.
+
+% Actor Identification
+\subsection{Actor Identification}
+An actor specifies a role played by a user or any other system interacting with the solution. Actors are always external to the system, interacting by initiating a use case, providing inputs, or receiving outputs. In the context of our platform, we have two types of actors:
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Actor} & \textbf{Role} \\
+        \hline
+        Sales User & Responsible for creating and managing contract documents and negotiations with clients. \\
+        Legal User & Oversees contract compliance, manages legal clauses, and reviews contracts. \\
+        Administrator & Manages platform users, roles, permissions, and oversees system configurations. \\
+        \hline
+    \end{tabularx}
+    \caption{Actors and Their Roles}
+    \label{tab:actorsWithRoles}
+\end{table}
+
+% Functional Requirements
+\subsection{Functional Requirements}
+
+% Authentication
+\subsubsection{Authentication}
+The system must allow users to authenticate using Azure Entra ID credentials.
+
+% Sales User Functionalities
+\subsubsection{Sales User Functionalities}
+\textbf{Contract Generation}:
+\begin{itemize}
+    \item Initiate contract drafting using text input, voice transcription, or document upload.
+    \item Verify client information from historical data.
+    \item Select and adjust template inputs (Incoterm, Contract Type, Product).
+    \item Adjust variables like price and volume.
+    \item Generate final contract draft and move to editing mode.
+\end{itemize}
+
+\textbf{Contract Editing}:
+\begin{itemize}
+    \item Access a rich-text editor (Tiptap-based).
+    \item Track changes across versions.
+    \item Request additional legal clauses.
+\end{itemize}
+    
+\textbf{Contract Review \& Compliance}:
+\begin{itemize}
+    \item Trigger AI-powered compliance checks (data accuracy, text consistency, legal compliance).
+    \item Receive detailed review summaries and recommendations.
+\end{itemize}
+
+\textbf{Export and Sharing}:
+\begin{itemize}
+    \item Export contracts as downloadable files.
+    \item Share contracts via secure links or attachments.
+\end{itemize}
+
+% Legal User Functionalities
+\subsubsection{Legal User Functionalities}
+\textbf{Clause Management}:
+\begin{itemize}
+    \item Review clause addition requests from Sales.
+    \item Create and insert new legal clauses.
+    \item Utilize AI assistance to refine clause content.
+\end{itemize}
+
+\textbf{Contract Review \& Compliance}:
+\begin{itemize}
+    \item Perform detailed legal compliance checks.
+    \item Verify mandatory clauses, annexes, and specifications.
+    \item Ensure legal alignment and minimize liabilities.
+\end{itemize}
+
+% Administrator Functionalities
+\subsubsection{Administrator Functionalities}
+\textbf{User Management}:
+\begin{itemize}
+    \item Add, modify, or remove platform users.
+    \item Manage role-based permissions.
+\end{itemize}
+
+\textbf{System Configuration}:
+\begin{itemize}
+    \item Oversee integration settings, security configurations, and monitoring dashboards.
+\end{itemize}
+
+% Non-Functional Requirements
+\subsection{Non-Functional Requirements}
+\begin{itemize}
+    \item \textbf{Usability}: The application should be intuitive, ensuring ease of use for Sales, Legal, and Admin users.
+    \item \textbf{Maintainability}: The system should be modular and maintainable, supporting frequent updates.
+    \item \textbf{Security}: Strict management of user access, data protection, and compliance with regulatory standards.
+    \item \textbf{Performance}: Responsive interface, quick data retrieval, and AI analysis with low latency.
+    \item \textbf{Scalability}: Easily scalable to support growing user base and additional functionalities.
+\end{itemize}
+
+% Use Case Diagram
+\subsection{Use Case Diagram}
+
+% Textual Description
+\subsection{Textual Description}
+
+% Analysis Sequence Diagram
+\subsection{Analysis Sequence Diagram}
+
+% Constraints and Assumptions
+\subsection{Constraints and Assumptions}
+\textbf{Constraints:}
+\begin{itemize}
+    \item Adherence to enterprise security and compliance guidelines.
+    \item Compatibility with existing technological infrastructure.
+\end{itemize}
+
+\textbf{Assumptions:}
+\begin{itemize}
+    \item Availability of clean and structured data.
+    \item Consistent internet connectivity and cloud infrastructure reliability.
+\end{itemize}
+
+% Conclusion
 \section{Conclusion}
-This chapter has delivered a thorough analysis of the technical aspects critical to the project. It started with an overview of virtualization and Oracle Linux, followed by a detailed look at the Unbreakable Enterprise Kernel and its features. The discussion then covered QEMU’s modes of operation and integration, and examined the architecture and benefits of Libvirt. The chapter concluded by defining the project requirements necessary for meeting our goals.
+This chapter outlined the rationale behind our technology selection through comparative analysis, detailed the technical foundations and their roles, and defined the precise functional and non-functional project requirements. This structured approach ensures that the developed intelligent contract management solution robustly meets both user expectations and organizational objectives.

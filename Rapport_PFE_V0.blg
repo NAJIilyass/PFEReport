@@ -4,45 +4,63 @@ The top-level auxiliary file: Rapport_PFE_V0.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
 Warning--I didn't find a database entry for "bcg-x"
-You've used 9 entries,
+Warning--I didn't find a database entry for "pandadoc"
+Warning--I didn't find a database entry for "harveyai"
+Warning--I didn't find a database entry for "docdraft"
+Warning--I didn't find a database entry for "agenticTable"
+Warning--I didn't find a database entry for "llmEvolution"
+Warning--I didn't find a database entry for "llmIntelligenceComparison"
+Warning--I didn't find a database entry for "llmPriceComparison"
+Warning--I didn't find a database entry for "llmSpeedComparison"
+Warning--I didn't find a database entry for "agenticAIArchitecture"
+Warning--I didn't find a database entry for "agenticAIvsGenerativeAI"
+Warning--I didn't find a database entry for "multiAgentSystem"
+Warning--I didn't find a database entry for "mcpBeforeAfter"
+Warning--I didn't find a database entry for "mcpArchitecture"
+Warning--I didn't find a database entry for "langchainArchitecture"
+Warning--I didn't find a database entry for "langgraphMultiAgent"
+Warning--I didn't find a database entry for "langfuseDashboard"
+Warning--I didn't find a database entry for "tiptap"
+Warning--I didn't find a database entry for "tiptapArchitecture"
+You've used 2 entries,
             1791 wiz_defined-function locations,
-            477 strings with 4242 characters,
-and the built_in function-call counts, 920 in all, are:
-= -- 72
-> -- 9
+            485 strings with 4241 characters,
+and the built_in function-call counts, 220 in all, are:
+= -- 16
+> -- 2
 < -- 0
-+ -- 9
++ -- 2
 - -- 0
 * -- 2
-:= -- 90
-add.period$ -- 18
-call.type$ -- 9
-change.case$ -- 9
+:= -- 27
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 45
-empty$ -- 163
+cite$ -- 2
+duplicate$ -- 10
+empty$ -- 37
 format.name$ -- 0
-if$ -- 244
+if$ -- 55
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 2
 missing$ -- 0
-newline$ -- 39
+newline$ -- 11
 num.names$ -- 0
-pop$ -- 54
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 54
+skip$ -- 12
 stack$ -- 0
 substring$ -- 0
-swap$ -- 9
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 0
-width$ -- 10
-write$ -- 65
-(There was 1 warning)
+width$ -- 3
+write$ -- 16
+(There were 19 warnings)
