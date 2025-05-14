@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2025.1.26)  13 MAY 2025 18:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2025.1.26)  14 MAY 2025 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1785,12 +1785,12 @@ Package caption Info: End \AtBeginDocument code.
 \a@Lwidth=\dimen350
 \a@displaywidth=\dimen351
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching) (./page-de-garde.tex
-<Images/Logo_inpt.png, id=347, 1203.49625pt x 592.2125pt>
+<Images/Logo_inpt.png, id=351, 1203.49625pt x 592.2125pt>
 File: Images/Logo_inpt.png Graphic file (type png)
 <use Images/Logo_inpt.png>
 Package pdftex.def Info: Images/Logo_inpt.png  used on input line 6.
 (pdftex.def)             Requested size: 120.35667pt x 59.22472pt.
-<Images/BCG_X.jpg, id=349, 325.6968pt x 133.4586pt>
+<Images/BCG_X.jpg, id=353, 325.6968pt x 133.4586pt>
 File: Images/BCG_X.jpg Graphic file (type jpg)
 <use Images/BCG_X.jpg>
 Package pdftex.def Info: Images/BCG_X.jpg  used on input line 8.
@@ -1803,7 +1803,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/inpt_fig.jpg, id=350, 475.02469pt x 184.43906pt>
+<Images/inpt_fig.jpg, id=354, 475.02469pt x 184.43906pt>
 File: Images/inpt_fig.jpg Graphic file (type jpg)
 <use Images/inpt_fig.jpg>
 Package pdftex.def Info: Images/inpt_fig.jpg  used on input line 50.
@@ -1816,7 +1816,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has b
                    \relax 
 l.236 \newpage
                [1] (./bismilah.tex
-<Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png, id=365, 838.13126pt x 293.095pt>
+<Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png, id=369, 838.13126pt x 293.095pt>
 File: Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png Graphic file (type png)
 <use Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png>
 Package pdftex.def Info: Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png  used on input line 5.
@@ -1909,7 +1909,7 @@ Chapter 1.
 (./Chapter1.tex [2
 
 ]
-<Images/Boston-Consulting-Group-Logo.jpg, id=744, 3728.93124pt x 788.9475pt>
+<Images/Boston-Consulting-Group-Logo.jpg, id=755, 3728.93124pt x 788.9475pt>
 File: Images/Boston-Consulting-Group-Logo.jpg Graphic file (type jpg)
 <use Images/Boston-Consulting-Group-Logo.jpg>
 Package pdftex.def Info: Images/Boston-Consulting-Group-Logo.jpg  used on input line 23.
@@ -1949,7 +1949,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<Images/Executive Leadership Board.png, id=761, 1204.5pt x 599.23875pt>
+<Images/Executive Leadership Board.png, id=772, 1204.5pt x 599.23875pt>
 File: Images/Executive Leadership Board.png Graphic file (type png)
 <use Images/Executive Leadership Board.png>
 Package pdftex.def Info: Images/Executive Leadership Board.png  used on input line 74.
@@ -2021,7 +2021,7 @@ Chapter 2.
 
 
 ]
-<Images/PandaDoc_logo.png, id=797, 1606.0pt x 401.5pt>
+<Images/PandaDoc_logo.png, id=808, 1606.0pt x 401.5pt>
 File: Images/PandaDoc_logo.png Graphic file (type png)
 <use Images/PandaDoc_logo.png>
 Package pdftex.def Info: Images/PandaDoc_logo.png  used on input line 20.
@@ -2035,7 +2035,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `pandadoc' on page 12 undefined on input line 21.
 
-<Images/harveyai_logo.png, id=798, 1204.5pt x 629.35126pt>
+<Images/harveyai_logo.png, id=809, 1204.5pt x 629.35126pt>
 File: Images/harveyai_logo.png Graphic file (type png)
 <use Images/harveyai_logo.png>
 Package pdftex.def Info: Images/harveyai_logo.png  used on input line 40.
@@ -2056,7 +2056,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package natbib Warning: Citation `harveyai' on page 13 undefined on input line 41.
 
-<Images/docdraft_logo.png, id=807, 2659.9375pt x 481.8pt>
+<Images/docdraft_logo.png, id=818, 2659.9375pt x 481.8pt>
 File: Images/docdraft_logo.png Graphic file (type png)
 <use Images/docdraft_logo.png>
 Package pdftex.def Info: Images/docdraft_logo.png  used on input line 60.
@@ -2077,7 +2077,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./Images/harveyai_logo.png> <./Images/docdraft_logo.png>]
-<Images/imperative_declarative_approach.png, id=816, 989.19562pt x 556.57938pt>
+<Images/imperative_declarative_approach.png, id=828, 989.19562pt x 556.57938pt>
 File: Images/imperative_declarative_approach.png Graphic file (type png)
 <use Images/imperative_declarative_approach.png>
 Package pdftex.def Info: Images/imperative_declarative_approach.png  used on input line 109.
@@ -2099,7 +2099,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package natbib Warning: Citation `agenticTable' on page 15 undefined on input line 110.
 
-<Images/evolution chronologic LLM.png, id=824, 284.39583pt x 275.36208pt>
+<Images/evolution chronologic LLM.png, id=835, 284.39583pt x 275.36208pt>
 File: Images/evolution chronologic LLM.png Graphic file (type png)
 <use Images/evolution chronologic LLM.png>
 Package pdftex.def Info: Images/evolution chronologic LLM.png  used on input line 127.
@@ -2128,7 +2128,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./Images/evolution chronologic LLM.png>]
-<Images/inteligence_LLM_comparison.png, id=841, 1082.0425pt x 753.81625pt>
+<Images/inteligence_LLM_comparison.png, id=852, 1082.0425pt x 753.81625pt>
 File: Images/inteligence_LLM_comparison.png Graphic file (type png)
 <use Images/inteligence_LLM_comparison.png>
 Package pdftex.def Info: Images/inteligence_LLM_comparison.png  used on input line 151.
@@ -2142,7 +2142,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `llmIntelligenceComparison' on page 17 undefined on input line 152.
 
-<Images/price_LLM_comparison.png, id=842, 1082.0425pt x 751.80875pt>
+<Images/price_LLM_comparison.png, id=853, 1082.0425pt x 751.80875pt>
 File: Images/price_LLM_comparison.png Graphic file (type png)
 <use Images/price_LLM_comparison.png>
 Package pdftex.def Info: Images/price_LLM_comparison.png  used on input line 158.
@@ -2163,7 +2163,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package natbib Warning: Citation `llmPriceComparison' on page 18 undefined on input line 159.
 
-<Images/speed_LLM_comparison.png, id=849, 1082.0425pt x 753.81625pt>
+<Images/speed_LLM_comparison.png, id=860, 1082.0425pt x 753.81625pt>
 File: Images/speed_LLM_comparison.png Graphic file (type png)
 <use Images/speed_LLM_comparison.png>
 Package pdftex.def Info: Images/speed_LLM_comparison.png  used on input line 165.
@@ -2184,7 +2184,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18 <./Images/price_LLM_comparison.png> <./Images/speed_LLM_comparison.png>]
-<Images/agentic_ai_architecture.png, id=857, 2454.16875pt x 1198.4775pt>
+<Images/agentic_ai_architecture.png, id=868, 2454.16875pt x 1198.4775pt>
 File: Images/agentic_ai_architecture.png Graphic file (type png)
 <use Images/agentic_ai_architecture.png>
 Package pdftex.def Info: Images/agentic_ai_architecture.png  used on input line 183.
@@ -2206,7 +2206,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19 <./Images/agentic_ai_architecture.png>]
-<Images/agentic_vs_generative_ai.png, id=864, 1405.25pt x 434.62375pt>
+<Images/agentic_vs_generative_ai.png, id=875, 1405.25pt x 434.62375pt>
 File: Images/agentic_vs_generative_ai.png Graphic file (type png)
 <use Images/agentic_vs_generative_ai.png>
 Package pdftex.def Info: Images/agentic_vs_generative_ai.png  used on input line 209.
@@ -2220,7 +2220,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `agenticAIvsGenerativeAI' on page 20 undefined on input line 210.
 
-<Images/multi_agent_system.png, id=865, 1045.9075pt x 748.7975pt>
+<Images/multi_agent_system.png, id=876, 1045.9075pt x 748.7975pt>
 File: Images/multi_agent_system.png Graphic file (type png)
 <use Images/multi_agent_system.png>
 Package pdftex.def Info: Images/multi_agent_system.png  used on input line 225.
@@ -2249,7 +2249,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21 <./Images/multi_agent_system.png>]
-<Images/before_and_after_mcp.png, id=878, 963.6pt x 542.025pt>
+<Images/before_and_after_mcp.png, id=889, 963.6pt x 542.025pt>
 File: Images/before_and_after_mcp.png Graphic file (type png)
 <use Images/before_and_after_mcp.png>
 Package pdftex.def Info: Images/before_and_after_mcp.png  used on input line 261.
@@ -2263,7 +2263,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `mcpBeforeAfter' on page 22 undefined on input line 262.
 
-<Images/mcp_architecture_diagram.png, id=879, 1405.25pt x 923.45pt>
+<Images/mcp_architecture_diagram.png, id=890, 1405.25pt x 923.45pt>
 File: Images/mcp_architecture_diagram.png Graphic file (type png)
 <use Images/mcp_architecture_diagram.png>
 Package pdftex.def Info: Images/mcp_architecture_diagram.png  used on input line 279.
@@ -2292,7 +2292,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23 <./Images/mcp_architecture_diagram.png>]
-<Images/Langchain Architecture.png, id=894, 1128.215pt x 865.2325pt>
+<Images/Langchain Architecture.png, id=905, 1128.215pt x 865.2325pt>
 File: Images/Langchain Architecture.png Graphic file (type png)
 <use Images/Langchain Architecture.png>
 Package pdftex.def Info: Images/Langchain Architecture.png  used on input line 335.
@@ -2314,7 +2314,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 Package natbib Warning: Citation `langchainArchitecture' on page 25 undefined on input line 336.
 
-<Images/langgraph_mutil_agent.png, id=903, 839.135pt x 598.235pt>
+<Images/langgraph_mutil_agent.png, id=914, 839.135pt x 598.235pt>
 File: Images/langgraph_mutil_agent.png Graphic file (type png)
 <use Images/langgraph_mutil_agent.png>
 Package pdftex.def Info: Images/langgraph_mutil_agent.png  used on input line 353.
@@ -2343,7 +2343,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26 <./Images/langgraph_mutil_agent.png>]
-<Images/Langfuse Overview.png, id=917, 1527.7075pt x 785.93625pt>
+<Images/Langfuse Overview.png, id=928, 1527.7075pt x 785.93625pt>
 File: Images/Langfuse Overview.png Graphic file (type png)
 <use Images/Langfuse Overview.png>
 Package pdftex.def Info: Images/Langfuse Overview.png  used on input line 405.
@@ -2377,7 +2377,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-<Images/Tiptap editor.jpg, id=935, 1204.5pt x 632.3625pt>
+<Images/Tiptap editor.jpg, id=947, 1204.5pt x 632.3625pt>
 File: Images/Tiptap editor.jpg Graphic file (type jpg)
 <use Images/Tiptap editor.jpg>
 Package pdftex.def Info: Images/Tiptap editor.jpg  used on input line 451.
@@ -2391,7 +2391,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `tiptap' on page 29 undefined on input line 452.
 
-<Images/Tiptap Architecture.png, id=936, 1284.8pt x 461.725pt>
+<Images/Tiptap Architecture.png, id=948, 1284.8pt x 461.725pt>
 File: Images/Tiptap Architecture.png Graphic file (type png)
 <use Images/Tiptap Architecture.png>
 Package pdftex.def Info: Images/Tiptap Architecture.png  used on input line 462.
@@ -2420,6 +2420,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
+<Images/Business Architecture.png, id=965, 2780.3875pt x 1542.26187pt>
+File: Images/Business Architecture.png Graphic file (type png)
+<use Images/Business Architecture.png>
+Package pdftex.def Info: Images/Business Architecture.png  used on input line 509.
+(pdftex.def)             Requested size: 435.32422pt x 241.44849pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 510.
+See the caption package documentation for explanation.
+
+
+Package natbib Warning: Citation `business_architecture' on page 31 undefined on input line 510.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2427,7 +2441,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31]
+[31 <./Images/Business Architecture.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2435,7 +2449,1174 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32])
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+<Images/Use Case Diagram.jpg, id=984, 3363.56625pt x 2375.87625pt>
+File: Images/Use Case Diagram.jpg Graphic file (type jpg)
+<use Images/Use Case Diagram.jpg>
+Package pdftex.def Info: Images/Use Case Diagram.jpg  used on input line 659.
+(pdftex.def)             Requested size: 435.32422pt x 307.46089pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 660.
+See the caption package documentation for explanation.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+
+Package natbib Warning: Citation `use_case_diagram' on page 35 undefined on input line 660.
+
+
+Package tabularx Warning: X Columns too narrow (table too wide)
+(tabularx)                 on input line 697.
+
+
+Overfull \hbox (12.76549pt too wide) in paragraph at lines 697--697
+[]|\T1/cmr/m/n/10.95 Sales
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 User| 
+ []
+
+
+Overfull \hbox (20.56686pt too wide) in paragraph at lines 697--697
+[]|\T1/cmr/m/n/10.95 Create
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 a
+ []
+
+
+Overfull \hbox (7.86179pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 new
+ []
+
+
+Overfull \hbox (9.07445pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 con-
+ []
+
+
+Overfull \hbox (12.10057pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 tract| 
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 697--697
+[]|\T1/cmr/m/n/10.95 User
+ []
+
+
+Overfull \hbox (12.45944pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 must
+ []
+
+
+Overfull \hbox (4.23499pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 au-
+ []
+
+
+Overfull \hbox (13.91394pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 then-
+ []
+
+
+Overfull \hbox (14.51842pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 cated| 
+ []
+
+
+Overfull \hbox (36.72102pt too wide) in paragraph at lines 697--697
+[]|\T1/cmr/m/n/10.95 Successful
+ []
+
+
+Overfull \hbox (6.65663pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 cre-
+ []
+
+
+Overfull \hbox (13.3095pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 a
+ []
+
+
+Overfull \hbox (9.07445pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 con-
+ []
+
+
+Overfull \hbox (12.10057pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Overfull \hbox (12.4028pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 draft| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+[]|\T1/cmr/m/n/10.95 1.
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 User
+ []
+
+
+Overfull \hbox (3.02606pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ac-
+ []
+
+
+Overfull \hbox (16.51694pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 cesses
+ []
+
+
+Overfull \hbox (4.23502pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Overfull \hbox (12.09677pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 Con-
+ []
+
+
+Overfull \hbox (12.10057pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Overfull \hbox (21.68356pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 Repos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 i-
+ []
+
+
+Overfull \hbox (8.77225pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 tory
+ []
+
+
+Overfull \hbox (13.91397pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 page.| 
+ []
+
+
+Overfull \hbox (25.22197pt too wide) in paragraph at lines 697--697
+[]|\T1/cmr/m/n/10.95 Missing
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (19.05565pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 quired
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 in-
+ []
+
+
+Overfull \hbox (5.74994pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 for-
+ []
+
+
+Overfull \hbox (7.25731pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ma-
+ []
+
+
+Overfull \hbox (7.86555pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ^^U
+ []
+
+
+Overfull \hbox (8.37785pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 Dis-
+ []
+
+
+Overfull \hbox (9.07445pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 play
+ []
+
+
+Overfull \hbox (0.60445pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 an
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 er-
+ []
+
+
+Overfull \hbox (3.0261pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ror
+ []
+
+
+Overfull \hbox (10.94832pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 mes-
+ []
+
+
+Overfull \hbox (9.13495pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 sage
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 in-
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 di-
+ []
+
+
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 cat-
+ []
+
+
+Overfull \hbox (3.63054pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (4.23502pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Overfull \hbox (8.22823pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 spe-
+ []
+
+
+Overfull \hbox (7.86932pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 cific
+ []
+
+
+Overfull \hbox (13.43037pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 miss-
+ []
+
+
+Overfull \hbox (3.63054pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 in-
+ []
+
+
+Overfull \hbox (5.74994pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 for-
+ []
+
+
+Overfull \hbox (7.25731pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 ma-
+ []
+
+
+Overfull \hbox (10.89165pt too wide) in paragraph at lines 697--697
+\T1/cmr/m/n/10.95 tion.| 
+ []
+
+
+Overfull \hbox (76.02579pt too wide) in alignment at lines 697--697
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 222.26433pt on input line 700.
+
+
+Overfull \hbox (1.59538pt too wide) in paragraph at lines 727--727
+[]|\T1/cmr/m/n/10.95 Legal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 Sales
+ []
+
+
+Overfull \hbox (10.36386pt too wide) in paragraph at lines 727--727
+[]|\T1/cmr/m/n/10.95 Review
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 cu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 racy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 sis-
+ []
+
+
+Overfull \hbox (3.86736pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 tency,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 le-gal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 se-cu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+[]|\T1/cmr/m/n/10.95 User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 must
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 au-
+ []
+
+
+Overfull \hbox (0.84126pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 then-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ti-
+ []
+
+
+Overfull \hbox (1.44574pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 cated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (18.07976pt too wide) in paragraph at lines 727--727
+[]|\T1/cmr/m/n/10.95 Contract
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (8.0986pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 viewed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 pro-
+ []
+
+
+Overfull \hbox (1.74796pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 vided
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 sug-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ges-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 qual-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+[]|\T1/cmr/m/n/10.95 1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ac-
+ []
+
+
+Overfull \hbox (3.44426pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 cesses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 Ed-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 i-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 View
+ []
+
+
+Overfull \hbox (3.25911pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 (Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (5.07631pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 page).| 
+ []
+
+
+Overfull \hbox (10.36386pt too wide) in paragraph at lines 727--727
+[]|\T1/cmr/m/n/10.95 Review
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 fails
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 plete
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ^^U
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 Sys-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 mes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 sage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 in-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 cat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 view
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 er-ror
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (5.98297pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 quired
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 next
+ []
+
+
+Overfull \hbox (2.77934pt too wide) in paragraph at lines 727--727
+\T1/cmr/m/n/10.95 steps.| 
+ []
+
+
+LaTeX Warning: Float too large for page by 559.2645pt on input line 730.
+
+
+Package tabularx Warning: X Columns too narrow (table too wide)
+(tabularx)                 on input line 758.
+
+
+Overfull \hbox (12.76549pt too wide) in paragraph at lines 758--758
+[]|\T1/cmr/m/n/10.95 Sales
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 User| 
+ []
+
+
+Overfull \hbox (20.56686pt too wide) in paragraph at lines 758--758
+[]|\T1/cmr/m/n/10.95 Create
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 a
+ []
+
+
+Overfull \hbox (17.60495pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 clause
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (14.27663pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 quest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 to
+ []
+
+
+Overfull \hbox (9.67892pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 add,
+ []
+
+
+Overfull \hbox (13.60793pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 mod-
+ []
+
+
+Overfull \hbox (3.33209pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ify,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 or
+ []
+
+
+Overfull \hbox (16.9401pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 delete
+ []
+
+
+Overfull \hbox (21.9004pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 clauses| 
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 758--758
+[]|\T1/cmr/m/n/10.95 User
+ []
+
+
+Overfull \hbox (12.45944pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 must
+ []
+
+
+Overfull \hbox (4.23499pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 au-
+ []
+
+
+Overfull \hbox (13.91394pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 then-
+ []
+
+
+Overfull \hbox (14.51842pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 cated
+ []
+
+
+Overfull \hbox (6.65283pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (0.60445pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 on
+ []
+
+
+Overfull \hbox (4.23502pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Overfull \hbox (12.09677pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 Con-
+ []
+
+
+Overfull \hbox (12.10057pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Overfull \hbox (13.4591pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 Edit-
+ []
+
+
+Overfull \hbox (3.63054pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (10.88788pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 page| 
+ []
+
+
+Overfull \hbox (20.62727pt too wide) in paragraph at lines 758--758
+[]|\T1/cmr/m/n/10.95 Clause
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (14.27663pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 quest
+ []
+
+
+Overfull \hbox (9.13489pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 sub-
+ []
+
+
+Overfull \hbox (9.07448pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 mit-
+ []
+
+
+Overfull \hbox (4.23502pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ted
+ []
+
+
+Overfull \hbox (6.65283pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 and
+ []
+
+
+Overfull \hbox (16.02954pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 pend-
+ []
+
+
+Overfull \hbox (3.63054pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (4.38463pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 Le-
+ []
+
+
+Overfull \hbox (3.0261pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 gal
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 User
+ []
+
+
+Overfull \hbox (3.02606pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ac-
+ []
+
+
+Overfull \hbox (7.86555pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 tion| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+[]|\T1/cmr/m/n/10.95 1.
+ []
+
+
+Overfull \hbox (10.64313pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 User
+ []
+
+
+Overfull \hbox (3.02606pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ac-
+ []
+
+
+Overfull \hbox (16.51694pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 cesses
+ []
+
+
+Overfull \hbox (4.23502pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 the
+ []
+
+
+Overfull \hbox (12.09677pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 Con-
+ []
+
+
+Overfull \hbox (12.10057pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 tract
+ []
+
+
+Overfull \hbox (13.4591pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 Edit-
+ []
+
+
+Overfull \hbox (3.63054pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (13.91397pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 page.| 
+ []
+
+
+Overfull \hbox (21.47426pt too wide) in paragraph at lines 758--758
+[]|\T1/cmr/m/n/10.95 Invalid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 or
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 in-
+ []
+
+
+Overfull \hbox (12.09677pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 com-
+ []
+
+
+Overfull \hbox (12.1006pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 plete
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (14.27663pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 quest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ^^U
+ []
+
+
+Overfull \hbox (8.83266pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 Sys-
+ []
+
+
+Overfull \hbox (7.25734pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 tem
+ []
+
+
+Overfull \hbox (6.1126pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 dis-
+ []
+
+
+Overfull \hbox (13.3699pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 plays
+ []
+
+
+Overfull \hbox (0.60445pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 an
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 er-
+ []
+
+
+Overfull \hbox (3.0261pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ror
+ []
+
+
+Overfull \hbox (10.94832pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 mes-
+ []
+
+
+Overfull \hbox (9.13495pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 sage
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 in-
+ []
+
+
+Overfull \hbox (1.81714pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 di-
+ []
+
+
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 cat-
+ []
+
+
+Overfull \hbox (3.63054pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 ing
+ []
+
+
+Overfull \hbox (1.81717pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 re-
+ []
+
+
+Overfull \hbox (19.05565pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 quired
+ []
+
+
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 cor-
+ []
+
+
+Overfull \hbox (6.65663pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 rec-
+ []
+
+
+Overfull \hbox (15.1871pt too wide) in paragraph at lines 758--758
+\T1/cmr/m/n/10.95 tions.| 
+ []
+
+
+Overfull \hbox (152.08972pt too wide) in alignment at lines 758--758
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 467.06444pt on input line 761.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35 <./Images/Use Case Diagram.jpg>]
+<Images/Analysis Sequence Diagram.jpg, id=995, 2318.6625pt x 2129.9575pt>
+File: Images/Analysis Sequence Diagram.jpg Graphic file (type jpg)
+<use Images/Analysis Sequence Diagram.jpg>
+Package pdftex.def Info: Images/Analysis Sequence Diagram.jpg  used on input line 769.
+(pdftex.def)             Requested size: 386.95897pt x 355.45789pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 770.
+See the caption package documentation for explanation.
+
+
+Package natbib Warning: Citation `analysis_sequence_diagram' on page 36 undefined on input line 770.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./Images/Analysis Sequence Diagram.jpg>])
 Package minitoc Info: I0006
 (minitoc)             Rapport_PFE_V0.mtc2 is empty on input line 356.
 
@@ -2446,9 +3627,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33]
+[37]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[40]
 Chapter 3.
-(./Chapter3.tex [34
+(./Chapter3.tex [41
 
 
 ]
@@ -2456,7 +3661,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 39
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<Images/kernel-rpm.png, id=974, 1035.87pt x 404.51125pt>
+<Images/kernel-rpm.png, id=1024, 1035.87pt x 404.51125pt>
 File: Images/kernel-rpm.png Graphic file (type png)
 <use Images/kernel-rpm.png>
 Package pdftex.def Info: Images/kernel-rpm.png  used on input line 43.
@@ -2474,8 +3679,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35]
-<Images/Kernel-Installation.png, id=982, 1517.67pt x 744.28062pt>
+[42]
+<Images/Kernel-Installation.png, id=1031, 1517.67pt x 744.28062pt>
 File: Images/Kernel-Installation.png Graphic file (type png)
 <use Images/Kernel-Installation.png>
 Package pdftex.def Info: Images/Kernel-Installation.png  used on input line 52.
@@ -2486,7 +3691,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 53.
 See the caption package documentation for explanation.
 
-<Images/Kernel-Version.png, id=983, 1504.62125pt x 71.26625pt>
+<Images/Kernel-Version.png, id=1032, 1504.62125pt x 71.26625pt>
 File: Images/Kernel-Version.png Graphic file (type png)
 <use Images/Kernel-Version.png>
 Package pdftex.def Info: Images/Kernel-Version.png  used on input line 61.
@@ -2503,8 +3708,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36 <./Images/kernel-rpm.png> <./Images/Kernel-Installation.png> <./Images/Kernel-Version.png>]
-<Images/QEMU-Installation.png, id=991, 1517.67pt x 572.1375pt>
+[43 <./Images/kernel-rpm.png> <./Images/Kernel-Installation.png> <./Images/Kernel-Version.png>]
+<Images/QEMU-Installation.png, id=1040, 1517.67pt x 572.1375pt>
 File: Images/QEMU-Installation.png Graphic file (type png)
 <use Images/QEMU-Installation.png>
 Package pdftex.def Info: Images/QEMU-Installation.png  used on input line 75.
@@ -2515,7 +3720,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 76.
 See the caption package documentation for explanation.
 
-<Images/Libvirt-Installation.png, id=992, 1517.67pt x 576.65437pt>
+<Images/Libvirt-Installation.png, id=1041, 1517.67pt x 576.65437pt>
 File: Images/Libvirt-Installation.png Graphic file (type png)
 <use Images/Libvirt-Installation.png>
 Package pdftex.def Info: Images/Libvirt-Installation.png  used on input line 84.
@@ -2525,7 +3730,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 85.
 See the caption package documentation for explanation.
 
-<Images/QEMU & Libvirt Version.png, id=993, 1191.45125pt x 719.68875pt>
+<Images/QEMU & Libvirt Version.png, id=1042, 1191.45125pt x 719.68875pt>
 File: Images/QEMU & Libvirt Version.png Graphic file (type png)
 <use Images/QEMU & Libvirt Version.png>
 Package pdftex.def Info: Images/QEMU & Libvirt Version.png  used on input line 93.
@@ -2542,8 +3747,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[37 <./Images/QEMU-Installation.png> <./Images/Libvirt-Installation.png>]
-<Images/AAVMF Incomplete Files.png, id=1000, 918.43124pt x 155.07938pt>
+[44 <./Images/QEMU-Installation.png> <./Images/Libvirt-Installation.png>]
+<Images/AAVMF Incomplete Files.png, id=1049, 918.43124pt x 155.07938pt>
 File: Images/AAVMF Incomplete Files.png Graphic file (type png)
 <use Images/AAVMF Incomplete Files.png>
 Package pdftex.def Info: Images/AAVMF Incomplete Files.png  used on input line 108.
@@ -2554,7 +3759,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 109.
 See the caption package documentation for explanation.
 
-<Images/Edk2 Yum Repository.png, id=1001, 643.40375pt x 153.57375pt>
+<Images/Edk2 Yum Repository.png, id=1050, 643.40375pt x 153.57375pt>
 File: Images/Edk2 Yum Repository.png Graphic file (type png)
 <use Images/Edk2 Yum Repository.png>
 Package pdftex.def Info: Images/Edk2 Yum Repository.png  used on input line 117.
@@ -2571,8 +3776,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./Images/QEMU & Libvirt Version.png> <./Images/AAVMF Incomplete Files.png>]
-<Images/EDK2 Installation.png, id=1008, 1516.66624pt x 352.31625pt>
+[45 <./Images/QEMU & Libvirt Version.png> <./Images/AAVMF Incomplete Files.png>]
+<Images/EDK2 Installation.png, id=1058, 1516.66624pt x 352.31625pt>
 File: Images/EDK2 Installation.png Graphic file (type png)
 <use Images/EDK2 Installation.png>
 Package pdftex.def Info: Images/EDK2 Installation.png  used on input line 126.
@@ -2583,7 +3788,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 127.
 See the caption package documentation for explanation.
 
-<Images/AAVMF Files.png, id=1009, 1215.54124pt x 365.86688pt>
+<Images/AAVMF Files.png, id=1059, 1215.54124pt x 365.86688pt>
 File: Images/AAVMF Files.png Graphic file (type png)
 <use Images/AAVMF Files.png>
 Package pdftex.def Info: Images/AAVMF Files.png  used on input line 135.
@@ -2593,7 +3798,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 136.
 See the caption package documentation for explanation.
 
-<Images/Disk Image Creation QEMU.png, id=1010, 1369.115pt x 66.2475pt>
+<Images/Disk Image Creation QEMU.png, id=1060, 1369.115pt x 66.2475pt>
 File: Images/Disk Image Creation QEMU.png Graphic file (type png)
 <use Images/Disk Image Creation QEMU.png>
 Package pdftex.def Info: Images/Disk Image Creation QEMU.png  used on input line 151.
@@ -2610,8 +3815,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39 <./Images/Edk2 Yum Repository.png> <./Images/EDK2 Installation.png> <./Images/AAVMF Files.png>]
-<Images/Starting Libvirtd.png, id=1018, 1373.13pt x 481.8pt>
+[46 <./Images/Edk2 Yum Repository.png> <./Images/EDK2 Installation.png> <./Images/AAVMF Files.png>]
+<Images/Starting Libvirtd.png, id=1068, 1373.13pt x 481.8pt>
 File: Images/Starting Libvirtd.png Graphic file (type png)
 <use Images/Starting Libvirtd.png>
 Package pdftex.def Info: Images/Starting Libvirtd.png  used on input line 162.
@@ -2622,7 +3827,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 163.
 See the caption package documentation for explanation.
 
-<Images/Storage pool creation.png, id=1019, 932.48375pt x 144.54pt>
+<Images/Storage pool creation.png, id=1069, 932.48375pt x 144.54pt>
 File: Images/Storage pool creation.png Graphic file (type png)
 <use Images/Storage pool creation.png>
 Package pdftex.def Info: Images/Storage pool creation.png  used on input line 171.
@@ -2632,7 +3837,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 172.
 See the caption package documentation for explanation.
 
-<Images/Disk Image Creation Libvirt.png, id=1020, 878.28125pt x 73.77562pt>
+<Images/Disk Image Creation Libvirt.png, id=1070, 878.28125pt x 73.77562pt>
 File: Images/Disk Image Creation Libvirt.png Graphic file (type png)
 <use Images/Disk Image Creation Libvirt.png>
 Package pdftex.def Info: Images/Disk Image Creation Libvirt.png  used on input line 180.
@@ -2649,8 +3854,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./Images/Disk Image Creation QEMU.png> <./Images/Starting Libvirtd.png> <./Images/Storage pool creation.png> <./Images/Disk Image Creation Libvirt.png>]
-<Images/VM Creation with QEMU.png, id=1029, 1041.8925pt x 770.88pt>
+[47 <./Images/Disk Image Creation QEMU.png> <./Images/Starting Libvirtd.png> <./Images/Storage pool creation.png> <./Images/Disk Image Creation Libvirt.png>]
+<Images/VM Creation with QEMU.png, id=1080, 1041.8925pt x 770.88pt>
 File: Images/VM Creation with QEMU.png Graphic file (type png)
 <use Images/VM Creation with QEMU.png>
 Package pdftex.def Info: Images/VM Creation with QEMU.png  used on input line 194.
@@ -2668,12 +3873,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./Images/VM Creation with QEMU.png>]
+[48 <./Images/VM Creation with QEMU.png>]
 Overfull \hbox (1.06918pt too wide) in paragraph at lines 208--209
 []\T1/cmr/bx/n/12 -drive file=/usr/share/AAVMF/AAVMF_CODE.pure-efi.fd,if=pflash,format 
  []
 
-<Images/VM Cration Using Libvirt.png, id=1036, 1507.6325pt x 409.53pt>
+<Images/VM Cration Using Libvirt.png, id=1086, 1507.6325pt x 409.53pt>
 File: Images/VM Cration Using Libvirt.png Graphic file (type png)
 <use Images/VM Cration Using Libvirt.png>
 Package pdftex.def Info: Images/VM Cration Using Libvirt.png  used on input line 231.
@@ -2690,7 +3895,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
+[49]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2698,8 +3903,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43 <./Images/VM Cration Using Libvirt.png>]
-<Images/VNC Client.png, id=1047, 1532.72626pt x 840.13875pt>
+[50 <./Images/VM Cration Using Libvirt.png>]
+<Images/VNC Client.png, id=1097, 1532.72626pt x 840.13875pt>
 File: Images/VNC Client.png Graphic file (type png)
 <use Images/VNC Client.png>
 Package pdftex.def Info: Images/VNC Client.png  used on input line 271.
@@ -2717,8 +3922,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <./Images/VNC Client.png>]
-<Images/QEMU Monitor.png, id=1054, 637.38126pt x 152.57pt>
+[51 <./Images/VNC Client.png>]
+<Images/QEMU Monitor.png, id=1104, 637.38126pt x 152.57pt>
 File: Images/QEMU Monitor.png Graphic file (type png)
 <use Images/QEMU Monitor.png>
 Package pdftex.def Info: Images/QEMU Monitor.png  used on input line 292.
@@ -2736,7 +3941,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./Images/QEMU Monitor.png>]
+[52 <./Images/QEMU Monitor.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2744,7 +3949,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46])
+[53])
 Package minitoc Info: I0006
 (minitoc)             Rapport_PFE_V0.mtc3 is empty on input line 366.
 
@@ -2755,13 +3960,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47]
+[54]
 Chapter 4.
-(./Chapter4.tex [48
+(./Chapter4.tex [55
 
 
 ]
-<Images/Hostnamectl Command on the Host.png, id=1074, 714.67pt x 251.94125pt>
+<Images/Hostnamectl Command on the Host.png, id=1123, 714.67pt x 251.94125pt>
 File: Images/Hostnamectl Command on the Host.png Graphic file (type png)
 <use Images/Hostnamectl Command on the Host.png>
 Package pdftex.def Info: Images/Hostnamectl Command on the Host.png  used on input line 17.
@@ -2772,7 +3977,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 18.
 See the caption package documentation for explanation.
 
-<Images/QEMU Version_ 7.2.0-14 oci.png, id=1075, 1377.145pt x 281.55188pt>
+<Images/QEMU Version_ 7.2.0-14 oci.png, id=1124, 1377.145pt x 281.55188pt>
 File: Images/QEMU Version_ 7.2.0-14 oci.png Graphic file (type png)
 <use Images/QEMU Version_ 7.2.0-14 oci.png>
 Package pdftex.def Info: Images/QEMU Version_ 7.2.0-14 oci.png  used on input line 26.
@@ -2782,7 +3987,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 27.
 See the caption package documentation for explanation.
 
-<Images/OVMF Folder.png, id=1076, 1485.55pt x 840.13875pt>
+<Images/OVMF Folder.png, id=1125, 1485.55pt x 840.13875pt>
 File: Images/OVMF Folder.png Graphic file (type png)
 <use Images/OVMF Folder.png>
 Package pdftex.def Info: Images/OVMF Folder.png  used on input line 35.
@@ -2799,8 +4004,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49 <./Images/Hostnamectl Command on the Host.png> <./Images/QEMU Version_ 7.2.0-14 oci.png>]
-<Images/edk2 Version.png, id=1084, 1259.70625pt x 104.89188pt>
+[56 <./Images/Hostnamectl Command on the Host.png> <./Images/QEMU Version_ 7.2.0-14 oci.png>]
+<Images/edk2 Version.png, id=1133, 1259.70625pt x 104.89188pt>
 File: Images/edk2 Version.png Graphic file (type png)
 <use Images/edk2 Version.png>
 Package pdftex.def Info: Images/edk2 Version.png  used on input line 42.
@@ -2811,7 +4016,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 43.
 See the caption package documentation for explanation.
 
-<Images/Storage on the Host.png, id=1085, 847.165pt x 305.14pt>
+<Images/Storage on the Host.png, id=1134, 847.165pt x 305.14pt>
 File: Images/Storage on the Host.png Graphic file (type png)
 <use Images/Storage on the Host.png>
 Package pdftex.def Info: Images/Storage on the Host.png  used on input line 51.
@@ -2821,7 +4026,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 52.
 See the caption package documentation for explanation.
 
-<Images/Memory on the Host.png, id=1086, 849.1725pt x 204.765pt>
+<Images/Memory on the Host.png, id=1135, 849.1725pt x 204.765pt>
 File: Images/Memory on the Host.png Graphic file (type png)
 <use Images/Memory on the Host.png>
 Package pdftex.def Info: Images/Memory on the Host.png  used on input line 58.
@@ -2838,8 +4043,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./Images/OVMF Folder.png> <./Images/edk2 Version.png> <./Images/Storage on the Host.png>]
-<Images/Launching the Guest.png, id=1094, 1244.65pt x 898.35625pt>
+[57 <./Images/OVMF Folder.png> <./Images/edk2 Version.png> <./Images/Storage on the Host.png>]
+<Images/Launching the Guest.png, id=1143, 1244.65pt x 898.35625pt>
 File: Images/Launching the Guest.png Graphic file (type png)
 <use Images/Launching the Guest.png>
 Package pdftex.def Info: Images/Launching the Guest.png  used on input line 69.
@@ -2850,7 +4055,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 70.
 See the caption package documentation for explanation.
 
-<Images/Hostnamectl Command on the Guest.png, id=1095, 671.50874pt x 298.11375pt>
+<Images/Hostnamectl Command on the Guest.png, id=1144, 671.50874pt x 298.11375pt>
 File: Images/Hostnamectl Command on the Guest.png Graphic file (type png)
 <use Images/Hostnamectl Command on the Guest.png>
 Package pdftex.def Info: Images/Hostnamectl Command on the Guest.png  used on input line 78.
@@ -2867,8 +4072,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51 <./Images/Memory on the Host.png> <./Images/Launching the Guest.png>]
-<Images/Uname -r Command on the Guest.png, id=1102, 616.3025pt x 47.17625pt>
+[58 <./Images/Memory on the Host.png> <./Images/Launching the Guest.png>]
+<Images/Uname -r Command on the Guest.png, id=1151, 616.3025pt x 47.17625pt>
 File: Images/Uname -r Command on the Guest.png Graphic file (type png)
 <use Images/Uname -r Command on the Guest.png>
 Package pdftex.def Info: Images/Uname -r Command on the Guest.png  used on input line 85.
@@ -2879,7 +4084,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 86.
 See the caption package documentation for explanation.
 
-<Images/Rebooting the Guest.png, id=1103, 623.32875pt x 96.36pt>
+<Images/Rebooting the Guest.png, id=1152, 623.32875pt x 96.36pt>
 File: Images/Rebooting the Guest.png Graphic file (type png)
 <use Images/Rebooting the Guest.png>
 Package pdftex.def Info: Images/Rebooting the Guest.png  used on input line 105.
@@ -2896,8 +4101,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52 <./Images/Hostnamectl Command on the Guest.png> <./Images/Uname -r Command on the Guest.png>]
-<Images/After Rebooting on the Guest.png, id=1111, 690.58pt x 125.46875pt>
+[59 <./Images/Hostnamectl Command on the Guest.png> <./Images/Uname -r Command on the Guest.png>]
+<Images/After Rebooting on the Guest.png, id=1161, 690.58pt x 125.46875pt>
 File: Images/After Rebooting on the Guest.png Graphic file (type png)
 <use Images/After Rebooting on the Guest.png>
 Package pdftex.def Info: Images/After Rebooting on the Guest.png  used on input line 112.
@@ -2908,7 +4113,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 113.
 See the caption package documentation for explanation.
 
-<Images/Ping Localhost When Stop.png, id=1112, 759.83875pt x 233.87375pt>
+<Images/Ping Localhost When Stop.png, id=1162, 759.83875pt x 233.87375pt>
 File: Images/Ping Localhost When Stop.png Graphic file (type png)
 <use Images/Ping Localhost When Stop.png>
 Package pdftex.def Info: Images/Ping Localhost When Stop.png  used on input line 120.
@@ -2918,7 +4123,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 121.
 See the caption package documentation for explanation.
 
-<Images/Stop-Cont Commands.png, id=1113, 655.44875pt x 121.45375pt>
+<Images/Stop-Cont Commands.png, id=1163, 655.44875pt x 121.45375pt>
 File: Images/Stop-Cont Commands.png Graphic file (type png)
 <use Images/Stop-Cont Commands.png>
 Package pdftex.def Info: Images/Stop-Cont Commands.png  used on input line 125.
@@ -2928,7 +4133,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 126.
 See the caption package documentation for explanation.
 
-<Images/Ping Localhost After Cont.png, id=1114, 765.86125pt x 408.02437pt>
+<Images/Ping Localhost After Cont.png, id=1164, 765.86125pt x 408.02437pt>
 File: Images/Ping Localhost After Cont.png Graphic file (type png)
 <use Images/Ping Localhost After Cont.png>
 Package pdftex.def Info: Images/Ping Localhost After Cont.png  used on input line 130.
@@ -2945,8 +4150,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53 <./Images/Rebooting the Guest.png> <./Images/After Rebooting on the Guest.png> <./Images/Ping Localhost When Stop.png> <./Images/Stop-Cont Commands.png>]
-<Images/Systemctl Suspend on the Guest.png, id=1124, 940.51375pt x 191.71625pt>
+[60 <./Images/Rebooting the Guest.png> <./Images/After Rebooting on the Guest.png> <./Images/Ping Localhost When Stop.png> <./Images/Stop-Cont Commands.png>]
+<Images/Systemctl Suspend on the Guest.png, id=1173, 940.51375pt x 191.71625pt>
 File: Images/Systemctl Suspend on the Guest.png Graphic file (type png)
 <use Images/Systemctl Suspend on the Guest.png>
 Package pdftex.def Info: Images/Systemctl Suspend on the Guest.png  used on input line 139.
@@ -2957,7 +4162,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 140.
 See the caption package documentation for explanation.
 
-<Images/System_Wakeup.png, id=1125, 449.68pt x 74.2775pt>
+<Images/System_Wakeup.png, id=1174, 449.68pt x 74.2775pt>
 File: Images/System_Wakeup.png Graphic file (type png)
 <use Images/System_Wakeup.png>
 Package pdftex.def Info: Images/System_Wakeup.png  used on input line 144.
@@ -2967,7 +4172,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 145.
 See the caption package documentation for explanation.
 
-<Images/Wakeup Guest after Suspending.png, id=1126, 847.165pt x 910.40125pt>
+<Images/Wakeup Guest after Suspending.png, id=1175, 847.165pt x 910.40125pt>
 File: Images/Wakeup Guest after Suspending.png Graphic file (type png)
 <use Images/Wakeup Guest after Suspending.png>
 Package pdftex.def Info: Images/Wakeup Guest after Suspending.png  used on input line 149.
@@ -2984,8 +4189,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./Images/Ping Localhost After Cont.png> <./Images/Systemctl Suspend on the Guest.png> <./Images/System_Wakeup.png>]
-<Images/System-powerdown.png, id=1134, 413.545pt x 77.28876pt>
+[61 <./Images/Ping Localhost After Cont.png> <./Images/Systemctl Suspend on the Guest.png> <./Images/System_Wakeup.png>]
+<Images/System-powerdown.png, id=1183, 413.545pt x 77.28876pt>
 File: Images/System-powerdown.png Graphic file (type png)
 <use Images/System-powerdown.png>
 Package pdftex.def Info: Images/System-powerdown.png  used on input line 160.
@@ -3003,8 +4208,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55 <./Images/Wakeup Guest after Suspending.png>]
-<Images/Output of shutdowing guest.png, id=1140, 1515.6625pt x 861.2175pt>
+[62 <./Images/Wakeup Guest after Suspending.png>]
+<Images/Output of shutdowing guest.png, id=1190, 1515.6625pt x 861.2175pt>
 File: Images/Output of shutdowing guest.png Graphic file (type png)
 <use Images/Output of shutdowing guest.png>
 Package pdftex.def Info: Images/Output of shutdowing guest.png  used on input line 165.
@@ -3015,7 +4220,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 166.
 See the caption package documentation for explanation.
 
-<Images/Result of ip a.png, id=1141, 1148.29pt x 230.8625pt>
+<Images/Result of ip a.png, id=1191, 1148.29pt x 230.8625pt>
 File: Images/Result of ip a.png Graphic file (type png)
 <use Images/Result of ip a.png>
 Package pdftex.def Info: Images/Result of ip a.png  used on input line 179.
@@ -3032,8 +4237,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56 <./Images/System-powerdown.png> <./Images/Output of shutdowing guest.png> <./Images/Result of ip a.png>]
-<Images/24 VNIC Hotplug Script.png, id=1150, 850.17625pt x 91.34125pt>
+[63 <./Images/System-powerdown.png> <./Images/Output of shutdowing guest.png> <./Images/Result of ip a.png>]
+<Images/24 VNIC Hotplug Script.png, id=1200, 850.17625pt x 91.34125pt>
 File: Images/24 VNIC Hotplug Script.png Graphic file (type png)
 <use Images/24 VNIC Hotplug Script.png>
 Package pdftex.def Info: Images/24 VNIC Hotplug Script.png  used on input line 188.
@@ -3044,7 +4249,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 189.
 See the caption package documentation for explanation.
 
-<Images/VNIC result ip a (1).png, id=1151, 1067.99pt x 455.7025pt>
+<Images/VNIC result ip a (1).png, id=1201, 1067.99pt x 455.7025pt>
 File: Images/VNIC result ip a (1).png Graphic file (type png)
 <use Images/VNIC result ip a (1).png>
 Package pdftex.def Info: Images/VNIC result ip a (1).png  used on input line 201.
@@ -3054,7 +4259,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 202.
 See the caption package documentation for explanation.
 
-<Images/24 VNIC Unplug Script.png, id=1152, 1013.7875pt x 63.23625pt>
+<Images/24 VNIC Unplug Script.png, id=1202, 1013.7875pt x 63.23625pt>
 File: Images/24 VNIC Unplug Script.png Graphic file (type png)
 <use Images/24 VNIC Unplug Script.png>
 Package pdftex.def Info: Images/24 VNIC Unplug Script.png  used on input line 212.
@@ -3080,8 +4285,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57 <./Images/24 VNIC Hotplug Script.png> <./Images/VNIC result ip a (1).png> <./Images/24 VNIC Unplug Script.png>]
-<Images/LSPCI Grep ETh.png, id=1160, 943.525pt x 494.84875pt>
+[64 <./Images/24 VNIC Hotplug Script.png> <./Images/VNIC result ip a (1).png> <./Images/24 VNIC Unplug Script.png>]
+<Images/LSPCI Grep ETh.png, id=1210, 943.525pt x 494.84875pt>
 File: Images/LSPCI Grep ETh.png Graphic file (type png)
 <use Images/LSPCI Grep ETh.png>
 Package pdftex.def Info: Images/LSPCI Grep ETh.png  used on input line 230.
@@ -3092,7 +4297,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 231.
 See the caption package documentation for explanation.
 
-<Images/24 VFIO VNIC Hotplug Script.png, id=1161, 917.4275pt x 431.6125pt>
+<Images/24 VFIO VNIC Hotplug Script.png, id=1211, 917.4275pt x 431.6125pt>
 File: Images/24 VFIO VNIC Hotplug Script.png Graphic file (type png)
 <use Images/24 VFIO VNIC Hotplug Script.png>
 Package pdftex.def Info: Images/24 VFIO VNIC Hotplug Script.png  used on input line 239.
@@ -3109,8 +4314,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58 <./Images/LSPCI Grep ETh.png>]
-<Images/ip a before hotplug vfio.png, id=1168, 1051.93pt x 213.79875pt>
+[65 <./Images/LSPCI Grep ETh.png>]
+<Images/ip a before hotplug vfio.png, id=1219, 1051.93pt x 213.79875pt>
 File: Images/ip a before hotplug vfio.png Graphic file (type png)
 <use Images/ip a before hotplug vfio.png>
 Package pdftex.def Info: Images/ip a before hotplug vfio.png  used on input line 248.
@@ -3121,7 +4326,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 249.
 See the caption package documentation for explanation.
 
-<Images/ip a after vfio.png, id=1169, 1058.95625pt x 551.05875pt>
+<Images/ip a after vfio.png, id=1220, 1058.95625pt x 551.05875pt>
 File: Images/ip a after vfio.png Graphic file (type png)
 <use Images/ip a after vfio.png>
 Package pdftex.def Info: Images/ip a after vfio.png  used on input line 255.
@@ -3138,8 +4343,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59 <./Images/24 VFIO VNIC Hotplug Script.png> <./Images/ip a before hotplug vfio.png> <./Images/ip a after vfio.png>]
-<Images/24 VFIO VNIC Unplug Script.png, id=1178, 820.06375pt x 73.27374pt>
+[66 <./Images/24 VFIO VNIC Hotplug Script.png> <./Images/ip a before hotplug vfio.png> <./Images/ip a after vfio.png>]
+<Images/24 VFIO VNIC Unplug Script.png, id=1228, 820.06375pt x 73.27374pt>
 File: Images/24 VFIO VNIC Unplug Script.png Graphic file (type png)
 <use Images/24 VFIO VNIC Unplug Script.png>
 Package pdftex.def Info: Images/24 VFIO VNIC Unplug Script.png  used on input line 266.
@@ -3150,7 +4355,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 267.
 See the caption package documentation for explanation.
 
-<Images/ip a after VFIO Unplug.png, id=1179, 1066.98625pt x 216.81pt>
+<Images/ip a after VFIO Unplug.png, id=1229, 1066.98625pt x 216.81pt>
 File: Images/ip a after VFIO Unplug.png Graphic file (type png)
 <use Images/ip a after VFIO Unplug.png>
 Package pdftex.def Info: Images/ip a after VFIO Unplug.png  used on input line 275.
@@ -3160,7 +4365,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 276.
 See the caption package documentation for explanation.
 
-<Images/Creating 3 vDisks.png, id=1180, 1466.47874pt x 123.46124pt>
+<Images/Creating 3 vDisks.png, id=1230, 1466.47874pt x 123.46124pt>
 File: Images/Creating 3 vDisks.png Graphic file (type png)
 <use Images/Creating 3 vDisks.png>
 Package pdftex.def Info: Images/Creating 3 vDisks.png  used on input line 287.
@@ -3170,7 +4375,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 288.
 See the caption package documentation for explanation.
 
-<Images/3 vDisk Hotplug.png, id=1181, 841.1425pt x 354.32375pt>
+<Images/3 vDisk Hotplug.png, id=1231, 841.1425pt x 354.32375pt>
 File: Images/3 vDisk Hotplug.png Graphic file (type png)
 <use Images/3 vDisk Hotplug.png>
 Package pdftex.def Info: Images/3 vDisk Hotplug.png  used on input line 298.
@@ -3187,8 +4392,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60 <./Images/24 VFIO VNIC Unplug Script.png> <./Images/ip a after VFIO Unplug.png> <./Images/Creating 3 vDisks.png>]
-<Images/lsblk before hotplug.png, id=1190, 562.1pt x 190.7125pt>
+[67 <./Images/24 VFIO VNIC Unplug Script.png> <./Images/ip a after VFIO Unplug.png> <./Images/Creating 3 vDisks.png>]
+<Images/lsblk before hotplug.png, id=1240, 562.1pt x 190.7125pt>
 File: Images/lsblk before hotplug.png Graphic file (type png)
 <use Images/lsblk before hotplug.png>
 Package pdftex.def Info: Images/lsblk before hotplug.png  used on input line 307.
@@ -3199,7 +4404,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 308.
 See the caption package documentation for explanation.
 
-<Images/lsblk after hotplug.png, id=1191, 564.1075pt x 261.97874pt>
+<Images/lsblk after hotplug.png, id=1241, 564.1075pt x 261.97874pt>
 File: Images/lsblk after hotplug.png Graphic file (type png)
 <use Images/lsblk after hotplug.png>
 Package pdftex.def Info: Images/lsblk after hotplug.png  used on input line 316.
@@ -3216,8 +4421,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61 <./Images/3 vDisk Hotplug.png> <./Images/lsblk before hotplug.png>]
-<Images/Launch Kdump.png, id=1199, 585.18625pt x 74.2775pt>
+[68 <./Images/3 vDisk Hotplug.png> <./Images/lsblk before hotplug.png>]
+<Images/Launch Kdump.png, id=1248, 585.18625pt x 74.2775pt>
 File: Images/Launch Kdump.png Graphic file (type png)
 <use Images/Launch Kdump.png>
 Package pdftex.def Info: Images/Launch Kdump.png  used on input line 334.
@@ -3228,7 +4433,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 335.
 See the caption package documentation for explanation.
 
-<Images/Crash Folder.png, id=1200, 709.65125pt x 64.24pt>
+<Images/Crash Folder.png, id=1249, 709.65125pt x 64.24pt>
 File: Images/Crash Folder.png Graphic file (type png)
 <use Images/Crash Folder.png>
 Package pdftex.def Info: Images/Crash Folder.png  used on input line 341.
@@ -3245,8 +4450,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[62 <./Images/lsblk after hotplug.png> <./Images/Launch Kdump.png> <./Images/Crash Folder.png>]
-<Images/Memory Hotplug.png, id=1209, 576.1525pt x 88.33pt>
+[69 <./Images/lsblk after hotplug.png> <./Images/Launch Kdump.png> <./Images/Crash Folder.png>]
+<Images/Memory Hotplug.png, id=1258, 576.1525pt x 88.33pt>
 File: Images/Memory Hotplug.png Graphic file (type png)
 <use Images/Memory Hotplug.png>
 Package pdftex.def Info: Images/Memory Hotplug.png  used on input line 355.
@@ -3257,7 +4462,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 356.
 See the caption package documentation for explanation.
 
-<Images/lsmem after unplug.png, id=1210, 746.79pt x 193.72375pt>
+<Images/lsmem after unplug.png, id=1259, 746.79pt x 193.72375pt>
 File: Images/lsmem after unplug.png Graphic file (type png)
 <use Images/lsmem after unplug.png>
 Package pdftex.def Info: Images/lsmem after unplug.png  used on input line 364.
@@ -3267,7 +4472,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 365.
 See the caption package documentation for explanation.
 
-<Images/lsmem after hotplug.png, id=1211, 703.62875pt x 190.7125pt>
+<Images/lsmem after hotplug.png, id=1260, 703.62875pt x 190.7125pt>
 File: Images/lsmem after hotplug.png Graphic file (type png)
 <use Images/lsmem after hotplug.png>
 Package pdftex.def Info: Images/lsmem after hotplug.png  used on input line 373.
@@ -3277,7 +4482,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 374.
 See the caption package documentation for explanation.
 
-<Images/Memory Unplug.png, id=1212, 450.68375pt x 117.43875pt>
+<Images/Memory Unplug.png, id=1261, 450.68375pt x 117.43875pt>
 File: Images/Memory Unplug.png Graphic file (type png)
 <use Images/Memory Unplug.png>
 Package pdftex.def Info: Images/Memory Unplug.png  used on input line 384.
@@ -3294,7 +4499,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63 <./Images/Memory Hotplug.png> <./Images/lsmem after unplug.png> <./Images/lsmem after hotplug.png>]
+[70 <./Images/Memory Hotplug.png> <./Images/lsmem after unplug.png> <./Images/lsmem after hotplug.png>]
 File: Images/lsmem after unplug.png Graphic file (type png)
 <use Images/lsmem after unplug.png>
 Package pdftex.def Info: Images/lsmem after unplug.png  used on input line 393.
@@ -3312,8 +4517,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64 <./Images/Memory Unplug.png>]
-<Images/Host System Configuration Verification.png, id=1227, 1133.23375pt x 529.98pt>
+[71 <./Images/Memory Unplug.png>]
+<Images/Host System Configuration Verification.png, id=1277, 1133.23375pt x 529.98pt>
 File: Images/Host System Configuration Verification.png Graphic file (type png)
 <use Images/Host System Configuration Verification.png>
 Package pdftex.def Info: Images/Host System Configuration Verification.png  used on input line 428.
@@ -3324,7 +4529,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 429.
 See the caption package documentation for explanation.
 
-<Images/Launching Guest 2.png, id=1228, 1137.24875pt x 812.53563pt>
+<Images/Launching Guest 2.png, id=1278, 1137.24875pt x 812.53563pt>
 File: Images/Launching Guest 2.png Graphic file (type png)
 <use Images/Launching Guest 2.png>
 Package pdftex.def Info: Images/Launching Guest 2.png  used on input line 437.
@@ -3341,7 +4546,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65 <./Images/Host System Configuration Verification.png>]
+[72 <./Images/Host System Configuration Verification.png>]
 File: Images/Rebooting the Guest.png Graphic file (type png)
 <use Images/Rebooting the Guest.png>
 Package pdftex.def Info: Images/Rebooting the Guest.png  used on input line 455.
@@ -3359,8 +4564,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66 <./Images/Launching Guest 2.png>]
-<Images/Stop-Cont 2.png, id=1241, 566.115pt x 164.615pt>
+[73 <./Images/Launching Guest 2.png>]
+<Images/Stop-Cont 2.png, id=1290, 566.115pt x 164.615pt>
 File: Images/Stop-Cont 2.png Graphic file (type png)
 <use Images/Stop-Cont 2.png>
 Package pdftex.def Info: Images/Stop-Cont 2.png  used on input line 463.
@@ -3371,7 +4576,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 464.
 See the caption package documentation for explanation.
 
-<Images/Suspend Guest 2.png, id=1242, 359.3425pt x 94.3525pt>
+<Images/Suspend Guest 2.png, id=1291, 359.3425pt x 94.3525pt>
 File: Images/Suspend Guest 2.png Graphic file (type png)
 <use Images/Suspend Guest 2.png>
 Package pdftex.def Info: Images/Suspend Guest 2.png  used on input line 470.
@@ -3397,8 +4602,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67 <./Images/Stop-Cont 2.png> <./Images/Suspend Guest 2.png>]
-<Images/ip a after VNIC Hotplug 2.png, id=1250, 1110.1475pt x 429.10312pt>
+[74 <./Images/Stop-Cont 2.png> <./Images/Suspend Guest 2.png>]
+<Images/ip a after VNIC Hotplug 2.png, id=1299, 1110.1475pt x 429.10312pt>
 File: Images/ip a after VNIC Hotplug 2.png Graphic file (type png)
 <use Images/ip a after VNIC Hotplug 2.png>
 Package pdftex.def Info: Images/ip a after VNIC Hotplug 2.png  used on input line 496.
@@ -3425,8 +4630,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68 <./Images/ip a after VNIC Hotplug 2.png>]
-<Images/lsblk after hotplug and after ungplug.png, id=1257, 582.175pt x 414.54875pt>
+[75 <./Images/ip a after VNIC Hotplug 2.png>]
+<Images/lsblk after hotplug and after ungplug.png, id=1306, 582.175pt x 414.54875pt>
 File: Images/lsblk after hotplug and after ungplug.png Graphic file (type png)
 <use Images/lsblk after hotplug and after ungplug.png>
 Package pdftex.def Info: Images/lsblk after hotplug and after ungplug.png  used on input line 523.
@@ -3437,7 +4642,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 524.
 See the caption package documentation for explanation.
 
-<Images/Kdump Test 2.png, id=1258, 484.81125pt x 84.315pt>
+<Images/Kdump Test 2.png, id=1307, 484.81125pt x 84.315pt>
 File: Images/Kdump Test 2.png Graphic file (type png)
 <use Images/Kdump Test 2.png>
 Package pdftex.def Info: Images/Kdump Test 2.png  used on input line 534.
@@ -3447,7 +4652,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 535.
 See the caption package documentation for explanation.
 
-<Images/Log Folder Founded.png, id=1259, 712.6625pt x 97.36375pt>
+<Images/Log Folder Founded.png, id=1308, 712.6625pt x 97.36375pt>
 File: Images/Log Folder Founded.png Graphic file (type png)
 <use Images/Log Folder Founded.png>
 Package pdftex.def Info: Images/Log Folder Founded.png  used on input line 541.
@@ -3464,8 +4669,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69 <./Images/lsblk after hotplug and after ungplug.png> <./Images/Kdump Test 2.png> <./Images/Log Folder Founded.png>]
-<Images/Hotplug cpu.png, id=1269, 919.435pt x 167.62625pt>
+[76 <./Images/lsblk after hotplug and after ungplug.png> <./Images/Kdump Test 2.png> <./Images/Log Folder Founded.png>]
+<Images/Hotplug cpu.png, id=1318, 919.435pt x 167.62625pt>
 File: Images/Hotplug cpu.png Graphic file (type png)
 <use Images/Hotplug cpu.png>
 Package pdftex.def Info: Images/Hotplug cpu.png  used on input line 556.
@@ -3476,7 +4681,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 557.
 See the caption package documentation for explanation.
 
-<Images/lscpu before hotplug.png, id=1270, 855.195pt x 246.9225pt>
+<Images/lscpu before hotplug.png, id=1319, 855.195pt x 246.9225pt>
 File: Images/lscpu before hotplug.png Graphic file (type png)
 <use Images/lscpu before hotplug.png>
 Package pdftex.def Info: Images/lscpu before hotplug.png  used on input line 565.
@@ -3486,7 +4691,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 566.
 See the caption package documentation for explanation.
 
-<Images/lscpu after hotplug.png, id=1271, 726.715pt x 247.92625pt>
+<Images/lscpu after hotplug.png, id=1320, 726.715pt x 247.92625pt>
 File: Images/lscpu after hotplug.png Graphic file (type png)
 <use Images/lscpu after hotplug.png>
 Package pdftex.def Info: Images/lscpu after hotplug.png  used on input line 572.
@@ -3503,12 +4708,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70 <./Images/Hotplug cpu.png> <./Images/lscpu before hotplug.png> <./Images/lscpu after hotplug.png>]
+[77 <./Images/Hotplug cpu.png> <./Images/lscpu before hotplug.png> <./Images/lscpu after hotplug.png>]
 Overfull \hbox (0.58316pt too wide) in paragraph at lines 595--595
 |[]\T1/cmr/bx/n/17.28 Test on OL8 Host with and ARM CPU, Lib-virt, QEMU
  []
 
-<Images/Host System Config 3.png, id=1280, 949.5475pt x 890.32625pt>
+<Images/Host System Config 3.png, id=1331, 949.5475pt x 890.32625pt>
 File: Images/Host System Config 3.png Graphic file (type png)
 <use Images/Host System Config 3.png>
 Package pdftex.def Info: Images/Host System Config 3.png  used on input line 606.
@@ -3525,8 +4730,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71]
-<Images/Launching Guest 3.png, id=1287, 1517.67pt x 425.59pt>
+[78]
+<Images/Launching Guest 3.png, id=1337, 1517.67pt x 425.59pt>
 File: Images/Launching Guest 3.png Graphic file (type png)
 <use Images/Launching Guest 3.png>
 Package pdftex.def Info: Images/Launching Guest 3.png  used on input line 615.
@@ -3544,8 +4749,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72 <./Images/Host System Config 3.png> <./Images/Launching Guest 3.png>]
-<Images/Start using libvirt.png, id=1294, 670.505pt x 197.73875pt>
+[79 <./Images/Host System Config 3.png> <./Images/Launching Guest 3.png>]
+<Images/Start using libvirt.png, id=1344, 670.505pt x 197.73875pt>
 File: Images/Start using libvirt.png Graphic file (type png)
 <use Images/Start using libvirt.png>
 Package pdftex.def Info: Images/Start using libvirt.png  used on input line 632.
@@ -3556,7 +4761,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 633.
 See the caption package documentation for explanation.
 
-<Images/Reboot using libvirt.png, id=1295, 617.30624pt x 196.735pt>
+<Images/Reboot using libvirt.png, id=1345, 617.30624pt x 196.735pt>
 File: Images/Reboot using libvirt.png Graphic file (type png)
 <use Images/Reboot using libvirt.png>
 Package pdftex.def Info: Images/Reboot using libvirt.png  used on input line 639.
@@ -3566,7 +4771,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 640.
 See the caption package documentation for explanation.
 
-<Images/Suspend using libvirt.png, id=1296, 695.59875pt x 195.73125pt>
+<Images/Suspend using libvirt.png, id=1346, 695.59875pt x 195.73125pt>
 File: Images/Suspend using libvirt.png Graphic file (type png)
 <use Images/Suspend using libvirt.png>
 Package pdftex.def Info: Images/Suspend using libvirt.png  used on input line 646.
@@ -3583,8 +4788,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73 <./Images/Start using libvirt.png> <./Images/Reboot using libvirt.png> <./Images/Suspend using libvirt.png>]
-<Images/Resume using libvirt.png, id=1305, 759.83875pt x 199.74625pt>
+[80 <./Images/Start using libvirt.png> <./Images/Reboot using libvirt.png> <./Images/Suspend using libvirt.png>]
+<Images/Resume using libvirt.png, id=1355, 759.83875pt x 199.74625pt>
 File: Images/Resume using libvirt.png Graphic file (type png)
 <use Images/Resume using libvirt.png>
 Package pdftex.def Info: Images/Resume using libvirt.png  used on input line 653.
@@ -3595,7 +4800,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 654.
 See the caption package documentation for explanation.
 
-<Images/Reset Using libvirt.png, id=1306, 675.52374pt x 210.7875pt>
+<Images/Reset Using libvirt.png, id=1356, 675.52374pt x 210.7875pt>
 File: Images/Reset Using libvirt.png Graphic file (type png)
 <use Images/Reset Using libvirt.png>
 Package pdftex.def Info: Images/Reset Using libvirt.png  used on input line 660.
@@ -3605,7 +4810,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 661.
 See the caption package documentation for explanation.
 
-<Images/Shutdown using Libvirt.png, id=1307, 591.20876pt x 120.45pt>
+<Images/Shutdown using Libvirt.png, id=1357, 591.20876pt x 120.45pt>
 File: Images/Shutdown using Libvirt.png Graphic file (type png)
 <use Images/Shutdown using Libvirt.png>
 Package pdftex.def Info: Images/Shutdown using Libvirt.png  used on input line 667.
@@ -3615,7 +4820,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 668.
 See the caption package documentation for explanation.
 
-<Images/Script hotplug VNIC Libvirt.png, id=1308, 1266.7325pt x 148.555pt>
+<Images/Script hotplug VNIC Libvirt.png, id=1358, 1266.7325pt x 148.555pt>
 File: Images/Script hotplug VNIC Libvirt.png Graphic file (type png)
 <use Images/Script hotplug VNIC Libvirt.png>
 Package pdftex.def Info: Images/Script hotplug VNIC Libvirt.png  used on input line 682.
@@ -3632,8 +4837,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74 <./Images/Resume using libvirt.png> <./Images/Reset Using libvirt.png> <./Images/Shutdown using Libvirt.png> <./Images/Script hotplug VNIC Libvirt.png>]
-<Images/ip a after hotplug VNIC Libvirt.png, id=1318, 1135.24126pt x 628.84938pt>
+[81 <./Images/Resume using libvirt.png> <./Images/Reset Using libvirt.png> <./Images/Shutdown using Libvirt.png> <./Images/Script hotplug VNIC Libvirt.png>]
+<Images/ip a after hotplug VNIC Libvirt.png, id=1368, 1135.24126pt x 628.84938pt>
 File: Images/ip a after hotplug VNIC Libvirt.png Graphic file (type png)
 <use Images/ip a after hotplug VNIC Libvirt.png>
 Package pdftex.def Info: Images/ip a after hotplug VNIC Libvirt.png  used on input line 691.
@@ -3644,7 +4849,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 692.
 See the caption package documentation for explanation.
 
-<Images/Populate VFIO libvirt.png, id=1319, 1060.96375pt x 486.81876pt>
+<Images/Populate VFIO libvirt.png, id=1369, 1060.96375pt x 486.81876pt>
 File: Images/Populate VFIO libvirt.png Graphic file (type png)
 <use Images/Populate VFIO libvirt.png>
 Package pdftex.def Info: Images/Populate VFIO libvirt.png  used on input line 705.
@@ -3654,7 +4859,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 706.
 See the caption package documentation for explanation.
 
-<Images/VFIO VNIC Hotplug Libvirt.png, id=1320, 847.165pt x 455.7025pt>
+<Images/VFIO VNIC Hotplug Libvirt.png, id=1370, 847.165pt x 455.7025pt>
 File: Images/VFIO VNIC Hotplug Libvirt.png Graphic file (type png)
 <use Images/VFIO VNIC Hotplug Libvirt.png>
 Package pdftex.def Info: Images/VFIO VNIC Hotplug Libvirt.png  used on input line 712.
@@ -3671,8 +4876,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75 <./Images/ip a after hotplug VNIC Libvirt.png> <./Images/Populate VFIO libvirt.png>]
-<Images/ip a after hotplug vfio libvirt.png, id=1328, 1091.07625pt x 609.27625pt>
+[82 <./Images/ip a after hotplug VNIC Libvirt.png> <./Images/Populate VFIO libvirt.png>]
+<Images/ip a after hotplug vfio libvirt.png, id=1378, 1091.07625pt x 609.27625pt>
 File: Images/ip a after hotplug vfio libvirt.png Graphic file (type png)
 <use Images/ip a after hotplug vfio libvirt.png>
 Package pdftex.def Info: Images/ip a after hotplug vfio libvirt.png  used on input line 719.
@@ -3699,8 +4904,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76 <./Images/VFIO VNIC Hotplug Libvirt.png> <./Images/ip a after hotplug vfio libvirt.png>]
-<Images/kdump test 3.png, id=1337, 546.04pt x 66.2475pt>
+[83 <./Images/VFIO VNIC Hotplug Libvirt.png> <./Images/ip a after hotplug vfio libvirt.png>]
+<Images/kdump test 3.png, id=1387, 546.04pt x 66.2475pt>
 File: Images/kdump test 3.png Graphic file (type png)
 <use Images/kdump test 3.png>
 Package pdftex.def Info: Images/kdump test 3.png  used on input line 745.
@@ -3711,7 +4916,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 746.
 See the caption package documentation for explanation.
 
-<Images/Kdumpt Result folder.png, id=1338, 711.65875pt x 107.40125pt>
+<Images/Kdumpt Result folder.png, id=1388, 711.65875pt x 107.40125pt>
 File: Images/Kdumpt Result folder.png Graphic file (type png)
 <use Images/Kdumpt Result folder.png>
 Package pdftex.def Info: Images/Kdumpt Result folder.png  used on input line 752.
@@ -3728,8 +4933,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77 <./Images/kdump test 3.png> <./Images/Kdumpt Result folder.png>]
-<Images/Large VM Test 500G.png, id=1347, 646.415pt x 189.70876pt>
+[84 <./Images/kdump test 3.png> <./Images/Kdumpt Result folder.png>]
+<Images/Large VM Test 500G.png, id=1396, 646.415pt x 189.70876pt>
 File: Images/Large VM Test 500G.png Graphic file (type png)
 <use Images/Large VM Test 500G.png>
 Package pdftex.def Info: Images/Large VM Test 500G.png  used on input line 766.
@@ -3740,7 +4945,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 767.
 See the caption package documentation for explanation.
 
-<Images/Large VM Test 1T.png, id=1348, 662.475pt x 186.6975pt>
+<Images/Large VM Test 1T.png, id=1397, 662.475pt x 186.6975pt>
 File: Images/Large VM Test 1T.png Graphic file (type png)
 <use Images/Large VM Test 1T.png>
 Package pdftex.def Info: Images/Large VM Test 1T.png  used on input line 773.
@@ -3757,7 +4962,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78 <./Images/Large VM Test 500G.png> <./Images/Large VM Test 1T.png>])
+[85 <./Images/Large VM Test 500G.png> <./Images/Large VM Test 1T.png>])
 Package minitoc Info: I0006
 (minitoc)             Rapport_PFE_V0.mtc4 is empty on input line 376.
 
@@ -3768,7 +4973,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79] (./Conclusion.tex
+[86] (./Conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -3783,7 +4988,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [80
+) [87
 
 
 ] (./Rapport_PFE_V0.bbl)
@@ -3826,7 +5031,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Rapport_PFE_V0.log file.
 
-[81
+[88
 
 
 ] (./Rapport_PFE_V0.aux)
@@ -4040,6 +5245,9 @@ Images/langgraph_mutil_agent.png
 Images/Langfuse Overview.png
 Images/Tiptap editor.jpg
 Images/Tiptap Architecture.png
+Images/Business Architecture.png
+Images/Use Case Diagram.jpg
+Images/Analysis Sequence Diagram.jpg
 Chapter3.tex
   t1cmtt.fd    2023/04/13 v2.5m Standard LaTeX font definitions
 Images/kernel-rpm.png
@@ -4142,25 +5350,25 @@ Rapport_PFE_V0.bbl
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Rapport_PFE_V0.out' has not changed.
-(rerunfilecheck)             Checksum: 0987C0DF23ED5F8B9517FB6E44BB0A7D;15754.
+(rerunfilecheck)             Checksum: BFE5F83CB7F6279C7E4D38BBF303AE9A;15924.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 225 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 39270 strings out of 474116
- 769463 string characters out of 5732613
+ 39318 strings out of 474116
+ 770760 string characters out of 5732613
  1968187 words of memory out of 5000000
- 60552 multiletter control sequences out of 15000+600000
+ 60586 multiletter control sequences out of 15000+600000
  579964 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,117p,1148b,4792s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,117p,1148b,4798s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbi2488.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14bf.pfb>
-Output written on Rapport_PFE_V0.pdf (95 pages, 22969207 bytes).
+Output written on Rapport_PFE_V0.pdf (102 pages, 24346817 bytes).
 PDF statistics:
- 1521 PDF objects out of 1728 (max. 8388607)
- 1171 compressed objects within 12 object streams
- 367 named destinations out of 1000 (max. 500000)
- 1238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1573 PDF objects out of 1728 (max. 8388607)
+ 1211 compressed objects within 13 object streams
+ 381 named destinations out of 1000 (max. 500000)
+ 1261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -80,75 +80,76 @@
 \contentsline {subsubsection}{\numberline {2.2.6.4}Use Cases}{30}{subsubsection.2.2.6.4}%
 \contentsline {subsubsection}{\numberline {2.2.6.5}Conclusion}{30}{subsubsection.2.2.6.5}%
 \contentsline {section}{\numberline {2.3}Specification of Requirements}{31}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Actor Identification}{31}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Functional Requirements}{31}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Authentication}{31}{subsubsection.2.3.2.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Sales User Functionalities}{31}{subsubsection.2.3.2.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.3}Legal User Functionalities}{32}{subsubsection.2.3.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.2.4}Administrator Functionalities}{32}{subsubsection.2.3.2.4}%
-\contentsline {subsection}{\numberline {2.3.3}Non-Functional Requirements}{32}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Use Case Diagram}{33}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Textual Description}{33}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Analysis Sequence Diagram}{33}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Constraints and Assumptions}{33}{subsection.2.3.7}%
-\contentsline {section}{\numberline {2.4}Conclusion}{33}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Internship Tasks and Testing Procedures}{34}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Analyzing Ticket Information}{35}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}QEMU Tests}{35}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Libvirt Tests}{35}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Environment Setup}{35}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Creation of the Instance}{35}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Kernel Setup on Host}{35}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Installation of QEMU and Libvirt}{36}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}OVMF/AAVMF}{38}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}ISO Installation and Image Creation}{39}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Creating the VM Using QEMU}{41}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Creating the VM Using Libvirt}{42}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Interaction with the VM}{43}{subsection.3.2.8}%
-\contentsline {subsubsection}{\numberline {3.2.8.1}Using VNC}{43}{subsubsection.3.2.8.1}%
-\contentsline {subsubsection}{\numberline {3.2.8.2}Using QEMU Monitor}{44}{subsubsection.3.2.8.2}%
-\contentsline {section}{\numberline {3.3}Testing Procedures}{45}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Life Cycle Testing}{45}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}VNIC Hotplug/Unplug}{45}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}VFIO-VNIC Hotplug/Unplug}{46}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}VDisk Hotplug/Unplug}{46}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Memory Hotplug/Unplug}{46}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}VCPU Hotplug/Unplug}{47}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Kdump Check}{47}{subsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.3.8}Big VM 500G-1T Boot Test}{47}{subsection.3.3.8}%
-\contentsline {section}{\numberline {3.4}Conclusion}{47}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Tests Realization and Results}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Test on OL8 Host with an Intel CPU, QEMU and latest kernel version UEK7U2}{49}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Host System Configuration}{49}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Guest Virtual Machine Deployment}{51}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Test Execution and Performance Evaluation}{52}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.1}Lifecycle Test}{52}{subsubsection.4.1.3.1}%
-\contentsline {subsubsection}{\numberline {4.1.3.2}Some VNIC Hotplug/Unplug}{56}{subsubsection.4.1.3.2}%
-\contentsline {subsubsection}{\numberline {4.1.3.3}Some VFIO-VNIC Hotplug/Unplug}{58}{subsubsection.4.1.3.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.4}VDisks Hotplug/Unplug}{60}{subsubsection.4.1.3.4}%
-\contentsline {subsubsection}{\numberline {4.1.3.5}Kdump Check}{62}{subsubsection.4.1.3.5}%
-\contentsline {subsubsection}{\numberline {4.1.3.6}Memory Hotplug/Unplug}{63}{subsubsection.4.1.3.6}%
-\contentsline {subsubsection}{\numberline {4.1.3.7}Overview of Testing Outcomes}{64}{subsubsection.4.1.3.7}%
-\contentsline {section}{\numberline {4.2}Test on OL8 Host with an AMD CPU, QEMU and latest kernel version UEK6U3}{65}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Host System and Guest VM Configuration}{65}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Test Execution and Performance Evaluation}{66}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Lifecycle Test}{66}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Some VNIC Hotplug/Unplug}{67}{subsubsection.4.2.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.3}Some VFIO-VNIC Hotplug/Unplug}{68}{subsubsection.4.2.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.2.4}VDisks Hotplug/Unplug}{69}{subsubsection.4.2.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.2.5}Kdump Check}{69}{subsubsection.4.2.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.2.6}VCPUs Hotplug/Unplug}{70}{subsubsection.4.2.2.6}%
-\contentsline {subsubsection}{\numberline {4.2.2.7}Overview of Testing Outcomes}{71}{subsubsection.4.2.2.7}%
-\contentsline {section}{\numberline {4.3}Test on OL8 Host with and ARM CPU, Libvirt, QEMU and Latest kernel version UEK7U2}{71}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Host System and Guest VM Configuration}{71}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Test Execution and Performance Evaluation}{73}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}Lifecycle Test}{73}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Some VNIC Hotplug/Unplug}{74}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}Some VFIO-VNIC Hotplug/Unplug}{75}{subsubsection.4.3.2.3}%
-\contentsline {subsubsection}{\numberline {4.3.2.4}VDisks Hotplug/Unplug}{76}{subsubsection.4.3.2.4}%
-\contentsline {subsubsection}{\numberline {4.3.2.5}Kdump Check}{77}{subsubsection.4.3.2.5}%
-\contentsline {subsubsection}{\numberline {4.3.2.6}Big VM 500G-1T Boot Test}{78}{subsubsection.4.3.2.6}%
-\contentsline {subsubsection}{\numberline {4.3.2.7}Overview of Testing Outcomes}{78}{subsubsection.4.3.2.7}%
-\contentsline {section}{\numberline {4.4}Conclusion}{79}{section.4.4}%
-\contentsline {chapter}{General Conclusion}{80}{chapter*.10}%
-\contentsline {chapter}{Bibliography}{81}{chapter*.11}%
+\contentsline {subsection}{\numberline {2.3.1}Business Architecture}{31}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Actor Identification}{32}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Functional Requirements}{32}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Authentication}{32}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Sales User Functionalities}{32}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3.3}Legal User Functionalities}{33}{subsubsection.2.3.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.4}Administrator Functionalities}{34}{subsubsection.2.3.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Non-Functional Requirements}{34}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Use Case Diagram}{35}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Textual Description}{35}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Analysis Sequence Diagram}{36}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Constraints and Assumptions}{36}{subsection.2.3.8}%
+\contentsline {section}{\numberline {2.4}Conclusion}{37}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Internship Tasks and Testing Procedures}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Analyzing Ticket Information}{42}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}QEMU Tests}{42}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Libvirt Tests}{42}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Environment Setup}{42}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Creation of the Instance}{42}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Kernel Setup on Host}{42}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Installation of QEMU and Libvirt}{43}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}OVMF/AAVMF}{45}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}ISO Installation and Image Creation}{46}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Creating the VM Using QEMU}{48}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Creating the VM Using Libvirt}{49}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Interaction with the VM}{50}{subsection.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.8.1}Using VNC}{50}{subsubsection.3.2.8.1}%
+\contentsline {subsubsection}{\numberline {3.2.8.2}Using QEMU Monitor}{51}{subsubsection.3.2.8.2}%
+\contentsline {section}{\numberline {3.3}Testing Procedures}{52}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Life Cycle Testing}{52}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}VNIC Hotplug/Unplug}{52}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}VFIO-VNIC Hotplug/Unplug}{53}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}VDisk Hotplug/Unplug}{53}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Memory Hotplug/Unplug}{53}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}VCPU Hotplug/Unplug}{54}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Kdump Check}{54}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Big VM 500G-1T Boot Test}{54}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}Conclusion}{54}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Tests Realization and Results}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Test on OL8 Host with an Intel CPU, QEMU and latest kernel version UEK7U2}{56}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Host System Configuration}{56}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Guest Virtual Machine Deployment}{58}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Test Execution and Performance Evaluation}{59}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Lifecycle Test}{59}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Some VNIC Hotplug/Unplug}{63}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Some VFIO-VNIC Hotplug/Unplug}{65}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}VDisks Hotplug/Unplug}{67}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}Kdump Check}{69}{subsubsection.4.1.3.5}%
+\contentsline {subsubsection}{\numberline {4.1.3.6}Memory Hotplug/Unplug}{70}{subsubsection.4.1.3.6}%
+\contentsline {subsubsection}{\numberline {4.1.3.7}Overview of Testing Outcomes}{71}{subsubsection.4.1.3.7}%
+\contentsline {section}{\numberline {4.2}Test on OL8 Host with an AMD CPU, QEMU and latest kernel version UEK6U3}{72}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Host System and Guest VM Configuration}{72}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Test Execution and Performance Evaluation}{73}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Lifecycle Test}{73}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Some VNIC Hotplug/Unplug}{74}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}Some VFIO-VNIC Hotplug/Unplug}{75}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}VDisks Hotplug/Unplug}{76}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}Kdump Check}{76}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}VCPUs Hotplug/Unplug}{77}{subsubsection.4.2.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.2.7}Overview of Testing Outcomes}{78}{subsubsection.4.2.2.7}%
+\contentsline {section}{\numberline {4.3}Test on OL8 Host with and ARM CPU, Libvirt, QEMU and Latest kernel version UEK7U2}{78}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Host System and Guest VM Configuration}{78}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Test Execution and Performance Evaluation}{80}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Lifecycle Test}{80}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Some VNIC Hotplug/Unplug}{81}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Some VFIO-VNIC Hotplug/Unplug}{82}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}VDisks Hotplug/Unplug}{83}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}Kdump Check}{84}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}Big VM 500G-1T Boot Test}{85}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}Overview of Testing Outcomes}{85}{subsubsection.4.3.2.7}%
+\contentsline {section}{\numberline {4.4}Conclusion}{86}{section.4.4}%
+\contentsline {chapter}{General Conclusion}{87}{chapter*.13}%
+\contentsline {chapter}{Bibliography}{88}{chapter*.14}%

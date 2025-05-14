@@ -1,4 +1,4 @@
-This chapter focuses on the detailed analysis and technical specifications of the intelligent contract management solution developed during my internship. It begins with a comparative benchmarking of existing solutions, providing justification for our technology selection. Subsequently, it delves into the technical background, describing the key technologies used including Large Language Models (LLM), Agentic AI, LangChain, LangGraph, and others. Finally, the chapter specifies the project requirements, identifying functional and non-functional expectations that shaped the solution's development.
+This chapter presents an overview of the technical specifications and analysis underlying the intelligent contract management solution developed during my internship. It begins with a comparative analysis of existing solutions, leading to the rationale behind selecting an agentic AI-based approach. Subsequently, it details key technologies, including Large Language Models (LLMs), Agentic AI, LangChain, LangGraph, Langfuse, and Tiptap. Finally, the chapter outlines the project’s functional and non-functional requirements, clearly defining the necessary features and criteria to meet project goals.
 
 \newpage
 \fancyhead[R]{\textsc{Chapter 2 - Analysis and Specifications}}
@@ -500,6 +500,35 @@ Tiptap stands out as a versatile and developer-friendly rich text editor framewo
 \section{Specification of Requirements}
 Given the agile nature of the project, the actors as well as functional and non-functional requirements are subject to evolve. The elements below reflect the current state of the project.
 
+% Business Architecture
+\subsection{Business Architecture}
+The business architecture depicted in Figure~\ref{fig:business_architecture} outlines the overarching structure and planned components of the intelligent contract management platform. The platform integrates three main components supported by robust underlying layers of data management, security, observability, and tool integration capabilities.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/Business Architecture.png}
+    \captionof{figure}{Business Architecture Overview} \cite{business_architecture}
+    \label{fig:business_architecture}
+\end{center}
+
+The platform structure is organized into three core areas:
+
+\begin{itemize}
+\item \textbf{Cockpit (Steering and Monitoring)}: This area provides oversight and real-time analytics, enabling stakeholders to monitor system performance, track usage, and manage workflows effectively.
+\item \textbf{Agentic Marketplace}: Designed to host various autonomous AI agents, this component facilitates the scalable deployment and orchestration of intelligent services, supporting diverse, dynamic business needs and agent interactions.
+\item \textbf{Use Case Features}: These represent modular functionalities tailored to specific business processes. The primary use case currently prioritized is the \textbf{Contract Drafting Use Case (UC)}, scheduled for completion within a 21-week timeframe. This use case is central to my internship project and focuses on automating and enhancing the contract drafting process through intelligent clause selection, AI-assisted drafting, compliance verification, and collaboration enhancements.
+\end{itemize}
+
+These foundational components are encapsulated within a broader environment of:
+
+\begin{itemize}
+\item \textbf{Data Management}: Ensures consistent data governance, quality, and efficient access to support the platform's intelligent features.
+\item \textbf{Integration with Other Tools}: Provides seamless interoperability with external and internal enterprise applications, extending the platform's capabilities and ensuring a cohesive user experience.
+\item \textbf{Security and Observability}: Delivers comprehensive security measures and observability tools to protect data integrity, ensure compliance, and provide transparent system monitoring and diagnostics.
+\end{itemize}
+
+This structured business architecture aims to offer a scalable, secure, and integrative platform capable of addressing complex legal operations through advanced technological solutions.
+
 % Actor Identification
 \subsection{Actor Identification}
 An actor specifies a role played by a user or any other system interacting with the solution. Actors are always external to the system, interacting by initiating a use case, providing inputs, or receiving outputs. In the context of our platform, we have two types of actors:
@@ -529,48 +558,73 @@ The system must allow users to authenticate using Azure Entra ID credentials.
 
 % Sales User Functionalities
 \subsubsection{Sales User Functionalities}
+
 \textbf{Contract Generation}:
 \begin{itemize}
-    \item Initiate contract drafting using text input, voice transcription, or document upload.
-    \item Verify client information from historical data.
-    \item Select and adjust template inputs (Incoterm, Contract Type, Product).
-    \item Adjust variables like price and volume.
-    \item Generate final contract draft and move to editing mode.
+\item Initiate contract drafting using text input, voice transcription, or document upload.
+\item Verify client information from historical data.
+\item Select and adjust template inputs (Incoterm, Contract Type, Product).
+\item Adjust variables like price and volume.
+\item Generate final contract draft and move to editing mode.
 \end{itemize}
 
 \textbf{Contract Editing}:
 \begin{itemize}
-    \item Access a rich-text editor (Tiptap-based).
-    \item Track changes across versions.
-    \item Request additional legal clauses.
-\end{itemize}
-    
-\textbf{Contract Review \& Compliance}:
-\begin{itemize}
-    \item Trigger AI-powered compliance checks (data accuracy, text consistency, legal compliance).
-    \item Receive detailed review summaries and recommendations.
+\item Access a rich-text editor (Tiptap-based).
+\item Track changes across versions.
+\item Request additional legal clauses.
+\item Access versioning of contracts.
+\item Modify variables in the contracts (data mapping panel).
+\item Request clauses to be added, modified, or deleted.
+
 \end{itemize}
 
-\textbf{Export and Sharing}:
+\textbf{Contract Review \& Compliance}:
 \begin{itemize}
-    \item Export contracts as downloadable files.
-    \item Share contracts via secure links or attachments.
+\item Trigger AI-powered compliance checks (data accuracy, text consistency, legal compliance).
+\item Receive detailed review summaries and recommendations.
+\item Review contracts and change status (in editing, in review, finalized).
+\end{itemize}
+
+\textbf{Export, Sharing, and Management}:
+\begin{itemize}
+\item Export contracts as downloadable files (Word, PDF).
+\item Share contracts via secure links or attachments in emails.
+\item Access contracts in the contract repository.
+\item Archive and delete contracts.
 \end{itemize}
 
 % Legal User Functionalities
 \subsubsection{Legal User Functionalities}
+
 \textbf{Clause Management}:
 \begin{itemize}
-    \item Review clause addition requests from Sales.
-    \item Create and insert new legal clauses.
-    \item Utilize AI assistance to refine clause content.
+\item Review clause addition requests from Sales.
+\item Create, insert, modify, or delete legal clauses, either upon Sales requests or independently.
+\item Utilize AI assistance to refine clause content.
+\end{itemize}
+
+\textbf{Contract Editing and Versioning}:
+\begin{itemize}
+\item Access and create versions of contracts.
+\item Restore previous versions of contracts.
+\item Edit contracts using a rich-text editor (Tiptap-based).
+\item \item Modify variables in the contracts (data mapping panel).
 \end{itemize}
 
 \textbf{Contract Review \& Compliance}:
 \begin{itemize}
-    \item Perform detailed legal compliance checks.
-    \item Verify mandatory clauses, annexes, and specifications.
-    \item Ensure legal alignment and minimize liabilities.
+\item Perform detailed legal compliance checks.
+\item Verify mandatory clauses, annexes, and specifications.
+\item Ensure legal alignment and minimize liabilities.
+\item Review contracts and change status (in editing, in review, finalized).
+\end{itemize}
+
+\textbf{Export, Sharing, and Management}:
+\begin{itemize}
+\item Export contracts as downloadable files (Word, PDF).
+\item Share contracts via secure links or attachments in emails.
+\item Access contracts in the contract repository.
 \end{itemize}
 
 % Administrator Functionalities
@@ -598,27 +652,148 @@ The system must allow users to authenticate using Azure Entra ID credentials.
 
 % Use Case Diagram
 \subsection{Use Case Diagram}
+The Use Case Diagram presented in Figure~\ref{fig:use_case_diagram} visually represents the interactions between the identified actors—Sales Users, Legal Users, and Administrators—and the main functionalities offered by the intelligent contract management platform. It illustrates how each user group engages with distinct and shared system features, clearly depicting the overall workflow from contract drafting and editing to compliance verification, version control, and collaboration activities.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/Use Case Diagram.jpg}
+    \captionof{figure}{Use Case Diagram} \cite{use_case_diagram}
+    \label{fig:use_case_diagram}
+\end{center}
+
+The diagram thus serves as a concise summary of system capabilities and user interactions, effectively capturing the essential scenarios envisaged within the platform’s scope. This visual representation provides a foundation for understanding user roles and their interactions, facilitating clear communication and alignment among stakeholders during the development and implementation of the platform.
 
 % Textual Description
 \subsection{Textual Description}
 
+Pour décrire la dynamique d’un cas d’utilisation, il faut recenser toutes les interactions entre l’acteur et le système de façon textuelle. Cette description est indispensable, car elle permet de communiquer facilement avec les différentes parties prenantes et de s’entendre sur la terminologie métier employée.
+
+\textbf{Textual Description of Use Case: Create Contract}
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Actor} & Sales User \\
+        \hline
+        \textbf{Goal} & Create a new contract \\
+        \hline
+        \textbf{Preconditions} & User must be authenticated \\
+        \hline
+        \textbf{Postconditions} & Successful creation of a contract draft \\
+        \hline
+        \textbf{Nominal Scenario} &
+            1. User accesses the Contract Repository page. \\[3pt]
+            2. User clicks on "Generate a New Contract." \\[3pt]
+            3. User selects one of the following input methods: voice prompt, image upload, or text prompt. \\[3pt]
+            4. System extracts key contract information. \\[3pt]
+            5. If a new client or mismatched client information is detected, the system prompts the user for confirmation. \\[3pt]
+            6. User confirms key information. \\[3pt]
+            7. System automatically generates the contract step-by-step. \\
+        \hline
+        \textbf{Alternative Scenario} & Missing required information – Display an error message indicating the specific missing information. \\
+        \hline
+    \end{tabularx}
+    \caption{Textual Description of Use Case: Create Contract}
+    \label{tab:create_contract}
+\end{table}
+
+\textbf{Textual Description of Use Case: Review Contract}
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Actor} & Legal User or Sales User \\
+        \hline
+        \textbf{Goal} & Review a contract for accuracy, consistency, and legal security \\
+        \hline
+        \textbf{Preconditions} & User must be authenticated and in the Contract Editing page \\
+        \hline
+        \textbf{Postconditions} & Contract reviewed with provided suggestions and quality score \\
+        \hline
+        \textbf{Nominal Scenario} &
+            1. User accesses the Editor View (Contract Editing page). \\[3pt]
+            2. User selects "Review" in the right panel. \\[3pt]
+            3. User chooses between "Accuracy and Consistency" and "Legal Security" review options. \\[3pt]
+            4. User initiates the review process. \\[3pt]
+            5. System completes the review and provides a quality score (\%). \\[3pt]
+            6. System presents suggestions generated by the LLM for the user to accept or discard. \\
+        \hline
+        \textbf{Alternative Scenario} & Review fails or incomplete – System displays a message indicating the review error and required next steps. \\
+        \hline
+    \end{tabularx}
+    \caption{Textual Description of Use Case: Review Contract}
+    \label{tab:review_contract}
+\end{table}
+
+\textbf{Textual Description of Use Case: Create Clause Request}
+
+\begin{table}[ht!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|l|X|}
+        \hline
+        \textbf{Actor} & Sales User \\
+        \hline
+        \textbf{Goal} & Create a clause request to add, modify, or delete clauses \\
+        \hline
+        \textbf{Preconditions} & User must be authenticated and on the Contract Editing page \\
+        \hline
+        \textbf{Postconditions} & Clause request submitted and pending Legal User action \\
+        \hline
+        \textbf{Nominal Scenario} &
+            1. User accesses the Contract Editing page.\\[3pt]
+            2. User initiates a clause request from the left panel in the clause area or by right-clicking on an article, clause, or sub-clause.\\[3pt]
+            3. User enters the description of the request.\\[3pt]
+            4. User optionally refines the request description using an LLM-powered "Refine" button.\\[3pt]
+            5. User submits the clause request.\\[3pt]
+            6. Legal User receives the request and decides to accept or reject it.\\[3pt]
+            7. If accepted, Legal User creates, modifies, or deletes the relevant articles or clauses.\\
+        \hline
+        \textbf{Alternative Scenario} & Invalid or incomplete request – System displays an error message indicating required corrections. \\
+        \hline
+    \end{tabularx}
+    \caption{Textual Description of Use Case: Create Clause Request}
+    \label{tab:create_clause_request}
+\end{table}
+
 % Analysis Sequence Diagram
 \subsection{Analysis Sequence Diagram}
+To clearly understand the chronological interactions between the system and its actors, analysis sequence diagrams are utilized. These diagrams illustrate the exchanges required between actors and the system to achieve a specific use case, facilitating a comprehensive understanding of the process flow and interactions involved.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Analysis Sequence Diagram.jpg}
+    \captionof{figure}{Analysis Sequence Diagram} \cite{analysis_sequence_diagram}
+    \label{fig:analysis_sequence_diagram}
+\end{center}
+
+The diagram presented above outlines the interaction flow between a normal user intending to authenticate, the main system, and an external authentication system. Initially, the user accesses the platform and clicks on the login button, which prompts the system to redirect the authentication request to the external authentication system. The external authentication system then requests user consent for specific permissions. Upon granting consent by the user, the authentication system issues an authorization code along with an access token back to the system. Finally, the system utilizes this access token to securely call the API and retrieve the requested secured data.
 
 % Constraints and Assumptions
 \subsection{Constraints and Assumptions}
+To clearly delineate the operational environment and development boundaries, the following constraints and assumptions have been identified:
+
 \textbf{Constraints:}
 \begin{itemize}
-    \item Adherence to enterprise security and compliance guidelines.
-    \item Compatibility with existing technological infrastructure.
+    \item \textbf{Enterprise Security Compliance}: The system must strictly comply with the organization’s security policies, standards, and regulatory frameworks, ensuring the protection and confidentiality of sensitive contractual and user information.
+    \item \textbf{Infrastructure Compatibility}:All technical solutions must be compatible with existing enterprise systems, particularly Azure-based services such as Azure Kubernetes Service (AKS), Azure Entra ID, and Azure PostgreSQL, to ensure seamless integration and minimize disruptions.
+    \item \textbf{Cost Efficiency}:The platform must be developed and operated within the allocated budget constraints, adhering to the capacity planning forecasts to optimize resource utilization and cost-effectiveness.
+    \item \textbf{System Scalability}:The solution must accommodate future growth without significant re-engineering, enabling smooth onboarding of additional functionalities, agents, and user groups.
 \end{itemize}
 
 \textbf{Assumptions:}
 \begin{itemize}
-    \item Availability of clean and structured data.
-    \item Consistent internet connectivity and cloud infrastructure reliability.
+    \item \textbf{Data Availability and Quality}: It is assumed that structured and high-quality data is consistently available from internal sources and third-party integrations to ensure effective AI-driven decision-making.
+    \item \textbf{Reliable Cloud Infrastructure}: It is assumed that the Azure cloud infrastructure provides continuous, high-performance service with minimal downtime, ensuring uninterrupted user experiences and workflows.
+    \item \textbf{Stable Internet Connectivity}: It is assumed that end users have stable and continuous internet connectivity, enabling consistent access to cloud-hosted services.
+    \item \textbf{User Proficiency}: Users are assumed to have a basic level of digital proficiency, enabling them to interact effectively with the intuitive yet sophisticated interfaces provided by the system.
+    \item \textbf{Stakeholder Collaboration}: Continuous engagement from all stakeholders, including legal experts, technical teams, and business users, is expected to ensure alignment and smooth progression throughout the project’s lifecycle.
 \end{itemize}
 
 % Conclusion
 \section{Conclusion}
-This chapter outlined the rationale behind our technology selection through comparative analysis, detailed the technical foundations and their roles, and defined the precise functional and non-functional project requirements. This structured approach ensures that the developed intelligent contract management solution robustly meets both user expectations and organizational objectives.
+This chapter outlined the analytical and technical specifications of the intelligent contract management platform. By presenting detailed UML diagrams, including use case and sequence diagrams, the interactions and functionalities of the system were concisely represented. Together with clearly defined requirements and the outlined project architecture, these elements provide a robust foundation for successful implementation.

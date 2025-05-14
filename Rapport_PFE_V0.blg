@@ -22,9 +22,12 @@ Warning--I didn't find a database entry for "langgraphMultiAgent"
 Warning--I didn't find a database entry for "langfuseDashboard"
 Warning--I didn't find a database entry for "tiptap"
 Warning--I didn't find a database entry for "tiptapArchitecture"
+Warning--I didn't find a database entry for "business_architecture"
+Warning--I didn't find a database entry for "use_case_diagram"
+Warning--I didn't find a database entry for "analysis_sequence_diagram"
 You've used 2 entries,
             1791 wiz_defined-function locations,
-            485 strings with 4241 characters,
+            488 strings with 4303 characters,
 and the built_in function-call counts, 220 in all, are:
 = -- 16
 > -- 2
@@ -63,4 +66,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 3
 write$ -- 16
-(There were 19 warnings)
+(There were 22 warnings)
