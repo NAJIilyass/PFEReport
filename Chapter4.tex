@@ -1,4 +1,4 @@
-This chapter details the practical implementation and validation phases of the intelligent contract management platform developed during my internship. It begins by presenting the technological environment, providing a comprehensive rationale for selecting specific technologies, frameworks, and tools to ensure alignment with the project’s requirements and constraints. Subsequently, the chapter describes the implemented functionalities in depth, including contract repository management, contract generation and editing, advanced clause management, detailed review processes, and comprehensive historical tracking. Finally, the validation procedures are outlined, demonstrating how the developed system meets both functional and non-functional specifications, ensuring adherence to established performance standards and user expectations.
+This chapter outlines the implementation and validation of the intelligent contract management platform. It starts with a review of the selected technologies across AI, frontend, backend, and infrastructure. The core functionalities—contract drafting, editing, clause handling, and tracking—are described in detail. It also presents the collaborative and review workflows powered by AI agents. Lastly, it explains the validation process for verifying functional and non-functional requirements.
 
 \newpage
 \fancyhead[R]{\textsc{Chapter 4 - Implementation and Validation}}
@@ -67,8 +67,8 @@ After comparing it with other solutions like FAISS and Milvus, Elasticsearch was
     \label{fig:elasticsearch_logo}
 \end{center}
 
-% Frontend Frameworks
-\subsection{Frontend Frameworks}
+% Frontend Technologies and Tooling
+\subsection{Frontend Technologies and Tooling}
 
 % Typescript
 \subsubsection{TypeScript}
@@ -124,8 +124,8 @@ Thanks to its efficiency, ease of configuration, and robust mocking tools, Jest 
     \label{fig:jest_logo}
 \end{center}
 
-% Backend Frameworks
-\subsection{Backend Frameworks}
+% Backend Technologies and Tooling
+\subsection{Backend Technologies and Tooling}
 
 % Python
 \subsubsection{Python}
@@ -265,8 +265,8 @@ Its robust ecosystem and enterprise-grade capabilities made Kubernetes the top c
     \label{fig:kubernetes_logo}
 \end{center}
 
-% Infrastructure as Code (IaC)
-\subsubsection{Infrastructure as Code (IaC)}
+% Terraform
+\subsubsection{Terraform}
 Developed by HashiCorp, Terraform is an open-source infrastructure as code (IaC) tool that enables users to define and provision both cloud and on-premises infrastructure using a declarative configuration language (HCL). With support for multiple cloud providers and a strong provider ecosystem, Terraform maintains infrastructure state and ensures safe, efficient changes.\mynewline
 
 Its flexibility, cloud-agnostic nature, and version control support made Terraform the ideal tool for managing our infrastructure. After comparing it with AWS CloudFormation and Ansible, we concluded that its multi-cloud capabilities and extensibility made it the optimal solution for our IaC strategy.
@@ -489,12 +489,15 @@ The intelligent contract management solution underwent systematic verification o
 \subsection{Verification of Non-Functional Requirements}
 The non-functional aspects, crucial for user satisfaction and system reliability, were verified through targeted approaches as follows:
 
+
 \begin{itemize}
     \item \textbf{Usability:} The platform was designed with an intuitive and familiar interface, inspired by widely used enterprise applications. Initial user feedback, collected from a select group of Sales and Legal users, confirmed that the interface met the usability standards, ensuring a comfortable and efficient user experience.
     \item \textbf{Maintainability:} Regular code reviews and adherence to best practices in software architecture were employed to validate maintainability. The adoption of a modular, service-oriented architecture facilitated easier updates and extensions, allowing new functionalities to be integrated efficiently. Future scheduled unit and integration tests will further ensure system stability and maintainability.
     \item \textbf{Security:} Security verification involved the integration and configuration of Azure Entra ID, ensuring robust authentication and role-based access control. Regular security audits and compliance checks were established to detect and rectify vulnerabilities promptly. Further penetration tests and comprehensive security assessments are planned to maintain and enhance the platform's security posture.
+    \item \textbf{System Responsiveness:} The system’s responsiveness was evaluated through interactive testing of user-facing components. Smooth navigation, quick interface updates, and prompt visual feedback were observed during typical usage, indicating high responsiveness under normal load conditions.
+    \item \textbf{Scalability:} The deployment setup on Docker and Kubernetes allows for efficient horizontal scaling across services. Tests involving multiple users and simultaneous operations confirmed that the platform maintains responsiveness and stability as usage demands increase.
 \end{itemize}
 
 % Conclusion
 \section{Conclusion}
-This chapter has provided an extensive account of the implementation and validation processes of the intelligent contract management platform. We detailed and justified the technology choices across frontend, backend, AI integration, databases, and infrastructure components, ensuring optimal performance, maintainability, and scalability. Furthermore, comprehensive descriptions of the core functionalities—including contract generation, editing workflows, clause management, systematic review processes, and historical tracking—demonstrated alignment with user needs and operational requirements. Finally, the validation processes systematically verified that the platform met all specified functional and non-functional criteria, confirming its robustness, security, usability, and readiness for deployment in real-world scenarios.
+This chapter detailed the implemented functionalities and justified the technology stack supporting the platform. It also validated the system against the initial specifications, confirming its reliability, scalability, and readiness for enterprise use.
