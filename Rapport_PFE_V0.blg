@@ -3,67 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Rapport_PFE_V0.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
-Warning--I didn't find a database entry for "bcg-x"
-Warning--I didn't find a database entry for "pandadoc"
-Warning--I didn't find a database entry for "harveyai"
-Warning--I didn't find a database entry for "docdraft"
-Warning--I didn't find a database entry for "agenticTable"
-Warning--I didn't find a database entry for "llmEvolution"
-Warning--I didn't find a database entry for "llmIntelligenceComparison"
-Warning--I didn't find a database entry for "llmPriceComparison"
-Warning--I didn't find a database entry for "llmSpeedComparison"
-Warning--I didn't find a database entry for "agenticAIArchitecture"
-Warning--I didn't find a database entry for "agenticAIvsGenerativeAI"
-Warning--I didn't find a database entry for "multiAgentSystem"
-Warning--I didn't find a database entry for "mcpBeforeAfter"
-Warning--I didn't find a database entry for "mcpArchitecture"
-Warning--I didn't find a database entry for "langchainArchitecture"
-Warning--I didn't find a database entry for "langgraphMultiAgent"
-Warning--I didn't find a database entry for "langfuseDashboard"
-Warning--I didn't find a database entry for "tiptap"
-Warning--I didn't find a database entry for "tiptapArchitecture"
-Warning--I didn't find a database entry for "business_architecture"
-Warning--I didn't find a database entry for "use_case_diagram"
-Warning--I didn't find a database entry for "analysis_sequence_diagram"
-You've used 2 entries,
+You've used 40 entries,
             1791 wiz_defined-function locations,
-            488 strings with 4303 characters,
-and the built_in function-call counts, 220 in all, are:
-= -- 16
-> -- 2
+            569 strings with 7120 characters,
+and the built_in function-call counts, 4022 in all, are:
+= -- 320
+> -- 40
 < -- 0
-+ -- 2
++ -- 40
 - -- 0
 * -- 2
-:= -- 27
-add.period$ -- 4
-call.type$ -- 2
-change.case$ -- 2
+:= -- 371
+add.period$ -- 80
+call.type$ -- 40
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 10
-empty$ -- 37
+cite$ -- 40
+duplicate$ -- 200
+empty$ -- 721
 format.name$ -- 0
-if$ -- 55
+if$ -- 1081
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 11
+newline$ -- 163
 num.names$ -- 0
-pop$ -- 12
+pop$ -- 240
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 12
+skip$ -- 239
 stack$ -- 0
 substring$ -- 0
-swap$ -- 2
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 0
-width$ -- 3
-write$ -- 16
-(There were 22 warnings)
+width$ -- 42
+write$ -- 282

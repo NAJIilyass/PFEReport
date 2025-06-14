@@ -1,1 +1,1 @@
-\gdef\next {\a@puttt \dots \arab@tail }
+\gdef\next #1{\a@puttt \bibliography \arab@tail }

@@ -799,6 +799,8 @@ INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/listing
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/changepage/changepage.sty
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/changepage/changepage.sty
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/caption.sty
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/caption.sty
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/caption/caption3.sty
@@ -982,6 +984,10 @@ INPUT ./Rapport_PFE_V0.lof
 INPUT ./Rapport_PFE_V0.lof
 INPUT Rapport_PFE_V0.lof
 OUTPUT Rapport_PFE_V0.lof
+INPUT ./Rapport_PFE_V0.lot
+INPUT ./Rapport_PFE_V0.lot
+INPUT Rapport_PFE_V0.lot
+OUTPUT Rapport_PFE_V0.lot
 INPUT ./Indroduction.tex
 INPUT ./Indroduction.tex
 INPUT ./Indroduction.tex
@@ -1011,6 +1017,41 @@ INPUT ./Images/Executive Leadership Board.png
 INPUT ./Images/Executive Leadership Board.png
 INPUT ./Images/Executive Leadership Board.png
 INPUT ./Images/Executive Leadership Board.png
+INPUT ./Images/Scrum Process.jpeg
+INPUT ./Images/Scrum Process.jpeg
+INPUT ./Images/Scrum Process.jpeg
+INPUT ./Images/Scrum Process.jpeg
+INPUT ./Images/Scrum Process.jpeg
+INPUT ./Images/ClickUp Logo.jpeg
+INPUT ./Images/ClickUp Logo.jpeg
+INPUT ./Images/ClickUp Logo.jpeg
+INPUT ./Images/ClickUp Logo.jpeg
+INPUT ./Images/ClickUp Logo.jpeg
+INPUT ./Images/Slack Logo.png
+INPUT ./Images/Slack Logo.png
+INPUT ./Images/Slack Logo.png
+INPUT ./Images/Slack Logo.png
+INPUT ./Images/Slack Logo.png
+INPUT ./Images/Zoom and Microsoft Teams Logos.png
+INPUT ./Images/Zoom and Microsoft Teams Logos.png
+INPUT ./Images/Zoom and Microsoft Teams Logos.png
+INPUT ./Images/Zoom and Microsoft Teams Logos.png
+INPUT ./Images/Zoom and Microsoft Teams Logos.png
+INPUT ./Images/Microsoft Outlook Logo.png
+INPUT ./Images/Microsoft Outlook Logo.png
+INPUT ./Images/Microsoft Outlook Logo.png
+INPUT ./Images/Microsoft Outlook Logo.png
+INPUT ./Images/Microsoft Outlook Logo.png
+INPUT ./Images/Miro Logo.png
+INPUT ./Images/Miro Logo.png
+INPUT ./Images/Miro Logo.png
+INPUT ./Images/Miro Logo.png
+INPUT ./Images/Miro Logo.png
+INPUT ./Images/Gantt Diagram.png
+INPUT ./Images/Gantt Diagram.png
+INPUT ./Images/Gantt Diagram.png
+INPUT ./Images/Gantt Diagram.png
+INPUT ./Images/Gantt Diagram.png
 INPUT ./Chapter2.tex
 INPUT ./Chapter2.tex
 INPUT ./Chapter2.tex
@@ -1031,31 +1072,21 @@ INPUT ./Images/docdraft_logo.png
 INPUT ./Images/docdraft_logo.png
 INPUT ./Images/docdraft_logo.png
 INPUT ./Images/docdraft_logo.png
-INPUT ./Images/imperative_declarative_approach.png
-INPUT ./Images/imperative_declarative_approach.png
-INPUT ./Images/imperative_declarative_approach.png
-INPUT ./Images/imperative_declarative_approach.png
-INPUT ./Images/imperative_declarative_approach.png
+INPUT ./Images/Comparison of Contract Management and Legal AI Platforms.png
+INPUT ./Images/Comparison of Contract Management and Legal AI Platforms.png
+INPUT ./Images/Comparison of Contract Management and Legal AI Platforms.png
+INPUT ./Images/Comparison of Contract Management and Legal AI Platforms.png
+INPUT ./Images/Comparison of Contract Management and Legal AI Platforms.png
+INPUT ./Images/Imperative vs. Agentic Approach Comparison.png
+INPUT ./Images/Imperative vs. Agentic Approach Comparison.png
+INPUT ./Images/Imperative vs. Agentic Approach Comparison.png
+INPUT ./Images/Imperative vs. Agentic Approach Comparison.png
+INPUT ./Images/Imperative vs. Agentic Approach Comparison.png
 INPUT ./Images/evolution chronologic LLM.png
 INPUT ./Images/evolution chronologic LLM.png
 INPUT ./Images/evolution chronologic LLM.png
 INPUT ./Images/evolution chronologic LLM.png
 INPUT ./Images/evolution chronologic LLM.png
-INPUT ./Images/inteligence_LLM_comparison.png
-INPUT ./Images/inteligence_LLM_comparison.png
-INPUT ./Images/inteligence_LLM_comparison.png
-INPUT ./Images/inteligence_LLM_comparison.png
-INPUT ./Images/inteligence_LLM_comparison.png
-INPUT ./Images/price_LLM_comparison.png
-INPUT ./Images/price_LLM_comparison.png
-INPUT ./Images/price_LLM_comparison.png
-INPUT ./Images/price_LLM_comparison.png
-INPUT ./Images/price_LLM_comparison.png
-INPUT ./Images/speed_LLM_comparison.png
-INPUT ./Images/speed_LLM_comparison.png
-INPUT ./Images/speed_LLM_comparison.png
-INPUT ./Images/speed_LLM_comparison.png
-INPUT ./Images/speed_LLM_comparison.png
 INPUT ./Images/agentic_ai_architecture.png
 INPUT ./Images/agentic_ai_architecture.png
 INPUT ./Images/agentic_ai_architecture.png
@@ -1071,16 +1102,6 @@ INPUT ./Images/multi_agent_system.png
 INPUT ./Images/multi_agent_system.png
 INPUT ./Images/multi_agent_system.png
 INPUT ./Images/multi_agent_system.png
-INPUT ./Images/before_and_after_mcp.png
-INPUT ./Images/before_and_after_mcp.png
-INPUT ./Images/before_and_after_mcp.png
-INPUT ./Images/before_and_after_mcp.png
-INPUT ./Images/before_and_after_mcp.png
-INPUT ./Images/mcp_architecture_diagram.png
-INPUT ./Images/mcp_architecture_diagram.png
-INPUT ./Images/mcp_architecture_diagram.png
-INPUT ./Images/mcp_architecture_diagram.png
-INPUT ./Images/mcp_architecture_diagram.png
 INPUT ./Images/Langchain Architecture.png
 INPUT ./Images/Langchain Architecture.png
 INPUT ./Images/Langchain Architecture.png
@@ -1091,14 +1112,11 @@ INPUT ./Images/langgraph_mutil_agent.png
 INPUT ./Images/langgraph_mutil_agent.png
 INPUT ./Images/langgraph_mutil_agent.png
 INPUT ./Images/langgraph_mutil_agent.png
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
+INPUT ./Images/Comparison of LangChain and LangGraph.png
+INPUT ./Images/Comparison of LangChain and LangGraph.png
+INPUT ./Images/Comparison of LangChain and LangGraph.png
+INPUT ./Images/Comparison of LangChain and LangGraph.png
+INPUT ./Images/Comparison of LangChain and LangGraph.png
 INPUT ./Images/Langfuse Overview.png
 INPUT ./Images/Langfuse Overview.png
 INPUT ./Images/Langfuse Overview.png
@@ -1119,505 +1137,239 @@ INPUT ./Images/Business Architecture.png
 INPUT ./Images/Business Architecture.png
 INPUT ./Images/Business Architecture.png
 INPUT ./Images/Business Architecture.png
-INPUT ./Images/Use Case Diagram.jpg
-INPUT ./Images/Use Case Diagram.jpg
-INPUT ./Images/Use Case Diagram.jpg
-INPUT ./Images/Use Case Diagram.jpg
-INPUT ./Images/Use Case Diagram.jpg
-INPUT ./Images/Analysis Sequence Diagram.jpg
-INPUT ./Images/Analysis Sequence Diagram.jpg
-INPUT ./Images/Analysis Sequence Diagram.jpg
-INPUT ./Images/Analysis Sequence Diagram.jpg
-INPUT ./Images/Analysis Sequence Diagram.jpg
+INPUT ./Images/Actors and Their Roles.png
+INPUT ./Images/Actors and Their Roles.png
+INPUT ./Images/Actors and Their Roles.png
+INPUT ./Images/Actors and Their Roles.png
+INPUT ./Images/Actors and Their Roles.png
+INPUT ./Images/Use Case Diagram.png
+INPUT ./Images/Use Case Diagram.png
+INPUT ./Images/Use Case Diagram.png
+INPUT ./Images/Use Case Diagram.png
+INPUT ./Images/Use Case Diagram.png
+INPUT ./Images/Create Contract Use Case.png
+INPUT ./Images/Create Contract Use Case.png
+INPUT ./Images/Create Contract Use Case.png
+INPUT ./Images/Create Contract Use Case.png
+INPUT ./Images/Create Contract Use Case.png
+INPUT ./Images/Create Clause Request Use Case.png
+INPUT ./Images/Create Clause Request Use Case.png
+INPUT ./Images/Create Clause Request Use Case.png
+INPUT ./Images/Create Clause Request Use Case.png
+INPUT ./Images/Create Clause Request Use Case.png
+INPUT ./Images/Review Contract Use Case.png
+INPUT ./Images/Review Contract Use Case.png
+INPUT ./Images/Review Contract Use Case.png
+INPUT ./Images/Review Contract Use Case.png
+INPUT ./Images/Review Contract Use Case.png
+INPUT ./Images/Analysis Sequence Diagram.png
+INPUT ./Images/Analysis Sequence Diagram.png
+INPUT ./Images/Analysis Sequence Diagram.png
+INPUT ./Images/Analysis Sequence Diagram.png
+INPUT ./Images/Analysis Sequence Diagram.png
 INPUT ./Chapter3.tex
 INPUT ./Chapter3.tex
 INPUT ./Chapter3.tex
 INPUT ./Chapter3.tex
 INPUT Chapter3.tex
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/t1cmtt.fd
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/t1cmtt.fd
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/t1cmtt.fd
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
-INPUT ./Images/kernel-rpm.png
-INPUT ./Images/kernel-rpm.png
-INPUT ./Images/kernel-rpm.png
-INPUT ./Images/kernel-rpm.png
-INPUT ./Images/kernel-rpm.png
-INPUT ./Images/Kernel-Installation.png
-INPUT ./Images/Kernel-Installation.png
-INPUT ./Images/Kernel-Installation.png
-INPUT ./Images/Kernel-Installation.png
-INPUT ./Images/Kernel-Installation.png
-INPUT ./Images/Kernel-Version.png
-INPUT ./Images/Kernel-Version.png
-INPUT ./Images/Kernel-Version.png
-INPUT ./Images/Kernel-Version.png
-INPUT ./Images/Kernel-Version.png
-INPUT ./Images/QEMU-Installation.png
-INPUT ./Images/QEMU-Installation.png
-INPUT ./Images/QEMU-Installation.png
-INPUT ./Images/QEMU-Installation.png
-INPUT ./Images/QEMU-Installation.png
-INPUT ./Images/Libvirt-Installation.png
-INPUT ./Images/Libvirt-Installation.png
-INPUT ./Images/Libvirt-Installation.png
-INPUT ./Images/Libvirt-Installation.png
-INPUT ./Images/Libvirt-Installation.png
-INPUT ./Images/QEMU & Libvirt Version.png
-INPUT ./Images/QEMU & Libvirt Version.png
-INPUT ./Images/QEMU & Libvirt Version.png
-INPUT ./Images/QEMU & Libvirt Version.png
-INPUT ./Images/QEMU & Libvirt Version.png
-INPUT ./Images/AAVMF Incomplete Files.png
-INPUT ./Images/AAVMF Incomplete Files.png
-INPUT ./Images/AAVMF Incomplete Files.png
-INPUT ./Images/AAVMF Incomplete Files.png
-INPUT ./Images/AAVMF Incomplete Files.png
-INPUT ./Images/Edk2 Yum Repository.png
-INPUT ./Images/Edk2 Yum Repository.png
-INPUT ./Images/Edk2 Yum Repository.png
-INPUT ./Images/Edk2 Yum Repository.png
-INPUT ./Images/Edk2 Yum Repository.png
-INPUT ./Images/EDK2 Installation.png
-INPUT ./Images/EDK2 Installation.png
-INPUT ./Images/EDK2 Installation.png
-INPUT ./Images/EDK2 Installation.png
-INPUT ./Images/EDK2 Installation.png
-INPUT ./Images/AAVMF Files.png
-INPUT ./Images/AAVMF Files.png
-INPUT ./Images/AAVMF Files.png
-INPUT ./Images/AAVMF Files.png
-INPUT ./Images/AAVMF Files.png
-INPUT ./Images/Disk Image Creation QEMU.png
-INPUT ./Images/Disk Image Creation QEMU.png
-INPUT ./Images/Disk Image Creation QEMU.png
-INPUT ./Images/Disk Image Creation QEMU.png
-INPUT ./Images/Disk Image Creation QEMU.png
-INPUT ./Images/Starting Libvirtd.png
-INPUT ./Images/Starting Libvirtd.png
-INPUT ./Images/Starting Libvirtd.png
-INPUT ./Images/Starting Libvirtd.png
-INPUT ./Images/Starting Libvirtd.png
-INPUT ./Images/Storage pool creation.png
-INPUT ./Images/Storage pool creation.png
-INPUT ./Images/Storage pool creation.png
-INPUT ./Images/Storage pool creation.png
-INPUT ./Images/Storage pool creation.png
-INPUT ./Images/Disk Image Creation Libvirt.png
-INPUT ./Images/Disk Image Creation Libvirt.png
-INPUT ./Images/Disk Image Creation Libvirt.png
-INPUT ./Images/Disk Image Creation Libvirt.png
-INPUT ./Images/Disk Image Creation Libvirt.png
-INPUT ./Images/VM Creation with QEMU.png
-INPUT ./Images/VM Creation with QEMU.png
-INPUT ./Images/VM Creation with QEMU.png
-INPUT ./Images/VM Creation with QEMU.png
-INPUT ./Images/VM Creation with QEMU.png
-INPUT ./Images/VM Cration Using Libvirt.png
-INPUT ./Images/VM Cration Using Libvirt.png
-INPUT ./Images/VM Cration Using Libvirt.png
-INPUT ./Images/VM Cration Using Libvirt.png
-INPUT ./Images/VM Cration Using Libvirt.png
-INPUT ./Images/VNC Client.png
-INPUT ./Images/VNC Client.png
-INPUT ./Images/VNC Client.png
-INPUT ./Images/VNC Client.png
-INPUT ./Images/VNC Client.png
-INPUT ./Images/QEMU Monitor.png
-INPUT ./Images/QEMU Monitor.png
-INPUT ./Images/QEMU Monitor.png
-INPUT ./Images/QEMU Monitor.png
-INPUT ./Images/QEMU Monitor.png
+INPUT ./Images/Global Architecture of the Platform.png
+INPUT ./Images/Global Architecture of the Platform.png
+INPUT ./Images/Global Architecture of the Platform.png
+INPUT ./Images/Global Architecture of the Platform.png
+INPUT ./Images/Global Architecture of the Platform.png
+INPUT ./Images/Layered Architecture of a Backend Module.png
+INPUT ./Images/Layered Architecture of a Backend Module.png
+INPUT ./Images/Layered Architecture of a Backend Module.png
+INPUT ./Images/Layered Architecture of a Backend Module.png
+INPUT ./Images/Layered Architecture of a Backend Module.png
+INPUT ./Images/Component Architecture of a Frontend Module.png
+INPUT ./Images/Component Architecture of a Frontend Module.png
+INPUT ./Images/Component Architecture of a Frontend Module.png
+INPUT ./Images/Component Architecture of a Frontend Module.png
+INPUT ./Images/Component Architecture of a Frontend Module.png
+INPUT ./Images/LLM Integration.png
+INPUT ./Images/LLM Integration.png
+INPUT ./Images/LLM Integration.png
+INPUT ./Images/LLM Integration.png
+INPUT ./Images/LLM Integration.png
+INPUT ./Images/Tiptap Editing Framework.png
+INPUT ./Images/Tiptap Editing Framework.png
+INPUT ./Images/Tiptap Editing Framework.png
+INPUT ./Images/Tiptap Editing Framework.png
+INPUT ./Images/Tiptap Editing Framework.png
+INPUT ./Images/Class Diagram.png
+INPUT ./Images/Class Diagram.png
+INPUT ./Images/Class Diagram.png
+INPUT ./Images/Class Diagram.png
+INPUT ./Images/Class Diagram.png
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
+INPUT ./Images/Sequence Diagram - Draft Contract.png
+INPUT ./Images/Sequence Diagram - Draft Contract.png
+INPUT ./Images/Sequence Diagram - Draft Contract.png
+INPUT ./Images/Sequence Diagram - Draft Contract.png
+INPUT ./Images/Sequence Diagram - Draft Contract.png
+INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
+INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
+INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
+INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
+INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
+INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
+INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
+INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
+INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
+INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
+INPUT ./Images/Infra Architecture.png
+INPUT ./Images/Infra Architecture.png
+INPUT ./Images/Infra Architecture.png
+INPUT ./Images/Infra Architecture.png
+INPUT ./Images/Infra Architecture.png
+INPUT ./Images/Security Architecture.png
+INPUT ./Images/Security Architecture.png
+INPUT ./Images/Security Architecture.png
+INPUT ./Images/Security Architecture.png
+INPUT ./Images/Security Architecture.png
+INPUT ./Images/Deployment Architecture.png
+INPUT ./Images/Deployment Architecture.png
+INPUT ./Images/Deployment Architecture.png
+INPUT ./Images/Deployment Architecture.png
+INPUT ./Images/Deployment Architecture.png
 INPUT ./Chapter4.tex
 INPUT ./Chapter4.tex
 INPUT ./Chapter4.tex
 INPUT ./Chapter4.tex
 INPUT Chapter4.tex
-INPUT ./Images/Hostnamectl Command on the Host.png
-INPUT ./Images/Hostnamectl Command on the Host.png
-INPUT ./Images/Hostnamectl Command on the Host.png
-INPUT ./Images/Hostnamectl Command on the Host.png
-INPUT ./Images/Hostnamectl Command on the Host.png
-INPUT ./Images/QEMU Version_ 7.2.0-14 oci.png
-INPUT ./Images/QEMU Version_ 7.2.0-14 oci.png
-INPUT ./Images/QEMU Version_ 7.2.0-14 oci.png
-INPUT ./Images/QEMU Version_ 7.2.0-14 oci.png
-INPUT ./Images/QEMU Version_ 7.2.0-14 oci.png
-INPUT ./Images/OVMF Folder.png
-INPUT ./Images/OVMF Folder.png
-INPUT ./Images/OVMF Folder.png
-INPUT ./Images/OVMF Folder.png
-INPUT ./Images/OVMF Folder.png
-INPUT ./Images/edk2 Version.png
-INPUT ./Images/edk2 Version.png
-INPUT ./Images/edk2 Version.png
-INPUT ./Images/edk2 Version.png
-INPUT ./Images/edk2 Version.png
-INPUT ./Images/Storage on the Host.png
-INPUT ./Images/Storage on the Host.png
-INPUT ./Images/Storage on the Host.png
-INPUT ./Images/Storage on the Host.png
-INPUT ./Images/Storage on the Host.png
-INPUT ./Images/Memory on the Host.png
-INPUT ./Images/Memory on the Host.png
-INPUT ./Images/Memory on the Host.png
-INPUT ./Images/Memory on the Host.png
-INPUT ./Images/Memory on the Host.png
-INPUT ./Images/Launching the Guest.png
-INPUT ./Images/Launching the Guest.png
-INPUT ./Images/Launching the Guest.png
-INPUT ./Images/Launching the Guest.png
-INPUT ./Images/Launching the Guest.png
-INPUT ./Images/Hostnamectl Command on the Guest.png
-INPUT ./Images/Hostnamectl Command on the Guest.png
-INPUT ./Images/Hostnamectl Command on the Guest.png
-INPUT ./Images/Hostnamectl Command on the Guest.png
-INPUT ./Images/Hostnamectl Command on the Guest.png
-INPUT ./Images/Uname -r Command on the Guest.png
-INPUT ./Images/Uname -r Command on the Guest.png
-INPUT ./Images/Uname -r Command on the Guest.png
-INPUT ./Images/Uname -r Command on the Guest.png
-INPUT ./Images/Uname -r Command on the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/After Rebooting on the Guest.png
-INPUT ./Images/After Rebooting on the Guest.png
-INPUT ./Images/After Rebooting on the Guest.png
-INPUT ./Images/After Rebooting on the Guest.png
-INPUT ./Images/After Rebooting on the Guest.png
-INPUT ./Images/Ping Localhost When Stop.png
-INPUT ./Images/Ping Localhost When Stop.png
-INPUT ./Images/Ping Localhost When Stop.png
-INPUT ./Images/Ping Localhost When Stop.png
-INPUT ./Images/Ping Localhost When Stop.png
-INPUT ./Images/Stop-Cont Commands.png
-INPUT ./Images/Stop-Cont Commands.png
-INPUT ./Images/Stop-Cont Commands.png
-INPUT ./Images/Stop-Cont Commands.png
-INPUT ./Images/Stop-Cont Commands.png
-INPUT ./Images/Ping Localhost After Cont.png
-INPUT ./Images/Ping Localhost After Cont.png
-INPUT ./Images/Ping Localhost After Cont.png
-INPUT ./Images/Ping Localhost After Cont.png
-INPUT ./Images/Ping Localhost After Cont.png
-INPUT ./Images/Systemctl Suspend on the Guest.png
-INPUT ./Images/Systemctl Suspend on the Guest.png
-INPUT ./Images/Systemctl Suspend on the Guest.png
-INPUT ./Images/Systemctl Suspend on the Guest.png
-INPUT ./Images/Systemctl Suspend on the Guest.png
-INPUT ./Images/System_Wakeup.png
-INPUT ./Images/System_Wakeup.png
-INPUT ./Images/System_Wakeup.png
-INPUT ./Images/System_Wakeup.png
-INPUT ./Images/System_Wakeup.png
-INPUT ./Images/Wakeup Guest after Suspending.png
-INPUT ./Images/Wakeup Guest after Suspending.png
-INPUT ./Images/Wakeup Guest after Suspending.png
-INPUT ./Images/Wakeup Guest after Suspending.png
-INPUT ./Images/Wakeup Guest after Suspending.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/Output of shutdowing guest.png
-INPUT ./Images/Output of shutdowing guest.png
-INPUT ./Images/Output of shutdowing guest.png
-INPUT ./Images/Output of shutdowing guest.png
-INPUT ./Images/Output of shutdowing guest.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/24 VNIC Hotplug Script.png
-INPUT ./Images/24 VNIC Hotplug Script.png
-INPUT ./Images/24 VNIC Hotplug Script.png
-INPUT ./Images/24 VNIC Hotplug Script.png
-INPUT ./Images/24 VNIC Hotplug Script.png
-INPUT ./Images/VNIC result ip a (1).png
-INPUT ./Images/VNIC result ip a (1).png
-INPUT ./Images/VNIC result ip a (1).png
-INPUT ./Images/VNIC result ip a (1).png
-INPUT ./Images/VNIC result ip a (1).png
-INPUT ./Images/24 VNIC Unplug Script.png
-INPUT ./Images/24 VNIC Unplug Script.png
-INPUT ./Images/24 VNIC Unplug Script.png
-INPUT ./Images/24 VNIC Unplug Script.png
-INPUT ./Images/24 VNIC Unplug Script.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/Result of ip a.png
-INPUT ./Images/LSPCI Grep ETh.png
-INPUT ./Images/LSPCI Grep ETh.png
-INPUT ./Images/LSPCI Grep ETh.png
-INPUT ./Images/LSPCI Grep ETh.png
-INPUT ./Images/LSPCI Grep ETh.png
-INPUT ./Images/24 VFIO VNIC Hotplug Script.png
-INPUT ./Images/24 VFIO VNIC Hotplug Script.png
-INPUT ./Images/24 VFIO VNIC Hotplug Script.png
-INPUT ./Images/24 VFIO VNIC Hotplug Script.png
-INPUT ./Images/24 VFIO VNIC Hotplug Script.png
-INPUT ./Images/ip a before hotplug vfio.png
-INPUT ./Images/ip a before hotplug vfio.png
-INPUT ./Images/ip a before hotplug vfio.png
-INPUT ./Images/ip a before hotplug vfio.png
-INPUT ./Images/ip a before hotplug vfio.png
-INPUT ./Images/ip a after vfio.png
-INPUT ./Images/ip a after vfio.png
-INPUT ./Images/ip a after vfio.png
-INPUT ./Images/ip a after vfio.png
-INPUT ./Images/ip a after vfio.png
-INPUT ./Images/24 VFIO VNIC Unplug Script.png
-INPUT ./Images/24 VFIO VNIC Unplug Script.png
-INPUT ./Images/24 VFIO VNIC Unplug Script.png
-INPUT ./Images/24 VFIO VNIC Unplug Script.png
-INPUT ./Images/24 VFIO VNIC Unplug Script.png
-INPUT ./Images/ip a after VFIO Unplug.png
-INPUT ./Images/ip a after VFIO Unplug.png
-INPUT ./Images/ip a after VFIO Unplug.png
-INPUT ./Images/ip a after VFIO Unplug.png
-INPUT ./Images/ip a after VFIO Unplug.png
-INPUT ./Images/Creating 3 vDisks.png
-INPUT ./Images/Creating 3 vDisks.png
-INPUT ./Images/Creating 3 vDisks.png
-INPUT ./Images/Creating 3 vDisks.png
-INPUT ./Images/Creating 3 vDisks.png
-INPUT ./Images/3 vDisk Hotplug.png
-INPUT ./Images/3 vDisk Hotplug.png
-INPUT ./Images/3 vDisk Hotplug.png
-INPUT ./Images/3 vDisk Hotplug.png
-INPUT ./Images/3 vDisk Hotplug.png
-INPUT ./Images/lsblk before hotplug.png
-INPUT ./Images/lsblk before hotplug.png
-INPUT ./Images/lsblk before hotplug.png
-INPUT ./Images/lsblk before hotplug.png
-INPUT ./Images/lsblk before hotplug.png
-INPUT ./Images/lsblk after hotplug.png
-INPUT ./Images/lsblk after hotplug.png
-INPUT ./Images/lsblk after hotplug.png
-INPUT ./Images/lsblk after hotplug.png
-INPUT ./Images/lsblk after hotplug.png
-INPUT ./Images/Launch Kdump.png
-INPUT ./Images/Launch Kdump.png
-INPUT ./Images/Launch Kdump.png
-INPUT ./Images/Launch Kdump.png
-INPUT ./Images/Launch Kdump.png
-INPUT ./Images/Crash Folder.png
-INPUT ./Images/Crash Folder.png
-INPUT ./Images/Crash Folder.png
-INPUT ./Images/Crash Folder.png
-INPUT ./Images/Crash Folder.png
-INPUT ./Images/Memory Hotplug.png
-INPUT ./Images/Memory Hotplug.png
-INPUT ./Images/Memory Hotplug.png
-INPUT ./Images/Memory Hotplug.png
-INPUT ./Images/Memory Hotplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after hotplug.png
-INPUT ./Images/lsmem after hotplug.png
-INPUT ./Images/lsmem after hotplug.png
-INPUT ./Images/lsmem after hotplug.png
-INPUT ./Images/lsmem after hotplug.png
-INPUT ./Images/Memory Unplug.png
-INPUT ./Images/Memory Unplug.png
-INPUT ./Images/Memory Unplug.png
-INPUT ./Images/Memory Unplug.png
-INPUT ./Images/Memory Unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/lsmem after unplug.png
-INPUT ./Images/Host System Configuration Verification.png
-INPUT ./Images/Host System Configuration Verification.png
-INPUT ./Images/Host System Configuration Verification.png
-INPUT ./Images/Host System Configuration Verification.png
-INPUT ./Images/Host System Configuration Verification.png
-INPUT ./Images/Launching Guest 2.png
-INPUT ./Images/Launching Guest 2.png
-INPUT ./Images/Launching Guest 2.png
-INPUT ./Images/Launching Guest 2.png
-INPUT ./Images/Launching Guest 2.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Rebooting the Guest.png
-INPUT ./Images/Stop-Cont 2.png
-INPUT ./Images/Stop-Cont 2.png
-INPUT ./Images/Stop-Cont 2.png
-INPUT ./Images/Stop-Cont 2.png
-INPUT ./Images/Stop-Cont 2.png
-INPUT ./Images/Suspend Guest 2.png
-INPUT ./Images/Suspend Guest 2.png
-INPUT ./Images/Suspend Guest 2.png
-INPUT ./Images/Suspend Guest 2.png
-INPUT ./Images/Suspend Guest 2.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/System-powerdown.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/ip a after VNIC Hotplug 2.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/Kdump Test 2.png
-INPUT ./Images/Kdump Test 2.png
-INPUT ./Images/Kdump Test 2.png
-INPUT ./Images/Kdump Test 2.png
-INPUT ./Images/Kdump Test 2.png
-INPUT ./Images/Log Folder Founded.png
-INPUT ./Images/Log Folder Founded.png
-INPUT ./Images/Log Folder Founded.png
-INPUT ./Images/Log Folder Founded.png
-INPUT ./Images/Log Folder Founded.png
-INPUT ./Images/Hotplug cpu.png
-INPUT ./Images/Hotplug cpu.png
-INPUT ./Images/Hotplug cpu.png
-INPUT ./Images/Hotplug cpu.png
-INPUT ./Images/Hotplug cpu.png
-INPUT ./Images/lscpu before hotplug.png
-INPUT ./Images/lscpu before hotplug.png
-INPUT ./Images/lscpu before hotplug.png
-INPUT ./Images/lscpu before hotplug.png
-INPUT ./Images/lscpu before hotplug.png
-INPUT ./Images/lscpu after hotplug.png
-INPUT ./Images/lscpu after hotplug.png
-INPUT ./Images/lscpu after hotplug.png
-INPUT ./Images/lscpu after hotplug.png
-INPUT ./Images/lscpu after hotplug.png
-INPUT ./Images/Host System Config 3.png
-INPUT ./Images/Host System Config 3.png
-INPUT ./Images/Host System Config 3.png
-INPUT ./Images/Host System Config 3.png
-INPUT ./Images/Host System Config 3.png
-INPUT ./Images/Launching Guest 3.png
-INPUT ./Images/Launching Guest 3.png
-INPUT ./Images/Launching Guest 3.png
-INPUT ./Images/Launching Guest 3.png
-INPUT ./Images/Launching Guest 3.png
-INPUT ./Images/Start using libvirt.png
-INPUT ./Images/Start using libvirt.png
-INPUT ./Images/Start using libvirt.png
-INPUT ./Images/Start using libvirt.png
-INPUT ./Images/Start using libvirt.png
-INPUT ./Images/Reboot using libvirt.png
-INPUT ./Images/Reboot using libvirt.png
-INPUT ./Images/Reboot using libvirt.png
-INPUT ./Images/Reboot using libvirt.png
-INPUT ./Images/Reboot using libvirt.png
-INPUT ./Images/Suspend using libvirt.png
-INPUT ./Images/Suspend using libvirt.png
-INPUT ./Images/Suspend using libvirt.png
-INPUT ./Images/Suspend using libvirt.png
-INPUT ./Images/Suspend using libvirt.png
-INPUT ./Images/Resume using libvirt.png
-INPUT ./Images/Resume using libvirt.png
-INPUT ./Images/Resume using libvirt.png
-INPUT ./Images/Resume using libvirt.png
-INPUT ./Images/Resume using libvirt.png
-INPUT ./Images/Reset Using libvirt.png
-INPUT ./Images/Reset Using libvirt.png
-INPUT ./Images/Reset Using libvirt.png
-INPUT ./Images/Reset Using libvirt.png
-INPUT ./Images/Reset Using libvirt.png
-INPUT ./Images/Shutdown using Libvirt.png
-INPUT ./Images/Shutdown using Libvirt.png
-INPUT ./Images/Shutdown using Libvirt.png
-INPUT ./Images/Shutdown using Libvirt.png
-INPUT ./Images/Shutdown using Libvirt.png
-INPUT ./Images/Script hotplug VNIC Libvirt.png
-INPUT ./Images/Script hotplug VNIC Libvirt.png
-INPUT ./Images/Script hotplug VNIC Libvirt.png
-INPUT ./Images/Script hotplug VNIC Libvirt.png
-INPUT ./Images/Script hotplug VNIC Libvirt.png
-INPUT ./Images/ip a after hotplug VNIC Libvirt.png
-INPUT ./Images/ip a after hotplug VNIC Libvirt.png
-INPUT ./Images/ip a after hotplug VNIC Libvirt.png
-INPUT ./Images/ip a after hotplug VNIC Libvirt.png
-INPUT ./Images/ip a after hotplug VNIC Libvirt.png
-INPUT ./Images/Populate VFIO libvirt.png
-INPUT ./Images/Populate VFIO libvirt.png
-INPUT ./Images/Populate VFIO libvirt.png
-INPUT ./Images/Populate VFIO libvirt.png
-INPUT ./Images/Populate VFIO libvirt.png
-INPUT ./Images/VFIO VNIC Hotplug Libvirt.png
-INPUT ./Images/VFIO VNIC Hotplug Libvirt.png
-INPUT ./Images/VFIO VNIC Hotplug Libvirt.png
-INPUT ./Images/VFIO VNIC Hotplug Libvirt.png
-INPUT ./Images/VFIO VNIC Hotplug Libvirt.png
-INPUT ./Images/ip a after hotplug vfio libvirt.png
-INPUT ./Images/ip a after hotplug vfio libvirt.png
-INPUT ./Images/ip a after hotplug vfio libvirt.png
-INPUT ./Images/ip a after hotplug vfio libvirt.png
-INPUT ./Images/ip a after hotplug vfio libvirt.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/lsblk after hotplug and after ungplug.png
-INPUT ./Images/kdump test 3.png
-INPUT ./Images/kdump test 3.png
-INPUT ./Images/kdump test 3.png
-INPUT ./Images/kdump test 3.png
-INPUT ./Images/kdump test 3.png
-INPUT ./Images/Kdumpt Result folder.png
-INPUT ./Images/Kdumpt Result folder.png
-INPUT ./Images/Kdumpt Result folder.png
-INPUT ./Images/Kdumpt Result folder.png
-INPUT ./Images/Kdumpt Result folder.png
-INPUT ./Images/Large VM Test 500G.png
-INPUT ./Images/Large VM Test 500G.png
-INPUT ./Images/Large VM Test 500G.png
-INPUT ./Images/Large VM Test 500G.png
-INPUT ./Images/Large VM Test 500G.png
-INPUT ./Images/Large VM Test 1T.png
-INPUT ./Images/Large VM Test 1T.png
-INPUT ./Images/Large VM Test 1T.png
-INPUT ./Images/Large VM Test 1T.png
-INPUT ./Images/Large VM Test 1T.png
-INPUT ./Conclusion.tex
-INPUT ./Conclusion.tex
-INPUT ./Conclusion.tex
-INPUT ./Conclusion.tex
-INPUT Conclusion.tex
-INPUT ./Rapport_PFE_V0.bbl
-INPUT ./Rapport_PFE_V0.bbl
-INPUT Rapport_PFE_V0.bbl
-OUTPUT Rapport_PFE_V0.maf
-INPUT ./Rapport_PFE_V0.mtc
-INPUT ./Rapport_PFE_V0.mtc
-INPUT Rapport_PFE_V0.aux
-INPUT ./Rapport_PFE_V0.out
-INPUT ./Rapport_PFE_V0.out
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbi2488.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14bf.pfb
+INPUT ./Images/Azure OpenAI Logo.png
+INPUT ./Images/Azure OpenAI Logo.png
+INPUT ./Images/Azure OpenAI Logo.png
+INPUT ./Images/Azure OpenAI Logo.png
+INPUT ./Images/Azure OpenAI Logo.png
+INPUT ./Images/LangChain Logo.png
+INPUT ./Images/LangChain Logo.png
+INPUT ./Images/LangChain Logo.png
+INPUT ./Images/LangChain Logo.png
+INPUT ./Images/LangChain Logo.png
+INPUT ./Images/LangGraph Logo.png
+INPUT ./Images/LangGraph Logo.png
+INPUT ./Images/LangGraph Logo.png
+INPUT ./Images/LangGraph Logo.png
+INPUT ./Images/LangGraph Logo.png
+INPUT ./Images/Elasticsearch Logo.jpg
+INPUT ./Images/Elasticsearch Logo.jpg
+INPUT ./Images/Elasticsearch Logo.jpg
+INPUT ./Images/Elasticsearch Logo.jpg
+INPUT ./Images/Elasticsearch Logo.jpg
+INPUT ./Images/TypeScript Logo.png
+INPUT ./Images/TypeScript Logo.png
+INPUT ./Images/TypeScript Logo.png
+INPUT ./Images/TypeScript Logo.png
+INPUT ./Images/TypeScript Logo.png
+INPUT ./Images/React Logo.png
+INPUT ./Images/React Logo.png
+INPUT ./Images/React Logo.png
+INPUT ./Images/React Logo.png
+INPUT ./Images/React Logo.png
+INPUT ./Images/TipTap Logo.png
+INPUT ./Images/TipTap Logo.png
+INPUT ./Images/TipTap Logo.png
+INPUT ./Images/TipTap Logo.png
+INPUT ./Images/TipTap Logo.png
+INPUT ./Images/Jest Logo.png
+INPUT ./Images/Jest Logo.png
+INPUT ./Images/Jest Logo.png
+INPUT ./Images/Jest Logo.png
+INPUT ./Images/Jest Logo.png
+INPUT ./Images/Python Logo.png
+INPUT ./Images/Python Logo.png
+INPUT ./Images/Python Logo.png
+INPUT ./Images/Python Logo.png
+INPUT ./Images/Python Logo.png
+INPUT ./Images/FastAPI Logo.jpg
+INPUT ./Images/FastAPI Logo.jpg
+INPUT ./Images/FastAPI Logo.jpg
+INPUT ./Images/FastAPI Logo.jpg
+INPUT ./Images/FastAPI Logo.jpg
+INPUT ./Images/Pytest Logo.png
+INPUT ./Images/Pytest Logo.png
+INPUT ./Images/Pytest Logo.png
+INPUT ./Images/Pytest Logo.png
+INPUT ./Images/Pytest Logo.png
+INPUT ./Images/PostgreSQL Logo.png
+INPUT ./Images/PostgreSQL Logo.png
+INPUT ./Images/PostgreSQL Logo.png
+INPUT ./Images/PostgreSQL Logo.png
+INPUT ./Images/PostgreSQL Logo.png
+INPUT ./Images/Postman Logo.png
+INPUT ./Images/Postman Logo.png
+INPUT ./Images/Postman Logo.png
+INPUT ./Images/Postman Logo.png
+INPUT ./Images/Postman Logo.png
+INPUT ./Images/cURL Logo.png
+INPUT ./Images/cURL Logo.png
+INPUT ./Images/cURL Logo.png
+INPUT ./Images/cURL Logo.png
+INPUT ./Images/cURL Logo.png
+INPUT ./Images/SonarQube Logo.png
+INPUT ./Images/SonarQube Logo.png
+INPUT ./Images/SonarQube Logo.png
+INPUT ./Images/SonarQube Logo.png
+INPUT ./Images/SonarQube Logo.png
+INPUT ./Images/Azure Pipelines Logo.jpg
+INPUT ./Images/Azure Pipelines Logo.jpg
+INPUT ./Images/Azure Pipelines Logo.jpg
+INPUT ./Images/Azure Pipelines Logo.jpg
+INPUT ./Images/Azure Pipelines Logo.jpg
+INPUT ./Images/Docker Logo.png
+INPUT ./Images/Docker Logo.png
+INPUT ./Images/Docker Logo.png
+INPUT ./Images/Docker Logo.png
+INPUT ./Images/Docker Logo.png
+INPUT ./Images/Kubernetes Logo.png
+INPUT ./Images/Kubernetes Logo.png
+INPUT ./Images/Kubernetes Logo.png
+INPUT ./Images/Kubernetes Logo.png
+INPUT ./Images/Kubernetes Logo.png
+INPUT ./Images/Terraform Logo.png
+INPUT ./Images/Terraform Logo.png
+INPUT ./Images/Terraform Logo.png
+INPUT ./Images/Terraform Logo.png
+INPUT ./Images/Terraform Logo.png
+INPUT ./Images/VS Code Logo.png
+INPUT ./Images/VS Code Logo.png
+INPUT ./Images/VS Code Logo.png
+INPUT ./Images/VS Code Logo.png
+INPUT ./Images/VS Code Logo.png
+INPUT ./Images/Contract Repository Page.png
+INPUT ./Images/Contract Repository Page.png
+INPUT ./Images/Contract Repository Page.png
+INPUT ./Images/Contract Repository Page.png
+INPUT ./Images/Contract Repository Page.png
+INPUT ./Images/Generate Contract Component.png
+INPUT ./Images/Generate Contract Component.png
+INPUT ./Images/Generate Contract Component.png
+INPUT ./Images/Generate Contract Component.png
+INPUT ./Images/Generate Contract Component.png
+INPUT ./Images/Generation Contract - Checking Required Fields.png
+INPUT ./Images/Generation Contract - Checking Required Fields.png
+INPUT ./Images/Generation Contract - Checking Required Fields.png
+INPUT ./Images/Generation Contract - Checking Required Fields.png
+INPUT ./Images/Generation Contract - Checking Required Fields.png
+INPUT ./Images/Generation Contract - Steps.png
+INPUT ./Images/Generation Contract - Steps.png
+INPUT ./Images/Generation Contract - Steps.png
+INPUT ./Images/Generation Contract - Steps.png
+INPUT ./Images/Generation Contract - Steps.png
+INPUT ./Images/Contract Editor Page.png
+INPUT ./Images/Contract Editor Page.png
+INPUT ./Images/Contract Editor Page.png
+INPUT ./Images/Contract Editor Page.png
+INPUT ./Images/Contract Editor Page.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png

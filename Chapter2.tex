@@ -1,4 +1,4 @@
-This chapter presents an overview of the technical specifications and analysis underlying the intelligent contract management solution developed during my internship. It begins with a comparative analysis of existing solutions, leading to the rationale behind selecting an agentic AI-based approach. Subsequently, it details key technologies, including Large Language Models (LLMs), Agentic AI, LangChain, LangGraph, Langfuse, and Tiptap. Finally, the chapter outlines the project’s functional and non-functional requirements, clearly defining the necessary features and criteria to meet project goals.
+This chapter provides an in-depth overview of the technical analysis and specifications that underpin the intelligent contract management solution developed during the internship. Initially, it presents a comparative analysis of existing contract management platforms, elaborating the rationale behind selecting an Agentic AI-based approach. Subsequently, the chapter thoroughly examines critical technologies utilized in the project, such as Large Language Models (LLMs), Agentic AI, LangChain, LangGraph, Langfuse, and the Tiptap rich-text editor. Lastly, the chapter defines both the functional and non-functional requirements necessary to achieve the specific project goals, clarifying the features and performance criteria required by the platform.
 
 \newpage
 \fancyhead[R]{\textsc{Chapter 2 - Analysis and Specifications}}
@@ -9,7 +9,7 @@ This section benchmarks existing contract management and legal automation platfo
 
 %% Benchmarking Existing Solutions
 \subsection{Benchmarking Existing Solutions}
-To evaluate the landscape of intelligent contract management platforms, we analyzed three prominent solutions: PandaDoc, Harvey AI, and DocDraft. Each offers unique features catering to different aspects of contract management and legal automation.
+To evaluate the landscape of intelligent contract management platforms, we analyzed three prominent solutions: PandaDoc, Harvey AI, and DocDraft. Each platform was selected specifically for its focus on contract management and legal automation capabilities.
 
 % PandaDoc
 \subsubsection{PandaDoc}
@@ -18,8 +18,8 @@ PandaDoc is a comprehensive document automation platform designed to streamline 
 \begin{center}
     \centering
     \includegraphics[width=0.3\textwidth]{Images/PandaDoc_logo.png}
-    \captionof{figure}{PandaDoc Logo} \cite{pandadoc}
-    \label{fig:pandadoc}
+    \captionof{figure}{PandaDoc Logo} \cite{pandadoc_logo}
+    \label{fig:pandadoc_logo}
 \end{center}
 
 Here are the key features of PandaDoc:
@@ -38,11 +38,11 @@ Harvey AI is a generative AI platform designed for legal professionals, enabling
 \begin{center}
     \centering
     \includegraphics[width=0.3\textwidth]{Images/harveyai_logo.png}
-    \captionof{figure}{Harvey AI Logo} \cite{harveyai}
-    \label{fig:harveyai}
+    \captionof{figure}{Harvey AI Logo} \cite{harveyai_logo}
+    \label{fig:harveyai_logo}
 \end{center}
 
-Here are the key features of Harvey AI:
+Harvey AI’s main functionalities include:
 \begin{itemize}
     \item \textbf{AI-Powered Legal Research}: Provides fast, accurate legal research across jurisdictions with references and citations.
     \item \textbf{Document Drafting Automation}: Automates the generation and review of legal documents, reducing time and manual effort.
@@ -58,11 +58,11 @@ DocDraft is an AI-powered contract drafting solution focused on automating the g
 \begin{center}
     \centering
     \includegraphics[width=0.3\textwidth]{Images/docdraft_logo.png}
-    \captionof{figure}{DocDraft Logo} \cite{docdraft}
-    \label{fig:docdraft}
+    \captionof{figure}{DocDraft Logo} \cite{docdraft_logo}
+    \label{fig:docdraft_logo}
 \end{center}
 
-Here are the key features of DocDraft:
+DocDraft highlights the following core features:
 \begin{itemize}
     \item \textbf{Automated Document Drafting}: Quickly generates contracts and legal documents using intelligent pre-built logic.
     \item \textbf{Clause Library}: Offers a rich repository of standard and customizable clauses for efficient contract assembly.
@@ -73,28 +73,14 @@ Here are the key features of DocDraft:
 
 % Comparative Analysis
 \subsubsection{Comparative Analysis}
-The following table summarizes the key features of the three platforms:
-\begin{table}[ht!]
+The following table summarizes the key features of the three platforms:\vspace{-0.3cm}
+
+\begin{center}
     \centering
-    \begin{tabular}{|l|c|c|c|}
-        \hline
-        \textbf{Feature} & \textbf{PandaDoc} & \textbf{Harvey AI} & \textbf{DocDraft} \\
-        \hline
-        Document Automation & Yes & Yes & Yes \\
-        eSignature Integration & Yes & No & No \\
-        Legal Research Capabilities & No & Yes & No \\
-        Predictive Analytics & No & Yes & No \\
-        Compliance Checks & Limited & Advanced & Advanced \\
-        CRM Integration & Yes & No & No \\
-        Collaboration Tools & Yes & Limited & Yes \\
-        Customizable AI Models & No & Yes & No \\
-        Clause Library & Limited & No & Yes \\
-        Attorney Consultation & No & No & Yes \\
-        \hline
-    \end{tabular}
-    \caption{Comparison of Contract Management and Legal AI Platforms}
-    \label{tab:comparison}
-\end{table}
+    \includegraphics[width=1\textwidth]{Images/Comparison of Contract Management and Legal AI Platforms.png}
+    \captionof{table}{Imperative vs. Agentic Approach Comparison}
+    \label{tab:comparison_legal_platforms}
+\end{center}
 
 % Why We Chose to Build a New Solution
 \subsection{Why We Chose to Build a New Solution}
@@ -102,13 +88,15 @@ The comparative study clearly revealed that existing contract management platfor
 
 To overcome these limitations, we chose to develop a custom solution based on agentic AI. This approach allows us to build a modular, scalable system capable of automating contract drafting, compliance checks, and collaboration, all within a secure and integrated enterprise environment. The goal was not only to improve current processes, but also to lay a solid foundation for future legal automation use cases.\mynewline
 
-A clear comparison between traditional (imperative) and agentic (declarative) approaches is illustrated in Figure~\ref{fig:agentic-table}, highlighting the benefits that guided our architectural direction.
+To achieve this, we evaluated two principal approaches for building intelligent automation solutions: the traditional imperative approach and the more advanced declarative (agentic) approach. The imperative approach relies on explicit instructions and manual intervention, while the declarative approach leverages autonomous AI agents capable of dynamically adapting to tasks and goals.\mynewline
+
+A detailed comparison of these two methodologies, highlighting the specific advantages of the agentic approach, is presented in Table~\ref{tab:imperative_vs_declarative}. This comparison clearly demonstrates why the agentic (declarative) methodology is more aligned with our requirements and vision, guiding our architectural direction.
 
 \begin{center}
     \centering
-    \includegraphics[width=0.9\textwidth]{Images/imperative_declarative_approach.png}
-    \captionof{figure}{Imperative vs. Agentic Approach Comparison} \cite{agenticTable}
-    \label{fig:agentic-table}
+    \includegraphics[width=1\textwidth]{Images/Imperative vs. Agentic Approach Comparison.png}
+    \captionof{table}{Imperative vs. Agentic Approach Comparison}
+    \label{tab:imperative_vs_declarative}
 \end{center}
 
 
@@ -119,8 +107,8 @@ This section provides an overview of key technologies enabling the platform's in
 % Large Language Models (LLMs)
 \subsection{Large Language Models (LLMs)}
 
-\subsubsection{Introduction}
-Language serves as the cornerstone of human interaction, significantly impacting how humans interface with machines. The evolution of Natural Language Processing (NLP), from early statistical approaches to sophisticated neural architectures, has culminated in the advent of Large Language Models (LLMs). These advancements have been driven by the introduction of transformer-based architectures, substantial improvements in computational resources, and vast amounts of training data. The resulting models exhibit near-human performance in numerous linguistic tasks such as translation, summarization, and conversational dialogues.
+\subsubsection{Overview}
+Large Language Models (LLMs) have revolutionized natural language processing through transformer-based architectures, extensive computational resources, and vast datasets, achieving near-human performance in various linguistic tasks.
 
 \begin{center}
     \centering
@@ -144,29 +132,6 @@ Despite these advancements, LLM deployment is constrained by several critical li
     \item \textbf{Ethical and Bias Considerations}: Models may inadvertently propagate biases present in training data or generate misleading and potentially harmful outputs, necessitating robust ethical oversight.
 \end{itemize}
 
-Figures~\ref{fig:llmSpeedComparison}, \ref{fig:llmPriceComparison}, and \ref{fig:llmIntelligenceComparison} summarize comparative metrics across popular LLMs, highlighting trade-offs in performance, cost, and processing speed.
-
-\begin{center}
-    \centering
-    \includegraphics[width=0.85\textwidth]{Images/inteligence_LLM_comparison.png}
-    \captionof{figure}{Comparative Intelligence Index of LLMs} \cite{llmIntelligenceComparison}
-    \label{fig:llmIntelligenceComparison}
-\end{center}
-
-\begin{center}
-    \centering
-    \includegraphics[width=0.85\textwidth]{Images/price_LLM_comparison.png}
-    \captionof{figure}{Cost Comparison per Million Tokens} \cite{llmPriceComparison}
-    \label{fig:llmPriceComparison}
-\end{center}
-
-\begin{center}
-    \centering
-    \includegraphics[width=0.85\textwidth]{Images/speed_LLM_comparison.png}
-    \captionof{figure}{Inference Speed Comparison of Various LLMs} \cite{llmSpeedComparison}
-    \label{fig:llmSpeedComparison}
-\end{center}
-
 \subsubsection{Future Directions}
 Addressing these constraints has become an active area of research. Innovations in model compression techniques, such as pruning, quantization, and distillation, aim to enhance efficiency and accessibility of LLMs. Moreover, emerging architectures and retrieval-augmented generation methods offer promising approaches for handling extensive datasets and large input contexts effectively.
 
@@ -175,7 +140,7 @@ Future advancements are expected to mitigate current limitations, further unlock
 % Agentic AI
 \subsection{Agentic AI}
 
-\subsubsection{Introduction}
+\subsubsection{Overview}
 Agentic AI represents a significant evolution in artificial intelligence, transitioning from reactive systems to proactive, autonomous entities capable of setting goals, making decisions, and adapting to dynamic environments. Unlike traditional AI agents that operate within predefined parameters, Agentic AI systems exhibit autonomy, learning, and adaptability, enabling them to handle complex, multi-step tasks with minimal human intervention.
 
 \begin{center}
@@ -206,8 +171,8 @@ While both Agentic AI and Generative AI leverage advanced machine learning techn
 
 \begin{center}
     \centering
-    \includegraphics[width=0.9\textwidth]{Images/agentic_vs_generative_ai.png}
-    \captionof{figure}{Comparison Between Agentic AI and Generative AI} \cite{agenticAIvsGenerativeAI}
+    \includegraphics[width=1\textwidth]{Images/agentic_vs_generative_ai.png}
+    \captionof{figure}{Comparison Between Agentic AI and Generative AI} \cite{agentic_vs_generative_ai}
     \label{fig:agentic_vs_generative_ai}
 \end{center}
 
@@ -223,20 +188,9 @@ Agentic AI often operates within multi-agent systems, where multiple autonomous 
 \begin{center}
     \centering
     \includegraphics[width=0.9\textwidth]{Images/multi_agent_system.png}
-    \captionof{figure}{Multi-Agent System Collaboration} \cite{multiAgentSystem}
+    \captionof{figure}{Multi-Agent System Collaboration} \cite{multi_agent_system}
     \label{fig:multi_agent_system}
 \end{center}
-
-\subsubsection{Applications of Agentic AI}
-Agentic AI has diverse applications across various industries:
-
-\begin{itemize}
-    \item \textbf{Healthcare}: Assisting in diagnostics, treatment planning, and patient monitoring.
-    \item \textbf{Finance}: Managing portfolios, detecting fraud, and optimizing trading strategies.
-    \item \textbf{Manufacturing}: Overseeing production lines, predicting maintenance needs, and ensuring quality control.
-    \item \textbf{Transportation}: Enabling autonomous vehicles to navigate and make real-time decisions.
-    \item \textbf{Customer Service}: Providing personalized support through adaptive virtual assistants.
-\end{itemize}
 
 \subsubsection{Challenges and Future Directions}
 Despite its potential, Agentic AI faces several challenges:
@@ -249,77 +203,6 @@ Despite its potential, Agentic AI faces several challenges:
 \end{itemize}
 
 Ongoing research aims to address these challenges, focusing on developing frameworks for ethical AI, enhancing interpretability, and establishing standards for safe deployment.
-
-% Modular Component Platform (MCP)
-\subsection{Model Context Protocol (MCP)}
-
-% Introduction
-\subsubsection{Introduction}
-The Model Context Protocol (MCP) is an open standard developed by Anthropic in late 2024 to address the growing complexity of integrating large language models (LLMs) with diverse external tools, systems, and data sources. MCP provides a standardized interface that enables AI applications to interact seamlessly with various resources, facilitating context exchange and enhancing the capabilities of AI assistants.
-
-\begin{center}
-    \includegraphics[width=0.9\textwidth]{Images/before_and_after_mcp.png}
-    \captionof{figure}{Before and After Model Context Protocol (MCP)} \cite{mcpBeforeAfter}
-    \label{fig:mcp_before_after}
-\end{center}
-
-% Architecture
-\subsubsection{Architecture}
-MCP follows a client-host-server architecture, where:
-
-\begin{itemize}
-    \item \textbf{Hosts} are LLM applications (e.g., Claude Desktop, IDEs) that initiate connections.
-    \item \textbf{Clients} maintain 1:1 connections with servers within the host application.
-    \item \textbf{Servers} provide context, tools, and prompts to clients.
-\end{itemize}
-
-This architecture allows for modular integration, enabling AI systems to access and utilize external resources efficiently.
-
-\begin{center}
-    \includegraphics[width=0.9\textwidth]{Images/mcp_architecture_diagram.png}
-    \captionof{figure}{Model Context Protocol Architecture} \cite{mcpArchitecture}
-    \label{fig:mcp_architecture}
-\end{center}
-
-% Core Components
-\subsubsection{Core Components}
-MCP servers can expose three main types of capabilities:
-
-\begin{itemize}
-    \item \textbf{Resources}: File-like data that can be read by clients (e.g., API responses, file contents).
-    \item \textbf{Tools}: Functions that can be called by the LLM with user approval.
-    \item \textbf{Prompts}: Pre-written templates that assist users in accomplishing specific tasks.
-\end{itemize}
-
-These components enable AI assistants to perform complex tasks by leveraging external data and functionalities.
-
-% Advantages
-\subsubsection{Advantages}
-MCP offers several benefits:
-
-\begin{itemize}
-    \item \textbf{Standardization}: Provides a universal method for connecting AI assistants to external data sources and systems.
-    \item \textbf{Scalability}: Simplifies integration across different AI systems and data, reducing the need for custom connectors.
-    \item \textbf{Security}: Facilitates secure interactions between AI applications and local or remote resources.
-\end{itemize}
-
-By adopting MCP, developers can enhance the interoperability and efficiency of AI applications.
-
-% Applications
-\subsubsection{Applications}
-MCP has been applied across various domains:
-
-\begin{itemize}
-    \item \textbf{Software Development}: IDEs like Zed and platforms like Replit use MCP to provide coding assistants with real-time code context.
-    \item \textbf{Enterprise Assistants}: Companies utilize MCP to allow internal assistants to retrieve information from proprietary documents and systems.
-    \item \textbf{Natural Language Data Access}: Applications leverage MCP to connect models with databases, enabling plain-language queries.
-\end{itemize}
-
-These applications demonstrate MCP’s versatility in enhancing AI capabilities across different sectors.
-
-% Conclusion
-\subsubsection{Conclusion}
-The Model Context Protocol represents a significant advancement in AI integration, offering a standardized approach to connect LLMs with external tools and data sources. By facilitating seamless interactions and context exchange, MCP empowers AI applications to perform more complex and context-aware tasks, paving the way for more intelligent and versatile AI systems.
 
 % LangChain and LangGraph
 \subsection{LangChain and LangGraph}
@@ -364,34 +247,16 @@ Notable capabilities of LangGraph include:
 \end{itemize}
 
 \subsubsection{Comparative Analysis}
-While both LangChain and LangGraph are designed to streamline the development of LLM-powered applications, they cater to different complexity levels and use cases. LangChain’s linear and modular approach is well-suited for straightforward tasks with a clear sequence of operations. In contrast, LangGraph’s graph-based architecture excels in scenarios requiring complex control flows, such as applications with iterative loops, conditional logic, or collaborative agent interactions.
+LangChain and LangGraph streamline the development of LLM-powered applications but address varying complexity levels. LangChain is optimal for linear workflows with straightforward tasks and limited iterative processes. In contrast, LangGraph’s dynamic, graph-based structure efficiently manages more intricate workflows involving conditional logic, iterative loops, and robust multi-agent coordination.
 
-\begin{table}[ht!]
+\begin{center}
     \centering
-    \small
-    \begin{tabularx}{\textwidth}{|l|X|X|}
-        \hline
-        \textbf{Feature} & \textbf{LangChain} & \textbf{LangGraph} \\
-        \hline
-        Workflow Structure & Sequential chains & Dynamic graphs \\
-        Complexity Handling & Simple/moderate workflows & Moderate/complex workflows \\
-        Iterative Processing & Limited & Fully supported (loops) \\
-        Conditional Logic & Basic conditions & Advanced conditions \\
-        Multi-Agent Coordination & Basic support & Robust collaboration \\
-        State Management & Basic retention & Advanced tracking \\
-        Use Case Suitability & Straightforward tasks & Complex adaptive tasks \\
-        Flexibility & Rigid structure & Highly flexible \\
-        Debugging and Monitoring & Good support & Enhanced visibility \\
-        Real-time Decision Making & Limited & Extensive support \\
-        Ideal Applications & Simple Q\&A, summarization & Complex multi-agent apps \\
-        \hline
-    \end{tabularx}
-    \caption{Comparison of LangChain and LangGraph}
+    \includegraphics[width=1\textwidth]{Images/Comparison of LangChain and LangGraph.png}
+    \captionof{table}{Comparison of LangChain and LangGraph}
     \label{tab:langchain_langgraph_comparison}
-\end{table}
+\end{center}
 
-\subsubsection{Conclusion}
-LangChain and LangGraph offer robust frameworks for developing applications that leverage the capabilities of LLMs. The choice between them hinges on the complexity and requirements of the intended application. For linear and relatively simple workflows, LangChain provides an efficient and straightforward solution. Conversely, for applications necessitating complex control flows, iterative processing, and multi-agent coordination, LangGraph presents a more suitable architecture.
+The choice between these frameworks thus depends primarily on the complexity of the intended application, where LangChain offers simplicity for linear scenarios, while LangGraph is suited for adaptive, complex applications requiring enhanced flexibility and sophisticated state management.
 
 % Langfuse and Observability
 \subsection{Langfuse and Observability}
@@ -403,7 +268,7 @@ Langfuse is an open-source observability platform designed specifically for appl
 \begin{center}
     \centering
     \includegraphics[width=1\textwidth]{Images/Langfuse Overview.png}
-    \captionof{figure}{Langfuse Dashboard} \cite{langfuseDashboard}
+    \captionof{figure}{Langfuse Dashboard}
     \label{fig:langfuseDashboard}
 \end{center}
 
@@ -435,8 +300,6 @@ Langfuse can be deployed in various environments:
     \item \textbf{Compliance and Auditing}: Maintain detailed logs for auditing purposes, ensuring compliance with regulatory standards.
 \end{itemize}
 
-% Conclusion
-\subsubsection{Conclusion}
 Incorporating Langfuse into the development lifecycle of LLM applications enhances transparency, reliability, and efficiency, making it an invaluable tool for teams aiming to build robust AI solutions.
 
 % Tiptap for Rich Text Editing
@@ -449,8 +312,8 @@ Tiptap is a headless, open-source rich text editor framework built on ProseMirro
 \begin{center}
     \centering
     \includegraphics[width=0.8\textwidth]{Images/Tiptap editor.jpg}
-    \captionof{figure}{Tiptap Editor} \cite{tiptap}
-    \label{fig:tiptap}
+    \captionof{figure}{Tiptap Editor} \cite{tiptap_editor}
+    \label{fig:tiptap_editor}
 \end{center}
 
 % Architecture and Core Concepts
@@ -460,7 +323,7 @@ Tiptap is a headless, framework-agnostic rich text editor built on top of ProseM
 \begin{center}
     \centering
     \includegraphics[width=0.8\textwidth]{Images/Tiptap Architecture.png}
-    \captionof{figure}{Tiptap Architecture} \cite{tiptapArchitecture}
+    \captionof{figure}{Tiptap Architecture}
     \label{fig:tiptapArchitecture}
 \end{center}
 
@@ -492,8 +355,6 @@ Tiptap is suitable for a wide range of applications, including:
     \item Implementing rich text editors in CMS platforms. 
 \end{itemize}    
 
-% Conclusion
-\subsubsection{Conclusion}
 Tiptap stands out as a versatile and developer-friendly rich text editor framework. Its combination of headless architecture, modular extensions, and support for real-time collaboration and AI integration makes it a compelling choice for modern web applications requiring customized content editing solutions.
 
 % Project Requirements
@@ -507,7 +368,7 @@ The business architecture depicted in Figure~\ref{fig:business_architecture} out
 \begin{center}
     \centering
     \includegraphics[width=0.9\textwidth]{Images/Business Architecture.png}
-    \captionof{figure}{Business Architecture Overview} \cite{business_architecture}
+    \captionof{figure}{Business Architecture Overview}
     \label{fig:business_architecture}
 \end{center}
 
@@ -533,121 +394,125 @@ This structured business architecture aims to offer a scalable, secure, and inte
 \subsection{Actor Identification}
 An actor specifies a role played by a user or any other system interacting with the solution. Actors are always external to the system, interacting by initiating a use case, providing inputs, or receiving outputs. In the context of our platform, we have two types of actors:
 
-\begin{table}[ht!]
+\begin{center}
     \centering
-    \small
-    \begin{tabularx}{\textwidth}{|l|X|}
-        \hline
-        \textbf{Actor} & \textbf{Role} \\
-        \hline
-        Sales User & Responsible for creating and managing contract documents and negotiations with clients. \\
-        Legal User & Oversees contract compliance, manages legal clauses, and reviews contracts. \\
-        Administrator & Manages platform users, roles, permissions, and oversees system configurations. \\
-        \hline
-    \end{tabularx}
-    \caption{Actors and Their Roles}
-    \label{tab:actorsWithRoles}
-\end{table}
+    \includegraphics[width=1\textwidth]{Images/Actors and Their Roles.png}
+    \captionof{table}{Actors and Their Roles}
+    \label{tab:actors_and_roles}
+\end{center}
 
 % Functional Requirements
 \subsection{Functional Requirements}
 
 % Authentication
 \subsubsection{Authentication}
-The system must allow users to authenticate using Azure Entra ID credentials.
+The application must enable users to authenticate using a username or email and password.
 
 % Sales User Functionalities
 \subsubsection{Sales User Functionalities}
 
-\textbf{Contract Generation}:
-\begin{itemize}
-\item Initiate contract drafting using text input, voice transcription, or document upload.
-\item Verify client information from historical data.
-\item Select and adjust template inputs (Incoterm, Contract Type, Product).
-\item Adjust variables like price and volume.
-\item Generate final contract draft and move to editing mode.
-\end{itemize}
+\textbf{Contract Generation}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The sales user must be able to create a new contract.\vspace{0.4em}
+        \item The sales user must be able to create a new client.
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em}
 
-\textbf{Contract Editing}:
-\begin{itemize}
-\item Access a rich-text editor (Tiptap-based).
-\item Track changes across versions.
-\item Request additional legal clauses.
-\item Access versioning of contracts.
-\item Modify variables in the contracts (data mapping panel).
-\item Request clauses to be added, modified, or deleted.
+\textbf{Contract Editing}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Sales user must be able to access the rich-text contract editor.\vspace{0.4em}
+        \item The Sales user must be able to create clause requests.\vspace{0.4em}
+        \item The Sales user must be able to modify contract variables.\vspace{0.4em}
+        \item The Sales user must be able to track changes across different contract versions.  
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
-\end{itemize}
+\textbf{Contract Review \& Compliance}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Sales user must be able to trigger AI-powered compliance checks.\vspace{0.4em}
+        \item The Sales user must be able to change the contract status (e.g., in editing, in review, finalized).
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
-\textbf{Contract Review \& Compliance}:
-\begin{itemize}
-\item Trigger AI-powered compliance checks (data accuracy, text consistency, legal compliance).
-\item Receive detailed review summaries and recommendations.
-\item Review contracts and change status (in editing, in review, finalized).
-\end{itemize}
-
-\textbf{Export, Sharing, and Management}:
-\begin{itemize}
-\item Export contracts as downloadable files (Word, PDF).
-\item Share contracts via secure links or attachments in emails.
-\item Access contracts in the contract repository.
-\item Archive and delete contracts.
-\end{itemize}
+\textbf{Export, Sharing, and Management}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Sales user must be able to access only the contracts they have created.\vspace{0.4em}
+        \item The Sales user must be able to export contracts as downloadable files (Word, PDF).\vspace{0.4em}
+        \item The Sales user must be able to share contracts via secure links or email attachments.\vspace{0.4em}
+        \item The Sales user must be able to archive and delete contracts.
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em}  
 
 % Legal User Functionalities
 \subsubsection{Legal User Functionalities}
 
-\textbf{Clause Management}:
-\begin{itemize}
-\item Review clause addition requests from Sales.
-\item Create, insert, modify, or delete legal clauses, either upon Sales requests or independently.
-\item Utilize AI assistance to refine clause content.
-\end{itemize}
+\textbf{Clause Management}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Legal user must be able to review clause requests from Sales.\vspace{0.4em}
+        \item The Legal user must be able to refine clause content using AI assistance.\vspace{0.4em}
+        \item The Legal user must be able to create, insert, modify, and delete legal clauses.  
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
-\textbf{Contract Editing and Versioning}:
-\begin{itemize}
-\item Access and create versions of contracts.
-\item Restore previous versions of contracts.
-\item Edit contracts using a rich-text editor (Tiptap-based).
-\item \item Modify variables in the contracts (data mapping panel).
-\end{itemize}
+\textbf{Contract Editing and Versioning}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Legal user must be able to access and create versions of contracts.\vspace{0.4em}
+        \item The Legal user must be able to restore previous contract versions.\vspace{0.4em}
+        \item The Legal user must be able to edit contracts using a rich-text editor.\vspace{0.4em}
+        \item The Legal user must be able to modify contract variables.
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
-\textbf{Contract Review \& Compliance}:
-\begin{itemize}
-\item Perform detailed legal compliance checks.
-\item Verify mandatory clauses, annexes, and specifications.
-\item Ensure legal alignment and minimize liabilities.
-\item Review contracts and change status (in editing, in review, finalized).
-\end{itemize}
+\textbf{Contract Review \& Compliance}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Legal user must be able to trigger AI-powered compliance checks.\vspace{0.4em}
+        \item The Legal user must be able to change the status of a contract (e.g., in editing, in review).
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
-\textbf{Export, Sharing, and Management}:
-\begin{itemize}
-\item Export contracts as downloadable files (Word, PDF).
-\item Share contracts via secure links or attachments in emails.
-\item Access contracts in the contract repository.
-\end{itemize}
+\textbf{Export, Sharing, and Management}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The Legal user must be able to access all existing contracts.\vspace{0.4em}
+        \item The Legal user must be able to export contracts as downloadable files (Word, PDF).\vspace{0.4em}
+        \item The Legal user must be able to share contracts via secure links or email attachments.
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
 % Administrator Functionalities
 \subsubsection{Administrator Functionalities}
-\textbf{User Management}:
-\begin{itemize}
-    \item Add, modify, or remove platform users.
-    \item Manage role-based permissions.
-\end{itemize}
 
-\textbf{System Configuration}:
-\begin{itemize}
-    \item Oversee integration settings, security configurations, and monitoring dashboards.
-\end{itemize}
+\textbf{User Management}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The administrator must be able to add, modify, or remove platform users.\vspace{0.4em}
+        \item The administrator must be able to manage role-based access permissions.
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
+
+\textbf{System Configuration}:\vspace{0.4em}
+\begin{adjustwidth}{3em}{1em}
+    \begin{itemize}
+        \item The administrator must be able to configure integration settings and security parameters.\vspace{0.4em}
+        \item The administrator must be able to monitor system performance through administrative dashboards.
+    \end{itemize}
+\end{adjustwidth}\vspace{0.85em} 
 
 % Non-Functional Requirements
 \subsection{Non-Functional Requirements}
 \begin{itemize}
-    \item \textbf{Usability}: The application should be intuitive, ensuring ease of use for Sales, Legal, and Admin users.
-    \item \textbf{Maintainability}: The system should be modular and maintainable, supporting frequent updates.
-    \item \textbf{Security}: Strict management of user access, data protection, and compliance with regulatory standards.
-    \item \textbf{Performance}: Responsive interface, quick data retrieval, and AI analysis with low latency.
-    \item \textbf{Scalability}: Easily scalable to support growing user base and additional functionalities.
+    \item \textbf{Usability}: High intuitiveness and ease of use for Sales, Legal, and Admin users, promoting efficient adoption across roles.
+    \item \textbf{Maintainability}: Modular and well-documented architecture to facilitate smooth updates, debugging, and feature evolution.
+    \item \textbf{Security}: Robust access control, secure data handling, and full compliance with applicable legal and organizational standards.
+    \item \textbf{System Responsiveness}: Fast UI response, low-latency AI processing, and efficient data retrieval for optimal user experience.
+    \item \textbf{Scalability}: Capacity to handle increased user load and data volume while maintaining system performance.
 \end{itemize}
 
 % Use Case Diagram
@@ -656,8 +521,8 @@ The Use Case Diagram presented in Figure~\ref{fig:use_case_diagram} visually rep
 
 \begin{center}
     \centering
-    \includegraphics[width=0.9\textwidth]{Images/Use Case Diagram.jpg}
-    \captionof{figure}{Use Case Diagram} \cite{use_case_diagram}
+    \includegraphics[width=1\textwidth]{Images/Use Case Diagram.png}
+    \captionof{figure}{Use Case Diagram}
     \label{fig:use_case_diagram}
 \end{center}
 
@@ -666,99 +531,38 @@ The diagram thus serves as a concise summary of system capabilities and user int
 % Textual Description
 \subsection{Textual Description}
 
-Pour décrire la dynamique d’un cas d’utilisation, il faut recenser toutes les interactions entre l’acteur et le système de façon textuelle. Cette description est indispensable, car elle permet de communiquer facilement avec les différentes parties prenantes et de s’entendre sur la terminologie métier employée.
+Pour décrire la dynamique d’un cas d’utilisation, il faut recenser toutes les interactions entre l’acteur et le système de façon textuelle. Cette description est indispensable, car elle permet de communiquer facilement avec les différentes parties prenantes et de s’entendre sur la terminologie métier employée.\mynewline
 
-\textbf{Textual Description of Use Case: Create Contract}
+\textbf{Textual Description of Use Case: Create Contract}\vspace{-0.3cm}
 
-\begin{table}[ht!]
+\begin{center}
     \centering
-    \small
-    \begin{tabularx}{\textwidth}{|l|X|}
-        \hline
-        \textbf{Actor} & Sales User \\
-        \hline
-        \textbf{Goal} & Create a new contract \\
-        \hline
-        \textbf{Preconditions} & User must be authenticated \\
-        \hline
-        \textbf{Postconditions} & Successful creation of a contract draft \\
-        \hline
-        \textbf{Nominal Scenario} &
-            1. User accesses the Contract Repository page. \\[3pt]
-            2. User clicks on "Generate a New Contract." \\[3pt]
-            3. User selects one of the following input methods: voice prompt, image upload, or text prompt. \\[3pt]
-            4. System extracts key contract information. \\[3pt]
-            5. If a new client or mismatched client information is detected, the system prompts the user for confirmation. \\[3pt]
-            6. User confirms key information. \\[3pt]
-            7. System automatically generates the contract step-by-step. \\
-        \hline
-        \textbf{Alternative Scenario} & Missing required information – Display an error message indicating the specific missing information. \\
-        \hline
-    \end{tabularx}
-    \caption{Textual Description of Use Case: Create Contract}
-    \label{tab:create_contract}
-\end{table}
+    \includegraphics[width=1\textwidth]{Images/Create Contract Use Case.png}
+    \captionof{table}{Textual Description of Use Case: Create Contract}
+    \label{tab:create_contract_use_case}
+\end{center}
 
-\textbf{Textual Description of Use Case: Review Contract}
+\vspace{0.3cm}
 
-\begin{table}[ht!]
+\textbf{Textual Description of Use Case: Create Clause Request}\vspace{-0.3cm}
+
+\begin{center}
     \centering
-    \small
-    \begin{tabularx}{\textwidth}{|l|X|}
-        \hline
-        \textbf{Actor} & Legal User or Sales User \\
-        \hline
-        \textbf{Goal} & Review a contract for accuracy, consistency, and legal security \\
-        \hline
-        \textbf{Preconditions} & User must be authenticated and in the Contract Editing page \\
-        \hline
-        \textbf{Postconditions} & Contract reviewed with provided suggestions and quality score \\
-        \hline
-        \textbf{Nominal Scenario} &
-            1. User accesses the Editor View (Contract Editing page). \\[3pt]
-            2. User selects "Review" in the right panel. \\[3pt]
-            3. User chooses between "Accuracy and Consistency" and "Legal Security" review options. \\[3pt]
-            4. User initiates the review process. \\[3pt]
-            5. System completes the review and provides a quality score (\%). \\[3pt]
-            6. System presents suggestions generated by the LLM for the user to accept or discard. \\
-        \hline
-        \textbf{Alternative Scenario} & Review fails or incomplete – System displays a message indicating the review error and required next steps. \\
-        \hline
-    \end{tabularx}
-    \caption{Textual Description of Use Case: Review Contract}
-    \label{tab:review_contract}
-\end{table}
+    \includegraphics[width=1\textwidth]{Images/Create Clause Request Use Case.png}
+    \captionof{table}{Textual Description of Use Case: Create Clause Request}
+    \label{tab:create_clause_request_use_case}
+\end{center}
 
-\textbf{Textual Description of Use Case: Create Clause Request}
+\vspace{0.3cm}
 
-\begin{table}[ht!]
+\textbf{Textual Description of Use Case: Review Contract}\vspace{-0.3cm}
+
+\begin{center}
     \centering
-    \small
-    \begin{tabularx}{\textwidth}{|l|X|}
-        \hline
-        \textbf{Actor} & Sales User \\
-        \hline
-        \textbf{Goal} & Create a clause request to add, modify, or delete clauses \\
-        \hline
-        \textbf{Preconditions} & User must be authenticated and on the Contract Editing page \\
-        \hline
-        \textbf{Postconditions} & Clause request submitted and pending Legal User action \\
-        \hline
-        \textbf{Nominal Scenario} &
-            1. User accesses the Contract Editing page.\\[3pt]
-            2. User initiates a clause request from the left panel in the clause area or by right-clicking on an article, clause, or sub-clause.\\[3pt]
-            3. User enters the description of the request.\\[3pt]
-            4. User optionally refines the request description using an LLM-powered "Refine" button.\\[3pt]
-            5. User submits the clause request.\\[3pt]
-            6. Legal User receives the request and decides to accept or reject it.\\[3pt]
-            7. If accepted, Legal User creates, modifies, or deletes the relevant articles or clauses.\\
-        \hline
-        \textbf{Alternative Scenario} & Invalid or incomplete request – System displays an error message indicating required corrections. \\
-        \hline
-    \end{tabularx}
-    \caption{Textual Description of Use Case: Create Clause Request}
-    \label{tab:create_clause_request}
-\end{table}
+    \includegraphics[width=1\textwidth]{Images/Review Contract Use Case.png}
+    \captionof{table}{Textual Description of Use Case: Review Contract}
+    \label{tab:review_contract_use_case}
+\end{center}
 
 % Analysis Sequence Diagram
 \subsection{Analysis Sequence Diagram}
@@ -766,8 +570,8 @@ To clearly understand the chronological interactions between the system and its 
 
 \begin{center}
     \centering
-    \includegraphics[width=0.8\textwidth]{Images/Analysis Sequence Diagram.jpg}
-    \captionof{figure}{Analysis Sequence Diagram} \cite{analysis_sequence_diagram}
+    \includegraphics[width=1\textwidth]{Images/Analysis Sequence Diagram.png}
+    \captionof{figure}{Analysis Sequence Diagram}
     \label{fig:analysis_sequence_diagram}
 \end{center}
 
@@ -782,7 +586,6 @@ To clearly delineate the operational environment and development boundaries, the
     \item \textbf{Enterprise Security Compliance}: The system must strictly comply with the organization’s security policies, standards, and regulatory frameworks, ensuring the protection and confidentiality of sensitive contractual and user information.
     \item \textbf{Infrastructure Compatibility}:All technical solutions must be compatible with existing enterprise systems, particularly Azure-based services such as Azure Kubernetes Service (AKS), Azure Entra ID, and Azure PostgreSQL, to ensure seamless integration and minimize disruptions.
     \item \textbf{Cost Efficiency}:The platform must be developed and operated within the allocated budget constraints, adhering to the capacity planning forecasts to optimize resource utilization and cost-effectiveness.
-    \item \textbf{System Scalability}:The solution must accommodate future growth without significant re-engineering, enabling smooth onboarding of additional functionalities, agents, and user groups.
 \end{itemize}
 
 \textbf{Assumptions:}
@@ -796,4 +599,4 @@ To clearly delineate the operational environment and development boundaries, the
 
 % Conclusion
 \section{Conclusion}
-This chapter outlined the analytical and technical specifications of the intelligent contract management platform. By presenting detailed UML diagrams, including use case and sequence diagrams, the interactions and functionalities of the system were concisely represented. Together with clearly defined requirements and the outlined project architecture, these elements provide a robust foundation for successful implementation.
+This chapter provided a detailed technical foundation by benchmarking existing contract management solutions and presenting the rationale behind adopting an Agentic AI-based approach. Key technologies—including Large Language Models, LangChain, LangGraph, Langfuse, and the Tiptap editor—were thoroughly examined, along with clearly defined functional and non-functional requirements. The following chapter will delve into the system architecture and software design, highlighting component interactions and integration strategies.

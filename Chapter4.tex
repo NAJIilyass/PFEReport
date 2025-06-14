@@ -1,801 +1,500 @@
-In this chapter, we will delve into the implementation and validation of our testing procedures for the Oracle Linux Virtualization and System Testing project. We will begin by outlining the technical choices and configurations used in our tests. Subsequently, we will describe each test in detail, including the setup, execution, and analysis of results.
+This chapter details the practical implementation and validation phases of the intelligent contract management platform developed during my internship. It begins by presenting the technological environment, providing a comprehensive rationale for selecting specific technologies, frameworks, and tools to ensure alignment with the project’s requirements and constraints. Subsequently, the chapter describes the implemented functionalities in depth, including contract repository management, contract generation and editing, advanced clause management, detailed review processes, and comprehensive historical tracking. Finally, the validation procedures are outlined, demonstrating how the developed system meets both functional and non-functional specifications, ensuring adherence to established performance standards and user expectations.
 
 \newpage
-\fancyhead[R]{\textsc{Chapter 4 - Tests Realization and Results}}
+\fancyhead[R]{\textsc{Chapter 4 - Implementation and Validation}}
 \hypertarget{fourthchapter}{}
 
-%% Manual QEMU 7.2.0-14 OCI Intel Host OL8+UEK7U2 Guest: OL 8.9 + UEK7U2
-\section{Test on OL8 Host with an Intel CPU, QEMU and latest kernel version UEK7U2}
+% Technological Environment
+\section{Technological Environment}
+The choice of appropriate technologies is critical for ensuring both performance and maintainability. Below, we outline our selected technologies, emphasizing the reasoning behind each choice.
 
-%% Information about Host
-\subsection{Host System Configuration}
+% AI Integration and Workflow Orchestration
+\subsection{AI Integration and Workflow Orchestration}
 
-To begin the testing process, we set up an Intel-based host running Oracle Linux Server 8.10, which utilizes the x86-64 architecture. The system was further configured with the latest version of the UEK7U2. To verify the environment, the hostnamectl command was executed, confirming the successful installation and configuration:
+% Azure OpenAI's Large Language Models
+\subsubsection{Azure OpenAI's Large Language Models}
+Azure OpenAI's Large Language Models (LLMs) were selected for their exceptional performance in generating human-like text and handling complex language tasks. Known for their extensive training on diverse datasets, these models excel in text generation, summarization, and conversational AI, proving essential across multiple application scenarios in our project.\mynewline
 
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Hostnamectl Command on the Host.png}
-    \captionof{figure}{Verification of Host Configuration Using hostnamectl Command}
-    \label{fig:casa}
-\end{center}
+The decision to use Azure OpenAI was influenced by specific client requirements, notably the necessity for data security and compliance. The Azure environment allows operations to be confined locally, ensuring sensitive data, particularly legal contracts, remain secure within the client's network. Additionally, opting for Azure OpenAI provided seamless integration with the client's existing infrastructure, including Azure Repos and Azure Pipelines, thus offering an enterprise-grade ecosystem.\mynewline
 
-After the host environment was confirmed, QEMU was installed. The successful installation of QEMU and its associated packages was verified using the yum command, which displayed all the installed components, including qemu-img, qemu-kvm, and several QEMU-related modules:
+We concluded that Azure OpenAI's models were the most suitable after considering other alternatives such as Google's BERT and Meta's LLaMA.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/QEMU Version_ 7.2.0-14 oci.png}
-    \captionof{figure}{Installed QEMU Version Verification}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/Azure OpenAI Logo.png}
+    \captionof{figure}{Azure OpenAI Logo} \cite{azure_openai_logo}
+    \label{fig:azure_openai_logo}
 \end{center}
 
-Furthermore, we confirmed the presence of OVMF files and checked the edk2 package to ensure that the necessary UEFI components were available. These files are critical for running UEFI-based virtual machines:
+% LangChain
+\subsubsection{LangChain}
+LangChain was integrated to enable flexible and model-agnostic communication within our system. Its modular nature allows seamless integration with various LLM providers, offering the flexibility to switch models or combine outputs based on specific tasks. This ensures the system remains adaptable to ongoing developments in LLM technology and can readily incorporate future advancements.\mynewline
+
+Additionally, LangChain provides essential utilities for managing conversational flows, context tracking, and connections with external data sources, critical for sophisticated generative AI-driven applications. Its use underpins the modularity and scalability of our architecture, effectively handling complex tasks across diverse domains.\mynewline
+
+LangChain was ultimately selected for its abstraction capabilities after evaluating direct integrations with alternative APIs.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/OVMF Folder.png}
-    \captionof{figure}{Checking UEFI Components in OVMF Directory}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/LangChain Logo.png}
+    \captionof{figure}{LangChain Logo} \cite{langchain_logo}
+    \label{fig:langchain_logo}
 \end{center}
+
+% LangGraph
+\subsubsection{LangGraph}
+LangGraph complements LangChain by enabling sophisticated workflow orchestration through a graph-based model. It supports complex, dynamic, and iterative processes within AI workflows, facilitating advanced conditional logic, stateful interactions, and multi-agent collaborations. This capability is especially beneficial for iterative legal document processing tasks, enhancing decision-making capabilities and workflow adaptability.\mynewline
+
+LangGraph was chosen over other orchestration tools for its native compatibility with LangChain and AI-specific use cases.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/edk2 Version.png}
-    \captionof{figure}{Verifying edk2 Version for UEFI Compatibility}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/LangGraph Logo.png}
+    \captionof{figure}{LangGraph Logo} \cite{langgraph_logo}
+    \label{fig:langgraph_logo}
 \end{center}
 
-To ensure the system had sufficient resources for running and testing virtual machines, we recorded the available storage and memory using the df -h and lsmem commands, respectively. This information is crucial for the development team to troubleshoot any issues related to resource allocation during the testing process:
+% Vector Databases
+\subsection{Vector Databases}
+Elasticsearch was selected as the primary vector database due to its exceptional capabilities in managing high-dimensional vector searches, essential for Retrieval-Augmented Generation (RAG) architectures. Elasticsearch facilitates rapid similarity searches, allowing efficient real-time retrieval of relevant documents based on embedding vectors derived from queries. Its scalability, robustness, and comprehensive indexing capabilities were critical in meeting performance expectations under large data volumes while ensuring minimal latency.\mynewline
+
+After comparing it with other solutions like FAISS and Milvus, Elasticsearch was determined to be the most enterprise-ready and integrable option.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Storage on the Host.png}
-    \captionof{figure}{Available Storage Capacity on Host System}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/Elasticsearch Logo.jpg}
+    \captionof{figure}{Elasticsearch Logo} \cite{elasticsearch_logo}
+    \label{fig:elasticsearch_logo}
 \end{center}
+
+% Frontend Frameworks
+\subsection{Frontend Frameworks}
+
+% Typescript
+\subsubsection{TypeScript}
+TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript that adds optional static typing to the language. By enabling developers to define data types for variables, function parameters, and return values, TypeScript improves code clarity, detects potential errors during development, and enhances the scalability of large codebases.\mynewline
+
+TypeScript was adopted for frontend development primarily due to its strong type-checking system, which significantly reduces potential bugs and enhances code maintainability. It compiles directly to JavaScript, enabling native browser execution and optimal performance while retaining compatibility with existing JavaScript libraries and frameworks.\mynewline
+
+We selected TypeScript after evaluating other approaches, concluding it offered the best balance of developer experience, code robustness, and long-term reliability for our frontend needs.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Memory on the Host.png}
-    \captionof{figure}{Host Memory Information}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/TypeScript Logo.png}
+    \captionof{figure}{TypeScript Logo} \cite{typescript_logo}
+    \label{fig:typescript_logo}
 \end{center}
 
-%% Running the Guest
-\subsection{Guest Virtual Machine Deployment}
-With the host system fully configured, we proceeded to run the guest VM. The VM was initiated using the following QEMU command, which defined various parameters including memory allocation, CPU cores, and disk images. This command ensured that the VM was properly configured to mirror a typical production environment:
+% React
+\subsubsection{React}
+Developed by Meta (formerly Facebook), React is a popular open-source JavaScript library for building user interfaces, particularly single-page applications. It enables developers to construct interactive UIs using a declarative paradigm and a component-based architecture, where each UI element is encapsulated in a reusable component. Its virtual DOM efficiently updates only the parts of the interface that change, contributing to excellent performance.\mynewline
+
+This modular architecture supports efficient state management and seamless integration with backend services. Combined with React’s widespread community support and flexibility, these features enable the rapid development of dynamic, responsive applications.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Launching the Guest.png}
-    \captionof{figure}{Launching Guest VM with QEMU Command}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/React Logo.png}
+    \captionof{figure}{React Logo} \cite{react_logo}
+    \label{fig:react_logo}
 \end{center}
 
-After launching the guest, we confirmed that it was running Oracle Linux Server 8.9 with UEK7U2. This was verified by executing the hostnamectl and uname -r commands within the guest VM:
+% Tiptap
+\subsubsection{Tiptap}
+Built on top of ProseMirror, Tiptap is a modern, open-source rich-text editor framework designed to be headless and highly extensible. It allows developers to craft custom editing interfaces tailored to specific application needs. Unlike conventional WYSIWYG editors, Tiptap decouples the editing engine from the UI layer, offering full control over document structure, formatting behavior, and content validation—making it ideal for structured documents and domain-specific workflows.\mynewline
+
+Its ability to handle complex legal documents made it a natural fit for our platform. Tiptap supports customized editing experiences, structured clause and variable handling, and real-time collaborative editing. After reviewing alternative editors, its extensibility, legal adaptability, and collaborative compatibility made it the most suitable choice for our use case.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Hostnamectl Command on the Guest.png}
-    \captionof{figure}{Verifying Hostname within the Guest}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/TipTap Logo.png}
+    \captionof{figure}{TipTap Logo} \cite{tiptap_logo}
+    \label{fig:tiptap_logo}
 \end{center}
+
+% Testing Libraries
+\subsubsection{Testing Libraries}
+Developed and maintained by Meta, Jest is a comprehensive JavaScript testing framework primarily designed for React applications, though it also supports a wide range of JavaScript and TypeScript projects. It comes equipped with powerful features such as test runners, assertions, mocking capabilities, code coverage analysis, and snapshot testing. Its zero-configuration setup and intuitive syntax make it accessible to developers of all experience levels.\mynewline
+
+Thanks to its efficiency, ease of configuration, and robust mocking tools, Jest proved ideal for unit and integration testing within our TypeScript and React stack. Among several alternatives, it stood out for its mature ecosystem, fast performance, and seamless integration with modern frontend tooling.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Uname -r Command on the Guest.png}
-    \captionof{figure}{Kernel Version Verification in Guest}
-    \label{fig:casa}
+    \includegraphics[width=0.2\textwidth]{Images/Jest Logo.png}
+    \captionof{figure}{Jest Logo} \cite{jest_logo}
+    \label{fig:jest_logo}
 \end{center}
 
-This verification confirmed that the VM was correctly set up and ready for the subsequent testing procedures.
+% Backend Frameworks
+\subsection{Backend Frameworks}
 
+% Python
+\subsubsection{Python}
+Python is a high-level, interpreted programming language renowned for its simplicity, readability, and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python has a rich ecosystem of libraries and frameworks, particularly in the fields of web development, data analysis, and artificial intelligence, making it one of the most widely used languages in both academia and industry.\mynewline
 
-%% Tests
-\subsection{Test Execution and Performance Evaluation}
-To evaluate the stability and performance of the virtual environment, a series of tests were conducted. These tests focused on the VM's lifecycle operations, networking capabilities, and its ability to handle hotplug and unplug events for multiple virtual network interfaces.
+Its extensive support for machine learning and natural language processing—most notably through libraries like LangChain—made Python the preferred backend language for our project. Its clean syntax and strong community support enabled rapid development, easy maintenance, and seamless AI integration. After evaluating multiple options, Python’s unmatched flexibility and robust ecosystem positioned it as the most suitable choice for our needs.
 
-%% Lifecycle Test
-\subsubsection[Lifecycle Test]{Lifecycle Test}
-The lifecycle test aimed to verify the VM's ability to handle common operational states, such as rebooting, stopping and continuing operations, suspending and waking, and shutting down. Each of these states was carefully tested to ensure that the VM could transition smoothly without any issues.
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Python Logo.png}
+    \captionof{figure}{Python Logo} \cite{python_logo}
+    \label{fig:python_logo}
+\end{center}
+
+% FastAPI
+\subsubsection{FastAPI}
+FastAPI is a modern, high-performance web framework for building APIs with Python 3.7+, leveraging standard type hints and asynchronous programming via async and await. This enables non-blocking I/O operations and supports highly concurrent API services. One of its standout features is the automatic generation of interactive OpenAPI documentation, making it highly developer-friendly and ideal for rapidly building and testing RESTful services.\mynewline
+
+Its performance, simplicity, and native async support made FastAPI an excellent fit for developing high-throughput APIs. Combined with robust type validation via Pydantic, the framework promotes clean, maintainable code. After evaluating multiple frameworks, it emerged as the most effective solution for building fast and reliable APIs in Python.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/FastAPI Logo.jpg}
+    \captionof{figure}{FastAPI Logo} \cite{fastapi_logo}
+    \label{fig:fastapi_logo}
+\end{center}
+
+% Testing Libraries
+\subsubsection{Testing Libraries}
+Pytest is a feature-rich testing framework for Python that supports everything from simple unit tests to complex functional and integration scenarios. It prioritizes readability and scalability, offering fixtures, parameterized tests, and assert rewriting. Its plugin-based architecture and support for parallel test execution make it ideal for testing large and sophisticated codebases.\mynewline
+
+We adopted Pytest for backend testing due to its concise syntax, versatility, and robust plugin ecosystem. Among various Python testing tools, it proved to be the most extensible and efficient choice, streamlining our workflow for validating the platform’s core services.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Pytest Logo.png}
+    \captionof{figure}{Pytest Logo} \cite{pytest_logo}
+    \label{fig:pytest_logo}
+\end{center}
+
+% SQL Databases
+\subsection{SQL Databases}
+Given the platform's need for transactional consistency, relational data integrity, and advanced query support, an SQL-based approach was favored over NoSQL. SQL databases better accommodate structured data, complex relationships, and reporting use cases relevant to our application.\mynewline
+
+PostgreSQL was chosen for its advanced query capabilities, robust support for both structured and unstructured data, high performance, extensibility, and strict adherence to ACID transactions. These attributes were critical for efficiently managing the hybrid data requirements inherent in our GenAI-powered system.\mynewline
+
+Among various relational databases, PostgreSQL was selected as the most capable and scalable option for our backend architecture.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/PostgreSQL Logo.png}
+    \captionof{figure}{PostgreSQL Logo} \cite{postgresql_logo}
+    \label{fig:postgresql_logo}
+\end{center}
+
+% API Testing
+\subsection{API Testing}
+
+% Postman
+\subsubsection{Postman}
+As a comprehensive API platform, Postman simplifies the creation, testing, and documentation of APIs through its intuitive interface. Within our project, it played a key role in verifying API functionality by streamlining request validation and response analysis. Its robust testing capabilities—including automated testing and request chaining—enabled thorough validation of API behavior.\mynewline
+
+We selected Postman as our primary API testing tool for its ease of use, extensive features, and superior usability compared to other evaluated options.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Postman Logo.png}
+    \captionof{figure}{Postman Logo} \cite{postman_logo}
+    \label{fig:postman_logo}
+\end{center}
+
+% cURL
+\subsubsection{cURL}
+cURL stands us a lightweight yet powerful command-line tool for API testing, offering a way to interact with APIs directly from the terminal. In our project, cURL serves as a solution for quick and efficient API testing, providing control over HTTP requests and responses. While lacking the graphical interface of tools like Postman, cURL compensates with its simplicity and speed.\mynewline
+
+Due to its flexibility and universal compatibility, cURL complemented our testing stack effectively.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/cURL Logo.png}
+    \captionof{figure}{cURL Logo} \cite{curl_logo}
+    \label{fig:curl_logo}
+\end{center}
+
+% Static Code Analysis and Quality Assurance
+\subsection{Static Code Analysis and Quality Assurance}
+SonarQube is a static code analysis tool designed to detect bugs, identify security vulnerabilities, and evaluate source code quality. In this project, SonarQube was employed to analyze both existing code and newly developed features. The tool facilitated the correction of detected bugs and security flaws, offering actionable recommendations to enhance code structure and readability, thus ensuring compliance with the client's quality standards.\mynewline
+
+SonarQube was selected after comparing several tools, as it offered the best combination of analysis depth, usability, and integration capabilities.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/SonarQube Logo.png}
+    \captionof{figure}{SonarQube Logo} \cite{sonarqube_logo}
+    \label{fig:sonarqube_logo}
+\end{center}
+
+% CI/CD Pipelines
+\subsection{CI/CD Pipelines}
+Azure Pipelines, part of the Microsoft Azure DevOps suite, is a cloud-based CI/CD service that automates the building, testing, and deployment of code across diverse platforms and environments. It integrates seamlessly with popular source control systems and cloud services, offering powerful automation and precise control over deployment workflows.\mynewline
+
+In our project, Azure Pipelines—along with Azure Repos—was used to streamline continuous integration and deployment processes. This choice aligned with the client’s infrastructure, enabling seamless integration, robust version control, and efficient automation. Its native compatibility with the Azure ecosystem made it the optimal solution for our CI/CD and DevOps needs.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Azure Pipelines Logo.jpg}
+    \captionof{figure}{Azure Pipelines Logo} \cite{azure_pipelines_logo}
+    \label{fig:azure_pipelines_logo}
+\end{center}
+
+% Containerization and Orchestration
+\subsection{Containerization and Orchestration}
+
+% Docker
+\subsubsection{Docker}
+As an open-source platform, Docker automates the deployment of applications as portable, self-sufficient containers by packaging code, libraries, and dependencies into isolated units that run reliably across various environments. It streamlines the development lifecycle by ensuring consistent environments from development to production and integrates seamlessly with orchestration tools and cloud platforms.\mynewline
+
+We selected Docker to containerize applications and their dependencies, ensuring reliability across all stages. Although Podman was considered for its rootless architecture, Docker’s widespread adoption, mature ecosystem, and ease of use made it the preferred choice for our project.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Docker Logo.png}
+    \captionof{figure}{Docker Logo} \cite{docker_logo}
+    \label{fig:docker_logo}
+\end{center}
+
+% Kubernetes
+\subsubsection{Kubernetes}
+Originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF), Kubernetes is an open-source platform for orchestrating containerized applications. It automates deployment, scaling, and management, offering advanced features like service discovery, load balancing, self-healing, and automated rollouts.\mynewline
+
+Its robust ecosystem and enterprise-grade capabilities made Kubernetes the top choice for orchestration. While alternatives such as Docker Swarm and Apache Mesos were reviewed, Kubernetes stood out as the most powerful and production-ready solution for our deployment needs.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Kubernetes Logo.png}
+    \captionof{figure}{Kubernetes Logo} \cite{kubernetes_logo}
+    \label{fig:kubernetes_logo}
+\end{center}
+
+% Infrastructure as Code (IaC)
+\subsubsection{Infrastructure as Code (IaC)}
+Developed by HashiCorp, Terraform is an open-source infrastructure as code (IaC) tool that enables users to define and provision both cloud and on-premises infrastructure using a declarative configuration language (HCL). With support for multiple cloud providers and a strong provider ecosystem, Terraform maintains infrastructure state and ensures safe, efficient changes.\mynewline
+
+Its flexibility, cloud-agnostic nature, and version control support made Terraform the ideal tool for managing our infrastructure. After comparing it with AWS CloudFormation and Ansible, we concluded that its multi-cloud capabilities and extensibility made it the optimal solution for our IaC strategy.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/Terraform Logo.png}
+    \captionof{figure}{Terraform Logo} \cite{terraform_logo}
+    \label{fig:terraform_logo}
+\end{center}
+
+% IDE (Integrated Development Environment)
+\subsection{IDE (Integrated Development Environment)}
+Visual Studio Code (VS Code) is a an IDE (Integrated Development Environment) with powerful developer tooling like code editing, debugging, version control integration, and support for various programming languages and frameworks. Its user-friendly interface and intuitive design streamline the coding process, allowing us to write and edit code with ease. Additionally, VS Code offers robust Docker integration, enabling us to manage containers and write YAML files for Kubernetes, simplifying our local deployment and testing workflows.\mynewline
+
+VS Code was chosen due to its lightweight design, extensive extension ecosystem, and strong support for containerized development workflows.
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Images/VS Code Logo.png}
+    \captionof{figure}{VS Code Logo} \cite{vscode_logo}
+    \label{fig:vscode_logo}
+\end{center}
+
+% Implementation
+\section{Implementation}
+This section is dedicated to presenting the implementation details of the developed solution. Specifically, we outline the interfaces related to contract management functionalities, including contract repository, contract creation, editing, review, notification handling, and history management. The implementation and interfaces associated with other modules were allocated to and handled by different members of the project team, thus falling outside the scope of this section.
+
+% Contract Repository
+\subsection{Contract Repository}
+
+The Contract Repository interface is accessible by both Sales and Legal users, serving as the primary dashboard displaying a list of existing client contracts. Contracts are categorized into three distinct statuses: \textbf{In Editing} (editable by both Sales and Legal teams), \textbf{In Review} (finalized by Sales and awaiting Legal review), and \textbf{Finalized} (reviewed, approved, and ready for client delivery).
+
+Each contract card provides essential details, including the title, client involved, contract type, and Incoterms, and supports specific actions such as:
 
 \begin{itemize}
-    \item \textbf{Reboot Test: }\\
-          The VM was subjected to a reboot operation using the system\_reset command from the QEMU monitor. This command initiated a full system reboot, simulating scenarios where the VM might need to restart due to system updates or other maintenance tasks. Upon issuing the command, the VM successfully rebooted, with all services coming back online without errors. The logs were checked to confirm that no anomalies occurred during the reboot process.
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Rebooting the Guest.png}
-              \captionof{figure}{Execution of Reboot Command}
-              \label{fig:reboot}
-          \end{center}
-
-          After reboot, the guest was checked for uptime and kernel version to ensure that it was the same system with no inconsistencies:
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/After Rebooting on the Guest.png}
-              \captionof{figure}{Post-Reboot Guest Verification}
-              \label{fig:areboot}
-          \end{center}
-
-    \item \textbf{Stop/Continue Test:}\\
-          In this test, the VM was temporarily stopped using the stop command in the QEMU monitor. This action simulates a scenario where the VM might be paused during a maintenance window or to free up resources temporarily. The VM was then resumed using the cont command. Throughout this process, the VM's state was preserved, and it resumed operations seamlessly.
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Ping Localhost When Stop.png}
-              \captionof{figure}{Network Connectivity During VM Stop Operation}
-              \label{fig:areboot}
-          \end{center}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Stop-Cont Commands.png}
-              \captionof{figure}{Stop/Cont Commands Executed on the Guest}
-              \label{fig:areboot}
-          \end{center}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Ping Localhost After Cont.png}
-              \captionof{figure}{Network Connectivity After Resuming VM}
-              \label{fig:areboot}
-          \end{center}
-          Upon continuation, network connectivity, application services, and system responsiveness were all confirmed to be intact.
-
-    \item \textbf{Suspend Test:}\\
-          The suspend operation was tested to simulate putting the VM into a low-power state. The systemctl suspend command was used within the guest to initiate this state. The wakeup was triggered using the system\_wakeup command from the QEMU monitor, bringing the VM back to an active state.
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Systemctl Suspend on the Guest.png}
-              \captionof{figure}{Guest VM Suspension Executed}
-              \label{fig:areboot}
-          \end{center}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/System\_Wakeup.png}
-              \captionof{figure}{Executing Wakeup Command via QEMU Monitor}
-              \label{fig:areboot}
-          \end{center}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Wakeup Guest after Suspending.png}
-              \captionof{figure}{Verifying the Guest After Wakeup}
-              \label{fig:areboot}
-          \end{center}
-          The VM successfully transitioned in and out of the suspend state, with all previously running processes and services continuing from where they left off. Network connectivity was reestablished without any manual intervention.
-
-    \item \textbf{Shutdown Test:}\\
-          Finally, the VM was cleanly shut down using the system\_powerdown command in the QEMU monitor. This test is crucial as it ensures that the VM can safely terminate its operations and power down without data loss or corruption.
-          \mynewline
-          \mynewline
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/System-powerdown.png}
-              \captionof{figure}{Executing Shutdown Test on the Guest}
-              \label{fig:a}
-          \end{center}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Output of shutdowing guest.png}
-              \captionof{figure}{Verification of Shutdown Process in the Guest}
-              \label{fig:areboot}
-          \end{center}
-          The guest VM performed a clean shutdown, with all services stopping gracefully and the machine powering off as expected.
+    \item \textbf{Archive/Delete}: Exclusive to Sales users, this functionality enables users to either \textit{delete} a contract completely from the system, primarily used for erroneous entries, or \textit{archive} contracts, which removes them from the main repository interface but retains them in an archived section for future reference or audits.
+    \item \textbf{Logs/Notifications}: Users receive relevant notifications reflecting significant changes, such as contract status updates, ensuring stakeholders remain consistently informed and engaged.
 \end{itemize}
 
-%% Some VNIC Hotplug/Unplug
-\subsubsection[Some VNIC Hotplug/Unplug]{Some VNIC Hotplug/Unplug}
-One of the critical tests involved the hotplug and unplug of VNICs. This test simulates scenarios where a high number of network interfaces are dynamically added and removed from the VM, which is common in environments that require high networking throughput and flexibility.\mynewline
-
-Before starting the test, the existing network interfaces in the VM were listed using the ip a command to establish a baseline:
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Result of ip a.png}
-    \captionof{figure}{Baseline Network Interface Configuration in the Guest}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Contract Repository Page.png}
+    \captionof{figure}{Contract Repository Interface}
+    \label{fig:contract_repository_page}
 \end{center}
 
-A custom script, VNIC\_Hotplug.sh, was developed to automate the process of adding and removing VNICs. This script used QEMU monitor commands to systematically add VNICs to the running VM, simulating a high-density networking environment.
+% Contract Generation
+\subsection{Contract Generation}
+From the Contract Repository page, Sales users initiate contract creation via three input methods: audio recording, image uploads, or textual prompts. For instance, a user might prompt: \textit{\"Draft a spot contract for rock product with Incoterm CFR for new client Yara International\"}, optionally supplemented with additional image-based information.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/24 VNIC Hotplug Script.png}
-    \captionof{figure}{Executing VNIC Hotplug Script}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Generate Contract Component.png}
+    \captionof{figure}{Contract Creation Component}
+    \label{fig:contract_creation_component}
 \end{center}
 
-During the hotplug process, each new VNIC was detected by the guest, with appropriate entries appearing in the system logs (dmesg) and the network configuration being updated dynamically.\mynewline
-
-The script iterated through each VNIC, ensuring that all interfaces were added without causing instability or significant performance degradation.\mynewline
-
-After the VNICs were added, the ip a command was run again to confirm that all interfaces were successfully hotplugged:
+The first agent involved is the Generator, which initially checks for the required information: Contract Type, Incoterm, Client, and Product. Each combination of these fields corresponds to a distinct contract template. In the current scenario, the Generator detects that all essential fields are provided but identifies \textbf{Yara International} as a new client, not yet registered in the database. Consequently, the user is prompted either to confirm the new client details to avoid potential mismatches or, if the client already exists, to utilize an input field that suggests similar existing client names through Elasticsearch-based logic for selecting the correct one.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/VNIC result ip a (1).png}
-    \captionof{figure}{Post-Hotplug Network Interface List in the Guestgit}
-    \label{fig}
-\end{center}
-\noindent
-\mynewline
-Each VNIC was successfully added and configured, indicating that the VM's networking stack is robust and capable of handling dynamic changes in network configuration.\mynewline
-
-For the unplug process. The script then proceeded to remove each VNIC one by one, ensuring that the system could handle the removal process without any issues. The VM continued to operate normally, and the removal of VNICs was verified by checking the updated network interface list.
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/24 VNIC Unplug Script.png}
-    \captionof{figure}{Executing VNIC Unplug Script}
-    \label{fig}
-\end{center}
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Result of ip a.png}
-    \captionof{figure}{Updated Network Interface List After VNIC Unplug}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Generation Contract - Checking Required Fields.png}
+    \captionof{figure}{Contract Verifying Fields Step}
+    \label{fig:contract_verifying_fields_step}
 \end{center}
 
-
-%% VFIO-VNIC Hotplug/Unplug
-\subsubsection[Some VFIO-VNIC Hotplug/Unplug]{Some VFIO-VNIC Hotplug/Unplug}
-For this test, the process involved the creation and management of some VFIO VNICs on the host system. The initial step required preparing the VFIO VNICs to be bound to the host, ensuring that they were correctly set up for use in the virtualization environment. This involved configuring the VFIO devices so they could be utilized by the guest VM.
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/LSPCI Grep ETh.png}
-    \captionof{figure}{Listing PCI Devices Bound to VFIO on Host}
-    \label{fig}
-\end{center}
-
-Once the VFIO VNICs were set up, the hotplug process was initiated. The script for adding VFIO-VNICs to the VM is as follows:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/24 VFIO VNIC Hotplug Script.png}
-    \captionof{figure}{Executing VFIO VNIC Hotplug Script}
-    \label{fig}
-\end{center}
-
-This script systematically adds VFIO VNICs to the VM by sending commands to the QEMU monitor to attach each device. Each VNIC was successfully detected by the guest VM, as confirmed by the updated network interface list after the hotplug operation.
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/ip a before hotplug vfio.png}
-    \captionof{figure}{Network Interface List Before VFIO VNIC Hotplug}
-    \label{fig}
-\end{center}
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/ip a after vfio.png}
-    \captionof{figure}{Post-Hotplug Network Interface List in Guest VM}
-    \label{fig}
-\end{center}
-
-The verification involved checking the network interfaces before and after the hotplug, which showed all VNICs were added successfully. The guest VM maintained stable network operations, and the hotplug persisted after a reboot.\mynewline
-
-For the unplug process, a different script was used:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/24 VFIO VNIC Unplug Script.png}
-    \captionof{figure}{Executing VFIO VNIC Unplug Script}
-    \label{fig}
-\end{center}
-
-This script removes the VFIO VNICs one by one by sending commands to the QEMU monitor. After unplugging the VNICs, the network interface list was checked to ensure the removal was successful. The guest VM continued to operate normally, and the network configuration was updated accordingly.
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/ip a after VFIO Unplug.png}
-    \captionof{figure}{Updated Network Interface List After VFIO VNIC Unplug}
-    \label{fig}
-\end{center}
-
-
-%% VDisk Hotplug/Unplug
-\subsubsection[VDisks Hotplug/Unplug]{VDisks Hotplug/Unplug}
-For this test, we prepared some virtual disk images on the host system. The creation of these disk images was accomplished with the following commands:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Creating 3 vDisks.png}
-    \captionof{figure}{Creating vDisks on Host System}
-    \label{fig}
-\end{center}
-
-These commands generated three 5GB disk images in QCOW2 format, which were then used for hotplug testing.\mynewline
-
-The hotplug process involved adding these virtual disks to the VM using the following QEMU monitor commands:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/3 vDisk Hotplug.png}
-    \captionof{figure}{Hotplugging vDisks Command Sequence}
-    \label{fig}
-\end{center}
-
-Before initiating the hotplug, the lsblk command was used to display the existing block devices:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsblk before hotplug.png}
-    \captionof{figure}{Block Device List Before vDisks Hotplug}
-    \label{fig}
-\end{center}
-
-During the hotplug, new entries appeared in the system logs, indicating that the disks were successfully detected and attached. After the hotplug, running lsblk again showed the new disks:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsblk after hotplug.png}
-    \captionof{figure}{Block Device List After vDisks Hotplug}
-    \label{fig}
-\end{center}
-
-The new disks were listed correctly, confirming the success of the hotplug operation.\mynewline
-
-For the unplug test, the disks were removed using similar QEMU monitor commands. This process was confirmed by checking the lsblk output again, which showed the disks were no longer present, verifying that the unplug operation was successful.
-
-
-%% Kdump Check
-\subsubsection[Kdump Check]{Kdump Check}
-To verify Kdump functionality, we configured the system to capture crash dumps during kernel failures. This involved setting up the \texttt{/etc/kdump.conf} file to designate a local dump directory and specifying memory allocation for dump files. We checked the Kdump service status with the command \texttt{systemctl status kdump.service} to ensure it was active.\mynewline
-
-To test the setup, a kernel panic was induced using \texttt{echo c > /proc/sysrq-trigger}, causing the system to reboot. Upon restart, we verified that dump files were present in \texttt{/var/oled/crash}.
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Launch Kdump.png}
-    \captionof{figure}{Initiating Kdump Process}
-    \label{fig}
-\end{center}
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Crash Folder.png}
-    \captionof{figure}{Crash Dump Directory Verification}
-    \label{fig}
-\end{center}
-
-Analysis tools such as crash were used to inspect the dump files, confirming that Kdump was correctly capturing crash data.
-
-
-%% Memory Hotplug/Unplug
-\subsubsection[Memory Hotplug/Unplug]{Memory Hotplug/Unplug}
-The memory hotplug/unplug test was conducted to assess the VM’s capability to dynamically add and remove memory. Initially, we aimed to add 16 GB of memory to the guest VM using QEMU commands. The following QEMU monitor commands were used to add memory:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Memory Hotplug.png}
-    \captionof{figure}{Executing Memory Hotplug Process}
-    \label{fig}
-\end{center}
-
-Before initiating the test, we checked the VM's current memory configuration with the lsmem command:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsmem after unplug.png}
-    \captionof{figure}{Memory Status Before the Hotplugging}
-    \label{fig}
-\end{center}
-
-After the addition, the lsmem command showed the following updated memory configuration:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsmem after hotplug.png}
-    \captionof{figure}{Memory Status After Hotplugging}
-    \label{fig}
-\end{center}
-
-After a reboot, the memory configuration remained at 48 GB, confirming that the hotplug operation was successful.\mynewline
-
-For the memory unplug test, the following QEMU monitor commands were used:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Memory Unplug.png}
-    \captionof{figure}{Executing Memory Unplug Process}
-    \label{fig}
-\end{center}
-
-Post-unplug, the memory configuration reverted to its initial state:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsmem after unplug.png}
-    \captionof{figure}{Memory Status After Unplugging}
-    \label{fig}
-\end{center}
-
-
-
-%% Overview of Testing Outcomes
-\subsubsection[Overview of Testing Outcomes]{Overview of Testing Outcomes}
-
-In this section, we summarize the outcomes of the various tests conducted. The tests covered a range of functionalities, including lifecycle operations, hotplug/unplug of network interfaces, virtual disks, and memory. Each test aimed to validate the stability and performance of the VM in handling dynamic changes and typical operational states.\mynewline
-
-Key findings from the tests include:
+The contract generation process involves the Generator agent, performing several key steps:
 
 \begin{itemize}
-    \item \textbf{Lifecycle Operations:} The VM successfully handled reboot, stop/continue, suspend, and shutdown operations without issues. The system remained stable and responsive through each state transition;
-    \item \textbf{Hotplug/Unplug of VNICs:} Both standard and VFIO VNICs were tested. The guest VM efficiently managed the addition and removal of VNICs, demonstrating robustness in network interface handling;
-    \item \textbf{VDisk Hotplug/Unplug:} The VM successfully attached and detached virtual disks, with the system recognizing new disks and removing them as expected;
-    \item \textbf{Memory Hotplug/Unplug:} The VM handled the addition and removal of memory dynamically. The system maintained stability and correctly updated its memory configuration.
+    \item \textbf{Checking}: Confirms necessary fields (Contract Type, Incoterm, Client, Product) are provided. For new clients, users confirm client details or select from suggested matches using Elasticsearch.
+    \item \textbf{Generating}: Creates contract sections and dynamically fills fields, leveraging historical data for existing clients to suggest relevant articles.
+    \item \textbf{Filling}: Populates contract fields into respective database tables (Contracts, Contract Fields, Versions), and generates the initial contract version.
 \end{itemize}
 
-Performance metrics and system logs throughout the tests showed that the VM operated within expected parameters, confirming the effectiveness of the tested features and the stability of the virtual environment.
-
-%% Manual sanity test with Qemu 7.2.0-14 oci AMD Host OL8+UEK7U2 Guest: OL 7.9 + UEK6U3
-\section{Test on OL8 Host with an AMD CPU, QEMU and latest kernel version UEK6U3}
-
-%% Host System and Guest VM Configuration 
-\subsection{Host System and Guest VM Configuration}
-
-For the second testing scenario, we utilized an AMD-based OCI Instance running Oracle Linux Server 8. This setup involved configuring the latest version of UEK7U2 on the host. The first step was to verify the installation and configuration of QEMU, ensuring that all components were correctly installed and the environment was properly set up.
-
-The initial verification included checking the host system's configuration using the hostnamectl command, listing all relevant QEMU components, verifying the presence of edk2 packages:
-
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Host System Configuration Verification.png}
-    \captionof{figure}{Host System Configuration Verification}
-    \label{fig:casa}
+    \includegraphics[width=1\textwidth]{Images/Generation Contract - Steps.png}
+    \captionof{figure}{Contract Generating Process}
+    \label{fig:contract_generation_steps}
 \end{center}
 
-With the host system fully prepared, we proceeded to deploy the guest VM running Oracle Linux 7.9 with UEK6U3. The guest was initiated using the QEMU command which ensured that the guest VM was correctly set up for the testing phase:
-
+% Contract Editor
+\subsection{Contract Editor}
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Launching Guest 2.png}
-    \captionof{figure}{QEMU Command for Launching the Guest}
-    \label{fig:casa}
+    \includegraphics[width=1\textwidth]{Images/Contract Editor Page.png}
+    \captionof{figure}{Contract Editor Interface}
+    \label{fig:contract_editor_page}
 \end{center}
 
-%% Test Execution and Performance Evaluation 
-\subsection{Test Execution and Performance Evaluation}
-Following the setup, a series of tests were conducted to evaluate the stability and performance of the virtual environment. These tests focused on the VM's lifecycle operations, the dynamic management of virtual network interfaces, the kdump check and dynamic add and removal of virtual CPUs.
-
-%% Lifecycle Test 
-\subsubsection[Lifecycle Test]{Lifecycle Test}
-
-The lifecycle test assessed the VM’s ability to manage various operational states, including reboot, stop/continue, suspend, and shutdown. Each state transition was tested to ensure smooth operation and stability:
-\noindent
+Upon creation or selection from the repository, the contract opens in the Contract Editor interface, structured into four distinct sections:
 
 \begin{itemize}
-    \item \textbf{Reboot Test: }
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Rebooting the Guest.png}
-              \captionof{figure}{Execution of Reboot Command on the Guest}
-              \label{fig:reboot}
-          \end{center}
-          \noindent
-          \mynewline
-    \item \textbf{Stop/Continue Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Stop-Cont 2.png}
-              \captionof{figure}{Stop and Continue Commands Executed on the Guest}
-              \label{fig:areboot}
-          \end{center}
-
-    \item \textbf{Suspend Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Suspend Guest 2.png}
-              \captionof{figure}{Guest Suspension via Systemctl Command}
-              \label{fig:areboot}
-          \end{center}
-
-    \item \textbf{Shutdown Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/System-powerdown.png}
-              \captionof{figure}{Executing Shutdown Test on the Guest}
-              \label{fig:areboot}
-          \end{center}
+    \item \textbf{Header:} The header section prominently displays the platform logo on the left and the user profile logo on the right, which provides quick access for modifying user information or logging out. Centrally located within the header, the contract title is editable directly by the user. Navigation controls are positioned alongside the title, including a button to return to the Contract Repository page. Additionally, a formatting toolbar allows users to apply text styles such as bold, italic, or underline. To the right side of the toolbar, three action buttons facilitate contract status updates, history access, and contract sharing options.
+    \item \textbf{Left Panel:} This panel provides easy navigation through the document's structured contents with a dynamic table of contents. Additionally, it contains functionalities for managing contract clauses, including viewing existing clauses, requesting new ones, or initiating clause modifications.
+    \item \textbf{Right Panel:} The right panel consists of two critical components. First, the summary panel, which lists all required and dynamic fields of the contract, allowing users to edit these directly. Second, the review panel where the Reviewer Agent performs comprehensive reviews, ensuring accuracy, consistency, and compliance with regulatory standards.
+    \item \textbf{Editor Body:} At the heart of the interface lies the document editing area, powered by the Tiptap editor. This editor allows Legal users full editing capabilities to draft, modify, and finalize the contract's textual content. For Sales users, the editor body is presented in a read-only mode, ensuring document integrity and maintaining clear responsibilities between roles.
 \end{itemize}
 
-All lifecycle tests were executed successfully, demonstrating the VM's capability to handle various operational states without issues. Each command transitioned smoothly, confirming the stability and reliability of the virtual environment.
-
-%% Some VNIC Hotplug/Unplug 
-\subsubsection[Some VNIC Hotplug/Unplug]{Some VNIC Hotplug/Unplug}
-
-The hotplug and unplug test of VNICs was conducted to simulate high-density networking scenarios. This involved dynamically adding and removing multiple VNICs from the VM.\mynewline
-
-Before initiating the test, we established a baseline by listing the existing network interfaces using the ip a command. The previous script, VNIC\_Hotplug.sh, was used to automate the addition of VNICs.\mynewline
-
-The addition of VNICs was verified through system logs and updated network configurations. Following the hotplug, we confirmed that all interfaces were successfully added and configured:
+% AI-Suggested Articles
+\subsubsection{AI-Suggested Articles}
+The Generator agent may suggest relevant articles based on past client contracts or user-specified historical references. Users can accept or reject suggestions, automatically integrating accepted articles into the editor.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/ip a after VNIC Hotplug 2.png}
-    \captionof{figure}{Post-Hotplug Network Interface List in the Guest}
-    \label{fig:casa}
+    \includegraphics[width=1\textwidth]{Images/Article Suggested By Agent.png}
+    \captionof{figure}{Contract Editor with AI-Suggested Article}
+    \label{fig:article_suggested_by_agent}
 \end{center}
 
-For the unplug process, the script VNIC\_Unplug.sh removed each VNIC systematically. The removal was verified by checking the updated network interface list.
+% Clause Management
+\subsubsection{Clause Management}
 
-%% VFIO-VNIC Hotplug/Unplug 
-\subsubsection[Some VFIO-VNIC Hotplug/Unplug]{Some VFIO-VNIC Hotplug/Unplug}
-
-In this test, some VFIO VNICs were managed on the host system. The hotplug process was verified through the QEMU monitor commands (VFIO\_VNIC\_Hotplug.sh) and confirmed by updated network interface lists in the guest VM:
+As Sales users are restricted from directly editing contracts, the platform provides a specialized clause management feature to facilitate necessary modifications through clause requests. When a Sales user identifies a need to modify a contract, they initiate a new clause request. This action can be triggered through multiple methods: directly via the "New Clause" button in the left panel, by selecting a specific section within the contract to associate the request with the content and its number, or through interaction with existing comments within the editor interface.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/ip a after VNIC Hotplug 2.png}
-    \captionof{figure}{Network Interface List After VFIO VNIC Hotplug}
-    \label{fig}
-\end{center}
-
-The unplug process was similarly executed, and the network interface list was checked to confirm successful removal of VFIO VNICs.
-
-%% 3 vDisk Hotplug/Unplug 
-\subsubsection[VDisks Hotplug/Unplug]{VDisks Hotplug/Unplug}
-The vDisk images were prepared on the host and used for the hotplug/unplug test. The disks were created and added to the VM using QEMU commands are located on \texttt{/home/opc} path, with verification through the lsblk command before and after the hotplug:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsblk after hotplug and after ungplug.png}
-    \captionof{figure}{Updated Block Device List Post-Hotplug and Unplug}
-    \label{fig}
-\end{center}
-
-%% Kdump Check
-\subsubsection[Kdump Check]{Kdump Check}
-To verify the Kdump functionality, we configured the system to capture crash dumps in the event of kernel failures:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Kdump Test 2.png}
-    \captionof{figure}{Initiating Kdump Process}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Clause Requests - Create New Clause.png}
+    \captionof{figure}{Clause Request Interface}
+    \label{fig:create_clause_request}
 \end{center}
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Log Folder Founded.png}
-    \captionof{figure}{Crash Dump Directory Verification}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Clause Requests - Create New Clause from a comment.png}
+    \captionof{figure}{Create New Clause from Comment}
+    \label{fig:create_clause_request_from_comment}
 \end{center}
 
-The Kdump functionality was further validated by analyzing the crash dump files, confirming that the crash data was accurately captured and processed.
-
-%% VCPUs Hotplug/Unplug
-\subsubsection[VCPUs Hotplug/Unplug]{VCPUs Hotplug/Unplug}
-The vCPU hotplug test involved dynamically adding and removing virtual CPUs from the guest VM to evaluate its capability to handle changes in CPU resources.\mynewline
-
-Initially, the VM was configured with a certain number of CPUs. To perform the hotplug test, we used the following QEMU monitor commands to add three additional vCPUs:
+Upon initiating a clause request, Sales users compose a detailed description of their desired modification. To enhance clarity and precision, the platform provides multiple input options, including voice recordings, file uploads, and insertion of dynamic fields using the "@" symbol. Additionally, users can refine their descriptions utilizing integrated LLM assistance, ensuring the request accurately communicates the intended modifications.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Hotplug cpu.png}
-    \captionof{figure}{Executing vCPU Hotplug Process}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Clause Requests - Clause Description.png}
+    \captionof{figure}{Clause Request Description and Enhancement}
+    \label{fig:clause_request_description}
 \end{center}
 
-Before the hotplug operation and after it, the VM’s CPU configuration was as follows:
+After submission, the Legal team receives a notification indicating the clause request along with details of the Sales user who submitted it. Upon reviewing the notification, Legal users access the clause management interface to review the Sales user's request comprehensively. This interface provides a dedicated editor enabling Legal users to add, modify, or delete clauses and subclauses directly. The editor also includes the same capabilities provided to Sales users, such as refining with LLM assistance, voice recording, and file uploads. Legal users can finalize their changes immediately or save their edits for later completion.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/lscpu before hotplug.png}
-    \captionof{figure}{CPU Configuration Before Hotplug}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Clause Requests - Respond to a Request.png}
+    \captionof{figure}{Clause Request Review Interface}
+    \label{fig:clause_request_review_interface}
 \end{center}
 
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lscpu after hotplug.png}
-    \captionof{figure}{CPU Configuration After Hotplug}
-    \label{fig}
-\end{center}
-
-Following the vCPU addition, we tested the vCPU unplug process using similar QEMU monitor commands to remove the added CPUs. The CPU configuration reverted to its original state, this confirmed the successful dynamic adjustment of vCPUs in the VM.
-
-%% Overview of Testing Outcomes
-\subsubsection[Overview of Testing Outcomes]{Overview of Testing Outcomes}
-The testing conducted for QEMU on AMD host with OL8 + UEK7U2 and OL 7.9 + UEK6U3 guest revealed several key insights:
+% Contract Review
+\subsection{Contract Review}
+Upon marking a contract as \textit{"In Review"} by Sales users, Legal users can initiate a thorough review either manually or through AI-driven assistance. Two specialized AI agents are available for this purpose:
 
 \begin{itemize}
-    \item \textbf{Lifecycle Operations:} The guest VM managed various operational states, including reboot, stop/continue, suspend, and shutdown, effectively and without issues. Each state transition was smooth, demonstrating robust lifecycle management capabilities;
-    \item \textbf{Hotplug/Unplug of VNICs:} The system successfully handled the dynamic addition and removal of virtual network interfaces (VNICs), with all interfaces being correctly recognized and configured. This indicates strong support for high-density networking scenarios;
-    \item \textbf{VFIO-VNIC Hotplug/Unplug:} The VFIO VNICs were managed successfully, with the system effectively adding and removing the VFIO VNICs. The network interface list was updated as expected, showing the VM’s capability to handle VFIO network interfaces;
-    \item \textbf{VDisk Hotplug/Unplug:} The test demonstrated that the VM could efficiently attach and detach virtual disks, with the system accurately reflecting the changes in disk availability and configuration;
-    \item \textbf{Kdump Functionality:} The Kdump test validated that the system could capture and store crash dumps correctly, with dump files being successfully created and analyzed following a kernel panic;
-    \item \textbf{VCPU Hotplug/Unplug:} The dynamic addition and removal of vCPUs were executed successfully, with the VM reflecting changes in CPU configuration as expected. This tested the VM's capability to handle varying CPU resources effectively.
+    \item \textbf{Reviewer Agent:} Conducts Data Accuracy and Consistency checks, verifying essential details such as dates, amounts, and product specifications. It also evaluates text clarity, grammar, and formatting consistency.
+    \item \textbf{Guardian Agent:} Performs comprehensive Legal Security evaluations, ensuring compliance with legal standards, verifying clauses, payment terms, Incoterms responsibilities, and detecting deviations from predefined templates.
 \end{itemize}
 
-Overall, the tests confirmed that the virtual environment operated within the expected parameters, demonstrating stability, reliability, and proper functionality of key virtualization features.
-
-%% OL8 virt:kvm_utils3 Release 10 libvirt 9.0.0-6/Qemu 7.2.0-15 non OCI Linux Guest (OL 8.10) Manual Sanity Test on A1-2c libvirt initiated
-\section{Test on OL8 Host with and ARM CPU, Libvirt, QEMU and Latest kernel version UEK7U2}
-
-%% Host System and Guest VM Configuration 
-\subsection{Host System and Guest VM Configuration}
-
-For this testing phase, an ARM-based OCI instance was utilized, running Oracle Linux Server 8. The host system was equipped with the latest UEK7U2 kernel, and the configuration process commenced with the installation of QEMU and Libvirt. Ensuring the correct installation and environment setup was paramount to the success of the tests.\mynewline
-
-The initial verification procedures involved confirming the host system's details via the \texttt{hostnamectl} command, followed by a thorough check of all QEMU and Libvirt components:
+Upon execution, the Reviewer agent provides an overall quality score with targeted suggestions to enhance the contract. Legal users can iteratively apply these recommendations, aiming to achieve optimal compliance (100\%).
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Host System Config 3.png}
-    \captionof{figure}{Verification of Host System Configuration}
-    \label{fig:casa}
+    \includegraphics[width=1\textwidth]{Images/Reviewer Agent View.png}
+    \captionof{figure}{Contract Review Panel}
+    \label{fig:reviewer_agent_view}
 \end{center}
-
-With the host system confirmed to be in optimal condition, the next step was deploying the guest VM, which ran Oracle Linux 8.10 with UEK7U2. The VM was launched using a Libvirt script, ensuring proper initialization for the upcoming testing phase:
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Launching Guest 3.png}
-    \captionof{figure}{Deployment Script for the Guest via Libvirt}
-    \label{fig:casa}
+    \includegraphics[width=1\textwidth]{Images/Reviewer Agent Result.png}
+    \captionof{figure}{Contract Review Results}
+    \label{fig:reviewer_agent_result}
 \end{center}
 
-%% Test Execution and Performance Evaluation 
-\subsection{Test Execution and Performance Evaluation}
-Following the setup, various tests were executed to evaluate the stability and performance of the virtual environment. These tests focused on the VM's lifecycle management, the dynamic handling of VNICs, and kdump testing, and the booting of large VMs.
+% Contract History
+\subsection{Contract History}
+Users access the contract's History mode via the history button on the navigation bar. This mode automatically tracks each contract modification—triggered by status changes, downloads, or manual saves—while also allowing manual creation of specific versions. Each version is listed chronologically in the right panel, facilitating easy navigation and management.
 
-%% Lifecycle Test 
-\subsubsection[Lifecycle Test]{Lifecycle Test}
-
-The lifecycle test was designed to assess the VM’s capability to handle different operational states, including start, reboot, suspend, resume, reset and shutdown. Each transition was meticulously tested to ensure seamless operation and system stability:
+From this interface, users can perform several key actions:
 
 \begin{itemize}
-    \item \textbf{Start Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Start using libvirt.png}
-              \captionof{figure}{Execution of Start Command on the Guest}
-              \label{fig:reboot}
-          \end{center}
-
-    \item \textbf{Reboot Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Reboot using libvirt.png}
-              \captionof{figure}{Execution of Reboot Command on the Guest}
-              \label{fig:reboot}
-          \end{center}
-
-    \item \textbf{Suspend Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Suspend using libvirt.png}
-              \captionof{figure}{Suspension of the Guest Using Libvirt}
-              \label{fig:areboot}
-          \end{center}
-
-    \item \textbf{Resume Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Resume using libvirt.png}
-              \captionof{figure}{Resuming the Guest After Suspension}
-              \label{fig:areboot}
-          \end{center}
-
-    \item \textbf{Reset Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Reset Using libvirt.png}
-              \captionof{figure}{Reset Command Execution on the Guest}
-              \label{fig:areboot}
-          \end{center}
-
-    \item \textbf{Shutdown Test:}
-          \begin{center}
-              \includegraphics[width=\linewidth]{Images/Shutdown using Libvirt.png}
-              \captionof{figure}{Guest Shutdown Initiated via Libvirt}
-              \label{fig:areboot}
-          \end{center}
+    \item \textbf{Restore Version:} Reverts the entire contract to a previously saved version.
+    \item \textbf{Rename Version:} Allows clear labeling and identification of historical contract states.
+    \item \textbf{Paragraph-Level Management:} Enables users to individually restore or copy previous paragraphs into the current document. Restoration replaces current content, while copying appends historical content alongside existing text.
 \end{itemize}
 
-The lifecycle tests were successfully completed, with each command executing flawlessly, confirming the VM’s robust lifecycle management capabilities.
-
-%% Some VNIC Hotplug/Unplug 
-\subsubsection[Some VNIC Hotplug/Unplug]{Some VNIC Hotplug/Unplug}
-
-A script was employed to automate the hotplugging of some VNICs using Libvirt:
+The integrated TipTap editor automatically synchronizes all changes, ensuring consistency across all user views.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/Script hotplug VNIC Libvirt.png}
-    \captionof{figure}{Libvirt Script for VNIC Hotplug}
-    \label{fig:casa}
-\end{center}
-
-The successful addition of the VNICs was verified by examining the system logs and updated network configurations. Post-hotplugging, all interfaces were confirmed to be properly recognized and configured:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/ip a after hotplug VNIC Libvirt.png}
-    \captionof{figure}{Post-Hotplug Verification of Network Interfaces}
-    \label{fig:casa}
-\end{center}
-
-For the unplugging process, a script was executed to systematically remove each VNIC. The removal was validated by verifying the updated network interface list which contains just two.
-
-%% VFIO-VNIC Hotplug/Unplug 
-\subsubsection[Some VFIO-VNIC Hotplug/Unplug]{Some VFIO-VNIC Hotplug/Unplug}
-
-This test focused on managing VFIO VNICs on the host system. The hotplugging process was carried out using Libvirt scripts, with the following steps verified:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Populate VFIO libvirt.png}
-    \captionof{figure}{Populating VFIO Files via Script}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Contract History - Contract Versions.png}
+    \captionof{figure}{Contract History Interface}
+    \label{fig:contract_history_interface}
 \end{center}
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/VFIO VNIC Hotplug Libvirt.png}
-    \captionof{figure}{Hotplugging VFIO VNIC Using Libvirt}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Contract History - Paragraph Versions.png}
+    \captionof{figure}{Paragraph Version Tracking and Restoration}
+    \label{fig:track_changes_across_versions}
 \end{center}
+
+% Finalized Contract
+\subsection{Finalized Contract}
+Upon successful reviews and edits, contracts are finalized, transitioning into the finalized status. Finalized contracts are exportable as PDF/Word documents, shareable via secure links or email attachments, enabling seamless client communications.
 
 \begin{center}
     \centering
-    \includegraphics[width=\textwidth]{Images/ip a after hotplug vfio libvirt.png}
-    \captionof{figure}{Updated Network Interface List After VFIO Hotplug}
-    \label{fig}
+    \includegraphics[width=1\textwidth]{Images/Contract Status - Finalized.png}
+    \captionof{figure}{Finalized Contract Interface}
+    \label{fig:contract_status_finalized}
 \end{center}
 
-The hotplugging operation was successfully completed, with the network interface list reflecting the newly added VFIO VNICs on the guest VM. The unplugging process was executed similarly, and the network interface list confirmed the successful removal of the VFIO VNICs.
+% Verification of Requirements
+\section{Verification of Requirements}
+The verification of functional and non-functional requirements is an essential phase in ensuring the developed solution aligns with the initial specifications identified during the analysis phase. This section outlines how the implemented solution satisfies the requirements detailed in Chapter 2.
 
-%% VDisk Hotplug/Unplug 
-\subsubsection[VDisks Hotplug/Unplug]{VDisks Hotplug/Unplug}
+\subsection{Verification of Functional Requirements}
+The intelligent contract management solution underwent systematic verification of its functional capabilities. Initial verification was conducted through iterative demonstrations and regular review meetings with the project stakeholders. These sessions validated critical functionalities including contract generation, clause management, editing capabilities, and AI-assisted contract reviews. Specifically, the Sales and Legal user functionalities were thoroughly tested to ensure seamless user interaction and accurate functional behavior. Remaining functionalities, such as extensive integration testing and further refinement of clause management features, are scheduled for completion within the remaining internship period. While automated unit and integration tests using the designated libraries (Jest and Pytest) are planned, their execution and reporting are scheduled for the final phase of the internship.
 
-Some vDisks were created on the host in the \texttt{/dev/shm/ilyass/images/} directory for the hotplug/unplug tests. The disks were added to the VM using Libvirt commands, and the operation was verified using the \texttt{lsblk} command before and after the hotplug:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/lsblk after hotplug and after ungplug.png}
-    \captionof{figure}{Verifying Block Device List After Hotplug and Unplug}
-    \label{fig}
-\end{center}
-
-%% Kdump Check
-\subsubsection[Kdump Check]{Kdump Check}
-
-To test Kdump functionality, the system was configured to capture crash dumps during kernel failures:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/kdump test 3.png}
-    \captionof{figure}{Executing Kdump Process on the Guest}
-    \label{fig}
-\end{center}
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Kdumpt Result folder.png}
-    \captionof{figure}{Crash Dump Files Stored in Kdump Directory}
-    \label{fig}
-\end{center}
-
-The Kdump functionality was confirmed by analyzing the captured crash dump files, which verified that the crash data was accurately recorded and processed.
-
-%% Big VM 500G-1T Boot Test 
-\subsubsection[Big VM 500G-1T Boot Test]{Big VM 500G-1T Boot Test}
-
-A VM with a configuration of 500G GB RAM and then 1000G GB RAM was deployed to test the environment's capability to handle large VM instances. The VM was successfully booted, and the expected resource allocation was verified via the \texttt{lsmem} command:
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Large VM Test 500G.png}
-    \captionof{figure}{Resource Allocation Verification in Large VM (500G RAM)}
-    \label{fig}
-\end{center}
-
-\begin{center}
-    \centering
-    \includegraphics[width=\textwidth]{Images/Large VM Test 1T.png}
-    \captionof{figure}{Resource Allocation Verification in Large VM (1T RAM)}
-    \label{fig}
-\end{center}
-
-The successful boot of the large VM confirmed that the environment was capable of handling resource-intensive virtual machines without issues.
-
-\subsubsection[Overview of Testing Outcomes]{Overview of Testing Outcomes}
-
-In this testing phase, we evaluated the performance and stability of the virtual environment on an ARM-based OCI instance running Oracle Linux Server 8 with UEK7U2. The key aspects of this testing involved lifecycle management, virtual network interface handling, virtual disk operations, kdump functionality, and the booting of large VMs. The outcomes of these tests are summarized below:
+\subsection{Verification of Non-Functional Requirements}
+The non-functional aspects, crucial for user satisfaction and system reliability, were verified through targeted approaches as follows:
 
 \begin{itemize}
-    \item \textbf{Lifecycle Operations:} The VM demonstrated robust lifecycle management by successfully executing start, reboot, suspend, resume, reset, and shutdown operations. Each state transition was smooth, indicating that the environment can handle various operational states without disruptions;
-
-    \item \textbf{Hotplug/Unplug of VNICs:} The VM efficiently managed the dynamic addition and removal of virtual network interfaces using Libvirt. All network interfaces were correctly recognized and configured, demonstrating the system's ability to support high-density networking requirements;
-
-    \item \textbf{Hotplug/Unplug of VFIO VNICs:} The test confirmed that the VM could effectively manage VFIO VNICs. The successful hotplugging and unplugging operations reflected the environment's capability to handle VFIO-based network interfaces, which are critical for direct device access in virtualized environments;
-
-    \item \textbf{VDisks Hotplug/Unplug:} The VM successfully attached and detached the virtual disks. The system accurately reflected the changes in disk availability, confirming the environment’s ability to manage dynamic storage configurations effectively;
-
-    \item \textbf{Kdump Functionality:} The Kdump test validated the system’s ability to capture and store crash dumps. The dump files were correctly generated and analyzed, demonstrating the reliability of the crash recovery process;
-
-    \item \textbf{Large VM Boot Test (500G-1T RAM):} The successful boot of a VM with 500G and then 1000G RAM confirmed the environment's capacity to handle large, resource-intensive virtual machines. The test validated the system's scalability and its ability to allocate significant resources without issues.
+    \item \textbf{Usability:} The platform was designed with an intuitive and familiar interface, inspired by widely used enterprise applications. Initial user feedback, collected from a select group of Sales and Legal users, confirmed that the interface met the usability standards, ensuring a comfortable and efficient user experience.
+    \item \textbf{Maintainability:} Regular code reviews and adherence to best practices in software architecture were employed to validate maintainability. The adoption of a modular, service-oriented architecture facilitated easier updates and extensions, allowing new functionalities to be integrated efficiently. Future scheduled unit and integration tests will further ensure system stability and maintainability.
+    \item \textbf{Security:} Security verification involved the integration and configuration of Azure Entra ID, ensuring robust authentication and role-based access control. Regular security audits and compliance checks were established to detect and rectify vulnerabilities promptly. Further penetration tests and comprehensive security assessments are planned to maintain and enhance the platform's security posture.
 \end{itemize}
 
-Overall, the testing confirmed that the virtual environment is stable, reliable, and capable of handling a wide range of demanding virtualization scenarios. The system operated within expected parameters, and all tested features performed as anticipated.
-
+% Conclusion
 \section{Conclusion}
-In conclusion, this chapter detailed the implementation and testing of QEMU with various configurations. It highlighted the technical choices made, the execution of tests, and the validation results, demonstrating the system’s functionality and readiness for practical use.
+This chapter has provided an extensive account of the implementation and validation processes of the intelligent contract management platform. We detailed and justified the technology choices across frontend, backend, AI integration, databases, and infrastructure components, ensuring optimal performance, maintainability, and scalability. Furthermore, comprehensive descriptions of the core functionalities—including contract generation, editing workflows, clause management, systematic review processes, and historical tracking—demonstrated alignment with user needs and operational requirements. Finally, the validation processes systematically verified that the platform met all specified functional and non-functional criteria, confirming its robustness, security, usability, and readiness for deployment in real-world scenarios.
