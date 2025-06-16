@@ -925,12 +925,11 @@ INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT ./Images/inpt_fig.jpg
-INPUT ./Images/inpt_fig.jpg
-INPUT ./Images/inpt_fig.jpg
-INPUT ./Images/inpt_fig.jpg
-INPUT ./Images/inpt_fig.jpg
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
+INPUT ./Images/go digital.jpg
+INPUT ./Images/go digital.jpg
+INPUT ./Images/go digital.jpg
+INPUT ./Images/go digital.jpg
+INPUT ./Images/go digital.jpg
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT ./bismilah.tex
@@ -1008,6 +1007,7 @@ INPUT ./Images/Boston-Consulting-Group-Logo.jpg
 INPUT ./Images/Boston-Consulting-Group-Logo.jpg
 INPUT ./Images/Boston-Consulting-Group-Logo.jpg
 INPUT ./Images/Boston-Consulting-Group-Logo.jpg
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
 INPUT ./Images/BCG_X.jpg
 INPUT ./Images/BCG_X.jpg
 INPUT ./Images/BCG_X.jpg
@@ -1047,11 +1047,6 @@ INPUT ./Images/Miro Logo.png
 INPUT ./Images/Miro Logo.png
 INPUT ./Images/Miro Logo.png
 INPUT ./Images/Miro Logo.png
-INPUT ./Images/Gantt Diagram.png
-INPUT ./Images/Gantt Diagram.png
-INPUT ./Images/Gantt Diagram.png
-INPUT ./Images/Gantt Diagram.png
-INPUT ./Images/Gantt Diagram.png
 INPUT ./Chapter2.tex
 INPUT ./Chapter2.tex
 INPUT ./Chapter2.tex
@@ -1208,16 +1203,46 @@ INPUT ./Images/Sequence Diagram - Draft Contract.png
 INPUT ./Images/Sequence Diagram - Draft Contract.png
 INPUT ./Images/Sequence Diagram - Draft Contract.png
 INPUT ./Images/Sequence Diagram - Draft Contract.png
+INPUT ./Images/Sequence Diagram - Create Client Ref.png
+INPUT ./Images/Sequence Diagram - Create Client Ref.png
+INPUT ./Images/Sequence Diagram - Create Client Ref.png
+INPUT ./Images/Sequence Diagram - Create Client Ref.png
+INPUT ./Images/Sequence Diagram - Create Client Ref.png
+INPUT ./Images/Sequence Diagram - Create Contract Version Ref.png
+INPUT ./Images/Sequence Diagram - Create Contract Version Ref.png
+INPUT ./Images/Sequence Diagram - Create Contract Version Ref.png
+INPUT ./Images/Sequence Diagram - Create Contract Version Ref.png
+INPUT ./Images/Sequence Diagram - Create Contract Version Ref.png
+INPUT ./Images/Sequence Diagram - Create Sections Ref.png
+INPUT ./Images/Sequence Diagram - Create Sections Ref.png
+INPUT ./Images/Sequence Diagram - Create Sections Ref.png
+INPUT ./Images/Sequence Diagram - Create Sections Ref.png
+INPUT ./Images/Sequence Diagram - Create Sections Ref.png
+INPUT ./Images/Sequence Diagram - Create Dynamic Fields Ref.png
+INPUT ./Images/Sequence Diagram - Create Dynamic Fields Ref.png
+INPUT ./Images/Sequence Diagram - Create Dynamic Fields Ref.png
+INPUT ./Images/Sequence Diagram - Create Dynamic Fields Ref.png
+INPUT ./Images/Sequence Diagram - Create Dynamic Fields Ref.png
 INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
 INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
 INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
 INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
 INPUT ./Images/Sequence Diagram - Sales - Clause Request.png
+INPUT ./Images/Sequence Diagram - Refine Text Ref.png
+INPUT ./Images/Sequence Diagram - Refine Text Ref.png
+INPUT ./Images/Sequence Diagram - Refine Text Ref.png
+INPUT ./Images/Sequence Diagram - Refine Text Ref.png
+INPUT ./Images/Sequence Diagram - Refine Text Ref.png
 INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
 INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
 INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
 INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
 INPUT ./Images/Sequence Diagram - Legal - Clause Request.png
+INPUT ./Images/Sequence Diagram - Update Sections Ref.png
+INPUT ./Images/Sequence Diagram - Update Sections Ref.png
+INPUT ./Images/Sequence Diagram - Update Sections Ref.png
+INPUT ./Images/Sequence Diagram - Update Sections Ref.png
+INPUT ./Images/Sequence Diagram - Update Sections Ref.png
 INPUT ./Images/Infra Architecture.png
 INPUT ./Images/Infra Architecture.png
 INPUT ./Images/Infra Architecture.png
@@ -1353,43 +1378,3 @@ INPUT ./Images/Generation Contract - Checking Required Fields.png
 INPUT ./Images/Generation Contract - Checking Required Fields.png
 INPUT ./Images/Generation Contract - Checking Required Fields.png
 INPUT ./Images/Generation Contract - Checking Required Fields.png
-INPUT ./Images/Generation Contract - Steps.png
-INPUT ./Images/Generation Contract - Steps.png
-INPUT ./Images/Generation Contract - Steps.png
-INPUT ./Images/Generation Contract - Steps.png
-INPUT ./Images/Generation Contract - Steps.png
-INPUT ./Images/Contract Editor Page.png
-INPUT ./Images/Contract Editor Page.png
-INPUT ./Images/Contract Editor Page.png
-INPUT ./Images/Contract Editor Page.png
-INPUT ./Images/Contract Editor Page.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png

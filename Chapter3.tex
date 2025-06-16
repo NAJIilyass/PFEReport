@@ -144,6 +144,43 @@ Following the analysis phase where chronological interactions between the system
     \label{fig:sequence_diagram_draft_contract}
 \end{center}
 
+To maintain clarity and reduce complexity, certain subprocesses—such as Create Client and Create Contract Version—are encapsulated within ref frames. The detailed sequence diagrams for these referenced interactions are provided in the following figures:
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/Sequence Diagram - Create Client Ref.png}
+        \captionof{figure}{Sequence Diagram – Create Client}
+        \label{fig:sequence_diagram_create_client}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/Sequence Diagram - Create Contract Version Ref.png}
+        \captionof{figure}{Sequence Diagram – Create Contract Version}
+        \label{fig:sequence_diagram_create_contract_version}
+    \end{minipage}
+
+    \vspace{0.5cm}
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/Sequence Diagram - Create Sections Ref.png}
+        \captionof{figure}{Sequence Diagram – Create Contract Sections}
+        \label{fig:sequence_diagram_create_sections}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/Sequence Diagram - Create Dynamic Fields Ref.png}
+        \captionof{figure}{Sequence Diagram – Create Dynamic Fields}
+        \label{fig:sequence_diagram_create_dynamic_fields}
+    \end{minipage}
+
+\end{figure}
+
 Figure \ref{fig:sequence_diagram_draft_contract} depicts the detailed sequence diagram for generating a new contract. In this scenario, the sales user initiates by logging into the system and providing a prompt through text, voice, or image, detailing essential information needed for the contract. The system then extracts necessary fields such as Incoterm, contract type, product, and client name to identify the appropriate template and client data. If critical information is missing or a new client is identified, the system prompts the user for clarification or confirmation to avoid mismatches.\mynewline
 
 Upon confirmation, the system creates a new client record if necessary, extracts dynamic fields from the provided prompt, selects the appropriate contract template, and populates the dynamic fields accordingly. Missing fields are filled either by referencing a specific past contract indicated by the user or by defaulting to the client's most recent contract. If the client is new or no relevant contracts are found, fields remain empty. After contract generation, the user is automatically redirected to the contract editing interface.
@@ -164,9 +201,25 @@ Upon submission, the legal team receives a notification of the new clause reques
 
 \begin{center}
     \centering
+    \includegraphics[width=0.48\textwidth]{Images/Sequence Diagram - Refine Text Ref.png}
+    \captionof{figure}{Sequence Diagram - Refine Text}
+    \label{fig:sequence_diagram_refine_text}
+\end{center}
+
+After presenting the clause request process from the Sales user's perspective, the following sequence diagram illustrates the corresponding workflow from the Legal user's point of view:
+
+\begin{center}
+    \centering
     \includegraphics[width=1\textwidth]{Images/Sequence Diagram - Legal - Clause Request.png}
     \captionof{figure}{Sequence Diagram - Clause Request (Legal Perspective)}
     \label{fig:sequence_diagram_clause_request_legal}
+\end{center}
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.48\textwidth]{Images/Sequence Diagram - Update Sections Ref.png}
+    \captionof{figure}{Sequence Diagram - Update Contract Sections}
+    \label{fig:sequence_diagram_update_contract_sections}
 \end{center}
 
 These diagrams comprehensively clarify the interactions between system components, highlighting critical processes and dependencies to ensure a smooth and efficient workflow within the intelligent contract management platform.

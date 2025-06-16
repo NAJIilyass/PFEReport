@@ -316,7 +316,7 @@ Each contract card provides essential details, including the title, client invol
 
 % Contract Generation
 \subsection{Contract Generation}
-From the Contract Repository page, Sales users initiate contract creation via three input methods: audio recording, image uploads, or textual prompts. For instance, a user might prompt: \textit{\"Draft a spot contract for rock product with Incoterm CFR for new client Yara International\"}, optionally supplemented with additional image-based information.
+From the Contract Repository page, Sales users initiate contract creation via three input methods: audio recording, image uploads, or textual prompts. For instance, a user might prompt: \textit{\"Draft a spot contract for rock product with Incoterm CFR for new client theClientName\"}, optionally supplemented with additional image-based information.
 
 \begin{center}
     \centering
@@ -325,7 +325,7 @@ From the Contract Repository page, Sales users initiate contract creation via th
     \label{fig:contract_creation_component}
 \end{center}
 
-The first agent involved is the Generator, which initially checks for the required information: Contract Type, Incoterm, Client, and Product. Each combination of these fields corresponds to a distinct contract template. In the current scenario, the Generator detects that all essential fields are provided but identifies \textbf{Yara International} as a new client, not yet registered in the database. Consequently, the user is prompted either to confirm the new client details to avoid potential mismatches or, if the client already exists, to utilize an input field that suggests similar existing client names through Elasticsearch-based logic for selecting the correct one.
+The first agent involved is the Generator, which initially checks for the required information: Contract Type, Incoterm, Client, and Product. Each combination of these fields corresponds to a distinct contract template. In the current scenario, the Generator detects that all essential fields are provided but identifies \textbf{theClientName} as a new client, not yet registered in the database. Consequently, the user is prompted either to confirm the new client details to avoid potential mismatches or, if the client already exists, to utilize an input field that suggests similar existing client names through Elasticsearch-based logic for selecting the correct one.
 
 \begin{center}
     \centering
@@ -484,7 +484,22 @@ Upon successful reviews and edits, contracts are finalized, transitioning into t
 The verification of functional and non-functional requirements is an essential phase in ensuring the developed solution aligns with the initial specifications identified during the analysis phase. This section outlines how the implemented solution satisfies the requirements detailed in Chapter 2.
 
 \subsection{Verification of Functional Requirements}
-The intelligent contract management solution underwent systematic verification of its functional capabilities. Initial verification was conducted through iterative demonstrations and regular review meetings with the project stakeholders. These sessions validated critical functionalities including contract generation, clause management, editing capabilities, and AI-assisted contract reviews. Specifically, the Sales and Legal user functionalities were thoroughly tested to ensure seamless user interaction and accurate functional behavior. Remaining functionalities, such as extensive integration testing and further refinement of clause management features, are scheduled for completion within the remaining internship period. While automated unit and integration tests using the designated libraries (Jest and Pytest) are planned, their execution and reporting are scheduled for the final phase of the internship.
+The intelligent contract management solution has undergone partial verification of its functional capabilities based on the requirements defined in Chapter 2. Early-stage validation focused on core functionalities and was conducted through stakeholder walkthroughs, feature-specific testing, and user feedback sessions.\mynewline
+
+Key functionalities—including contract generation, clause management, sections editing, and AI-assisted contract review—were demonstrated iteratively and reviewed in sessions with Sales and Legal users. These interactions helped validate the practical usability and role-specific behavior of the system from a user standpoint.\mynewline
+
+A full round of manual and integration testing is planned and will be executed in the remaining phase of the internship. These tests will ensure proper interaction between modules and confirm end-to-end functionality under realistic system conditions.\mynewline
+
+To provide a transparent overview of current verification progress, the following traceability matrix summarizes the verification method and current status of each functional requirement:
+
+\begin{center}
+    \centering
+    \includegraphics[width=1\textwidth]{Images/Verification of Functional Requirements.png}
+    \captionof{table}{Verification Status of Functional Requirements}
+    \label{tab:verification_of_functional_requirements}
+\end{center}
+
+This matrix captures the current verification status, with emphasis on areas already validated and those scheduled for integration testing in the next phase.
 
 \subsection{Verification of Non-Functional Requirements}
 The non-functional aspects, crucial for user satisfaction and system reliability, were verified through targeted approaches as follows:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2025.1.26)  15 JUN 2025 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2025.1.26)  16 JUN 2025 02:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1391,19 +1391,19 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count405
 \@thisrulewidth=\dimen349
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 223.
+Package hyperref Info: Option `colorlinks' set `true' on input line 228.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 223.
+(hyperref)                removing `subscript' on input line 228.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 223.
+(hyperref)                removing `subscript' on input line 228.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 223.
+(hyperref)                removing `subscript' on input line 228.
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
@@ -1412,29 +1412,29 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./Rapport_PFE_V0.aux)
 \openout1 = `Rapport_PFE_V0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-Package tocbasic Info: usage of `tocbibind' detected on input line 225.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+Package tocbasic Info: usage of `tocbibind' detected on input line 230.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 225.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 230.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count407
@@ -1455,9 +1455,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 225.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 230.
 
-Package hyperref Info: Link coloring ON on input line 225.
+Package hyperref Info: Link coloring ON on input line 230.
 (./Rapport_PFE_V0.out) (./Rapport_PFE_V0.out)
 \@outlinefile=\write8
 \openout8 = `Rapport_PFE_V0.out'.
@@ -1491,7 +1491,7 @@ Package minitoc(hints) Warning: W0099
 (minitoc(hints))                with the minitoc package.
 
 \c@lstlisting=\count419
-Package tocbasic Info: setting babel extension for `lol' on input line 225.
+Package tocbasic Info: setting babel extension for `lol' on input line 230.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* driver: auto-detecting
@@ -1533,38 +1533,38 @@ Package caption Info: End \AtBeginDocument code.
 \a@Lwidth=\dimen352
 \a@displaywidth=\dimen353
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching) (./page-de-garde.tex
-<Images/Logo_inpt.png, id=354, 1203.49625pt x 592.2125pt>
+<Images/Logo_inpt.png, id=117, 1203.49625pt x 592.2125pt>
 File: Images/Logo_inpt.png Graphic file (type png)
 <use Images/Logo_inpt.png>
 Package pdftex.def Info: Images/Logo_inpt.png  used on input line 6.
 (pdftex.def)             Requested size: 120.35667pt x 59.22472pt.
-<Images/BCG_X.jpg, id=356, 325.6968pt x 133.4586pt>
+<Images/BCG_X.jpg, id=119, 325.6968pt x 133.4586pt>
 File: Images/BCG_X.jpg Graphic file (type jpg)
 <use Images/BCG_X.jpg>
 Package pdftex.def Info: Images/BCG_X.jpg  used on input line 8.
 (pdftex.def)             Requested size: 146.5622pt x 60.0558pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/inpt_fig.jpg, id=357, 475.02469pt x 184.43906pt>
-File: Images/inpt_fig.jpg Graphic file (type jpg)
-<use Images/inpt_fig.jpg>
-Package pdftex.def Info: Images/inpt_fig.jpg  used on input line 50.
-(pdftex.def)             Requested size: 380.02025pt x 147.55144pt.
+<Images/go digital.jpg, id=120, 1284.8pt x 344.28625pt>
+File: Images/go digital.jpg Graphic file (type jpg)
+<use Images/go digital.jpg>
+Package pdftex.def Info: Images/go digital.jpg  used on input line 51.
+(pdftex.def)             Requested size: 385.44298pt x 103.28667pt.
  [1
 
-{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Images/Logo_inpt.png> <./Images/BCG_X.jpg> <./Images/inpt_fig.jpg>])
+{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Images/Logo_inpt.png> <./Images/BCG_X.jpg> <./Images/go digital.jpg>])
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.236 \newpage
+l.241 \newpage
                [1] (./bismilah.tex
-<Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png, id=372, 838.13126pt x 293.095pt>
+<Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png, id=134, 838.13126pt x 293.095pt>
 File: Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png Graphic file (type png)
 <use Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png>
 Package pdftex.def Info: Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png  used on input line 5.
@@ -1572,26 +1572,26 @@ Package pdftex.def Info: Images/toppng.com-bismillah-png-images-free-download-bi
 ) [2 <./Images/toppng.com-bismillah-png-images-free-download-bismillah-calligraphy-1600x559.png>] (./Acknowledgements.tex) [3
 
 ] (./Abstract.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 9--260
+Underfull \hbox (badness 10000) in paragraph at lines 9--265
 
  []
 
 [4
 
 ] (./Resume.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 9--271
+Underfull \hbox (badness 10000) in paragraph at lines 9--276
 
  []
 
 [5
 
 ]
-LaTeX Font Info:    Trying to load font information for U+xnsh on input line 278.
+LaTeX Font Info:    Trying to load font information for U+xnsh on input line 283.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/arabtex/Uxnsh.fd
 File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 )
 LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
-(Font)              scaled to size 35.82726pt on input line 278.
+(Font)              scaled to size 35.82726pt on input line 283.
  (./Resumee.tex
 LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
 (Font)              scaled to size 17.28003pt on input line 1.
@@ -1608,7 +1608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--282
+Underfull \hbox (badness 10000) in paragraph at lines 17--287
 
  []
 
@@ -1616,19 +1616,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--282
 
 ] (./Abbreviations.tex) [7
 
-] (./Rapport_PFE_V0.toc [8] [9])
+] (./Rapport_PFE_V0.toc)
 \tf@toc=\write9
 \openout9 = `Rapport_PFE_V0.toc'.
 
- [10] (./Rapport_PFE_V0.lof [11])
+ [8] (./Rapport_PFE_V0.lof)
 \tf@lof=\write10
 \openout10 = `Rapport_PFE_V0.lof'.
 
- [12] (./Rapport_PFE_V0.lot)
+ [9] (./Rapport_PFE_V0.lot)
 \tf@lot=\write11
 \openout11 = `Rapport_PFE_V0.lot'.
 
- [13
+ [10
 
 ] (./Indroduction.tex) [1
 
@@ -1638,7 +1638,7 @@ Chapter 1.
 (./Chapter1.tex [2
 
 ]
-<Images/Boston-Consulting-Group-Logo.jpg, id=685, 3728.93124pt x 788.9475pt>
+<Images/Boston-Consulting-Group-Logo.jpg, id=250, 3728.93124pt x 788.9475pt>
 File: Images/Boston-Consulting-Group-Logo.jpg Graphic file (type jpg)
 <use Images/Boston-Consulting-Group-Logo.jpg>
 Package pdftex.def Info: Images/Boston-Consulting-Group-Logo.jpg  used on input line 26.
@@ -1681,7 +1681,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<Images/Executive Leadership Board.png, id=701, 1204.5pt x 599.23875pt>
+<Images/Executive Leadership Board.png, id=272, 1204.5pt x 599.23875pt>
 File: Images/Executive Leadership Board.png Graphic file (type png)
 <use Images/Executive Leadership Board.png>
 Package pdftex.def Info: Images/Executive Leadership Board.png  used on input line 77.
@@ -1719,7 +1719,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-<Images/Scrum Process.jpeg, id=716, 1204.5pt x 629.35126pt>
+<Images/Scrum Process.jpeg, id=295, 1204.5pt x 629.35126pt>
 File: Images/Scrum Process.jpeg Graphic file (type jpg)
 <use Images/Scrum Process.jpeg>
 Package pdftex.def Info: Images/Scrum Process.jpeg  used on input line 154.
@@ -1749,7 +1749,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<Images/ClickUp Logo.jpeg, id=728, 205.76875pt x 246.9225pt>
+<Images/ClickUp Logo.jpeg, id=312, 205.76875pt x 246.9225pt>
 File: Images/ClickUp Logo.jpeg Graphic file (type jpg)
 <use Images/ClickUp Logo.jpeg>
 Package pdftex.def Info: Images/ClickUp Logo.jpeg  used on input line 205.
@@ -1763,7 +1763,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `clickup_logo' on page 10 undefined on input line 206.
 
-<Images/Slack Logo.png, id=729, 225.84375pt x 225.84375pt>
+<Images/Slack Logo.png, id=313, 225.84375pt x 225.84375pt>
 File: Images/Slack Logo.png Graphic file (type png)
 <use Images/Slack Logo.png>
 Package pdftex.def Info: Images/Slack Logo.png  used on input line 216.
@@ -1776,7 +1776,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `slack_logo' on page 10 undefined on input line 217.
 
-<Images/Zoom and Microsoft Teams Logos.png, id=730, 1578.89874pt x 688.5725pt>
+<Images/Zoom and Microsoft Teams Logos.png, id=314, 1578.89874pt x 688.5725pt>
 File: Images/Zoom and Microsoft Teams Logos.png Graphic file (type png)
 <use Images/Zoom and Microsoft Teams Logos.png>
 Package pdftex.def Info: Images/Zoom and Microsoft Teams Logos.png  used on input line 227.
@@ -1800,7 +1800,7 @@ Package natbib Warning: Citation `zoom_logo' on page 11 undefined on input line 
 
 Package natbib Warning: Citation `microsoft_teams_logo' on page 11 undefined on input line 228.
 
-<Images/Microsoft Outlook Logo.png, id=736, 2211.26125pt x 2057.6875pt>
+<Images/Microsoft Outlook Logo.png, id=324, 2211.26125pt x 2057.6875pt>
 File: Images/Microsoft Outlook Logo.png Graphic file (type png)
 <use Images/Microsoft Outlook Logo.png>
 Package pdftex.def Info: Images/Microsoft Outlook Logo.png  used on input line 238.
@@ -1813,7 +1813,7 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `microsoft_outlook_logo' on page 11 undefined on input line 239.
 
-<Images/Miro Logo.png, id=737, 225.84375pt x 225.84375pt>
+<Images/Miro Logo.png, id=325, 225.84375pt x 225.84375pt>
 File: Images/Miro Logo.png Graphic file (type png)
 <use Images/Miro Logo.png>
 Package pdftex.def Info: Images/Miro Logo.png  used on input line 249.
@@ -1826,15 +1826,10 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: Citation `miro_logo' on page 11 undefined on input line 250.
 
-<Images/Gantt Diagram.png, id=738, 331.2375pt x 105.39375pt>
-File: Images/Gantt Diagram.png Graphic file (type png)
-<use Images/Gantt Diagram.png>
-Package pdftex.def Info: Images/Gantt Diagram.png  used on input line 260.
-(pdftex.def)             Requested size: 483.69687pt x 153.91055pt.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 261.
-See the caption package documentation for explanation.
+Overfull \hbox (8.98126pt too wide) in paragraph at lines 262--263
+[]\T1/cmr/bx/n/12 Minimum Lov-able Prod-uct (Weeks 15-21)\T1/cmr/m/n/12 : De-liv-ered an enterprise-grade, production-
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1843,14 +1838,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./Images/Zoom and Microsoft Teams Logos.png> <./Images/Microsoft Outlook Logo.png> <./Images/Miro Logo.png> <./Images/Gantt Diagram.png>]
-Overfull \hbox (8.98126pt too wide) in paragraph at lines 269--270
-[]\T1/cmr/bx/n/12 Minimum Lov-able Prod-uct (Weeks 15-21)\T1/cmr/m/n/12 : De-liv-ered an enterprise-grade, production-
- []
-
-)
+[11 <./Images/Zoom and Microsoft Teams Logos.png> <./Images/Microsoft Outlook Logo.png> <./Images/Miro Logo.png>])
 Package minitoc Info: I0006
-(minitoc)             Rapport_PFE_V0.mtc1 is empty on input line 359.
+(minitoc)             Rapport_PFE_V0.mtc1 is empty on input line 364.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1865,7 +1855,7 @@ Chapter 2.
 
 
 ]
-<Images/PandaDoc_logo.png, id=756, 1606.0pt x 401.5pt>
+<Images/PandaDoc_logo.png, id=346, 1606.0pt x 401.5pt>
 File: Images/PandaDoc_logo.png Graphic file (type png)
 <use Images/PandaDoc_logo.png>
 Package pdftex.def Info: Images/PandaDoc_logo.png  used on input line 20.
@@ -1876,7 +1866,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 21.
 See the caption package documentation for explanation.
 
-<Images/harveyai_logo.png, id=758, 1204.5pt x 629.35126pt>
+
+Package natbib Warning: Citation `pandadoc_logo' on page 14 undefined on input line 21.
+
+<Images/harveyai_logo.png, id=347, 1204.5pt x 629.35126pt>
 File: Images/harveyai_logo.png Graphic file (type png)
 <use Images/harveyai_logo.png>
 Package pdftex.def Info: Images/harveyai_logo.png  used on input line 40.
@@ -1894,16 +1887,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14 <./Images/PandaDoc_logo.png>]
-<Images/docdraft_logo.png, id=769, 2659.9375pt x 481.8pt>
+
+Package natbib Warning: Citation `harveyai_logo' on page 15 undefined on input line 41.
+
+<Images/docdraft_logo.png, id=360, 2659.9375pt x 481.8pt>
 File: Images/docdraft_logo.png Graphic file (type png)
 <use Images/docdraft_logo.png>
 Package pdftex.def Info: Images/docdraft_logo.png  used on input line 60.
 (pdftex.def)             Requested size: 145.11053pt x 26.2822pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 61.
 See the caption package documentation for explanation.
+
+
+Package natbib Warning: Citation `docdraft_logo' on page 15 undefined on input line 61.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1913,7 +1911,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./Images/harveyai_logo.png> <./Images/docdraft_logo.png>]
-<Images/Comparison of Contract Management and Legal AI Platforms.png, id=780, 1628.58438pt x 759.83875pt>
+<Images/Comparison of Contract Management and Legal AI Platforms.png, id=370, 1628.58438pt x 759.83875pt>
 File: Images/Comparison of Contract Management and Legal AI Platforms.png Graphic file (type png)
 <use Images/Comparison of Contract Management and Legal AI Platforms.png>
 Package pdftex.def Info: Images/Comparison of Contract Management and Legal AI Platforms.png  used on input line 80.
@@ -1924,7 +1922,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 81.
 See the caption package documentation for explanation.
 
-<Images/Imperative vs. Agentic Approach Comparison.png, id=782, 1500.10437pt x 786.43813pt>
+
+LaTeX Warning: Reference `tab:imperative_vs_declarative' on page 16 undefined on input line 93.
+
+<Images/Imperative vs. Agentic Approach Comparison.png, id=371, 1500.10437pt x 786.43813pt>
 File: Images/Imperative vs. Agentic Approach Comparison.png Graphic file (type png)
 <use Images/Imperative vs. Agentic Approach Comparison.png>
 Package pdftex.def Info: Images/Imperative vs. Agentic Approach Comparison.png  used on input line 97.
@@ -1942,7 +1943,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./Images/Comparison of Contract Management and Legal AI Platforms.png>]
-<Images/evolution chronologic LLM.png, id=789, 284.39583pt x 275.36208pt>
+<Images/evolution chronologic LLM.png, id=380, 284.39583pt x 275.36208pt>
 File: Images/evolution chronologic LLM.png Graphic file (type png)
 <use Images/evolution chronologic LLM.png>
 Package pdftex.def Info: Images/evolution chronologic LLM.png  used on input line 115.
@@ -1962,6 +1963,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17 <./Images/Imperative vs. Agentic Approach Comparison.png>]
 
+Package natbib Warning: Citation `llmEvolution' on page 18 undefined on input line 116.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1969,7 +1973,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18 <./Images/evolution chronologic LLM.png>]
-<Images/agentic_ai_architecture.png, id=807, 2454.16875pt x 1198.4775pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+<Images/agentic_ai_architecture.png, id=405, 2454.16875pt x 1198.4775pt>
 File: Images/agentic_ai_architecture.png Graphic file (type png)
 <use Images/agentic_ai_architecture.png>
 Package pdftex.def Info: Images/agentic_ai_architecture.png  used on input line 148.
@@ -1981,19 +1993,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Package natbib Warning: Citation `agenticAIArchitecture' on page 20 undefined on input line 149.
 
-[19 <./Images/agentic_ai_architecture.png>]
-<Images/agentic_vs_generative_ai.png, id=815, 1405.25pt x 434.62375pt>
+<Images/agentic_vs_generative_ai.png, id=406, 1405.25pt x 434.62375pt>
 File: Images/agentic_vs_generative_ai.png Graphic file (type png)
 <use Images/agentic_vs_generative_ai.png>
 Package pdftex.def Info: Images/agentic_vs_generative_ai.png  used on input line 174.
 (pdftex.def)             Requested size: 483.69687pt x 149.6005pt.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 175.
@@ -2006,17 +2012,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./Images/agentic_vs_generative_ai.png>]
-<Images/multi_agent_system.png, id=825, 845.1575pt x 519.9425pt>
+[20 <./Images/agentic_ai_architecture.png>]
+
+Package natbib Warning: Citation `agentic_vs_generative_ai' on page 21 undefined on input line 175.
+
+<Images/multi_agent_system.png, id=415, 845.1575pt x 519.9425pt>
 File: Images/multi_agent_system.png Graphic file (type png)
 <use Images/multi_agent_system.png>
 Package pdftex.def Info: Images/multi_agent_system.png  used on input line 190.
 (pdftex.def)             Requested size: 435.32422pt x 267.81702pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 191.
 See the caption package documentation for explanation.
+
+
+Package natbib Warning: Citation `multi_agent_system' on page 21 undefined on input line 191.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2025,12 +2036,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21 <./Images/multi_agent_system.png>]
-<Images/Langchain Architecture.png, id=834, 1128.215pt x 865.2325pt>
+[21 <./Images/agentic_vs_generative_ai.png> <./Images/multi_agent_system.png>]
+<Images/Langchain Architecture.png, id=423, 998.73125pt x 766.865pt>
 File: Images/Langchain Architecture.png Graphic file (type png)
 <use Images/Langchain Architecture.png>
 Package pdftex.def Info: Images/Langchain Architecture.png  used on input line 218.
-(pdftex.def)             Requested size: 435.32422pt x 333.84827pt.
+(pdftex.def)             Requested size: 435.32422pt x 334.26227pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2044,13 +2055,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./Images/Langchain Architecture.png>]
-<Images/langgraph_mutil_agent.png, id=844, 839.135pt x 598.235pt>
+[22]
+
+Package natbib Warning: Citation `langchainArchitecture' on page 23 undefined on input line 219.
+
+<Images/langgraph_mutil_agent.png, id=432, 839.135pt x 598.235pt>
 File: Images/langgraph_mutil_agent.png Graphic file (type png)
 <use Images/langgraph_mutil_agent.png>
 Package pdftex.def Info: Images/langgraph_mutil_agent.png  used on input line 236.
 (pdftex.def)             Requested size: 435.32422pt x 310.34459pt.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 237.
@@ -2063,26 +2076,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23 <./Images/langgraph_mutil_agent.png>]
-<Images/Comparison of LangChain and LangGraph.png, id=854, 1542.26187pt x 784.9325pt>
+[23 <./Images/Langchain Architecture.png>]
+
+Package natbib Warning: Citation `langgraphMultiAgent' on page 24 undefined on input line 237.
+
+<Images/Comparison of LangChain and LangGraph.png, id=440, 1542.26187pt x 784.9325pt>
 File: Images/Comparison of LangChain and LangGraph.png Graphic file (type png)
 <use Images/Comparison of LangChain and LangGraph.png>
 Package pdftex.def Info: Images/Comparison of LangChain and LangGraph.png  used on input line 254.
 (pdftex.def)             Requested size: 483.69687pt x 246.1771pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 255.
-See the caption package documentation for explanation.
-
-<Images/Langfuse Overview.png, id=855, 1527.7075pt x 785.93625pt>
-File: Images/Langfuse Overview.png Graphic file (type png)
-<use Images/Langfuse Overview.png>
-Package pdftex.def Info: Images/Langfuse Overview.png  used on input line 270.
-(pdftex.def)             Requested size: 483.69687pt x 248.84242pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 271.
 See the caption package documentation for explanation.
 
 
@@ -2092,7 +2097,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24 <./Images/Comparison of LangChain and LangGraph.png>]
+[24 <./Images/langgraph_mutil_agent.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./Images/Comparison of LangChain and LangGraph.png>]
+<Images/Langfuse Overview.png, id=456, 1527.7075pt x 785.93625pt>
+File: Images/Langfuse Overview.png Graphic file (type png)
+<use Images/Langfuse Overview.png>
+Package pdftex.def Info: Images/Langfuse Overview.png  used on input line 270.
+(pdftex.def)             Requested size: 483.69687pt x 248.84242pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 271.
+See the caption package documentation for explanation.
+
+
 Overfull \hbox (8.90205pt too wide) in paragraph at lines 281--282
 []\T1/cmr/bx/n/12 Prompt Man-age-ment\T1/cmr/m/n/12 : The plat-form in-cludes tools for man-ag-ing and ver-sion-ing prompts,
  []
@@ -2104,8 +2129,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25 <./Images/Langfuse Overview.png>]
-<Images/Tiptap editor.jpg, id=870, 1204.5pt x 632.3625pt>
+[26 <./Images/Langfuse Overview.png>]
+<Images/Tiptap editor.jpg, id=466, 1204.5pt x 632.3625pt>
 File: Images/Tiptap editor.jpg Graphic file (type jpg)
 <use Images/Tiptap editor.jpg>
 Package pdftex.def Info: Images/Tiptap editor.jpg  used on input line 314.
@@ -2116,7 +2141,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 315.
 See the caption package documentation for explanation.
 
-<Images/Tiptap Architecture.png, id=872, 1281.78876pt x 452.69125pt>
+
+Package natbib Warning: Citation `tiptap_editor' on page 27 undefined on input line 315.
+
+<Images/Tiptap Architecture.png, id=467, 1281.78876pt x 452.69125pt>
 File: Images/Tiptap Architecture.png Graphic file (type png)
 <use Images/Tiptap Architecture.png>
 Package pdftex.def Info: Images/Tiptap Architecture.png  used on input line 325.
@@ -2133,7 +2161,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26 <./Images/Tiptap editor.jpg>]
+[27 <./Images/Tiptap editor.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2141,13 +2169,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[27 <./Images/Tiptap Architecture.png>]
-<Images/Business Architecture.png, id=889, 2780.3875pt x 1542.26187pt>
+[28 <./Images/Tiptap Architecture.png>]
+
+LaTeX Warning: Reference `fig:business_architecture' on page 29 undefined on input line 366.
+
+<Images/Business Architecture.png, id=486, 1493.07813pt x 668.4975pt>
 File: Images/Business Architecture.png Graphic file (type png)
 <use Images/Business Architecture.png>
 Package pdftex.def Info: Images/Business Architecture.png  used on input line 370.
-(pdftex.def)             Requested size: 435.32422pt x 241.44849pt.
-
+(pdftex.def)             Requested size: 435.32422pt x 194.89975pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 371.
@@ -2160,8 +2190,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[28 <./Images/Business Architecture.png>]
-<Images/Actors and Their Roles.png, id=895, 1551.7975pt x 265.99374pt>
+[29 <./Images/Business Architecture.png>]
+<Images/Actors and Their Roles.png, id=495, 1551.7975pt x 265.99374pt>
 File: Images/Actors and Their Roles.png Graphic file (type png)
 <use Images/Actors and Their Roles.png>
 Package pdftex.def Info: Images/Actors and Their Roles.png  used on input line 399.
@@ -2179,15 +2209,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29 <./Images/Actors and Their Roles.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30]
+[30 <./Images/Actors and Their Roles.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2196,73 +2218,84 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [31]
-<Images/Use Case Diagram.png, id=915, 1063.0917pt x 883.8621pt>
+
+LaTeX Warning: Reference `fig:use_case_diagram' on page 32 undefined on input line 520.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+<Images/Use Case Diagram.png, id=518, 1004.25188pt x 885.3075pt>
 File: Images/Use Case Diagram.png Graphic file (type png)
 <use Images/Use Case Diagram.png>
 Package pdftex.def Info: Images/Use Case Diagram.png  used on input line 524.
-(pdftex.def)             Requested size: 483.69687pt x 402.15788pt.
+(pdftex.def)             Requested size: 483.69687pt x 426.4152pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 525.
 See the caption package documentation for explanation.
 
-<Images/Create Contract Use Case.png, id=916, 1284.29813pt x 676.5275pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33 <./Images/Use Case Diagram.png>]
+<Images/Create Contract Use Case.png, id=527, 1284.29813pt x 676.5275pt>
 File: Images/Create Contract Use Case.png Graphic file (type png)
 <use Images/Create Contract Use Case.png>
 Package pdftex.def Info: Images/Create Contract Use Case.png  used on input line 538.
 (pdftex.def)             Requested size: 483.69687pt x 254.79141pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 539.
 See the caption package documentation for explanation.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32 <./Images/Use Case Diagram.png>]
-<Images/Create Clause Request Use Case.png, id=923, 1284.29813pt x 652.93938pt>
+<Images/Create Clause Request Use Case.png, id=528, 1284.29813pt x 652.93938pt>
 File: Images/Create Clause Request Use Case.png Graphic file (type png)
 <use Images/Create Clause Request Use Case.png>
 Package pdftex.def Info: Images/Create Clause Request Use Case.png  used on input line 549.
 (pdftex.def)             Requested size: 483.69687pt x 245.90775pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 550.
 See the caption package documentation for explanation.
 
-<Images/Review Contract Use Case.png, id=924, 1283.79625pt x 617.80812pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34 <./Images/Create Contract Use Case.png> <./Images/Create Clause Request Use Case.png>]
+<Images/Review Contract Use Case.png, id=537, 1283.79625pt x 617.80812pt>
 File: Images/Review Contract Use Case.png Graphic file (type png)
 <use Images/Review Contract Use Case.png>
-Package pdftex.def Info: Images/Review Contract Use Case.png  used on input line 560.
+Package pdftex.def Info: Images/Review Contract Use Case.png  used on input line 561.
 (pdftex.def)             Requested size: 483.69687pt x 232.771pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 561.
+(caption)                particular \caption on input line 562.
 See the caption package documentation for explanation.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[33 <./Images/Create Contract Use Case.png> <./Images/Create Clause Request Use Case.png>]
-<Images/Analysis Sequence Diagram.png, id=931, 503.63156pt x 476.53032pt>
+<Images/Analysis Sequence Diagram.png, id=538, 856.70062pt x 905.3825pt>
 File: Images/Analysis Sequence Diagram.png Graphic file (type png)
 <use Images/Analysis Sequence Diagram.png>
-Package pdftex.def Info: Images/Analysis Sequence Diagram.png  used on input line 570.
-(pdftex.def)             Requested size: 483.69687pt x 457.66751pt.
-
+Package pdftex.def Info: Images/Analysis Sequence Diagram.png  used on input line 571.
+(pdftex.def)             Requested size: 483.69687pt x 511.18288pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 571.
+(caption)                particular \caption on input line 572.
 See the caption package documentation for explanation.
 
 
@@ -2272,7 +2305,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34 <./Images/Review Contract Use Case.png>]
+[35 <./Images/Review Contract Use Case.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2280,9 +2313,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35 <./Images/Analysis Sequence Diagram.png>])
+[36 <./Images/Analysis Sequence Diagram.png>])
 Package minitoc Info: I0006
-(minitoc)             Rapport_PFE_V0.mtc2 is empty on input line 369.
+(minitoc)             Rapport_PFE_V0.mtc2 is empty on input line 374.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2291,17 +2324,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
+[37]
 Chapter 3.
-(./Chapter3.tex [37
+(./Chapter3.tex [38
 
 
 ]
-<Images/Global Architecture of the Platform.png, id=951, 1162.3425pt x 672.5928pt>
+<Images/Global Architecture of the Platform.png, id=563, 1535.7375pt x 741.77126pt>
 File: Images/Global Architecture of the Platform.png Graphic file (type png)
 <use Images/Global Architecture of the Platform.png>
 Package pdftex.def Info: Images/Global Architecture of the Platform.png  used on input line 14.
-(pdftex.def)             Requested size: 483.69687pt x 279.89053pt.
+(pdftex.def)             Requested size: 483.69687pt x 233.62523pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2315,12 +2348,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38 <./Images/Global Architecture of the Platform.png>]
-<Images/Layered Architecture of a Backend Module.png, id=960, 1239.12938pt x 836.62563pt>
+[39 <./Images/Global Architecture of the Platform.png>]
+<Images/Layered Architecture of a Backend Module.png, id=572, 1293.33188pt x 871.255pt>
 File: Images/Layered Architecture of a Backend Module.png Graphic file (type png)
 <use Images/Layered Architecture of a Backend Module.png>
 Package pdftex.def Info: Images/Layered Architecture of a Backend Module.png  used on input line 40.
-(pdftex.def)             Requested size: 459.51054pt x 310.24875pt.
+(pdftex.def)             Requested size: 459.51054pt x 309.54364pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2334,12 +2367,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[39 <./Images/Layered Architecture of a Backend Module.png>]
-<Images/Component Architecture of a Frontend Module.png, id=968, 1041.8925pt x 862.72313pt>
+[40 <./Images/Layered Architecture of a Backend Module.png>]
+<Images/Component Architecture of a Frontend Module.png, id=580, 903.375pt x 746.28813pt>
 File: Images/Component Architecture of a Frontend Module.png Graphic file (type png)
 <use Images/Component Architecture of a Frontend Module.png>
 Package pdftex.def Info: Images/Component Architecture of a Frontend Module.png  used on input line 54.
-(pdftex.def)             Requested size: 459.51054pt x 380.4945pt.
+(pdftex.def)             Requested size: 459.51054pt x 379.6112pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2353,8 +2386,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40 <./Images/Component Architecture of a Frontend Module.png>]
-<Images/LLM Integration.png, id=976, 413.545pt x 547.04375pt>
+[41 <./Images/Component Architecture of a Frontend Module.png>]
+<Images/LLM Integration.png, id=588, 413.545pt x 547.04375pt>
 File: Images/LLM Integration.png Graphic file (type png)
 <use Images/LLM Integration.png>
 Package pdftex.def Info: Images/LLM Integration.png  used on input line 65.
@@ -2372,8 +2405,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41 <./Images/LLM Integration.png>]
-<Images/Tiptap Editing Framework.png, id=983, 469.755pt x 393.47pt>
+[42 <./Images/LLM Integration.png>]
+<Images/Tiptap Editing Framework.png, id=594, 469.755pt x 393.47pt>
 File: Images/Tiptap Editing Framework.png Graphic file (type png)
 <use Images/Tiptap Editing Framework.png>
 Package pdftex.def Info: Images/Tiptap Editing Framework.png  used on input line 90.
@@ -2391,12 +2424,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42 <./Images/Tiptap Editing Framework.png>]
-<Images/Class Diagram.png, id=990, 1713.5217pt x 1261.8342pt>
+[43 <./Images/Tiptap Editing Framework.png>]
+<Images/Class Diagram.png, id=601, 1197.97563pt x 876.27374pt>
 File: Images/Class Diagram.png Graphic file (type png)
 <use Images/Class Diagram.png>
 Package pdftex.def Info: Images/Class Diagram.png  used on input line 105.
-(pdftex.def)             Requested size: 483.69687pt x 356.18002pt.
+(pdftex.def)             Requested size: 483.69687pt x 353.80588pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2415,12 +2448,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43 <./Images/Class Diagram.png>]
-<Images/Sequence Diagram - Draft Contract.png, id=997, 966.61125pt x 1055.142pt>
+[44 <./Images/Class Diagram.png>]
+<Images/Sequence Diagram - Draft Contract.png, id=610, 6221.2425pt x 6133.91624pt>
 File: Images/Sequence Diagram - Draft Contract.png Graphic file (type png)
 <use Images/Sequence Diagram - Draft Contract.png>
 Package pdftex.def Info: Images/Sequence Diagram - Draft Contract.png  used on input line 142.
-(pdftex.def)             Requested size: 483.69687pt x 528.00441pt.
+(pdftex.def)             Requested size: 483.69687pt x 476.87114pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2434,7 +2467,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44]
+[45]
+<Images/Sequence Diagram - Create Client Ref.png, id=615, 1188.44pt x 768.37062pt>
+File: Images/Sequence Diagram - Create Client Ref.png Graphic file (type png)
+<use Images/Sequence Diagram - Create Client Ref.png>
+Package pdftex.def Info: Images/Sequence Diagram - Create Client Ref.png  used on input line 154.
+(pdftex.def)             Requested size: 232.17242pt x 150.1072pt.
+<Images/Sequence Diagram - Create Contract Version Ref.png, id=616, 1187.43625pt x 769.37437pt>
+File: Images/Sequence Diagram - Create Contract Version Ref.png Graphic file (type png)
+<use Images/Sequence Diagram - Create Contract Version Ref.png>
+Package pdftex.def Info: Images/Sequence Diagram - Create Contract Version Ref.png  used on input line 161.
+(pdftex.def)             Requested size: 232.17242pt x 150.43242pt.
+<Images/Sequence Diagram - Create Sections Ref.png, id=617, 1062.97125pt x 687.56876pt>
+File: Images/Sequence Diagram - Create Sections Ref.png Graphic file (type png)
+<use Images/Sequence Diagram - Create Sections Ref.png>
+Package pdftex.def Info: Images/Sequence Diagram - Create Sections Ref.png  used on input line 170.
+(pdftex.def)             Requested size: 232.17242pt x 150.17448pt.
+<Images/Sequence Diagram - Create Dynamic Fields Ref.png, id=618, 1060.96375pt x 687.06688pt>
+File: Images/Sequence Diagram - Create Dynamic Fields Ref.png Graphic file (type png)
+<use Images/Sequence Diagram - Create Dynamic Fields Ref.png>
+Package pdftex.def Info: Images/Sequence Diagram - Create Dynamic Fields Ref.png  used on input line 177.
+(pdftex.def)             Requested size: 232.17242pt x 150.34793pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2442,16 +2496,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./Images/Sequence Diagram - Draft Contract.png>]
-<Images/Sequence Diagram - Sales - Clause Request.png, id=1011, 808.9723pt x 1055.142pt>
+[46 <./Images/Sequence Diagram - Draft Contract.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[47 <./Images/Sequence Diagram - Create Client Ref.png> <./Images/Sequence Diagram - Create Contract Version Ref.png> <./Images/Sequence Diagram - Create Sections Ref.png> <./Images/Sequence Diagram - Create Dynamic Fields Ref.png>]
+<Images/Sequence Diagram - Sales - Clause Request.png, id=637, 1362.5304pt x 1099.7085pt>
 File: Images/Sequence Diagram - Sales - Clause Request.png Graphic file (type png)
 <use Images/Sequence Diagram - Sales - Clause Request.png>
-Package pdftex.def Info: Images/Sequence Diagram - Sales - Clause Request.png  used on input line 160.
-(pdftex.def)             Requested size: 483.69687pt x 630.88437pt.
+Package pdftex.def Info: Images/Sequence Diagram - Sales - Clause Request.png  used on input line 197.
+(pdftex.def)             Requested size: 483.69687pt x 390.39087pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 161.
+(caption)                particular \caption on input line 198.
+See the caption package documentation for explanation.
+
+<Images/Sequence Diagram - Refine Text Ref.png, id=638, 751.80875pt x 643.40375pt>
+File: Images/Sequence Diagram - Refine Text Ref.png Graphic file (type png)
+<use Images/Sequence Diagram - Refine Text Ref.png>
+Package pdftex.def Info: Images/Sequence Diagram - Refine Text Ref.png  used on input line 204.
+(pdftex.def)             Requested size: 232.17242pt x 198.69714pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 205.
 See the caption package documentation for explanation.
 
 
@@ -2461,16 +2533,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
-<Images/Sequence Diagram - Legal - Clause Request.png, id=1017, 1037.0745pt x 1154.51324pt>
+[48 <./Images/Sequence Diagram - Sales - Clause Request.png>]
+<Images/Sequence Diagram - Legal - Clause Request.png, id=644, 1685.8182pt x 1210.7634pt>
 File: Images/Sequence Diagram - Legal - Clause Request.png Graphic file (type png)
 <use Images/Sequence Diagram - Legal - Clause Request.png>
-Package pdftex.def Info: Images/Sequence Diagram - Legal - Clause Request.png  used on input line 167.
-(pdftex.def)             Requested size: 483.69687pt x 538.46384pt.
+Package pdftex.def Info: Images/Sequence Diagram - Legal - Clause Request.png  used on input line 213.
+(pdftex.def)             Requested size: 483.69687pt x 347.3805pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 168.
+(caption)                particular \caption on input line 214.
+See the caption package documentation for explanation.
+
+<Images/Sequence Diagram - Update Sections Ref.png, id=645, 1042.39438pt x 675.52374pt>
+File: Images/Sequence Diagram - Update Sections Ref.png Graphic file (type png)
+<use Images/Sequence Diagram - Update Sections Ref.png>
+Package pdftex.def Info: Images/Sequence Diagram - Update Sections Ref.png  used on input line 220.
+(pdftex.def)             Requested size: 232.17242pt x 150.45044pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 221.
 See the caption package documentation for explanation.
 
 
@@ -2480,53 +2562,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./Images/Sequence Diagram - Sales - Clause Request.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[48 <./Images/Sequence Diagram - Legal - Clause Request.png>]
-<Images/Infra Architecture.png, id=1030, 1451.4225pt x 928.97063pt>
+[49 <./Images/Sequence Diagram - Refine Text Ref.png> <./Images/Sequence Diagram - Legal - Clause Request.png>]
+<Images/Infra Architecture.png, id=653, 1451.4225pt x 928.97063pt>
 File: Images/Infra Architecture.png Graphic file (type png)
 <use Images/Infra Architecture.png>
-Package pdftex.def Info: Images/Infra Architecture.png  used on input line 183.
+Package pdftex.def Info: Images/Infra Architecture.png  used on input line 236.
 (pdftex.def)             Requested size: 483.69687pt x 309.58052pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 184.
+(caption)                particular \caption on input line 237.
 See the caption package documentation for explanation.
 
-<Images/Security Architecture.png, id=1032, 1492.07437pt x 677.53125pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50 <./Images/Sequence Diagram - Update Sections Ref.png> <./Images/Infra Architecture.png>]
+<Images/Security Architecture.png, id=662, 1492.07437pt x 677.53125pt>
 File: Images/Security Architecture.png Graphic file (type png)
 <use Images/Security Architecture.png>
-Package pdftex.def Info: Images/Security Architecture.png  used on input line 196.
+Package pdftex.def Info: Images/Security Architecture.png  used on input line 249.
 (pdftex.def)             Requested size: 483.69687pt x 219.63678pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 197.
+(caption)                particular \caption on input line 250.
 See the caption package documentation for explanation.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[49 <./Images/Infra Architecture.png>]
-<Images/Deployment Architecture.png, id=1039, 1611.52063pt x 440.64626pt>
+<Images/Deployment Architecture.png, id=664, 1611.52063pt x 440.64626pt>
 File: Images/Deployment Architecture.png Graphic file (type png)
 <use Images/Deployment Architecture.png>
-Package pdftex.def Info: Images/Deployment Architecture.png  used on input line 209.
+Package pdftex.def Info: Images/Deployment Architecture.png  used on input line 262.
 (pdftex.def)             Requested size: 483.69687pt x 132.2554pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 210.
+(caption)                particular \caption on input line 263.
 See the caption package documentation for explanation.
 
 
@@ -2536,9 +2610,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./Images/Security Architecture.png> <./Images/Deployment Architecture.png>])
+[51 <./Images/Security Architecture.png>])
 Package minitoc Info: I0006
-(minitoc)             Rapport_PFE_V0.mtc3 is empty on input line 379.
+(minitoc)             Rapport_PFE_V0.mtc3 is empty on input line 384.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2547,13 +2621,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51]
+[52 <./Images/Deployment Architecture.png>]
 Chapter 4.
-(./Chapter4.tex [52
+(./Chapter4.tex [53
 
 
 ]
-<Images/Azure OpenAI Logo.png, id=1055, 1148.03906pt x 496.85625pt>
+<Images/Azure OpenAI Logo.png, id=679, 1148.03906pt x 496.85625pt>
 File: Images/Azure OpenAI Logo.png Graphic file (type png)
 <use Images/Azure OpenAI Logo.png>
 Package pdftex.def Info: Images/Azure OpenAI Logo.png  used on input line 24.
@@ -2564,7 +2638,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
-<Images/LangChain Logo.png, id=1057, 321.2pt x 169.63374pt>
+
+Package natbib Warning: Citation `azure_openai_logo' on page 54 undefined on input line 25.
+
+<Images/LangChain Logo.png, id=680, 321.2pt x 169.63374pt>
 File: Images/LangChain Logo.png Graphic file (type png)
 <use Images/LangChain Logo.png>
 Package pdftex.def Info: Images/LangChain Logo.png  used on input line 39.
@@ -2581,12 +2658,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[53 <./Images/Azure OpenAI Logo.png>]
+[54 <./Images/Azure OpenAI Logo.png>]
+
+Package natbib Warning: Citation `langchain_logo' on page 55 undefined on input line 40.
+
+
 Overfull \hbox (13.05194pt too wide) in paragraph at lines 46--47
 []\T1/cmr/m/n/12 LangGraph com-ple-ments LangChain by en-abling so-phis-ti-cated work-flow or-ches-tra-tion through
  []
 
-<Images/LangGraph Logo.png, id=1068, 484.81125pt x 252.945pt>
+<Images/LangGraph Logo.png, id=691, 484.81125pt x 252.945pt>
 File: Images/LangGraph Logo.png Graphic file (type png)
 <use Images/LangGraph Logo.png>
 Package pdftex.def Info: Images/LangGraph Logo.png  used on input line 52.
@@ -2596,7 +2677,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 53.
 See the caption package documentation for explanation.
 
-<Images/Elasticsearch Logo.jpg, id=1070, 483.8075pt x 536.0025pt>
+
+Package natbib Warning: Citation `langgraph_logo' on page 55 undefined on input line 53.
+
+<Images/Elasticsearch Logo.jpg, id=692, 483.8075pt x 536.0025pt>
 File: Images/Elasticsearch Logo.jpg Graphic file (type jpg)
 <use Images/Elasticsearch Logo.jpg>
 Package pdftex.def Info: Images/Elasticsearch Logo.jpg  used on input line 65.
@@ -2607,14 +2691,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `elasticsearch_logo' on page 55 undefined on input line 66.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54 <./Images/LangChain Logo.png> <./Images/LangGraph Logo.png> <./Images/Elasticsearch Logo.jpg>]
-<Images/TypeScript Logo.png, id=1082, 2055.68pt x 2055.68pt>
+[55 <./Images/LangChain Logo.png> <./Images/LangGraph Logo.png> <./Images/Elasticsearch Logo.jpg>]
+<Images/TypeScript Logo.png, id=704, 2055.68pt x 2055.68pt>
 File: Images/TypeScript Logo.png Graphic file (type png)
 <use Images/TypeScript Logo.png>
 Package pdftex.def Info: Images/TypeScript Logo.png  used on input line 83.
@@ -2625,7 +2712,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 84.
 See the caption package documentation for explanation.
 
-<Images/React Logo.png, id=1084, 241.90375pt x 209.78375pt>
+
+Package natbib Warning: Citation `typescript_logo' on page 56 undefined on input line 84.
+
+<Images/React Logo.png, id=705, 241.90375pt x 209.78375pt>
 File: Images/React Logo.png Graphic file (type png)
 <use Images/React Logo.png>
 Package pdftex.def Info: Images/React Logo.png  used on input line 96.
@@ -2636,14 +2726,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `react_logo' on page 56 undefined on input line 97.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55 <./Images/TypeScript Logo.png> <./Images/React Logo.png>]
-<Images/TipTap Logo.png, id=1096, 182.6825pt x 179.67125pt>
+[56 <./Images/TypeScript Logo.png> <./Images/React Logo.png>]
+<Images/TipTap Logo.png, id=718, 182.6825pt x 179.67125pt>
 File: Images/TipTap Logo.png Graphic file (type png)
 <use Images/TipTap Logo.png>
 Package pdftex.def Info: Images/TipTap Logo.png  used on input line 109.
@@ -2654,7 +2747,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 110.
 See the caption package documentation for explanation.
 
-<Images/Jest Logo.png, id=1098, 1700.47058pt x 1880.43706pt>
+
+Package natbib Warning: Citation `tiptap_logo' on page 57 undefined on input line 110.
+
+<Images/Jest Logo.png, id=719, 1700.47058pt x 1880.43706pt>
 File: Images/Jest Logo.png Graphic file (type png)
 <use Images/Jest Logo.png>
 Package pdftex.def Info: Images/Jest Logo.png  used on input line 122.
@@ -2665,14 +2761,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `jest_logo' on page 57 undefined on input line 123.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56 <./Images/TipTap Logo.png> <./Images/Jest Logo.png>]
-<Images/Python Logo.png, id=1110, 1704.3675pt x 1728.4575pt>
+[57 <./Images/TipTap Logo.png> <./Images/Jest Logo.png>]
+<Images/Python Logo.png, id=730, 1704.3675pt x 1728.4575pt>
 File: Images/Python Logo.png Graphic file (type png)
 <use Images/Python Logo.png>
 Package pdftex.def Info: Images/Python Logo.png  used on input line 138.
@@ -2683,7 +2782,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 139.
 See the caption package documentation for explanation.
 
-<Images/FastAPI Logo.jpg, id=1112, 573.14125pt x 578.16pt>
+
+Package natbib Warning: Citation `python_logo' on page 58 undefined on input line 139.
+
+<Images/FastAPI Logo.jpg, id=731, 573.14125pt x 578.16pt>
 File: Images/FastAPI Logo.jpg Graphic file (type jpg)
 <use Images/FastAPI Logo.jpg>
 Package pdftex.def Info: Images/FastAPI Logo.jpg  used on input line 151.
@@ -2694,14 +2796,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `fastapi_logo' on page 58 undefined on input line 152.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57 <./Images/Python Logo.png> <./Images/FastAPI Logo.jpg>]
-<Images/Pytest Logo.png, id=1123, 675.52374pt x 790.955pt>
+[58 <./Images/Python Logo.png> <./Images/FastAPI Logo.jpg>]
+<Images/Pytest Logo.png, id=742, 675.52374pt x 790.955pt>
 File: Images/Pytest Logo.png Graphic file (type png)
 <use Images/Pytest Logo.png>
 Package pdftex.def Info: Images/Pytest Logo.png  used on input line 164.
@@ -2712,7 +2817,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 165.
 See the caption package documentation for explanation.
 
-<Images/PostgreSQL Logo.png, id=1125, 1992.44376pt x 2054.67625pt>
+
+Package natbib Warning: Citation `pytest_logo' on page 59 undefined on input line 165.
+
+<Images/PostgreSQL Logo.png, id=743, 1992.44376pt x 2054.67625pt>
 File: Images/PostgreSQL Logo.png Graphic file (type png)
 <use Images/PostgreSQL Logo.png>
 Package pdftex.def Info: Images/PostgreSQL Logo.png  used on input line 179.
@@ -2723,14 +2831,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `postgresql_logo' on page 59 undefined on input line 180.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58 <./Images/Pytest Logo.png> <./Images/PostgreSQL Logo.png>]
-<Images/Postman Logo.png, id=1136, 225.84375pt x 225.84375pt>
+[59 <./Images/Pytest Logo.png> <./Images/PostgreSQL Logo.png>]
+<Images/Postman Logo.png, id=755, 225.84375pt x 225.84375pt>
 File: Images/Postman Logo.png Graphic file (type png)
 <use Images/Postman Logo.png>
 Package pdftex.def Info: Images/Postman Logo.png  used on input line 195.
@@ -2741,7 +2852,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 196.
 See the caption package documentation for explanation.
 
-<Images/cURL Logo.png, id=1138, 700.6175pt x 586.19pt>
+
+Package natbib Warning: Citation `postman_logo' on page 60 undefined on input line 196.
+
+<Images/cURL Logo.png, id=756, 700.6175pt x 586.19pt>
 File: Images/cURL Logo.png Graphic file (type png)
 <use Images/cURL Logo.png>
 Package pdftex.def Info: Images/cURL Logo.png  used on input line 208.
@@ -2752,14 +2866,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `curl_logo' on page 60 undefined on input line 209.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59 <./Images/Postman Logo.png> <./Images/cURL Logo.png>]
-<Images/SonarQube Logo.png, id=1150, 185.69376pt x 185.69376pt>
+[60 <./Images/Postman Logo.png> <./Images/cURL Logo.png>]
+<Images/SonarQube Logo.png, id=768, 185.69376pt x 185.69376pt>
 File: Images/SonarQube Logo.png Graphic file (type png)
 <use Images/SonarQube Logo.png>
 Package pdftex.def Info: Images/SonarQube Logo.png  used on input line 221.
@@ -2770,7 +2887,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 222.
 See the caption package documentation for explanation.
 
-<Images/Azure Pipelines Logo.jpg, id=1152, 512.91624pt x 512.91624pt>
+
+Package natbib Warning: Citation `sonarqube_logo' on page 61 undefined on input line 222.
+
+<Images/Azure Pipelines Logo.jpg, id=769, 512.91624pt x 512.91624pt>
 File: Images/Azure Pipelines Logo.jpg Graphic file (type jpg)
 <use Images/Azure Pipelines Logo.jpg>
 Package pdftex.def Info: Images/Azure Pipelines Logo.jpg  used on input line 234.
@@ -2781,14 +2901,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `azure_pipelines_logo' on page 61 undefined on input line 235.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60 <./Images/SonarQube Logo.png> <./Images/Azure Pipelines Logo.jpg>]
-<Images/Docker Logo.png, id=1162, 190.7125pt x 140.525pt>
+[61 <./Images/SonarQube Logo.png> <./Images/Azure Pipelines Logo.jpg>]
+<Images/Docker Logo.png, id=780, 190.7125pt x 140.525pt>
 File: Images/Docker Logo.png Graphic file (type png)
 <use Images/Docker Logo.png>
 Package pdftex.def Info: Images/Docker Logo.png  used on input line 250.
@@ -2799,7 +2922,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 251.
 See the caption package documentation for explanation.
 
-<Images/Kubernetes Logo.png, id=1164, 793.96625pt x 771.88374pt>
+
+Package natbib Warning: Citation `docker_logo' on page 62 undefined on input line 251.
+
+<Images/Kubernetes Logo.png, id=781, 793.96625pt x 771.88374pt>
 File: Images/Kubernetes Logo.png Graphic file (type png)
 <use Images/Kubernetes Logo.png>
 Package pdftex.def Info: Images/Kubernetes Logo.png  used on input line 263.
@@ -2810,14 +2936,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `kubernetes_logo' on page 62 undefined on input line 264.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61 <./Images/Docker Logo.png> <./Images/Kubernetes Logo.png>]
-<Images/Terraform Logo.png, id=1176, 1809.76125pt x 2055.68pt>
+[62 <./Images/Docker Logo.png> <./Images/Kubernetes Logo.png>]
+<Images/Terraform Logo.png, id=793, 1809.76125pt x 2055.68pt>
 File: Images/Terraform Logo.png Graphic file (type png)
 <use Images/Terraform Logo.png>
 Package pdftex.def Info: Images/Terraform Logo.png  used on input line 276.
@@ -2828,7 +2957,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 277.
 See the caption package documentation for explanation.
 
-<Images/VS Code Logo.png, id=1178, 513.92pt x 513.92pt>
+
+Package natbib Warning: Citation `terraform_logo' on page 63 undefined on input line 277.
+
+<Images/VS Code Logo.png, id=794, 513.92pt x 513.92pt>
 File: Images/VS Code Logo.png Graphic file (type png)
 <use Images/VS Code Logo.png>
 Package pdftex.def Info: Images/VS Code Logo.png  used on input line 289.
@@ -2839,29 +2971,32 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
+Package natbib Warning: Citation `vscode_logo' on page 63 undefined on input line 290.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[62 <./Images/Terraform Logo.png> <./Images/VS Code Logo.png>]
-<Images/Contract Repository Page.png, id=1189, 1650.66687pt x 1065.48062pt>
+[63 <./Images/Terraform Logo.png> <./Images/VS Code Logo.png>]
+<Images/Contract Repository Page.png, id=805, 840.084pt x 542.025pt>
 File: Images/Contract Repository Page.png Graphic file (type png)
 <use Images/Contract Repository Page.png>
 Package pdftex.def Info: Images/Contract Repository Page.png  used on input line 312.
-(pdftex.def)             Requested size: 483.69687pt x 312.2168pt.
+(pdftex.def)             Requested size: 483.69687pt x 312.08376pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 313.
 See the caption package documentation for explanation.
 
-<Images/Generate Contract Component.png, id=1190, 1653.67813pt x 1069.9975pt>
+<Images/Generate Contract Component.png, id=806, 838.113pt x 542.025pt>
 File: Images/Generate Contract Component.png Graphic file (type png)
 <use Images/Generate Contract Component.png>
 Package pdftex.def Info: Images/Generate Contract Component.png  used on input line 323.
-(pdftex.def)             Requested size: 483.69687pt x 312.96893pt.
+(pdftex.def)             Requested size: 483.69687pt x 312.81984pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 324.
@@ -2874,12 +3009,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63 <./Images/Contract Repository Page.png>]
-<Images/Generation Contract - Checking Required Fields.png, id=1196, 1650.165pt x 1067.99pt>
+[64 <./Images/Contract Repository Page.png>]
+<Images/Generation Contract - Checking Required Fields.png, id=815, 838.113pt x 542.025pt>
 File: Images/Generation Contract - Checking Required Fields.png Graphic file (type png)
 <use Images/Generation Contract - Checking Required Fields.png>
 Package pdftex.def Info: Images/Generation Contract - Checking Required Fields.png  used on input line 332.
-(pdftex.def)             Requested size: 483.69687pt x 313.0499pt.
+(pdftex.def)             Requested size: 483.69687pt x 312.81984pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2891,119 +3026,4 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[64 <./Images/Generate Contract Component.png>]
-<Images/Generation Contract - Steps.png, id=1202, 1653.67813pt x 1068.49188pt>
-File: Images/Generation Contract - Steps.png Graphic file (type png)
-<use Images/Generation Contract - Steps.png>
-Package pdftex.def Info: Images/Generation Contract - Steps.png  used on input line 347.
-(pdftex.def)             Requested size: 483.69687pt x 312.52853pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 348.
-See the caption package documentation for explanation.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[65 <./Images/Generation Contract - Checking Required Fields.png>]
-<Images/Contract Editor Page.png, id=1209, 1648.65938pt x 1063.975pt>
-File: Images/Contract Editor Page.png Graphic file (type png)
-<use Images/Contract Editor Page.png>
-Package pdftex.def Info: Images/Contract Editor Page.png  used on input line 356.
-(pdftex.def)             Requested size: 483.69687pt x 312.149pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 357.
-See the caption package documentation for explanation.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[66 <./Images/Generation Contract - Steps.png> <./Images/Contract Editor Page.png>]
-<Images/Article Suggested By Agent.png, id=1216, 847.968pt x 542.025pt>
-File: Images/Article Suggested By Agent.png Graphic file (type png)
-<use Images/Article Suggested By Agent.png>
-Package pdftex.def Info: Images/Article Suggested By Agent.png  used on input line 376.
-(pdftex.def)             Requested size: 483.69687pt x 309.18903pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 377.
-See the caption package documentation for explanation.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[67]
-<Images/Clause Requests - Create New Clause.png, id=1222, 1653.17625pt x 1067.99pt>
-File: Images/Clause Requests - Create New Clause.png Graphic file (type png)
-<use Images/Clause Requests - Create New Clause.png>
-Package pdftex.def Info: Images/Clause Requests - Create New Clause.png  used on input line 388.
-(pdftex.def)             Requested size: 483.69687pt x 312.47952pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 389.
-See the caption package documentation for explanation.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[68 <./Images/Article Suggested By Agent.png>]
-<Images/Clause Requests - Create New Clause from a comment.png, id=1229, 1654.18pt x 1060.96375pt>
-File: Images/Clause Requests - Create New Clause from a comment.png Graphic file (type png)
-<use Images/Clause Requests - Create New Clause from a comment.png>
-Package pdftex.def Info: Images/Clause Requests - Create New Clause from a comment.png  used on input line 395.
-(pdftex.def)             Requested size: 483.69687pt x 310.22946pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 396.
-See the caption package documentation for explanation.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[69 <./Images/Clause Requests - Create New Clause.png> <./Images/Clause Requests - Create New Clause from a comment.png>]
-<Images/Clause Requests - Clause Description.png, id=1236, 1655.18375pt x 1061.9675pt>
-File: Images/Clause Requests - Clause Description.png Graphic file (type png)
-<use Images/Clause Requests - Clause Description.png>
-Package pdftex.def Info: Images/Clause Requests - Clause Description.png  used on input line 404.
-(pdftex.def)             Requested size: 483.69687pt x 310.34471pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 405.
-See the caption package documentation for explanation.
-
-<Images/Clause Requests - Respond to a Request.png, id=1237, 1649.16125pt x 1067.48813pt>
-File: Images/Clause Requests - Respond to a Request.png Graphic file (type png)
-<use Images/Clause Requests - Respond to a Request.png>
-Package pdftex.def Info: Images/Clause Requests - Respond to a Request.png  used on input line 413.
-(pdftex.def)             Requested size: 483.69687pt x 313.08195pt.
-
-Package caption Warning: The option `hypcap=true'
+(fancyhdr)                \addtolength{\topm
