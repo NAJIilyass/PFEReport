@@ -936,7 +936,6 @@ INPUT ./Images/go digital.jpg
 INPUT ./Images/go digital.jpg
 INPUT ./Images/go digital.jpg
 INPUT ./Images/go digital.jpg
-INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT ./bismilah.tex
@@ -1014,6 +1013,7 @@ INPUT ./Images/Boston-Consulting-Group-Logo.jpg
 INPUT ./Images/Boston-Consulting-Group-Logo.jpg
 INPUT ./Images/Boston-Consulting-Group-Logo.jpg
 INPUT ./Images/Boston-Consulting-Group-Logo.jpg
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
 INPUT ./Images/BCG_X.jpg
 INPUT ./Images/BCG_X.jpg
 INPUT ./Images/BCG_X.jpg
@@ -1388,53 +1388,3 @@ INPUT ./Images/Contract Editor Page.png
 INPUT ./Images/Contract Editor Page.png
 INPUT ./Images/Contract Editor Page.png
 INPUT ./Images/Contract Editor Page.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Article Suggested By Agent.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Create New Clause from a comment.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Clause Description.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Clause Requests - Respond to a Request.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent View.png
-INPUT ./Images/Reviewer Agent Result.png
-INPUT ./Images/Reviewer Agent Result.png
-INPUT ./Images/Reviewer Agent Result.png
-INPUT ./Images/Reviewer Agent Result.png
-INPUT ./Images/Reviewer Agent Result.png
-INPUT ./Images/Contract History - Contract Versions.png
-INPUT ./Images/Contract History - Contract Versions.png
-INPUT ./Images/Contract History - Contract Versions.png
-INPUT ./Images/Contract History - Contract Versions.png
-INPUT ./Images/Contract History - Contract Versions.png
-INPUT ./Images/Contract History - Paragraph Versions.png
-INPUT ./Images/Contract History - Paragraph Versions.png
-INPUT ./Images/Contract History - Paragraph Versions.png
-INPUT ./Images/Contract History - Paragraph Versions.png
-INPUT ./Images/Contract History - Paragraph Versions.png
-INPUT ./Images/Contract Status - Finalized.png
-INPUT ./Images/Contract Status - Finalized.png
-INPUT ./Images/Contract Status - Finalized.png
-INPUT ./Images/Contract Status - Finalized.png
-INPUT ./Images/Contract Status - Finalized.png
