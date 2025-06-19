@@ -1,4 +1,6 @@
-This chapter explores the detailed architecture and software design of the intelligent contract management platform. It begins with a high-level overview of the system’s structure, covering frontend, backend, and AI components. The integration of LLMs via LangChain and advanced editing through Tiptap is also discussed. The logical designs of backend and frontend modules are illustrated. Finally, the chapter presents UML diagrams to clarify class structures and workflow interactions.
+This chapter explores the detailed architecture and software design of the intelligent contract management platform. It begins with a high-level overview of the system’s structure, covering frontend, backend, and AI components. The integration of LLMs via LangChain and advanced editing through Tiptap is also discussed. The logical designs of backend and frontend modules are illustrated. Finally, the chapter presents UML diagrams to clarify class structures and workflow interactions.\mynewline
+
+The architectural elements and components presented in this chapter reflect the broader system context in which the internship was carried out; however, the descriptions are limited to areas in which I was directly involved or contributed during the project.
 
 \newpage
 \fancyhead[R]{\textsc{Chapter 3 - System Architecture and Design}}
@@ -50,8 +52,10 @@ The architecture also integrates a dedicated store layer to manage state, especi
 
 This modular organization promotes code maintainability and scalability, enabling independent development and testing of each module. It also facilitates a smooth integration of new features such as AI-based clause recommendations and real-time collaboration within the contract editor.
 
+\vspace{0.3cm}
+
 \begin{center}
-    \includegraphics[width=0.95\textwidth]{Images/Component Architecture of a Frontend Module.png}
+    \includegraphics[width=0.7\textwidth]{Images/Component Architecture of a Frontend Module.png}
     \captionof{figure}{Component Architecture of a Frontend Module}
     \label{fig:frontend_module_architecture}
 \end{center}
@@ -62,7 +66,7 @@ Integration of LLMs within the platform is streamlined using the LangChain frame
 
 \begin{center}
     \centering
-    \includegraphics[width=0.6\textwidth]{Images/LLM Integration.png}
+    \includegraphics[width=0.55\textwidth]{Images/LLM Integration.png}
     \captionof{figure}{LLM Integration via LangChain}
     \label{fig:llm_integration}
 \end{center}
@@ -72,26 +76,26 @@ LangChain efficiently manages the interaction between the platform and various L
 
 % Text Editing Framework: Tiptap
 \subsection{Text Editing Framework: Tiptap}
-On the frontend, the platform employs the Tiptap editor tailored specifically for the structured editing of legal documents such as contracts. Unlike traditional rich-text editors, Tiptap is configured to meet the complex formatting and regulatory requirements intrinsic to legal documents. Users can efficiently organize document elements into legally defined sections, clauses, and subsections.\mynewline
+On the frontend, the platform employs the Tiptap editor—an open-source, third-party framework built on top of ProseMirror and designed to provide extensible rich-text editing capabilities, especially within modern React-based applications. Tiptap is integrated as a ready-to-use library rather than being developed in-house, and its adoption ensures robust and reliable document editing features aligned with best practices in frontend architecture.\mynewline
+
+Within the platform, Tiptap has been tailored specifically for the structured editing of legal documents such as contracts. Unlike traditional rich-text editors, Tiptap is configured to meet the complex formatting and regulatory requirements intrinsic to legal documents. Users can efficiently organize document elements into legally defined sections, clauses, and subsections.\mynewline
 
 Tiptap supports critical legal editing features, including:
 
 \begin{itemize}
     \item \textbf{Structured Document Editing}: Customized nodes and marks for legally compliant structural elements, allowing users to efficiently manage and format contracts according to legal and organizational standards.
     \item \textbf{Clause and Variable Management}: Specialized nodes for inserting, editing, and managing clauses and dynamic contract variables directly within the document, ensuring precision and consistency.
-    \item \textbf{Legal Referencing and Citations}: Dedicated support for managing legal references and citations, integrating seamlessly with internal and external legal referencing systems.
     \item \textbf{Real-time Collaborative Editing}: Integration with collaborative technologies such as Y.js enables multiple legal professionals and stakeholders to simultaneously edit, review, and approve documents, reflecting changes in real-time and maintaining a clear audit trail of modifications.
 \end{itemize}
 
-This tailored configuration of Tiptap significantly enhances the user experience, providing a robust, intuitive interface optimized specifically for drafting, reviewing, and finalizing complex legal contracts, ensuring adherence to strict legal formatting requirements.
+This tailored configuration of Tiptap significantly enhances the user experience, providing a robust, intuitive interface optimized specifically for drafting, reviewing, and finalizing complex legal contracts, while leveraging an established and actively maintained framework from the open-source ecosystem.
 
 \begin{center}
     \centering
-    \includegraphics[width=1\textwidth]{Images/Tiptap Editing Framework.png}
+    \includegraphics[width=0.9\textwidth]{Images/Tiptap Editing Framework.png}
     \captionof{figure}{Tiptap Text Editing Framework for Legal Documents}
     \label{fig:tiptap_legal_framework}
 \end{center}
-
 
 % Detailed Design
 \section{Detailed Design}
@@ -100,12 +104,14 @@ This tailored configuration of Tiptap significantly enhances the user experience
 \subsection{Class Diagram}
 The class diagram is a fundamental UML diagram type that illustrates the static structure of the software system, detailing its classes, their attributes, methods, and the relationships among these classes. Figure \ref{fig:class_diagram} presents the comprehensive class diagram of the intelligent contract management platform developed during this internship.
 
-\begin{center}
+\begin{landscape}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Images/Class Diagram.png}
-    \captionof{figure}{Class Diagram of The Platform}
+    \includegraphics[width=1.2\textwidth]{Images/Class Diagram.png}
+    \caption{Class Diagram of The Platform}
     \label{fig:class_diagram}
-\end{center}
+\end{figure}
+\end{landscape}
 
 All classes in this architecture inherit from the \textbf{CustomBase}, providing universal attributes such as a unique identifier (\textit{id}), timestamps for creation, update, and deletion of entries.\mynewline
 
@@ -192,12 +198,14 @@ The Clause Request Lifecycle involves coordinated interactions between sales and
 
 Upon submission, the legal team receives a notification of the new clause request. Legal users may reject the request immediately by providing specific feedback or accept it for further processing. Accepted requests prompt legal users to utilize a dedicated editor to craft or modify clauses as requested. Completed clauses may be directly integrated into the active contract by publishing, or saved in the clause library for future use.
 
-\begin{center}
+\begin{landscape}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Images/Sequence Diagram - Sales - Clause Request.png}
-    \captionof{figure}{Sequence Diagram - Clause Request (Sales Perspective)}
+    \includegraphics[width=1.1\textwidth]{Images/Sequence Diagram - Sales - Clause Request.png}
+    \caption{Sequence Diagram - Clause Request (Sales Perspective)}
     \label{fig:sequence_diagram_clause_request_sales}
-\end{center}
+\end{figure}
+\end{landscape}
 
 \begin{center}
     \centering
@@ -208,12 +216,14 @@ Upon submission, the legal team receives a notification of the new clause reques
 
 After presenting the clause request process from the Sales user's perspective, the following sequence diagram illustrates the corresponding workflow from the Legal user's point of view:
 
-\begin{center}
+\begin{landscape}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Images/Sequence Diagram - Legal - Clause Request.png}
-    \captionof{figure}{Sequence Diagram - Clause Request (Legal Perspective)}
+    \includegraphics[width=1.3\textwidth]{Images/Sequence Diagram - Legal - Clause Request.png}
+    \caption{Sequence Diagram - Clause Request (Legal Perspective)}
     \label{fig:sequence_diagram_clause_request_legal}
-\end{center}
+\end{figure}
+\end{landscape}
 
 \begin{center}
     \centering
@@ -224,38 +234,9 @@ After presenting the clause request process from the Sales user's perspective, t
 
 These diagrams comprehensively clarify the interactions between system components, highlighting critical processes and dependencies to ensure a smooth and efficient workflow within the intelligent contract management platform.
 
-% Technical and Deployment Architectures
-\section{Technical and Deployment Architectures}
-
-% Infrastructure Architecture
-\subsection{Infrastructure Architecture}
-The infrastructure architecture provides a robust foundation leveraging Microsoft Azure, optimized for scalability, security, and high performance. This architecture is strategically structured into three primary layers: compute and deployment, networking and API management, and storage and data management, as illustrated in Figure \ref{fig:infra_architecture}.
-
-\begin{center}
-    \centering
-    \includegraphics[width=1\textwidth]{Images/Infra Architecture.png}
-    \captionof{figure}{Infrastructure Architecture Overview}
-    \label{fig:infra_architecture}
-\end{center}
-
-Azure Kubernetes Service (AKS) manages containerized workloads, ensuring auto-scaling, self-healing, and smooth rolling deployments. The frontend is efficiently hosted using Azure App Services, benefiting from dynamic scaling and easy CI/CD integration. Azure API Management acts as a secure gateway managing API interactions, implementing policies, and providing rate limiting. Networking security is further reinforced by Azure Virtual Networks (VNet) and enhanced performance through Azure Content Delivery Network (CDN). Azure Blob Storage supports unstructured data, while Azure PostgreSQL and Elasticsearch with Kibana manage structured data, ensuring efficient data storage and retrieval. Security, observability, and automation are seamlessly integrated through Azure Key Vault, Azure Disk Encryption, Azure Monitor, Application Insights, Terraform, and Helm.
-
-% Security Architecture
-\subsection{Security Architecture}
-Security architecture ensures comprehensive protection against threats, maintaining data integrity, confidentiality, and secure communications, as shown in Figure \ref{fig:security_architecture}.
-
-\begin{center}
-    \centering
-    \includegraphics[width=1\textwidth]{Images/Security Architecture.png}
-    \captionof{figure}{Security Architecture Overview}
-    \label{fig:security_architecture}
-\end{center}
-
-Core security practices include robust user authentication and role-based access control via Azure Entra ID, secure management of sensitive credentials and certificates with Azure Key Vault, and network security measures using Virtual Networks and private endpoints. APIs are secured through OAuth 2.0 and TLS encryption, reinforced by API gateway rate limiting. Data security is assured with encryption in transit and at rest, applying stringent access controls and row-level security. The infrastructure’s security compliance and real-time monitoring capabilities are bolstered by Azure Monitor and Application Insights, aligning with industry standards and regulatory requirements.
-
 % Deployment Architecture
-\subsection{Deployment Architecture}
-The deployment architecture focuses on automating the continuous integration and continuous deployment (CI/CD) processes, ensuring reliability and efficiency in software delivery. The detailed deployment pipeline is represented in Figure \ref{fig:deployment_architecture}.
+\section{Deployment Architecture}
+The deployment architecture is a core operational layer that supports the delivery, testing, and maintenance of the intelligent contract management platform. It enables rapid feature iteration, automated quality control, and consistent deployment across environments. This section outlines how DevOps practices—particularly Continuous Integration and Continuous Deployment (CI/CD)—are integrated into the project’s delivery lifecycle.
 
 \begin{center}
     \centering
@@ -264,7 +245,9 @@ The deployment architecture focuses on automating the continuous integration and
     \label{fig:deployment_architecture}
 \end{center}
 
-The source code, managed in Azure Repos, initiates automated pipelines upon merges. Continuous Integration encompasses code compilation, testing, and security scanning. Docker containers are utilized for application packaging, with container images securely stored in Azure Container Registry (ACR). Continuous deployment uses Helm charts to orchestrate deployments on Azure Kubernetes Service (AKS), ensuring zero downtime with rolling updates. Configuration management leverages Azure Key Vault and Terraform for secure and automated infrastructure provisioning. Enhanced monitoring through Azure Application Insights and Datadog supports real-time performance tracking and anomaly detection. Finally, geo-redundancy and comprehensive backup policies ensure high availability, data protection, and disaster recovery capabilities.
+The process begins with developers managing tasks via Azure Boards and committing changes to a Git repository. Each push triggers a CI pipeline configured to perform essential validations, including static code analysis using SonarCloud, unit testing, and artifact building. Secrets required during builds are retrieved securely from Azure Key Vault, and integration tests are executed within isolated environments to ensure stability.\mynewline
+
+After successful validation, build artifacts are promoted to the CD pipeline, where IaC (Infrastructure-as-Code) tools such as Terraform and Helm are used to deploy services to Kubernetes clusters across development and production environments. Docker images are stored in Azure Container Registry, enabling versioned and reproducible deployments. These workflows ensure high confidence in new releases and accelerate the delivery of new features while maintaining system reliability and traceability.
 
 % Conclusion
 \section{Conclusion}

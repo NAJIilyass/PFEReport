@@ -2,47 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2024/Homebrew)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Rapport_PFE_V0.aux
 The style file: unsrt.bst
-I found no \citation commands---while reading file Rapport_PFE_V0.aux
 Database file #1: Bibliography.bib
-You've used 0 entries,
+You've used 40 entries,
             1791 wiz_defined-function locations,
-            445 strings with 3542 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            569 strings with 7120 characters,
+and the built_in function-call counts, 4022 in all, are:
+= -- 320
+> -- 40
 < -- 0
-+ -- 0
++ -- 40
 - -- 0
 * -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+:= -- 371
+add.period$ -- 80
+call.type$ -- 40
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
+cite$ -- 40
+duplicate$ -- 200
+empty$ -- 721
 format.name$ -- 0
-if$ -- 1
+if$ -- 1081
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 3
+newline$ -- 163
 num.names$ -- 0
-pop$ -- 0
+pop$ -- 240
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 239
 stack$ -- 0
 substring$ -- 0
-swap$ -- 0
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+width$ -- 42
+write$ -- 282

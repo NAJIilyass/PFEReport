@@ -390,6 +390,21 @@ These foundational components are encapsulated within a broader environment of:
 
 This structured business architecture aims to offer a scalable, secure, and integrative platform capable of addressing complex legal operations through advanced technological solutions.
 
+% Contract Structure and Domain Terminology
+\subsection{Contract Structure and Domain Terminology}
+In the context of this platform, a \textbf{contract} refers to a formal legal document defining the obligations and expectations between two parties. Structurally, each contract is composed of \textbf{articles}, which are referred to in our system as \textbf{sections}. Each section can contain one or more \textbf{clauses}, which are modeled as \textbf{subsections} of a section. Both sections and subsections are technically treated as hierarchical \texttt{Section} objects within the platform’s data model.\mynewline
+
+A \textbf{contract template} serves as a predefined document structure containing static legal content along with dynamic placeholders (variables) that must be completed by the user based on the context or client-specific information.\mynewline
+
+Contracts are also categorized by \textbf{type}, such as:
+
+\begin{itemize}
+    \item \textbf{Spot contracts} (short-term agreements)
+    \item \textbf{Long-term contracts} (ongoing or renewable arrangements)
+\end{itemize}
+
+Additionally, each contract is associated with an \textbf{Incoterm}—an international commercial term standardizing shipping responsibilities. For example, \textbf{FOB (Free On Board)} means the seller delivers the goods on board the vessel chosen by the buyer, whereas \textbf{CFR (Cost and Freight)} means the seller pays for transport to the destination port, but the risk is transferred once goods are on the ship.
+
 % Actor Identification
 \subsection{Actor Identification}
 An actor specifies a role played by a user or any other system interacting with the solution. Actors are always external to the system, interacting by initiating a use case, providing inputs, or receiving outputs. In the context of our platform, we have two types of actors:
@@ -505,6 +520,8 @@ The application must enable users to authenticate using a username or email and 
     \end{itemize}
 \end{adjustwidth}\vspace{0.85em} 
 
+\noindent\textit{Note:} During this phase of the project, the administrator role had limited operational access to the platform. Specifically, client creation was only accessible through the contract creation workflow, primarily intended for Sales users. Direct client management by administrators had not yet been implemented or scoped as part of the sprint’s functional coverage.
+
 % Non-Functional Requirements
 \subsection{Non-Functional Requirements}
 \begin{itemize}
@@ -566,9 +583,11 @@ To describe the dynamics of a use case, it is essential to enumerate all interac
 % Analysis Sequence Diagram
 \subsection{Analysis Sequence Diagram}
 
+\vspace{0.4cm}
+
 \begin{center}
     \centering
-    \includegraphics[width=1\textwidth]{Images/Analysis Sequence Diagram.png}
+    \includegraphics[width=0.8\textwidth]{Images/Analysis Sequence Diagram.png}
     \captionof{figure}{Analysis Sequence Diagram}
     \label{fig:analysis_sequence_diagram}
 \end{center}
@@ -579,7 +598,7 @@ The diagram presented above outlines the interaction flow between a normal user 
 \subsection{Constraints and Assumptions}
 To clearly delineate the operational environment and development boundaries, the following constraints and assumptions have been identified:
 
-\vspace{5pt}
+\newpage
 
 \textbf{Constraints:}
 \begin{itemize}
