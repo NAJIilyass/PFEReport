@@ -1,0 +1,84 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {xchapter}{General Context of the Project}{2}{chapter.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces BCG Logo}}{3}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces BCG X Logo}}{4}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Executive Leadership Board}}{5}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Scrum Process}}{8}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ClickUp Logo}}{10}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Slack Logo}}{10}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Zoom and Microsoft Teams Logos}}{11}{figure.1.7}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Microsoft Outlook Logo}}{11}{figure.1.8}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Miro Logo}}{11}{figure.1.9}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Analysis and Specifications}{13}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces PandaDoc Logo}}{14}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Harvey AI Logo}}{15}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces DocDraft Logo}}{15}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Chronological Evolution of Large Language Models (LLMs)}}{18}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Agentic AI System Architecture}}{20}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparison Between Agentic AI and Generative AI}}{21}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Multi-Agent System Collaboration}}{21}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces LangChain Architecture}}{23}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces LangGraph: Multi-Agent Workflows}}{24}{figure.2.9}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Langfuse Dashboard}}{26}{figure.2.10}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Tiptap Editor}}{27}{figure.2.11}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Tiptap Architecture}}{28}{figure.2.12}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Business Architecture Overview}}{29}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Use Case Diagram}}{34}{figure.2.14}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Analysis Sequence Diagram}}{37}{figure.2.15}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{System Architecture and Design}{39}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overall Architecture of the Platform}}{40}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Layered Architecture of a Backend Module}}{41}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Component Architecture of a Frontend Module}}{42}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces LLM Integration via LangChain}}{43}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Tiptap Text Editing Framework for Legal Documents}}{44}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Class Diagram of The Platform}}{45}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sequence Diagram - Draft Contract}}{47}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sequence Diagram – Create Client}}{48}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sequence Diagram – Create Contract Version}}{48}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Sequence Diagram – Create Contract Sections}}{48}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Sequence Diagram – Create Dynamic Fields}}{48}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Sequence Diagram - Clause Request (Sales Perspective)}}{50}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Sequence Diagram - Refine Text}}{51}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sequence Diagram - Clause Request (Legal Perspective)}}{52}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sequence Diagram - Update Contract Sections}}{53}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Deployment Architecture Overview}}{53}{figure.3.16}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implementation}{55}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Azure OpenAI Logo}}{56}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces LangChain Logo}}{57}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LangGraph Logo}}{57}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Elasticsearch Logo}}{57}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces TypeScript Logo}}{58}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces React Logo}}{58}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces TipTap Logo}}{59}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Jest Logo}}{59}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Python Logo}}{60}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces FastAPI Logo}}{60}{figure.4.10}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pytest Logo}}{61}{figure.4.11}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces PostgreSQL Logo}}{61}{figure.4.12}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Postman Logo}}{62}{figure.4.13}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces cURL Logo}}{62}{figure.4.14}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces SonarQube Logo}}{63}{figure.4.15}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Azure Pipelines Logo}}{63}{figure.4.16}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Docker Logo}}{64}{figure.4.17}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Kubernetes Logo}}{64}{figure.4.18}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Terraform Logo}}{65}{figure.4.19}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces VS Code Logo}}{65}{figure.4.20}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Contract Repository Interface}}{66}{figure.4.21}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Contract Creation Component}}{67}{figure.4.22}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Contract Verifying Fields Step}}{68}{figure.4.23}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Contract Generating Process}}{69}{figure.4.24}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Contract Editor Interface}}{69}{figure.4.25}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Contract Editor with AI-Suggested Article}}{71}{figure.4.26}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Clause Request Interface}}{72}{figure.4.27}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Create New Clause from Comment}}{72}{figure.4.28}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Clause Request Description and Enhancement}}{73}{figure.4.29}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Clause Request Review Interface}}{74}{figure.4.30}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Contract Review Panel}}{75}{figure.4.31}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Contract Review Results}}{75}{figure.4.32}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Contract History Interface}}{76}{figure.4.33}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Paragraph Version Tracking and Restoration}}{77}{figure.4.34}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Finalized Contract Interface}}{78}{figure.4.35}%

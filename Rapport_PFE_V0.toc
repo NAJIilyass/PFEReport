@@ -1,0 +1,143 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.1}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.2}%
+\contentsline {chapter}{French Abstract}{v}{chapter*.3}%
+\contentsline {chapter}{Arabic Abstract}{vi}{chapter*.4}%
+\contentsline {chapter}{Abbreviations}{vii}{chapter*.5}%
+\contentsline {chapter}{List of Contents}{x}{table.0.1}%
+\contentsline {chapter}{List of Figures}{xii}{table.0.1}%
+\contentsline {chapter}{List of Tables}{xiii}{table.0.1}%
+\contentsline {chapter}{General Introduction}{1}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}General Context of the Project}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Host Organization}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Presentation}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Boston Consulting Group (BCG)}{3}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}History}{3}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Business area of activity}{3}{subsubsection.1.1.2.2}%
+\contentsline {subsection}{\numberline {1.1.3}BCG X}{4}{subsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Presentation}{4}{subsubsection.1.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}Business area of activity}{4}{subsubsection.1.1.3.2}%
+\contentsline {subsection}{\numberline {1.1.4}Organizational Structure}{5}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Organizational Culture}{5}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Project Framework}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Agentic AI in Legal Operations}{6}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Digital Contract Management}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Need for Intelligent Legal Workflow Systems}{7}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Problematic}{7}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Objectives}{7}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Project Management}{8}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Scrum Methodology}{8}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Scrum Roles and Responsibilities}{9}{subsubsection.1.3.1.1}%
+\contentsline {subsection}{\numberline {1.3.2}Project Execution}{9}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Sprint Structure}{9}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Meetings and Communication}{9}{subsubsection.1.3.2.2}%
+\contentsline {subsection}{\numberline {1.3.3}Collaboration Tools}{10}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Project Timeline and Milestones}{11}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Conclusion}{12}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Analysis and Specifications}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Comparative Analysis}{14}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Benchmarking Existing Solutions}{14}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}PandaDoc}{14}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Harvey AI}{14}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}DocDraft}{15}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Comparative Analysis}{16}{subsubsection.2.1.1.4}%
+\contentsline {subsection}{\numberline {2.1.2}Why We Chose to Build a New Solution}{16}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Technical Background}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Large Language Models (LLMs)}{17}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Overview}{17}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Capabilities and Emergent Properties}{18}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Challenges and Limitations}{18}{subsubsection.2.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Future Directions}{19}{subsubsection.2.2.1.4}%
+\contentsline {subsection}{\numberline {2.2.2}Agentic AI}{19}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Overview}{19}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Core Characteristics}{20}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Agentic AI vs. Generative AI}{20}{subsubsection.2.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.2.4}Multi-Agent Systems}{21}{subsubsection.2.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.2.5}Challenges and Future Directions}{22}{subsubsection.2.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.3}LangChain and LangGraph}{22}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Overview}{22}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}LangChain: Modular Workflow Construction}{22}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}LangGraph: Graph-Based Workflow Orchestration}{23}{subsubsection.2.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.4}Comparative Analysis}{24}{subsubsection.2.2.3.4}%
+\contentsline {subsection}{\numberline {2.2.4}Langfuse and Observability}{25}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Overview}{25}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Key Features}{26}{subsubsection.2.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.2.4.3}Deployment Options}{26}{subsubsection.2.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.2.4.4}Use Cases}{27}{subsubsection.2.2.4.4}%
+\contentsline {subsection}{\numberline {2.2.5}Tiptap for Rich Text Editing}{27}{subsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}Overview}{27}{subsubsection.2.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.2.5.2}Architecture and Core Concepts}{27}{subsubsection.2.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.2.5.3}Key Features}{28}{subsubsection.2.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.2.5.4}Use Cases}{28}{subsubsection.2.2.5.4}%
+\contentsline {section}{\numberline {2.3}Specification of Requirements}{29}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Business Architecture}{29}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Contract Structure and Domain Terminology}{30}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Actor Identification}{31}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Functional Requirements}{31}{subsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.4.1}Authentication}{31}{subsubsection.2.3.4.1}%
+\contentsline {subsubsection}{\numberline {2.3.4.2}Sales User Functionalities}{31}{subsubsection.2.3.4.2}%
+\contentsline {subsubsection}{\numberline {2.3.4.3}Legal User Functionalities}{32}{subsubsection.2.3.4.3}%
+\contentsline {subsubsection}{\numberline {2.3.4.4}Administrator Functionalities}{32}{subsubsection.2.3.4.4}%
+\contentsline {subsection}{\numberline {2.3.5}Non-Functional Requirements}{33}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Use Case Diagram}{33}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Textual Description}{34}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Analysis Sequence Diagram}{37}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Constraints and Assumptions}{37}{subsection.2.3.9}%
+\contentsline {section}{\numberline {2.4}Conclusion}{38}{section.2.4}%
+\contentsline {chapter}{\numberline {3}System Architecture and Design}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Solution's Architecture}{40}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Overall Architecture}{40}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Logical Architecture}{41}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Main Backend Service}{41}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Frontend Structure}{42}{subsubsection.3.1.2.2}%
+\contentsline {subsection}{\numberline {3.1.3}LLM Integration}{42}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Text Editing Framework: Tiptap}{43}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Detailed Design}{44}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Class Diagram}{44}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Detailed Sequence Diagram}{46}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Generate a New Contract}{47}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Clause Request Lifecycle}{48}{subsubsection.3.2.2.2}%
+\contentsline {section}{\numberline {3.3}Deployment Architecture}{53}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusion}{54}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Implementation}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Technological Environment}{56}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}AI Integration and Workflow Orchestration}{56}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Azure OpenAI's Large Language Models}{56}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}LangChain}{56}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}LangGraph}{57}{subsubsection.4.1.1.3}%
+\contentsline {subsection}{\numberline {4.1.2}Vector Databases}{57}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Frontend Technologies and Tooling}{58}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}TypeScript}{58}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}React}{58}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Tiptap}{59}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}Testing Libraries}{59}{subsubsection.4.1.3.4}%
+\contentsline {subsection}{\numberline {4.1.4}Backend Technologies and Tooling}{60}{subsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4.1}Python}{60}{subsubsection.4.1.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.4.2}FastAPI}{60}{subsubsection.4.1.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.4.3}Testing Libraries}{61}{subsubsection.4.1.4.3}%
+\contentsline {subsection}{\numberline {4.1.5}SQL Databases}{61}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}API Testing}{62}{subsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.6.1}Postman}{62}{subsubsection.4.1.6.1}%
+\contentsline {subsubsection}{\numberline {4.1.6.2}cURL}{62}{subsubsection.4.1.6.2}%
+\contentsline {subsection}{\numberline {4.1.7}Static Code Analysis and Quality Assurance}{62}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}CI/CD Pipelines}{63}{subsection.4.1.8}%
+\contentsline {subsection}{\numberline {4.1.9}Containerization and Orchestration}{63}{subsection.4.1.9}%
+\contentsline {subsubsection}{\numberline {4.1.9.1}Docker}{63}{subsubsection.4.1.9.1}%
+\contentsline {subsubsection}{\numberline {4.1.9.2}Kubernetes}{64}{subsubsection.4.1.9.2}%
+\contentsline {subsubsection}{\numberline {4.1.9.3}Terraform}{64}{subsubsection.4.1.9.3}%
+\contentsline {subsection}{\numberline {4.1.10}IDE (Integrated Development Environment)}{65}{subsection.4.1.10}%
+\contentsline {section}{\numberline {4.2}Implementation}{65}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Contract Repository}{66}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Contract Generation}{66}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Contract Editor}{69}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}AI-Suggested Articles}{70}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Clause Management}{71}{subsubsection.4.2.3.2}%
+\contentsline {subsection}{\numberline {4.2.4}Contract Review}{74}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Contract History}{76}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Finalized Contract}{77}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Verification of Requirements}{78}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Verification of Functional Requirements}{78}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Verification of Non-Functional Requirements}{79}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Conclusion}{80}{section.4.4}%
+\contentsline {chapter}{General Conclusion}{81}{chapter*.11}%
+\contentsline {chapter}{Bibliography}{82}{chapter*.12}%

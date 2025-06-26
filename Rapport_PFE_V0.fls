@@ -1388,3 +1388,86 @@ INPUT ./Images/Contract Editor Page.png
 INPUT ./Images/Contract Editor Page.png
 INPUT ./Images/Contract Editor Page.png
 INPUT ./Images/Contract Editor Page.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Article Suggested By Agent.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause.png
+INPUT ./Images/Clause Requests - Create New Clause from a comment.png
+INPUT ./Images/Clause Requests - Create New Clause from a comment.png
+INPUT ./Images/Clause Requests - Create New Clause from a comment.png
+INPUT ./Images/Clause Requests - Create New Clause from a comment.png
+INPUT ./Images/Clause Requests - Create New Clause from a comment.png
+INPUT ./Images/Clause Requests - Clause Description.png
+INPUT ./Images/Clause Requests - Clause Description.png
+INPUT ./Images/Clause Requests - Clause Description.png
+INPUT ./Images/Clause Requests - Clause Description.png
+INPUT ./Images/Clause Requests - Clause Description.png
+INPUT ./Images/Clause Requests - Respond to a Request.png
+INPUT ./Images/Clause Requests - Respond to a Request.png
+INPUT ./Images/Clause Requests - Respond to a Request.png
+INPUT ./Images/Clause Requests - Respond to a Request.png
+INPUT ./Images/Clause Requests - Respond to a Request.png
+INPUT ./Images/Reviewer Agent View.png
+INPUT ./Images/Reviewer Agent View.png
+INPUT ./Images/Reviewer Agent View.png
+INPUT ./Images/Reviewer Agent View.png
+INPUT ./Images/Reviewer Agent View.png
+INPUT ./Images/Reviewer Agent Result.png
+INPUT ./Images/Reviewer Agent Result.png
+INPUT ./Images/Reviewer Agent Result.png
+INPUT ./Images/Reviewer Agent Result.png
+INPUT ./Images/Reviewer Agent Result.png
+INPUT ./Images/Contract History - Contract Versions.png
+INPUT ./Images/Contract History - Contract Versions.png
+INPUT ./Images/Contract History - Contract Versions.png
+INPUT ./Images/Contract History - Contract Versions.png
+INPUT ./Images/Contract History - Contract Versions.png
+INPUT ./Images/Contract History - Paragraph Versions.png
+INPUT ./Images/Contract History - Paragraph Versions.png
+INPUT ./Images/Contract History - Paragraph Versions.png
+INPUT ./Images/Contract History - Paragraph Versions.png
+INPUT ./Images/Contract History - Paragraph Versions.png
+INPUT ./Images/Contract Status - Finalized.png
+INPUT ./Images/Contract Status - Finalized.png
+INPUT ./Images/Contract Status - Finalized.png
+INPUT ./Images/Contract Status - Finalized.png
+INPUT ./Images/Contract Status - Finalized.png
+INPUT ./Images/Verification of Functional Requirements.png
+INPUT ./Images/Verification of Functional Requirements.png
+INPUT ./Images/Verification of Functional Requirements.png
+INPUT ./Images/Verification of Functional Requirements.png
+INPUT ./Images/Verification of Functional Requirements.png
+INPUT ./Conclusion.tex
+INPUT ./Conclusion.tex
+INPUT ./Conclusion.tex
+INPUT ./Conclusion.tex
+INPUT Conclusion.tex
+INPUT ./Rapport_PFE_V0.bbl
+INPUT ./Rapport_PFE_V0.bbl
+INPUT Rapport_PFE_V0.bbl
+OUTPUT Rapport_PFE_V0.maf
+INPUT ./Rapport_PFE_V0.mtc
+INPUT ./Rapport_PFE_V0.mtc
+INPUT Rapport_PFE_V0.aux
+INPUT ./Rapport_PFE_V0.out
+INPUT ./Rapport_PFE_V0.out
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbi2488.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/cm-super/sfxc1440.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb
+INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/arabtex/xnsh14bf.pfb

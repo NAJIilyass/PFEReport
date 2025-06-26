@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {xchapter}{General Context of the Project}{2}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Analysis and Specifications}{13}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Imperative vs. Agentic Approach Comparison}}{16}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Imperative vs. Agentic Approach Comparison}}{17}{table.2.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Comparison of LangChain and LangGraph}}{25}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Actors and Their Roles}}{31}{table.2.4}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Textual Description of Use Case: Create Contract}}{35}{table.2.5}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Textual Description of Use Case: Create Clause Request}}{35}{table.2.6}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces Textual Description of Use Case: Review Contract}}{36}{table.2.7}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{System Architecture and Design}{39}{chapter.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implementation}{55}{chapter.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Verification Status of Functional Requirements}}{79}{table.4.1}%
